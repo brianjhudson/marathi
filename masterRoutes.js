@@ -1,5 +1,5 @@
-import userRoutes from "./features/users/userRoutes";
+const userRoutes = require("./features/users/userRoutes");
 
-export default function(app) {
+module.exports = app => {
     userRoutes(app);
-}
+};

@@ -1,8 +1,8 @@
-import userCtrl from "./userCtrl";
-import passport from "passport";
-import auth from "../../middleware/auth";
+const userCtrl = require("./userCtrl")
+    , passport = require("passport");
+    , auth = require("../../middleware/auth");
 
-export default function(app) {
+module.exports = app => {
   app.get("/auth/facebook", passport.authenticate("facebook");
   app.get("/auth/facebook/callback",
     passport.authenticate("facebook", {failureRedirect: "/"}),

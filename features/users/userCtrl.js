@@ -1,6 +1,6 @@
-import User from "./User";
+const User = require("./User");
 
-export default {
+module.exports = {
 	getAuthUser(req, res) {
     res.send(req.user)
 	},
