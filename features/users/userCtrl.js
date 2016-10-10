@@ -7,7 +7,7 @@ export default {
 
 	userExists(req, res, next) {
 		if (!req.user) throw new Error("Unknown User");
-		User.findOne({"facebook_id": profile.id}, (err, user) => {
+		User.findOne({"facebook_id": req.user.facebook_id}, (err, user) => {
 			if (err) return res.redirect("/#/error");
 			if (user) return res.redirect("/#/user");
 			next();
