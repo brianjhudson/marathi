@@ -13,6 +13,10 @@ module.exports = {
           , loader: "babel"
         }
         , {
+          test: /\.scss$/
+          , loader: "webpack-sass-loader"
+        }
+        , {
           test: /\.css/
           , exclude: /node_modules/
           , loader: "style!css" // Two loaders, css first and then styles (but order different)
@@ -21,6 +25,8 @@ module.exports = {
           test: /\.html$/  // $ necessary for some reason
           , loader: "html"
         }
+        , { test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader:"url?limit=10000&mimetype=application/font-woff" }
+        , { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "file" }
       ]
   }
   , resolve: {
