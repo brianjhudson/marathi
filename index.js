@@ -1,5 +1,5 @@
 import express from "express";
-import config from "./config/config";
+import sessionConfig from "./config/config";
 const app = express()
     , port = process.env.PORT || 8800;
 
@@ -8,7 +8,7 @@ import {json} from "body-parser";
 import session from "express-session";
 app.use(json());
 app.use(express.static(`${__dirname}/public`));
-app.use(session({secret: config.mySecrets.secret}));
+app.use(session({secret: sessionConfig.secret}));
 
 // Passport
 import passport from "passport";
@@ -21,9 +21,9 @@ passport.deserializeUser((user, done) => done(null, user));
 
 // Mongoose
 import mongoose from "mongoose";
-import databaseConfig from "./config/database.js";
-mongoose.connect(databaseConfig.mongoUri);
-mongoose.connection.once("open", () => console.log(`Connected to MongoDB at ${databaseConfig.mongoUri}`));
+import dbConfig from "./config/database.js";
+mongoose.connect(dbConfig.mongoUri);
+mongoose.connection.once("open", () => console.log(`Connected to MongoDB at ${dbConfig.mongoUri}`));
 
 //Routes
 import masterRoutes from "./masterRoutes";

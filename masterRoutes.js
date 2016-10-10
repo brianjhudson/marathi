@@ -1,5 +1,5 @@
-const userRoutes = require("./features/users/userRoutes");
+import userRoutes from "./features/users/userRoutes";
 
-module.exports = (app, passport) => {
-    userRoutes(app, passport);
+export default function(app) {
+    userRoutes(app);
 }
