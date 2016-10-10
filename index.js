@@ -1,88 +1,32 @@
-const express = require("express"),
-  app = express(),
-  port = process.env.PORT || 8800,
-  {json} = require("body-parser"),
-  cors = require("cors"),
-  session = require("express-session"),
-  passport = require("passport"),
-  {Strategy: FacebookStrategy} = require("passport-facebook"),
-  config = require("./config/config.js")
-  mongoose = require("mongoose"),
-  mongoUri = "mongodb://localhost:27017/ecommerce",
-  User = require("./features/users/User");
+import express from "express";
+import config from "./config/config";
+const app = express()
+    , port = process.env.PORT || 8800;
 
-app.use(cors());
+// JSON and Session
+import {json} from "body-parser";
+import session from "express-session";
 app.use(json());
+app.use(express.static(`${__dirname}/public`));
 app.use(session({secret: config.mySecrets.secret}));
+
+// Passport
+import passport from "passport";
+import strategy from "./config/strategy";
 app.use(passport.initialize());
 app.use(passport.session());
+passport.use(strategy);
+passport.serializeUser((user, done) => done(null, user));
+passport.deserializeUser((user, done) => done(null, user));
 
-require("./config/passport")(app, passport);
-app.use(express.static(`${__dirname}/public`));
+// Mongoose
+import mongoose from "mongoose";
+import databaseConfig from "./config/database.js";
+mongoose.connect(databaseConfig.mongoUri);
+mongoose.connection.once("open", () => console.log(`Connected to MongoDB at ${databaseConfig.mongoUri}`));
 
-passport.use(new FacebookStrategy({
-    clientID: config.facebook.clientId,
-    clientSecret: config.facebook.secret,
-    callbackURL: config.facebook.cbUrl
-  },
-  function(token, refreshToken, profile, done) {
-    process.nextTick(function() {
-      console.log(profile)
-      User.findOne({ 'facebook_id': profile.id }, function(err, user) {
-        if (err) {
-          return done(err);
-        }
-        if (user) {
-          return done(null, user); // user found, return that user
-        } else {
-          var newUser = new User();
-            newUser.facebook_id = profile.id;
-            newUser.name  = profile.displayName;
-            newUser.last = profile.name.familyName;
-            if (profile.email) newUser.email = profile.email[0].value;
-
-            newUser.save(function(err) {
-                if (err)
-                    throw err;
-
-                // if successful, return the new user
-                return done(null, profile);
-
-            });
-        }
-      });
-    });
-
-  }));
-
-app.get("/auth/facebook", passport.authenticate("facebook"));
-
-app.get('/auth/facebook/callback', passport.authenticate('facebook', {
-    successRedirect: "http://localhost:8800/#/cart",
-    failureRedirect: 'http://localhost:8800/#/login'
-}));
-
-passport.serializeUser(function(user, done) {
-  done(null, user);
-});
-
-passport.deserializeUser(function(obj, done) {
-  done(null, obj);
-});
-
-app.get("/user", (req, res) => {
-  res.send(req.user);
-});
-
-app.get('/logout', function(req, res){
-  req.logout();
-  res.redirect('http://localhost:8800/#/');
-});
-
-mongoose.connect(mongoUri);
-mongoose.connection.once("open", () => console.log(`Connected to MongoDB at ${mongoUri}`));
-
-
-require("./masterRoutes")(app);
+//Routes
+import masterRoutes from "./masterRoutes";
+masterRoutes(app);
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
