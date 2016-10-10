@@ -1,9 +1,9 @@
 const userCtrl = require("./userCtrl")
-    , passport = require("passport");
+    , passport = require("passport")
     , auth = require("../../middleware/auth");
 
 module.exports = app => {
-  app.get("/auth/facebook", passport.authenticate("facebook");
+  app.get("/auth/facebook", passport.authenticate("facebook"));
   app.get("/auth/facebook/callback",
     passport.authenticate("facebook", {failureRedirect: "/"}),
     userCtrl.userExists
