@@ -2,9 +2,9 @@ import User from "./User";
 
 export default {
 	getAuthUser(req, res) {
-		Users.findOne( {}, (err, user) => {
+		User.findOne( {}, (err, user) => {
 			if (user) {
-				Users.findById(user._id)
+				User.findById(user._id)
 					.populate()
 					.populate()
 					.populate()
@@ -17,30 +17,29 @@ export default {
 			} else if (err) {
 				return res.status(500).json(err);
 			}
-		} );
+		});
 	},
 
 	userExists(req, res, next) {
-		if ( !req.user ) throw new Error('user null');
+		if (!req.user) throw new Error('user null');
 		Users.findOne( {email: req.user._json.email}, (err, user) => {
 			if (err) return res.redirect('/#/error');
-			if ( user ) return res.redirect('/#/user');
+			if (user) return res.redirect('/#/user');
 			next();
 		} );
 	},
 
 	createUser(req, res) {
     new User({
-      displayName: req.user._json.given_name,
-      lastName: req.user._json.family_name,
+      displayName: req.user._json.displayName,
       email: req.user._json.email,
       creationDate: new Date(),
-      photo: `https://graph.facebook.com/${req.user.identities[ 0 ].user_id}/picture?width=9999`
+      photo: `https://graph.facebook.com/${req.user.identities[0].user_id}/picture?width=9999`
     }).save((err, newUser) => {
       if (err) {
         return res.redirect('/#/error');
       }
       return res.redirect('/#/user');
-    } );
+    });
   }
 };

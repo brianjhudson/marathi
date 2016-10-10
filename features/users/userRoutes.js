@@ -8,14 +8,12 @@ export default function(app) {
     userCtrl.userExists,
     userCtrl.createUser
   );
-// 
-//
-// }
-//   app.get('/profile', auth.isLoggedIn, userCtrl.getProfile);
-//
-//   app.get('/logout', function(req, res) {
-//       req.logout();
-//       res.redirect('/');
-//       });
-//   };
+
+ app.get('/user', auth.isLoggedIn, userCtrl.getProfile);
+
+ app.get('/logout', function(req, res) {
+      req.logout();
+      res.redirect('/');
+ });
+
 }
