@@ -1,8 +1,16 @@
 function userController($scope, userService) {
-  userService.getUser().then(response => {
-    console.log(response);
-    $scope.user = response.data;
-  });
+  function init() {
+    getUser();
+  }
+  function getUser() {
+    userService.getUser().then(response => {
+      console.log(response);
+      $scope.user = response.data;
+    })
+  }
+
+  init();
+
 }
 
 export default userController;
