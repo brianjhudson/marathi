@@ -2,4 +2,70 @@
   height: 450px;
   background: url("https://hd.unsplash.com/photo-1467307983825-619715426c70") no-repeat center center;
   background-size: cover;
+
+  .intro {
+    padding: 75px 0 0 30px;
+    color: #fff;
+
+    .tagline {
+      margin: 0;
+      line-height: 98%;
+      font-family: $script-font;
+      font-size: 7vw;
+      letter-spacing: 1.2%;
+      font-weight: 200;
+    }
+
+    .start-button {
+      margin-top: 5%;
+    }
+  }
+}
+
+.page-title {
+  margin-top: 40px;
+  font-family: $main-font;
+}
+
+.more-info {
+  margin-top: 75px;
+  font-family: $main-font;
+
+  .info-icon {
+    height: 10vh;
+    width: auto;
+  }
+  .subcaption {
+    font-size: 1.5em;
+  }
+}
+
+.begin-section {
+  margin-top: 40px;
+}
+#loginModal {
+  .title{
+    font-family: $script-font;
+    font-size: 2em;
+  }
+
+  font-family: $main-font;
+  font-size: 1.5em;
+
+  .explanation {
+    margin-bottom: 20px
+  }
+
+  .continue-button {
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto";
+    text-transform: none;
+    font-size: 22px;
+    font-weight: 500;
+    width: 290px;
+    height: 60px;
+  }
 }

@@ -1,4 +1,12 @@
-@import url("https://fonts.googleapis.com/css?family=News+Cycle");
+@import url("https://fonts.googleapis.com/css?family=News+Cycle|Oleo+Script");
+
 $main-font: "News Cycle";
+$script-font: "Oleo Script";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 @import "./views/home";
 @import "./directives/nav";

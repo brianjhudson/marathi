@@ -1,31 +1,49 @@
 <div>
   <nav-directive loggedIn="loggedIn"></nav-directive>
   <header class="row home-header">
+    <div class="intro">
+      <p class="tagline">Learn Marathi</p>
+      <p class="tagline">with us!</p>
+      <a modal href="#loginModal" class="btn start-button">Get Started</a>
+    </div>
+
   </header>
-  <section class="row">
-    <div class="col s4">
-    <!-- Promo Content 1 goes here -->
+  <h2 class="page-title center-align">Explore a Language and Expand Your World</h2>
+  <section class="row more-info">
+    <div class="col s4 center-align">
+      <img class="info-icon" src="../images/k.png" alt="">
+      <h4 class="caption">Learn</h4>
+      <p class="subcaption">Study letters and grammar to build a strong foundation.</p>
     </div>
-    <div class="col s4">
-    <!-- Promo Content 2 goes here -->
+    <div class="col s4 center-align">
+      <img class="info-icon" src="../images/speech-bubbles.png" alt="">
+      <h4 class="caption">Converse</h4>
+      <p class="subcaption">Gain vocabulary so you can begin speaking with confidence.</p>
     </div>
-    <div class="col s4">
-    <!-- Promo Content 3 goes here -->
+    <div class="col s4 center-align">
+      <img class="info-icon" src="../images/review.png" alt="">
+      <h4 class="caption">Review</h4>
+      <p class="subcaption">Test your knowledge to reinforce your learning and progress.</p>
     </div>
   </section>
-  <div class="col">
-      <a class='btn' href="#loginModal" modal>Sign In To Continue</a>
-  </div>
+  <section class="row center-align begin-section">
+      <a href="#loginModal" class="btn" modal>Let's Begin!</a>
+  </section>
   <!-- Modal Structure -->
-  <div id="loginModal" class="modal">
-      <div class="modal-content">
-          <h4>Please Login to Proceed</h4>
-          <p>Don't worry! We only need to verify your identity.</p>
-          <p>We won't use any information except your name, email, and facebook id.</p>
+  <div id="loginModal" class="modal s4 offset-s4">
+    <div class="modal-header">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat center-align">&times;</a>
+    </div>
+      <div class="modal-content center-align">
+          <h4 class="title">Sign In</h4>
+          <div class="explanation">
+            <p>Please sign in to track your progress!.</p>
+            <p>We will only access your profile information to save you as a user.</p>
+          </div>
+          <img ng-href="/auth/facebook" class="facebook-button" src="https://scontent-dft4-1.xx.fbcdn.net/t39.2178-6/851579_209602122530903_1060396115_n.png" alt=""><br>
+          <a ui-sref="user" class="waves-effect waves-light btn continue-button">Enter as Guest</a><br>
       </div>
-      <div class="modal-footer">
-        <a href="/auth/facebook"><img class="responsive-img" src="https://scontent-dft4-1.xx.fbcdn.net/t39.2178-6/851579_209602122530903_1060396115_n.png" alt=""></a>
-        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Continue Without Signing In</a>
-      </div>
+
+
   </div>
 </div>
