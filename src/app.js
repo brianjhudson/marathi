@@ -18,13 +18,15 @@ import loginHtml from "./views/login.html";
 import userHtml from "./views/user.html"
 
 // Directives
-
+import navDirective from "./directives/navDirective"
+import navDirectiveTemp from "./directives/navDirective.html"
 
 angular.module( "marathiApp", [uiRouter, angularMaterialize] )
 .controller("mainController", mainController)
 .service("mainService", mainService)
 .controller("userController", userController)
 .service("userService", userService)
+.directive("navDirective", navDirective)
 .config(function($stateProvider, $urlRouterProvider) {
 	$stateProvider
 		.state("home", {
