@@ -1,14 +1,18 @@
 <div>
   <nav-directive loggedIn="loggedIn"></nav-directive>
+  <!--Page Header -->
   <header class="row home-header">
     <div class="intro">
       <p class="tagline">Learn Marathi</p>
       <p class="tagline">with us!</p>
       <a modal href="#loginModal" class="btn start-button">Get Started</a>
     </div>
-
   </header>
+
+  <!-- Page Title -->
   <h2 class="page-title center-align">Explore a Language and Expand Your World</h2>
+
+  <!-- More Info: Icons and Captions -->
   <section class="row more-info">
     <div class="col s4 center-align">
       <img class="info-icon" src="../images/k.png" alt="">
@@ -26,10 +30,13 @@
       <p class="subcaption">Test your knowledge to reinforce your learning and progress.</p>
     </div>
   </section>
+
+  <!-- Login Modal Trigger -->
   <section class="row center-align begin-section">
       <a href="#loginModal" class="btn" modal>Let's Begin!</a>
   </section>
-  <!-- Modal Structure -->
+
+  <!-- Login Modal -->
   <div id="loginModal" class="modal s4 offset-s4">
     <div class="modal-header">
       <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat center-align">&times;</a>
@@ -40,7 +47,7 @@
             <p>Please sign in to track your progress!.</p>
             <p>We will only access your profile information to save you as a user.</p>
           </div>
-          <img ng-href="/auth/facebook" class="facebook-button" src="https://scontent-dft4-1.xx.fbcdn.net/t39.2178-6/851579_209602122530903_1060396115_n.png" alt=""><br>
+          <a href="/auth/facebook"><img ng-href="/auth/facebook" class="facebook-button" src="https://scontent-dft4-1.xx.fbcdn.net/t39.2178-6/851579_209602122530903_1060396115_n.png" alt=""></a><br>
           <a ui-sref="user" class="waves-effect waves-light btn continue-button">Enter as Guest</a><br>
       </div>
 
