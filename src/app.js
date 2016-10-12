@@ -2,8 +2,7 @@
 import angular from "angular";
 import uiRouter from "angular-ui-router";
 import angularMaterialize from "angular-materialize";
-import 'materialize-css/bin/materialize.css'
-import 'materialize-css/bin/materialize.js'
+import 'materialize-css/bin/materialize.js';
 
 // Services
 import mainService from "./services/mainService";
@@ -13,13 +12,17 @@ import userService from "./services/userService";
 import mainController from "./controllers/mainController";
 import userController from "./controllers/userController";
 
+// Directives
+import navDirective from "./directives/navDirective";
+import navDirectiveTemp from "./directives/navDirective.html";
+
 // Views
 import homeHtml from "./views/home.html";
-import userHtml from "./views/user.html"
+import userHtml from "./views/user.html";
 
-// Directives
-import navDirective from "./directives/navDirective"
-import navDirectiveTemp from "./directives/navDirective.html"
+// Styles
+import 'materialize-css/bin/materialize.css';
+import "./styles/home.scss";
 
 angular.module( "marathiApp", [uiRouter, angularMaterialize] )
 .controller("mainController", mainController)

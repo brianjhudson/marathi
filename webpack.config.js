@@ -20,8 +20,15 @@ module.exports = {
           test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
           loader: 'url?limit=10000&mimetype=application/octet-stream'
         },
-        { test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?limit=10000&mimetype=image/svg+xml' },
-        { test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192' }
+        {
+          test: /\.(jpe?g|png|gif|svg)$/i,
+          loaders: [
+              'file?hash=sha512&digest=hex&name=[hash].[ext]',
+              'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
+          ]
+        }
+        // { test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?limit=10000&mimetype=image/svg+xml' },
+        // { test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192' }
 
       ]
   }
@@ -34,11 +41,11 @@ module.exports = {
       , filename: "bundle.js"
   }
   , devServer: {
-      contentBase: "http://127.0.0.1:3000/"
+      contentBase: "http://127.0.0.1:3000"
   }
   , plugins: [
     new webpack.ProvidePlugin({
-      $: jquery
+      "$": "jquery"
       , 'window.jQuery': 'jquery'
     }),
     new webpack.HotModuleReplacementPlugin(),
