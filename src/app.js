@@ -2,7 +2,8 @@
 import angular from "angular";
 import uiRouter from "angular-ui-router";
 import angularMaterialize from "angular-materialize";
-require("materialize-loader");
+import 'materialize-css/bin/materialize.css'
+import 'materialize-css/bin/materialize.js'
 
 // Services
 import mainService from "./services/mainService";
