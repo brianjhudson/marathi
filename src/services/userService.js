@@ -1,6 +1,7 @@
 function userService($http) {
     this.getUser = function() {
-      return $http.get("").then(response => {
+      return $http.get("/user").then(response => {
+        console.log("Returning user...");
         console.log(response);
         return response;
       })
