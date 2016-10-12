@@ -15,7 +15,6 @@ import userController from "./controllers/userController";
 
 // Views
 import homeHtml from "./views/home.html";
-import loginHtml from "./views/login.html";
 import userHtml from "./views/user.html"
 
 // Directives
@@ -34,12 +33,6 @@ angular.module( "marathiApp", [uiRouter, angularMaterialize] )
 			controller: mainController
 			, url: "/"
 			, template: homeHtml
-		})
-
-		.state("login", {
-			controller: userController
-			, url: "/login"
-			, template: loginHtml
 		})
 
 		.state("user", {
