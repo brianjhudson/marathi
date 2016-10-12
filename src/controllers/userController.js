@@ -3,9 +3,10 @@ function userController($scope, userService) {
     getUser();
   }
   function getUser() {
+    console.log("Getting User...");
     userService.getUser().then(response => {
-      console.log("Getting User...");
-      console.log(response);
+      console.log("Saving user..");
+      console.log(response.data);
       if(response.data) {
         $scope.user = response.data;
         $scope.loggedIn = true;
@@ -13,6 +14,8 @@ function userController($scope, userService) {
         $scope.loggedIn = false;
         $scope.guest = true;
       }
+      console.log("User: ", $scope.user);
+
     })
   }
 
