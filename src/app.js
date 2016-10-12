@@ -22,7 +22,7 @@ import userHtml from "./views/user.html";
 
 // Styles
 import 'materialize-css/bin/materialize.css';
-import "./styles/home.scss";
+import "./main.scss";
 
 angular.module( "marathiApp", [uiRouter, angularMaterialize] )
 .controller("mainController", mainController)
