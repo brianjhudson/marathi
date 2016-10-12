@@ -12,9 +12,9 @@
     </ul>
     <ul class="side-nav" id="nav-mobile">
       <li ng-show="loggedIn"><a ui-sref="user">Profile</a></li>
-      <li ng-show="loggedIn"><a ui-sref="lessons">Lessons</a></li>
+      <li ng-show="loggedIn || guest"><a ui-sref="lessons">Lessons</a></li>
       <li ng-show="loggedIn"><a ui-sref="review">Review</a></li>
-      <li ng-hide="loggedIn"><a ui-sref="user">Start Learning</a></li>
+      <li ng-hide="loggedIn || guest"><a ui-sref="user">Start Learning</a></li>
       <li ng-hide="loggedIn"><a ui-sref="login">Sign In</a></li>
       <li ng-show="loggedIn"><a href="/logout">Logout</a></li>
     </ul>

@@ -6,7 +6,13 @@ function userController($scope, userService) {
     userService.getUser().then(response => {
       console.log("Getting User...");
       console.log(response);
-      $scope.user = response.data;
+      if(response.data) {
+        $scope.user = response.data;
+        $scope.loggedIn = true;
+      } else {
+        $scope.loggedIn = false;
+        $scope.guest = true;
+      }
     })
   }
 
