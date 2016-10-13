@@ -9,12 +9,6 @@ module.exports = app => {
     {successRedirect: "http://localhost:3000/#/user", failureRedirect: "/login"})
   );
 
-  // Connect-ensure-login route for returning user
- app.get("/user", ensure.ensureLoggedIn(), userCtrl.getUser);
-
-  // app.get('/logout', function(req, res) {
- //      req.logout();
- //      res.redirect('/');
- // });
-
+  app.get("/user", ensure.ensureLoggedIn(), userCtrl.getUser);
+  app.get('/logout', userCtrl.logoutUser);
 }
