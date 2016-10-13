@@ -3,20 +3,21 @@
     <a class="brand-logo" ui-sref="home"><img src="../images/marathi-logo.png" alt=""></a>
     <a href="#" class="button-collapse" data-activates="nav-mobile" data-sidenav="left" data-menuwidth="500" data-closeonclick="true"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down main-nav">
-      <li ng-show="loggedIn"><a ui-sref="user">Profile</a></li>
-      <li ng-show="loggedIn"><a ui-sref="lessons">Lessons</a></li>
-      <li ng-show="loggedIn"><a ui-sref="review">Review</a></li>
-      <li ng-hide="loggedIn"><a ui-sref="user">Start Learning</a></li>
-      <li ng-hide="loggedIn"><a ui-sref="login">Sign In</a></li>
-      <li ng-show="loggedIn"><a href="/logout">Logout</a></li>
+      <li ng-show="currentUser.loggedIn"><a ui-sref="user">Profile</a></li>
+      <li ng-show="currentUser.loggedIn || guest"><a ui-sref="lessons">Lessons</a></li>
+      <li ng-show="currentUser.loggedIn"><a ui-sref="review">Review</a></li>
+      <li ng-hide="currentUser.loggedIn"><a ui-sref="user">Start Learning</a></li>
+      <li ng-hide="currentUser.loggedIn"><a ui-sref="login">Sign In</a></li>
+      <li ng-show="currentUser.loggedIn || guest"><a href="/logout">Logout</a></li>
+      <li><a ng-click="printUser()">Print User<a></li>
     </ul>
     <ul class="side-nav" id="nav-mobile">
-      <li ng-show="loggedIn"><a ui-sref="user">Profile</a></li>
-      <li ng-show="loggedIn || guest"><a ui-sref="lessons">Lessons</a></li>
-      <li ng-show="loggedIn"><a ui-sref="review">Review</a></li>
-      <li ng-hide="loggedIn || guest"><a ui-sref="user">Start Learning</a></li>
-      <li ng-hide="loggedIn"><a ui-sref="login">Sign In</a></li>
-      <li ng-show="loggedIn"><a href="/logout">Logout</a></li>
+      <li ng-show="currentUser.loggedIn"><a ui-sref="user">Profile</a></li>
+      <li ng-show="currentUser.loggedIn || guest"><a ui-sref="lessons">Lessons</a></li>
+      <li ng-show="currentUser.loggedIn"><a ui-sref="review">Review</a></li>
+      <li ng-hide="currentUser.loggedIn"><a ui-sref="user">Start Learning</a></li>
+      <li ng-hide="currentUser.loggedIn"><a ui-sref="login">Sign In</a></li>
+      <li ng-show="currentUser.loggedIn"><a href="/logout">Logout</a></li>
     </ul>
   </div>
 </nav>

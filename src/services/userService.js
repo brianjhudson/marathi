@@ -1,12 +1,15 @@
-function userService($http) {
-    this.getUser = function() {
+function userService($http, $rootScope) {
+    this.currentUser = {loggedIn: false};
+    this.getUser = () => {
       return $http.get("/user").then(response => {
-        console.log("Returning user...");
-        console.log(response);
-        return response;
+        if (response.data) {
+          this.currentUser = response.data;
+          this.currentUser.loggedIn = true;
+          $rootScope.$emit("userUpdate", this.currentUser)
+        }
+        return this.currentUser;
       })
     }
-
 }
 
 export default userService;

@@ -45,4 +45,4 @@ angular.module( "marathiApp", [uiRouter, angularMaterialize])
 		})
 
 	$urlRouterProvider.otherwise("/");
-} );
+});
