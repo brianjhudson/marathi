@@ -1,6 +1,16 @@
-<div class="row user-home-container">
-  <div class="col s12 m8 offset-m2 l6 offset-l3 profile">
-    <h2>Welcome, {{currentUser.name}}</h2>
-    <p>{{currentUser}}</p>
+<section class="user-home-container">
+  <div class="row">
+    <article class="welcome col s12 m8 offset-m2 l6 offset-l3">
+      <header class="valign-wrapper">
+        <img ng-src="{{currentUser.photo}}" alt="" class="circle col s2">
+        <h4 class="col s10">{{currentUser.name}}</h4>
+      </header>
+      <h5 class="row center-align">Welcome<span ng-if="currentUser.returning"> Back</span>!</h5>
+      <main class="col s6 offset-s3">
+        <h6><span class="figure">{{currentUser.lessons.length}}</span> Lessons Completed</h6>
+        <h6><span class="figure">{{currentUser.days}}</span> Day Streak</h6>
+      </main>
+    </article>
+
   </div>
-</div>
+</section>
