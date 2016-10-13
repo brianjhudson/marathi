@@ -9,7 +9,6 @@
       <li ng-hide="currentUser.loggedIn"><a ui-sref="user">Start Learning</a></li>
       <li ng-hide="currentUser.loggedIn"><a ui-sref="login">Sign In</a></li>
       <li ng-show="currentUser.loggedIn || guest"><a href="/logout">Logout</a></li>
-      <li><a ng-click="printUser()">Print User<a></li>
     </ul>
     <ul class="side-nav" id="nav-mobile">
       <li ng-show="currentUser.loggedIn"><a ui-sref="user">Profile</a></li>

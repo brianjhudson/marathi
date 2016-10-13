@@ -10,7 +10,6 @@ function navDirective($location, userService) {
         $rootScope.$on("userUpdate", function(event, data) {
           $scope.currentUser = data;
         });
-        $scope.printUser = function() {(console.log($scope.currentUser))};
     }
   }
 }
