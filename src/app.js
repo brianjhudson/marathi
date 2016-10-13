@@ -24,7 +24,7 @@ import userHtml from "./views/user.html";
 import 'materialize-css/bin/materialize.css';
 import "./main.scss";
 
-angular.module( "marathiApp", [uiRouter, angularMaterialize] )
+angular.module( "marathiApp", [uiRouter, angularMaterialize])
 .controller("mainController", mainController)
 .service("mainService", mainService)
 .controller("userController", userController)
