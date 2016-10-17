@@ -12,10 +12,9 @@ function userController($scope, userService, lessonService) {
   }
 
   $scope.postLesson = lesson => {
-    console.log(lesson);
-    console.log($scope);
     lesson.author = $scope.currentUser._id;
     lessonService.postLesson(lesson).then(result => {
+      $scope.newLesson = {};
       return result;
     })
   }
