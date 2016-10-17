@@ -8,7 +8,7 @@ const User = new mongoose.Schema({
   , photo: { type: String, default: 'http://www.clker.com/cliparts/m/3/I/C/c/2/grey-silhouette-of-man.svg' }
   , dateJoined: {type: Date, default: new Date()}
   , lastLogin: {type: Date, default: new Date()}
-  , streak: {type: Number, default: 0}
+  , dayStreak: {type: Number, default: 0}
   , lessons: [{
       lessonId: {type: mongoose.Schema.Types.ObjectId, ref: "Lesson"}
       , completed: {type: Boolean, default: false}
