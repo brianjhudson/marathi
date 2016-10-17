@@ -3,8 +3,7 @@ const User = require("./User");
 module.exports = {
 
 	getUser(req, res) {
-		console.log(req.user);
-    User.findById(req.user._id)
+		User.findById(req.user._id)
 		.populate("lessons.lessonId")
 		.populate("reviewItems")
 		.populate("termsCreated")

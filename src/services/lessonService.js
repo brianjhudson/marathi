@@ -4,6 +4,12 @@ function lessonService($http) {
       return result;
     });
   }
+
+  this.postTerm = term => {
+    return $http.post("/api/terms", term).then(result => {
+      return result;
+    })
+  }
 }
 
 export default lessonService;

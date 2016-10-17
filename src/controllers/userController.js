@@ -19,6 +19,14 @@ function userController($scope, userService, lessonService) {
     })
   }
 
+  $scope.postTerm = term => {
+    lesson.author = $scope.currentUser._id;
+    lessonService.postLesson(lesson).then(result => {
+      $scope.newLesson = {};
+      return result;
+    })
+  }
+
   init();
 
 }
