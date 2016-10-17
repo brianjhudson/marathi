@@ -1,7 +1,10 @@
 const mongoose = require('mongoose')
   , Term = require("./Term")
-  , Lesson = new mongoose.Schema({
-      title: {type: String, required: true}
+  , User = require("../users/User");
+
+const Lesson = new mongoose.Schema({
+    author: {type: mongoose.Schema.Types.ObjectId, ref: "User"}
+    , title: {type: String, required: true}
     , description: {type: String}
     , source: {type: String}
     , image: {type: String}

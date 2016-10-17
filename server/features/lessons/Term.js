@@ -1,7 +1,6 @@
 const mongoose = require('mongoose')
   , Term = new mongoose.Schema({
       author: {type: mongoose.Schema.Types.ObjectId, ref: "User"}
-    , authorImage: {type: String}
     , language: {type: String, trim: true, required: true}
     , term: {type: String, trim: true, required: true}
     , transliteration: {type: String, trim: true}
