@@ -3,7 +3,9 @@ const mongoose = require('mongoose')
   , Lesson = new mongoose.Schema({
       title: {type: String, required: true}
     , caption: {type: String}
-    , explanation: {type: String}
+    , description: {type: String}
+    , source: {type: String}
+    , image: {type: String}
     , terms: [{type: mongoose.Schema.Types.ObjectId, ref: "Term"}]
   })
 
