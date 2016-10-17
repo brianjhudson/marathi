@@ -22,4 +22,4 @@ const mongoose = require('mongoose')
 
   })
 
-module.exports = mongoose.model("Term", Term)
+module.exports = mongoose.model("Term", Term);

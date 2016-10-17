@@ -10,7 +10,8 @@ module.exports = {
 		.populate("lessonsCreated")
 		.exec((err, user) => {
 			if (err) return res.status(500).json(err);
-			if (user.)
+	//  TODO: Check for last login and add dayStreak
+			return res.status(200).json(user);
 		})
 	}
 
