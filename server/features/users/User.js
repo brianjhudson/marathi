@@ -7,11 +7,14 @@ const User = new mongoose.Schema({
   , email: {type: String, unique: true}
   , photo: { type: String, default: 'http://www.clker.com/cliparts/m/3/I/C/c/2/grey-silhouette-of-man.svg' }
   , dateJoined: {type: Date, default: new Date()}
+  , lastLogin: {type: Date, default: new Date()}
   , lessons: [{
       lessonId: {type: mongoose.Schema.Types.ObjectId, ref: "Lesson"}
       , score: {type: Number, default: 0}
     }]
   , reviewItems: [{type: mongoose.Schema.Types.ObjectId, ref: "Term"}]
+  , termsCreated: [{type: mongoose.Schema.Types.ObjectId, ref: "Term"}]
+  , lessonsCreated: [{type: mongoose.Schema.Types.ObjectId, ref: "Lesson"}]
 
 });
 
