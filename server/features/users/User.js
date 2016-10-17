@@ -11,9 +11,13 @@ const User = new mongoose.Schema({
   , lessons: [{
       lessonId: {type: mongoose.Schema.Types.ObjectId, ref: "Lesson"}
       , score: {type: Number, default: 0}
-      , completion: {type: Number, default: 0}
     }]
   , reviewItems: [{type: mongoose.Schema.Types.ObjectId, ref: "Term"}]
+  , quizzes: [{
+        lessonId: {type: mongoose.Schema.Types.ObjectId, ref: "Quiz"}
+        , score: {type: Number, default: 0}
+    }]
+
 
 });
 
