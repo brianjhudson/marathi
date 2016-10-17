@@ -1,4 +1,4 @@
-function userController($scope, userService) {
+function userController($scope, userService, lessonService) {
   function init() {
     getUser();
   }

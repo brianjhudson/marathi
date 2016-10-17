@@ -26,7 +26,7 @@ import "./main.scss";
 
 angular.module( "marathiApp", [uiRouter, angularMaterialize])
 .controller("mainController", mainController)
-.service("mainService", mainService)
+.service("lessonService", lessonService)
 .controller("userController", userController)
 .service("userService", userService)
 .directive("navDirective", navDirective)
