@@ -7,10 +7,14 @@ const User = new mongoose.Schema({
   , name: {type: String, required: true}
   , email: {type: String, unique: true}
   , photo: { type: String, default: 'http://www.clker.com/cliparts/m/3/I/C/c/2/grey-silhouette-of-man.svg' }
-  , dateJoined: {{type: Date, default: new Date()}}
-  , lessons: [{type: mongoose.Schema.Types.ObjectId, ref: "Lesson"}]
-  , quizzes: [{type: mongoose.Schema.Types.ObjectId, ref: "Quiz"}]
-  // , reviewItems: [{type: mongoose.Schema.Types.ObjectId, ref: "ReviewItems"}]
+  , dateJoined: {type: Date, default: new Date()}
+  , lessons: [{
+      lessonId: {type: mongoose.Schema.Types.ObjectId, ref: "Lesson"}
+      , score: {type: Number, default: 0}
+      , completion: {type: Number, default: 0}
+    }]
+  , reviewItems: [{type: mongoose.Schema.Types.ObjectId, ref: "Term"}]
+
 });
 
 module.exports = mongoose.model("User", User);
