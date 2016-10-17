@@ -5,7 +5,7 @@ import angularMaterialize from "angular-materialize";
 import 'materialize-css/bin/materialize.js';
 
 // Services
-import mainService from "./services/mainService";
+import lessonService from "./services/lessonService";
 import userService from "./services/userService";
 
 // Controllers

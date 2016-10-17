@@ -1,4 +1,4 @@
-function mainService($http) {
+function lessonService($http) {
   this.postLesson = lesson => {
     return $http.post("/api/lessons", lesson).then(result => {
       return result;
@@ -6,4 +6,4 @@ function mainService($http) {
   }
 }
 
-export default mainService;
+export default lessonService;

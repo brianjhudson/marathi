@@ -11,32 +11,33 @@
         <h6><span class="figure">{{currentUser.days}}</span> Day Streak</h6>
       </main>
     </article>
+  </div>
   <div class="row">
-    <article class="col s12 m8 offset-m2 l6 offset-l3">
-      <form ng-submit="postLesson(lesson)">
-        <legend>Create a New Lesson</legend>
+    <article class="add-lesson col s12 m8 offset-m2 l6 offset-l3">
+      <form>
         <div input-field>
-            <input type="text" ng-model="lesson.title" length="150">
+            <input type="text" ng-model="newLesson.title" length="150">
             <label>Lesson Title</label>
         </div>
         <div input-field>
-            <textarea ng-model="lesson.description" class="materialize-textarea"></textarea>
+            <textarea ng-model="newLesson.description" class="materialize-textarea"></textarea>
             <label>Description</label>
         </div>
         <div input-field>
-          <input type="text" ng-model="lesson.source" length="150">
+          <input type="text" ng-model="newLesson.source" length="150">
           <label>Source (if you used an outside source)</label>
         </div>
         <div input-field>
-          <input type="text" ng-model="lesson.image" length="150">
+          <input type="text" ng-model="newLesson.image" length="150">
           <label>Image Url</label>
         </div>
         <div input-field>
-          <input type="text" ng-model="lesson.imageCredit" length="150">
+          <input type="text" ng-model="newLesson.imageCredit" length="150">
           <label>Image Credit (if you need to attribute the source)</label>
         </div>
+        <button class="btn" ng-click="postLesson(newLesson)">Submit</button>
       </form>
     </article>
   </div>
-  </div>
+
 </section>
