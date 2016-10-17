@@ -1,6 +1,5 @@
 const mongoose = require("mongoose")
-    , Lesson = require("../lessons/Lesson")
-    , Quiz = require("../lessons/Lesson");
+    , Lesson = require("../lessons/Lesson");
 
 const User = new mongoose.Schema({
   facebook_id: {type: String, required: true, unique: true}
@@ -13,11 +12,6 @@ const User = new mongoose.Schema({
       , score: {type: Number, default: 0}
     }]
   , reviewItems: [{type: mongoose.Schema.Types.ObjectId, ref: "Term"}]
-  , quizzes: [{
-        lessonId: {type: mongoose.Schema.Types.ObjectId, ref: "Quiz"}
-        , score: {type: Number, default: 0}
-    }]
-
 
 });
 
