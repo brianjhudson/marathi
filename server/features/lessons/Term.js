@@ -21,6 +21,6 @@ const mongoose = require('mongoose')
     , reviewAnswerType: {type: String, enum: ['term', 'transliteration', 'definition', 'translation']}
     , reviewImage: {type: String}
 
-    })
+  })
 
 module.exports = mongoose.model("Term", Term)

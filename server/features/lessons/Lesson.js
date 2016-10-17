@@ -2,7 +2,6 @@ const mongoose = require('mongoose')
   , Term = require("./Term")
   , Lesson = new mongoose.Schema({
       title: {type: String, required: true}
-    , caption: {type: String}
     , description: {type: String}
     , source: {type: String}
     , image: {type: String}
