@@ -5,7 +5,9 @@ function lessonEntryForm() {
     restrict: "E"
     , replace: true
     , template: lessonEntryFormTemp
-    , scope: {}
+    , scope: {
+        postLesson: "&"
+    }
   }
 }
 
