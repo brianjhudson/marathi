@@ -6,8 +6,8 @@ function loginTrigger() {
     , replace: true
     , template: loginTriggerTemp
     , scope: {
-      text: "="
-      , target: "="
+      text: "@"
+      , target: "@"
     }
   }
 }
