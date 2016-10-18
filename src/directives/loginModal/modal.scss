@@ -1,0 +1,26 @@
+.modal {
+  .title{
+    font-family: $script-font;
+    font-size: 2em;
+  }
+
+  font-family: $main-font;
+  font-size: 1.5em;
+
+  .explanation {
+    margin-bottom: 20px
+  }
+
+  .continue-button {
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto";
+    text-transform: none;
+    font-size: 22px;
+    font-weight: 500;
+    width: 290px;
+    height: 60px;
+  }
+}

@@ -6,6 +6,7 @@ function userSummary() {
     , replace: true
     , template: userSummaryTemp
     , scope: {}
+    // Check to see if user appears upon login--if not, see if we need to pass user in scope
     , controller: function($scope, $rootScope, userService) {
         $scope.currentUser = userService.currentUser;
         $rootScope.$on("userUpdate", function(event, data) {
