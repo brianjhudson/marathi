@@ -19,20 +19,22 @@ module.exports = {
   }
 
   , getLessonById(req, res) {
-    if (!req.params.id) return res.status(500).json("Lesson Id required")
-    Lesson.find({}, (err, lessons) => {
-        if (err) return res.status(500).json(err);
-        return res.status(200).json(lessons);
+      if (!req.params.id) return res.status(500).json("Lesson Id required")
+      Lesson.findById(req.params.id)
+      .populate("terms")
+      .exec()
+      .then(lessons => {
+        return res.status(201).json(lessons);
+      }, error => {
+        return res.status(500).json(error);
       })
   }
 
   , getLessons(req, res) {
-      Lesson.find(req.params.id)
-      .populate("terms")
-      .exec((err, lessons) => {
-        if (err) return res.status(500).json(err);
-        return res.status(200).json(lessons);
-      })
+      Lesson.find({}, (err, lessons) => {
+          if (err) return res.status(500).json(err);
+          return res.status(200).json(lessons);
+        })
   }
 
 

@@ -3,6 +3,8 @@ function userController($scope, userService, lessonService) {
     getUser();
     $scope.newLesson = {};
     $scope.newTerm = {};
+    lessonService.getLessons().then(result => console.log(result.data))
+    lessonService.getLessonById("58054c8edcba0f490c709c3f").then(result => console.log(result.data));
   }
   function getUser() {
     userService.getUser().then(response => {
