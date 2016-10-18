@@ -21,8 +21,8 @@ import loginModal from "./directives/loginModal/login";
 import loginTemp from "./directives/loginModal/login.html";
 import loginTrigger from "./directives/loginModal/trigger";
 import loginTriggerTemp from "./directives/loginModal/trigger.html";
-import lessonEntryForm from "./directives/lessonEntryForm/lessonEntryForm";
-import lessonEntryFormTemp from "./directives/lessonEntryForm/lessonEntryForm.html";
+import lessonEntryForm from "./directives/lessonEntryModal/lessonEntryForm";
+import lessonEntryFormTemp from "./directives/lessonEntryModal/lessonEntryForm.html";
 
 
 // Views
