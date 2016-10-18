@@ -1,8 +1,9 @@
 function userController($scope, userService, lessonService) {
   function init() {
     getUser();
+    $scope.newLesson = {};
+    $scope.newTerm = {};
   }
-  $scope.newLesson = {};
   function getUser() {
     userService.getUser().then(response => {
       if(response) {
@@ -20,9 +21,10 @@ function userController($scope, userService, lessonService) {
   }
 
   $scope.postTerm = term => {
-    lesson.author = $scope.currentUser._id;
-    lessonService.postLesson(lesson).then(result => {
-      $scope.newLesson = {};
+    term.author = $scope.currentUser._id;
+    term.language = "Marathi";
+    lessonService.postTerm(term).then(result => {
+      $scope.newTerm = {};
       return result;
     })
   }

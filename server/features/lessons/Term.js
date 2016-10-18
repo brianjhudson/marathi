@@ -6,19 +6,20 @@ const mongoose = require('mongoose')
     , transliteration: {type: String, trim: true}
     , explanation: {type: String, required: true}
     , category: {type: String, enum: ["grammar", "alphabet", "vocabulary", "culture"], required: true}
-    , topic: {type: String}
-    , theme: {type: String}
+    , topic: {type: String, trim: true}
+    , theme: {type: String, trim: true}
     , lesson: {type: mongoose.Schema.Types.ObjectId, ref: "Lesson"}
-    , image: {type: String}
-    , imageCredit: {type: String}
-    , sound: {type: String}
-    , example: {type: String}
-    , exampleTransliteration: {type: String}
-    , exampleTranslation: {type: String}
-    , reviewQuestion: {type: String}
-    , reviewAnswer: {type: String}
+    , image: {type: String, trim: true}
+    , imageCredit: {type: String, trim: true}
+    , sound: {type: String, trim: true}
+    , example: {type: String, trim: true}
+    , exampleTransliteration: {type: String, trim: true}
+    , exampleTranslation: {type: String, trim: true}
+    , reviewQuestion: {type: String, trim: true}
+    , reviewAnswer: {type: String, trim: true}
     , reviewAnswerType: {type: String, enum: ['term', 'transliteration', 'definition', 'translation']}
-    , reviewImage: {type: String}
+    , reviewImage: {type: String, trim: true}
+    , reviewImageCredit: {type: String, trim: true}
 
   })
 
