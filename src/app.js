@@ -21,6 +21,8 @@ import loginModal from "./directives/loginModal/login";
 import loginTemp from "./directives/loginModal/login.html";
 import loginTrigger from "./directives/loginModal/trigger";
 import loginTriggerTemp from "./directives/loginModal/trigger.html";
+import lessonEntryForm from "./directives/lessonEntryForm/lessonEntryForm";
+import lessonEntryFormTemp from "./directives/lessonEntryForm/lessonEntryForm.html";
 
 
 // Views
@@ -40,6 +42,7 @@ angular.module( "marathiApp", [uiRouter, angularMaterialize])
 .directive("userSummary", userSummary)
 .directive("loginModal", loginModal)
 .directive("loginTrigger", loginTrigger)
+.directive("lessonEntryForm", lessonEntryForm)
 .config(function($stateProvider, $urlRouterProvider) {
 	$stateProvider
 		.state("home", {
