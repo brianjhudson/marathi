@@ -17,6 +17,9 @@ import navDirective from "./directives/navbar/navDirective";
 import navDirectiveTemp from "./directives/navbar/navDirective.html";
 import userSummary from "./directives/userSummary/userSummary";
 import userSummaryTemp from "./directives/userSummary/userSummary.html";
+import loginModal from "./directives/loginModal/login";
+import loginTemp from "./directives/loginModal/login.html";
+
 
 // Views
 import homeHtml from "./views/home.html";
