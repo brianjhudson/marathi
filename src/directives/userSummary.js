@@ -1,8 +1,9 @@
 import userSummaryTemp from "./userSummary.html";
 
-function userSummary($location, userService) {
+function userSummary() {
   return {
     restrict: "E"
+    , replace: true
     , template: userSummaryTemp
     , scope: {}
     , controller: function($scope, $rootScope, userService) {

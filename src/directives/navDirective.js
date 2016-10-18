@@ -1,6 +1,6 @@
 import navDirectiveTemp from "./navDirective.html";
 
-function navDirective($location, userService) {
+function navDirective() {
   return {
     restrict: "E"
     , template: navDirectiveTemp

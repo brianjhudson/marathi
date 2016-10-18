@@ -32,6 +32,7 @@ angular.module( "marathiApp", [uiRouter, angularMaterialize])
 .controller("userController", userController)
 .service("userService", userService)
 .directive("navDirective", navDirective)
+.directive("userSummary", userSummary)
 .config(function($stateProvider, $urlRouterProvider) {
 	$stateProvider
 		.state("home", {
