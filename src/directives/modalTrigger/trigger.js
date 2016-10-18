@@ -1,6 +1,6 @@
-import loginTriggerTemp from "./trigger.html";
+import modalTriggerTemp from "./trigger.html";
 
-function loginTrigger() {
+function modalTrigger() {
   return {
     restrict: "E"
     , replace: true
@@ -12,4 +12,4 @@ function loginTrigger() {
   }
 }
 
-export default loginTrigger;
+export default modalTrigger;
