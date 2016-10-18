@@ -15,6 +15,8 @@ import userController from "./controllers/userController";
 // Directives
 import navDirective from "./directives/navDirective";
 import navDirectiveTemp from "./directives/navDirective.html";
+import userSummary from "./directives/userSummary";
+import userSummaryTemp from "./directives/userSummary.html";
 
 // Views
 import homeHtml from "./views/home.html";

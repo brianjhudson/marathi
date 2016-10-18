@@ -11,7 +11,6 @@ module.exports = {
 	}
 
   , postTerm(req, res) {
-      console.log("post Term route executed");
       new Term(req.body).save((err, term) => {
         console.log(err);
         if (err) return res.status(500).json(err);
