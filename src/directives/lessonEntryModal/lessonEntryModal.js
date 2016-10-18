@@ -5,11 +5,18 @@ function lessonEntryModal() {
     restrict: "E"
     , replace: true
     , template: lessonEntryModalTemp
-    , scope: {
-        postLesson: "&"
-    }
+    , scope: {}
     , controller: function($state, $scope) {
         $scope.stateName = $state.current.name;
+        $scope.newLesson = {};
+        $scope.postLesson = lesson => {
+          lesson.author = $scope.currentUser._id;
+          lessonService.postLesson(lesson).then(result => {
+            $scope.newLesson = {};
+            return result;
+          })
+        }
+
     }
   }
 }
