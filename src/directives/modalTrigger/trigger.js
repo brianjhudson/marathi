@@ -5,7 +5,10 @@ function loginTrigger() {
     restrict: "E"
     , replace: true
     , template: loginTriggerTemp
-    , scope: {}
+    , scope: {
+      text: "="
+      , target: "="
+    }
   }
 }
 

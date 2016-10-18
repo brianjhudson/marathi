@@ -19,8 +19,8 @@ import userSummary from "./directives/userSummary/userSummary";
 import userSummaryTemp from "./directives/userSummary/userSummary.html";
 import loginModal from "./directives/loginModal/login";
 import loginTemp from "./directives/loginModal/login.html";
-import loginTrigger from "./directives/loginModal/trigger";
-import loginTriggerTemp from "./directives/loginModal/trigger.html";
+import loginTrigger from "./directives/modalTrigger/trigger";
+import loginTriggerTemp from "./directives/modalTrigger/trigger.html";
 import lessonEntryForm from "./directives/lessonEntryModal/lessonEntryForm";
 import lessonEntryFormTemp from "./directives/lessonEntryModal/lessonEntryForm.html";
 
