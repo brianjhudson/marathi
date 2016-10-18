@@ -19,6 +19,8 @@ import userSummary from "./directives/userSummary/userSummary";
 import userSummaryTemp from "./directives/userSummary/userSummary.html";
 import loginModal from "./directives/loginModal/login";
 import loginTemp from "./directives/loginModal/login.html";
+import loginTrigger from "./directives/loginModal/trigger";
+import loginTriggerTemp from "./directives/loginModal/trigger.html";
 
 
 // Views
@@ -36,6 +38,8 @@ angular.module( "marathiApp", [uiRouter, angularMaterialize])
 .service("userService", userService)
 .directive("navDirective", navDirective)
 .directive("userSummary", userSummary)
+.directive("loginModal", loginModal)
+.directive("loginTrigger", loginTrigger)
 .config(function($stateProvider, $urlRouterProvider) {
 	$stateProvider
 		.state("home", {
