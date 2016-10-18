@@ -5,7 +5,7 @@
       <h4 class="col s10">{{currentUser.name}}</h4>
     </header>
     <h5 class="row center-align">Welcome<span ng-if="currentUser.returning"> Back</span>!</h5>
-    <main ng-if="currentUser.loggedIn" class="col s6 offset-s3">
+    <main ng-hide="!currentUser.loggedIn" class="col s6 offset-s3">
       <h6><span class="figure">{{currentUser.lessons.length || 0}}</span> Lessons Completed</h6>
       <h6><span class="figure">{{currentUser.dayStreak}}</span> Day Streak</h6>
     </main>

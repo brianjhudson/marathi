@@ -1,10 +1,10 @@
-import lessonEntryFormTemp from "./lessonEntryForm.html";
+import lessonEntryModalTemp from "./lessonEntryModal.html";
 
-function lessonEntryForm() {
+function lessonEntryModal() {
   return {
     restrict: "E"
     , replace: true
-    , template: lessonEntryFormTemp
+    , template: lessonEntryModalTemp
     , scope: {
         postLesson: "&"
     }
@@ -14,4 +14,4 @@ function lessonEntryForm() {
   }
 }
 
-export default lessonEntryForm;
+export default lessonEntryModal;
