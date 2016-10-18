@@ -18,8 +18,15 @@ module.exports = {
     });
   }
 
+  , getLessonById(req, res) {
+    if (!req.params.id) return res.status(500).json("Lesson Id required")
+    Lesson.find({}, (err, lessons) => {
+        if (err) return res.status(500).json(err);
+        return res.status(200).json(lessons);
+      })
+  }
+
   , getLessons(req, res) {
-      if (!req.params.id) req.params.id = {};
       Lesson.find(req.params.id)
       .populate("terms")
       .exec((err, lessons) => {
@@ -27,5 +34,6 @@ module.exports = {
         return res.status(200).json(lessons);
       })
   }
+
 
 };
