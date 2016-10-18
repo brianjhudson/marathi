@@ -11,7 +11,9 @@
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 0.1em;
+  }
 
+  .main-nav li a {
 
     &:hover, &:active {
       background-color: transparent;
@@ -22,8 +24,8 @@
       position: absolute;
       width: 100%;
       height: 2px;
-      bottom: 18px;
       left: 0;
+      bottom: 18px;
       background-color: #fff;
       visibility: hidden;
       -webkit-transform: scaleX(0);
