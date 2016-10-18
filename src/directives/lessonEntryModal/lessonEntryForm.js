@@ -8,6 +8,9 @@ function lessonEntryForm() {
     , scope: {
         postLesson: "&"
     }
+    , controller: function($state, $scope) {
+        $scope.stateName = $state.current.name;
+    }
   }
 }
 
