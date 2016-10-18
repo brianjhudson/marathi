@@ -4,7 +4,7 @@ function modalTrigger() {
   return {
     restrict: "E"
     , replace: true
-    , template: loginTriggerTemp
+    , template: modalTriggerTemp
     , scope: {
       text: "@"
       , target: "@"
