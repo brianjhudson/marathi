@@ -13,10 +13,10 @@ import mainController from "./controllers/mainController";
 import userController from "./controllers/userController";
 
 // Directives
-import navDirective from "./directives/navDirective";
-import navDirectiveTemp from "./directives/navDirective.html";
-import userSummary from "./directives/userSummary";
-import userSummaryTemp from "./directives/userSummary.html";
+import navDirective from "./directives/navbar/navDirective";
+import navDirectiveTemp from "./directives/navbar/navDirective.html";
+import userSummary from "./directives/userSummary/userSummary";
+import userSummaryTemp from "./directives/userSummary/userSummary.html";
 
 // Views
 import homeHtml from "./views/home.html";

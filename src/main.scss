@@ -9,5 +9,6 @@ $script-font: "Oleo Script";
 }
 
 @import "./views/home";
-@import "./directives/nav";
+@import "./directives/navbar/nav";
 @import "./views/user.scss";
+@import "./directives/userSummary/user";
