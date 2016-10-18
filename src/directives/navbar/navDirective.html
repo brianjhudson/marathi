@@ -7,7 +7,7 @@
       <li ng-show="currentUser.loggedIn || guest"><a ui-sref="lessons">Lessons</a></li>
       <li ng-show="currentUser.loggedIn"><a ui-sref="review">Review</a></li>
       <li ng-hide="currentUser.loggedIn"><a ui-sref="user">Start Learning</a></li>
-      <li ng-hide="currentUser.loggedIn"><a ui-sref="login">Sign In</a></li>
+      <li ng-hide="currentUser.loggedIn"><a modal href="#loginModal">Sign In</a></li>
       <li ng-show="currentUser.loggedIn || guest"><a href="/logout">Logout</a></li>
     </ul>
     <ul class="side-nav" id="nav-mobile">
@@ -15,7 +15,7 @@
       <li ng-show="currentUser.loggedIn || guest"><a ui-sref="lessons">Lessons</a></li>
       <li ng-show="currentUser.loggedIn"><a ui-sref="review">Review</a></li>
       <li ng-hide="currentUser.loggedIn"><a ui-sref="user">Start Learning</a></li>
-      <li ng-hide="currentUser.loggedIn"><a ui-sref="login">Sign In</a></li>
+      <li ng-hide="currentUser.loggedIn"><a modal href="#loginModal">Sign In</a></li>
       <li ng-show="currentUser.loggedIn"><a href="/logout">Logout</a></li>
     </ul>
   </div>
