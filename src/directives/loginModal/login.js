@@ -6,6 +6,9 @@ function loginModal() {
     , replace: true
     , template: loginTemp
     , scope: {}
+    , controller: function($state, $scope) {
+        $scope.stateName = $state.current.name;
+    }
   }
 }
 
