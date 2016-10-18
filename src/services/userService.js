@@ -11,13 +11,6 @@ function userService($http, $rootScope) {
         return this.currentUser;
       })
     }
-
-    this.logoutUser = () => {
-      return $http.get("/logout").then(response => {
-        this.currentUser = {loggedIn: false};
-        return response;
-      })
-    }
 }
 
 export default userService;

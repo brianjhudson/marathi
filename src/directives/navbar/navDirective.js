@@ -10,12 +10,6 @@ function navDirective() {
         $rootScope.$on("userUpdate", function(event, data) {
           $scope.currentUser = data;
         });
-
-        $scope.logoutUser = () => {
-          userService.logoutUser().then(() => {
-            console.log("Logged Out")
-          })
-        }
     }
   }
 }
