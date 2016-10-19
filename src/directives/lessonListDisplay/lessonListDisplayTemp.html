@@ -1,27 +1,18 @@
 <article class="lesson-list-display">
   <h4>Lessons</h4>
   <main class="row">
-    <div class="lesson-summary valign-wrapper" ng-repeat="lesson in currentUser.lessons">
-      <div class="preloader-wrapper small active" ng-show="lesson.loading">
-        <div class="spinner-layer spinner-green-only">
-          <div class="circle-clipper left">
-            <div class="circle"></div>
-          </div><div class="gap-patch">
-            <div class="circle"></div>
-          </div><div class="circle-clipper right">
-            <div class="circle"></div>
-          </div>
-        </div>
-      </div>
-      <div ng-hide="lesson.loading">
-        <div class="col s1">X</div> <!--Placeholder for complete image -->
-        <img class="col s2 responsive-img" ng-src="{{lesson.lessonDetails.image}}" alt="">
-        <div class="col s8">
+    <div class="lesson-summary valign-wrapper center-align" ng-repeat="lesson in currentUser.lessons">
+      <div class="col s2">X</div> <!--Placeholder for complete image -->
+      <div class="col s10">
+        <div>
           <h5>{{lesson.lessonDetails.title}}</h5>
+          <img class="responsive-img" ng-src="{{lesson.lessonDetails.image}}" alt="">
+        </div>
+        <div class="col s12">
           <h6>{{lesson.lessonDetails.description}}</h6>
         </div>
       </div>
-      <div class="divider"></div>
+    <div class="divider"></div>
     </div>
   </main>
 </article>
