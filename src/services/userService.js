@@ -6,8 +6,6 @@ function userService($http, $rootScope) {
         if (response.data) {
           this.currentUser = response.data;
           this.currentUser.loggedIn = true;
-          // Emit user to listeners
-          $rootScope.$emit("userUpdate", this.currentUser);
           // Set selectedLesson to first incomplete lesson and emit again
           for (let i = 0; i < this.currentUser.lessons.length; i++) {
             if (this.currentUser.selectedLesson == {} && this.currentUser.lessons[i].completed == false) {
