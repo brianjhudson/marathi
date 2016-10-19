@@ -24,8 +24,8 @@ function userService($http, $rootScope, lessonService) {
       })
     }
 
-    this.saveUser = (user) => {
-      this.currentUser = user;
+    this.selectLesson = (lesson) => {
+      this.currentUser.selectedLesson = lesson;
       $rootScope.$emit("userUpdate", this.currentUser)
     }
 }

@@ -7,7 +7,6 @@ function lessonListDisplay() {
     , template: lessonListDisplayTemp
     , scope: {}
     , link: function(scope, element, attr) {
-
     }
     , controller: function($scope, $rootScope, userService) {
         $scope.currentUser = userService.currentUser;
@@ -15,7 +14,10 @@ function lessonListDisplay() {
           $scope.currentUser = user;
           // TODO: Add regular getLessons for guest
         });
-
+        $scope.selectLesson = (lesson) => {
+          // TODO: Add style? Use directive to display items and 
+          userService.selectLesson(lesson);
+        }
 
     }
 
