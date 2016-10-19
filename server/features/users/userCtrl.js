@@ -4,10 +4,10 @@ module.exports = {
 
 	getUser(req, res) {
 		User.findById(req.user._id)
-		.populate("lessons.lessonId")
-		.populate("reviewItems")
-		.populate("termsCreated")
-		.populate("lessonsCreated")
+		.populate("lessons")
+		// .populate("reviewItems")
+		// .populate("termsCreated")
+		// .populate("lessonsCreated")
 		.exec((err, user) => {
 			if (err) return res.status(500).json(err);
 	//  TODO: Check for last login and add dayStreak
