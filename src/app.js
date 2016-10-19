@@ -25,6 +25,9 @@ import lessonEntryModal from "./directives/lessonEntryModal/lessonEntryModal";
 import lessonEntryModalTemp from "./directives/lessonEntryModal/lessonEntryModal.html";
 import termEntryModal from "./directives/termEntryModal/termEntryModal";
 import termEntryModalTemp from "./directives/termEntryModal/termEntryModal.html";
+import lessonListDisplay from "./directives/lessonListDisplay/lessonListDisplay";
+import lessonListDisplayTemp from "./directives/lessonListDisplay/lessonListDisplayTemp.html";
+
 
 
 // Views
@@ -46,6 +49,7 @@ angular.module( "marathiApp", [uiRouter, angularMaterialize])
 .directive("modalTrigger", modalTrigger)
 .directive("lessonEntryModal", lessonEntryModal)
 .directive("termEntryModal", termEntryModal)
+.directive("lessonListDisplay", lessonListDisplay)
 .config(function($stateProvider, $urlRouterProvider) {
 	$stateProvider
 		.state("home", {
