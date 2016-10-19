@@ -5,25 +5,14 @@ function lessonListDisplay() {
     restrict: "E"
     , replace: true
     , template: lessonListDisplayTemp
-    , scope: {
-        selectedLesson: "="
-    }
+    , scope: {}
     , link: function(scope, element, attr) {
 
     }
-    , controller: function($scope, $rootScope, userService, lessonService) {
+    , controller: function($scope, $rootScope, userService) {
         $scope.currentUser = userService.currentUser;
-        $rootScope.$on("userUpdate", function(event, data) {
-          $scope.currentUser = data;
-          for (let i = 0; i < $scope.currentUser.lessons.length; i++) {
-            // Show preloader
-            $scope.currentUser.lessons[i].loading = true;
-            // Retrieve lesson details
-            lessonService.getLessonById($scope.currentUser.lessons[i]._id).then(result => {
-              $scope.currentUser.lessons[i].lessonDetails = result.data;
-              $scope.currentUser.lessons[i].loading = false;
-            })
-          }
+        $rootScope.$on("userUpdate", function(event, user) {
+          $scope.currentUser = user;
           // TODO: Add regular getLessons for guest
         });
 
