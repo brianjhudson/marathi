@@ -1,11 +1,8 @@
 function userController($scope, $rootScope, userService) {
   function init() {
-    $scope.selectedLesson = {}
     $scope.currentUser = userService.currentUser;
-    $rootScope.$on("userUpdate", function(event, data) {
-      $scope.currentUser = data;
-      // Set seleted Lesson and load lesson list display
-
+    $rootScope.$on("userUpdate", function(event, user) {
+      $scope.currentUser = user;
     });
     getUser();
   }
