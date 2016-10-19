@@ -5,7 +5,7 @@ function userController($scope, $rootScope, userService) {
     $rootScope.$on("userUpdate", function(event, data) {
       $scope.currentUser = data;
       // Set seleted Lesson and load lesson list display
-      console.log($scope.currentUser);
+
     });
     getUser();
   }

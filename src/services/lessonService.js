@@ -1,4 +1,4 @@
-function lessonService($http) {
+function lessonService($http, $rootScope) {
   this.postLesson = lesson => {
     return $http.post("/api/lessons", lesson).then(result => result);
   }
@@ -14,5 +14,6 @@ function lessonService($http) {
   this.getLessons = () => {
     return $http.get("/api/lessons").then(result => result);
   }
+
 }
 export default lessonService;
