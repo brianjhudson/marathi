@@ -17,7 +17,7 @@ function lessonListDisplay() {
           $scope.currentUser = data;
           for (let i = 0; i < $scope.currentUser.lessons.length; i++) {
             $scope.currentUser.lessons[i].loading = true;
-            lessonService.getLessonById($scope.currentUser.lessons).then(result => {
+            lessonService.getLessonById($scope.currentUser.lessons[i]._id).then(result => {
               console.log(result);
               // TODO: Check result to see format of lesson;
               $scope.currentUser.lessons[i].lessonDetails = result.data;
