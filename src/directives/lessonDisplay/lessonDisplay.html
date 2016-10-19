@@ -1,8 +1,8 @@
-<article class="lesson-display col s12 m4 offset-m2 l2 offset-l3">
+<article class="lesson-display">
   <h4>{{currentUser.selectedLesson.lessonDetails.title}}</h4>
   <main>
-    <img class="col s12" ng-src="{{currentUser.selectedLesson.lessonDetails.image}}" alt="">
-    <p>{{currentUser.selectedLesson.lessonDetails.imageCredit}}</p>
+    <img class="responsive-img" ng-src="{{currentUser.selectedLesson.lessonDetails.image}}" alt="">
+    <p class="right-align">{{currentUser.selectedLesson.lessonDetails.imageCredit}}</p>
     <p>{{currentUser.selectedLesson.lessonDetails.description}}</p>
     <div class="divider"></div>
     <p>{{currentUser.selectedLesson.lessonDetails.source}}</p>
