@@ -4,8 +4,18 @@
   <term-entry-modal></term-entry-modal>
   <modal-trigger text="Add Lesson" target="lessonEntryModal"></modal-trigger>
   <modal-trigger text="Add Term" target="termEntryModal"></modal-trigger>
-
-  <lesson-list-display selectedLesson="selectedLesson"></lesson-list-display>
-  <user-summary></user-summary>
+  <div class="row">
+    <div class="lesson-list-container col s12 m4 offset-m1 l4 offset-l1">
+      <lesson-list-display selectedLesson="selectedLesson"></lesson-list-display>
+    </div>
+    <div class="lesson-and-user-container col s12 m6">
+      <div class="lesson-display-container">
+        <lesson-display selectedLesson="selectedLesson"></lesson-display>
+      </div>
+      <div class="user-summary-container">
+        <user-summary></user-summary>
+      </div>
+    </div>
+  </div>
 
 </section>
