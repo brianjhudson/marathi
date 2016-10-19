@@ -28,7 +28,7 @@ import termEntryModalTemp from "./directives/termEntryModal/termEntryModal.html"
 import lessonListDisplay from "./directives/lessonListDisplay/lessonListDisplay";
 import lessonListDisplayTemp from "./directives/lessonListDisplay/lessonListDisplayTemp.html";
 import lessonDisplay from "./directives/lessonDisplay/lessonDisplay";
-import lessonDisplayTemp from "./directives/lessonDisplay/lessonDisplayTemp.html";
+import lessonDisplayTemp from "./directives/lessonDisplay/lessonDisplay.html";
 
 
 
