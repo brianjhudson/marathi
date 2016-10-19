@@ -1,6 +1,6 @@
 import progressCircleTemp from "./progressCircle.html";
 
-function lessonListDisplay() {
+function progressCircle() {
   return {
     restrict: "E"
     , replace: true
@@ -26,4 +26,4 @@ function lessonListDisplay() {
   }
 }
 
-export default lessonListDisplay;
+export default progressCircle;
