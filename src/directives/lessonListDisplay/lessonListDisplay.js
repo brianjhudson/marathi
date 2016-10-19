@@ -19,7 +19,7 @@ function lessonListDisplay() {
             // Show preloader
             $scope.currentUser.lessons[i].loading = true;
             // Set selectedLesson to first incomplete lesson // Maybe move to lessonService
-            if (!$scope.selectedLesson._id && $scope.currentUser.lessons[i].completed === false) {
+            if ($scope.selectedLesson == {} && $scope.currentUser.lessons[i].completed === false) {
               $scope.selectedLesson = $scope.currentUser.lessons[i];
             }
             lessonService.getLessonById($scope.currentUser.lessons[i]._id).then(result => {

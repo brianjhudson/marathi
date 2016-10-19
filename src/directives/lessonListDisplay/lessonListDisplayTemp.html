@@ -1,6 +1,5 @@
 <article class="lesson-list-display">
   <h4>Lessons</h4>
-  {{currentUser}}
   <main>
     <div class="valign-wrapper" ng-repeat="lesson in currentUser.lessons">
       <div class="preloader-wrapper small active" ng-show="lesson.loading">
@@ -16,10 +15,10 @@
       </div>
       <div ng-hide="lesson.loading">
         <span class="col s2">X</span> <!--Placeholder for complete image -->
-        <img class="col s2" ng-src="{{lesson.image}}" alt="">
+        <img class="col s2" ng-src="{{lesson.lessonDetails.image}}" alt="">
         <div class="col s8">
-          <h5>{{lesson.title}}</h5>
-          <h6>{{lesson.description}}</h6>
+          <h5>{{lesson.lessonDetails.title}}</h5>
+          <h6>{{lesson.lessonDetails.description}}</h6>
         </div>
       </div>
       <div class="divider"></div>
