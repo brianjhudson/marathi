@@ -1,8 +1,19 @@
 <article class="lesson-list-display">
   <h4>Lessons</h4>
+  {{currentUser}}
   <main>
     <div class="valign-wrapper" ng-repeat="lesson in currentUser.lessons">
-      <div class="spinner center-align" ng-show="lesson.loading"></div>
+      <div class="preloader-wrapper small active" ng-show="lesson.loading">
+        <div class="spinner-layer spinner-green-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div><div class="gap-patch">
+            <div class="circle"></div>
+          </div><div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
       <div ng-hide="lesson.loading">
         <span class="col s2">X</span> <!--Placeholder for complete image -->
         <img class="col s2" ng-src="{{lesson.image}}" alt="">
