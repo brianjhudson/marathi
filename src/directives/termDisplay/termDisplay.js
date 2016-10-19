@@ -5,7 +5,9 @@ function termDisplay() {
     restrict: "E"
     , replace: true
     , template: termDisplayTemp
-    , scope: {}
+    , scope: {
+        term: "="
+    }
     , link: function(scope, element, attr) {
     }
     , controller: function($scope, $rootScope, userService) {
