@@ -31,7 +31,8 @@ import lessonDisplay from "./directives/lessonDisplay/lessonDisplay";
 import lessonDisplayTemp from "./directives/lessonDisplay/lessonDisplay.html";
 import progressCircle from "./directives/progressIndicator/progressCircle";
 import progressCircleTemp from "./directives/progressIndicator/progressCircle.html";
-
+import termDisplay from "./directives/termDisplay/termDisplay";
+import termDisplayTemp from "./directives/termDisplay/termDisplay.html";
 
 
 // Views
@@ -56,6 +57,7 @@ angular.module( "marathiApp", [uiRouter, angularMaterialize])
 .directive("lessonListDisplay", lessonListDisplay)
 .directive("lessonDisplay", lessonDisplay)
 .directive("progressCircle", progressCircle)
+.directive("termDisplay", termDisplay)
 .config(function($stateProvider, $urlRouterProvider) {
 	$stateProvider
 		.state("home", {

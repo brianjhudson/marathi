@@ -1,10 +1,15 @@
 <article class="lesson-display">
   <h4>{{currentUser.selectedLesson.lessonDetails.title}}</h4>
   <main>
-    <img class="responsive-img" ng-src="{{currentUser.selectedLesson.lessonDetails.image}}" alt="">
-    <p class="right-align">{{currentUser.selectedLesson.lessonDetails.imageCredit}}</p>
-    <p>{{currentUser.selectedLesson.lessonDetails.description}}</p>
-    <div class="divider"></div>
-    <p>{{currentUser.selectedLesson.lessonDetails.source}}</p>
+    <div class="cover" ng-hide="lesson.begin">
+      <img class="responsive-img" ng-src="{{currentUser.selectedLesson.lessonDetails.image}}" alt="">
+      <p class="right-align">{{currentUser.selectedLesson.lessonDetails.imageCredit}}</p>
+      <p>{{currentUser.selectedLesson.lessonDetails.description}}</p>
+      <div class="divider"></div>
+      <p>{{currentUser.selectedLesson.lessonDetails.source}}</p>
+    </div>
+    <div class="term" ng-show="lesson.begin">
+      <term-display term="term"></term-display>
+    </div>
   </main>
 </article>
