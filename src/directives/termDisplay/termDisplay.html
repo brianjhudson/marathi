@@ -10,14 +10,12 @@
       <div class="card-image valign-wrapper center-align">
         <img ng-hide="revealAnswer" ng-src="{{review.reviewImage}}">
         <img ng-show="showCongratulations" src="https://images.unsplash.com/photo-1472162072942-cd5147eb3902?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=700a3af0851978b7b35cba21f5e9414a">
-        <h4 ng-show="showIncorrectAnswer">Sorry!</h4>
-        <h5 ng-show="showIncorrectAnswer">Better Luck Next Time</h5>
-
-        <p class="term-credit right-align">{{review.reviewImageCredit | limitTo: 50}}</p>
+        <h2 ng-show="showIncorrectAnswer">Sorry!</h2>
 
         <span class="card-title"></span>
       </div>
       <div class="card-content">
+        <p class="term-credit right-align">{{review.reviewImageCredit | limitTo: 50}}</p>
         <span ng-hide="showCongratulations" class="card-title">{{review.reviewQuestion}}</span>
         <span ng-show="showCongratulations" class="card-title">Congratulations!</span>
       </div>

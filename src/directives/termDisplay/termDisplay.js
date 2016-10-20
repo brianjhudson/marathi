@@ -47,6 +47,16 @@ function termDisplay() {
         $scope.previousTerm = () => {
           $scope.lesson.currentTerm--;
           if ($scope.lesson.currentTerm === 0) $scope.beginning = true;
+          $scope.progress = parseInt($scope.lesson.currentTerm / $scope.lesson.lessonDetails.terms.length * 100);
+          //Reset review properties
+          $scope.review = {
+            reviewMode: false
+            , answers: ["a", "b", "c", "d"]
+            }
+          $scope.showInCorrectAnswer = false;
+          $scope.showCongratulations = false;
+          $scope.revealAnswer = false;
+
         }
 
         $scope.nextTerm = () => {
