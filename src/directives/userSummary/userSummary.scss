@@ -1,1 +1,10 @@
+.user-summary {
 
+  .profile-img {
+    width: 8vh;
+    height: auto;
+  }
+  .name, .figure {
+    font-family: $script-font;
+  }
+}

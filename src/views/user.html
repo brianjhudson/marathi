@@ -1,20 +1,24 @@
 <section class="user-home-container">
   <login-modal></login-modal>
   <term-display></term-display>
+  <lesson-entry-modal></lesson-entry-modal>
+  <term-entry-modal></term-entry-modal>
 
   <div class="row">
     <div class="dashboard col s12 m10 offset-m1">
       <div class="row">
         <div class="sidebar col s12 l3">
-          <div class="user-summary-container">
+          <div class="section user-summary-container">
             <user-summary></user-summary>
           </div>
-          <div class="lesson-list-container">
+          <div class="section lesson-list-container">
             <lesson-list-display></lesson-list-display>
           </div>
         </div>
         <div class="lesson-display-container col s12 l6">
-          <lesson-display></lesson-display>
+          <div class="section">
+            <lesson-display></lesson-display>
+          </div>
         </div>
         <div class="contribute col s12 l3">
           <!--Search Terms, Add Terms, Add Lessons -->
@@ -28,8 +32,6 @@
             <div class="center-align">
               <modal-trigger text="Add Lesson" target="lessonEntryModal"></modal-trigger>
               <modal-trigger text="Add Term" target="termEntryModal"></modal-trigger>
-              <lesson-entry-modal></lesson-entry-modal>
-              <term-entry-modal></term-entry-modal>
             </div>
           </div>
         </div>
