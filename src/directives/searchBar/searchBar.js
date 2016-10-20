@@ -19,7 +19,7 @@ function searchBar() {
         }
         $scope.selectTerm = term => {
           lesson.currentTerm = lesson.lessonDetails.terms.indexOf(term);
-          userService.selectLesson(lesson)
+          userService.selectLesson($scope.currentUser.lesson)
         }
 
     }
