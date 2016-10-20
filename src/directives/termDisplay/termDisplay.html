@@ -3,12 +3,13 @@
     <a href="#/{{stateName}}" class="modal-action modal-close waves-effect waves-green btn-flat center-align">&times;</a>
   </div>
   <div class="modal-content">
-    {{selectedLesson}}
-    <table><tr ng-repeat="(key, value) in term"><td></td></tr></table>
+    <div>
+      {{lesson.lessonDetails.terms[lesson.currentTerm]}}
+    </div>
   </div>
   <div class="modal-foooter">
     <button ng-hide="beginning" ng-click="previousTerm()" class="waves-effect waves-light btn next-term-button">Previous</button><br>
-    <button ng-hide="finished" ng-click="nextTerm()" class="waves-effect waves-light btn next-term-button">Next</button><br>
+    <button ng-hide="finished" ng-click="nextTerm()" class="btn next-term-button">Next</button><br>
     <button ng-show="finished" ng-click="quitLesson()" class="modal-action modal-close waves-effect waves-light btn continue-button">Exit</button><br>
   </div>
 </div>

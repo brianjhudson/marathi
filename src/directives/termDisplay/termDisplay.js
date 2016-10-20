@@ -14,29 +14,29 @@ function termDisplay() {
 
         $scope.currentUser = userService.currentUser;
         $scope.stateName = $state.current.name;
+        $scope.lesson = {};
+        $scope.term = {};
+        $scope.lesson.currentTerm = 0;
         $rootScope.$on("userUpdate", function(event, user) {
-          console.log(user);
-          $scope.currentUser = user;
+          $scope.lesson = user.selectedLesson;
+          if(!$scope.lesson.currentTerm) {
+            $scope.lesson.currentTerm = 0;
+            $scope.beginning = true;
+          }
         });
-          // let termIndex = $scope.currentUser.selectedLesson.currentTerm || 0;
-          // const terms = $scope.currentUser.selectedLesson.details.terms;
-          // if (termIndex = 0) $scope.beginning = true
-          // else if (termIndex = terms.length) $scope.finished = true;
-          // });
 
-        // $scope.previousTerm = () => {
-        //   termIndex--;
-        //   $scope.term = terms[lesson.currentTerm];
-        //   $scope.currentUser.selectedLesson.currentTerm = termIndex;
-        //   if (termIndex === 0) $scope.beginning = true;
-        // }
-        //
-        // $scope.nextTerm = () => {
-        //   termIndex++;
-        //   $scope.term = terms[lesson.currentTerm];
-        //   $scope.currentUser.selectedLesson.currentTerm = termIndex;
-        //   if (termIndex = terms.length - 1) $scope.finished = true;
-        // }
+        $scope.previousTerm = () => {
+          $scope.lesson.currentTerm--;
+          if ($scope.lesson.currentTerm === 0) $scope.beginning = true;
+        }
+
+        $scope.nextTerm = () => {
+          $scope.beginning = false;
+          $scope.lesson.currentTerm++;
+          if($scope.lesson.currentTerm === $scope.lesson.lessonDetails.terms.length - 1) {
+            $scope.finished = true;
+          };
+        }
     }
   }
 }
