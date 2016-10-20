@@ -1,15 +1,28 @@
-<div id="termDisplayModal" class="modal s4 offset-s4">
+<div id="termDisplayModal" class="modal">
   <div class="modal-header">
     <a href="#/{{stateName}}" class="modal-action modal-close waves-effect waves-green btn-flat center-align">&times;</a>
+    <span class="title">{{lesson.lessonDetails.title}}</span>
+    <div class="progress"><div class="determinate" style="width: {{progress}}%"></div>
+</div>
   </div>
   <div class="modal-content">
-    <div>
-      {{lesson.lessonDetails.terms[lesson.currentTerm]}}
+    <div class="card term-card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator responsive-img" ng-src="{{lesson.lessonDetails.terms[lesson.currentTerm].image}}">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4">{{lesson.lessonDetails.terms[lesson.currentTerm].term}}<i class="material-icons right">more_vert</i></span>
+        <p><a href="#">This is a link</a></p>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+      </div>
     </div>
   </div>
-  <div class="modal-foooter">
-    <button ng-hide="beginning" ng-click="previousTerm()" class="waves-effect waves-light btn next-term-button">Previous</button><br>
-    <button ng-hide="finished" ng-click="nextTerm()" class="btn next-term-button">Next</button><br>
-    <button ng-show="finished" ng-click="quitLesson()" class="modal-action modal-close waves-effect waves-light btn continue-button">Exit</button><br>
+  <div id="button-wrapper">
+    <a ng-hide="beginning" ng-click="previousTerm()" class="waves-effect waves-light btn next-term-button">Previous</a><br>
+    <a ng-hide="finished" ng-click="nextTerm()" class="btn next-term-button">Next</a><br>
+    <a ng-show="finished" ng-click="quitLesson()" class="modal-action modal-close waves-effect waves-light btn exit-button">Exit</a><br>
   </div>
 </div>

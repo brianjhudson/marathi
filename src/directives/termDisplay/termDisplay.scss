@@ -1,0 +1,34 @@
+#termDisplayModal {
+  margin-top: -50px;
+  width: 100vw;
+  min-height: 95vh;
+  .title {
+    font-size: .90em;
+  }
+  .progress {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .modal-content {
+    padding-bottom: 0px;
+  }
+  #button-wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  @media (min-width: 390px) {
+    width: 60vh;
+  }
+  @media (min-width: 992px) {
+    width: 60vh;
+  }
+}
+
+.term-card {
+  img {
+    width: 60%;
+    margin: 0 auto;
+
+  }
+}

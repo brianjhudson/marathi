@@ -17,6 +17,7 @@ function termDisplay() {
         $scope.lesson = {};
         $scope.term = {};
         $scope.lesson.currentTerm = 0;
+        $scope.progress = 0;
         $rootScope.$on("userUpdate", function(event, user) {
           $scope.lesson = user.selectedLesson;
           if(!$scope.lesson.currentTerm) {
@@ -36,6 +37,9 @@ function termDisplay() {
           if($scope.lesson.currentTerm === $scope.lesson.lessonDetails.terms.length - 1) {
             $scope.finished = true;
           };
+          $scope.progress = parseInt($scope.lesson.currentTerm / $scope.lesson.lessonDetails.terms.length * 100);
+
+
         }
     }
   }
