@@ -10,6 +10,9 @@
       <p class="source">{{currentUser.selectedLesson.lessonDetails.source}}</p>
     </div>
     <modal-trigger text="Let's Begin" target="termDisplayModal"></modal-trigger>
-    <term-display selectedLesson="selectedLesson"></term-display>
+    <term-display selectedLesson="selectedLesson"
+                  selectLesson="selectLesson"
+                  active="active"
+    ></term-display>
   </main>
 </article>

@@ -8,14 +8,10 @@ function lessonListItem() {
     , template: lessonListItemTemp
     , scope: {
         lesson: "="
-    }
+      }
     , link: function(scope, element, attr) {
-
     }
     , controller: function($scope, userService) {
-        $scope.selectLesson = (lesson) => {
-          userService.selectLesson(lesson);
-        }
 
     }
 

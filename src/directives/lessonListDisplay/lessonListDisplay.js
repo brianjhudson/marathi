@@ -15,10 +15,9 @@ function lessonListDisplay() {
           // TODO: Add regular getLessons for guest
         });
         $scope.selectLesson = (lesson) => {
-          // TODO: Add style? Use directive to display items and 
           userService.selectLesson(lesson);
         }
-
+        
     }
 
   }
