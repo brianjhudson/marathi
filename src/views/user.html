@@ -2,20 +2,20 @@
   <login-modal></login-modal>
   <lesson-entry-modal></lesson-entry-modal>
   <term-entry-modal></term-entry-modal>
+  <term-display></term-display>
   <modal-trigger text="Add Lesson" target="lessonEntryModal"></modal-trigger>
   <modal-trigger text="Add Term" target="termEntryModal"></modal-trigger>
   <div class="row">
-    <div class="lesson-list-container col s12 m8 offset-m2 l4 offset-l1">
-      <lesson-list-display selectedLesson="selectedLesson"></lesson-list-display>
-    </div>
-    <div class="lesson-and-user-container col s12 m8 offset-m2 l6">
-      <div class="lesson-display-container">
-        <lesson-display selectedLesson="selectedLesson"></lesson-display>
-      </div>
+    <div class="lesson-and-user-container col s12 m8 offset-m2 l4 offset-l1">
       <div class="user-summary-container">
         <user-summary></user-summary>
       </div>
+      <div class="lesson-list-container">
+        <lesson-list-display selectedLesson="selectedLesson"></lesson-list-display>
+      </div>
+    </div>
+    <div class="lesson-display-container col s12 m8 offset-m2 l4 offset-l1">
+      <lesson-display selectedLesson="selectedLesson"></lesson-display>
     </div>
   </div>
-
 </section>

@@ -1,5 +1,6 @@
 function userService($http, $rootScope, lessonService) {
-    this.currentUser = {loggedIn: false, selectedLesson: null};
+    this.currentUser = {loggedIn: false, selectedLesson: {currentTerm: 0, terms: []}};
+    let lessonSelected = false;
 
     this.getUser = () => {
       return $http.get("/user").then(response => {
@@ -10,8 +11,9 @@ function userService($http, $rootScope, lessonService) {
           // This allows users to customize each lesson -- but requires a second call to original lessons
           for (let i = 0; i < this.currentUser.lessons.length; i++) {
             //Set selected lesson
-            if (!this.currentUser.selectedLesson && this.currentUser.lessons[i].completed == false) {
+            if (!lessonSelected && this.currentUser.lessons[i].completed == false) {
               this.currentUser.selectedLesson = this.currentUser.lessons[i];
+              lessonSelected = true;
             }
             lessonService.getLessonById(this.currentUser.lessons[i]._id).then(result => {
               this.currentUser.lessons[i].lessonDetails = result.data;
