@@ -1,18 +1,13 @@
 <article class="lesson-list-display">
-  <h4>Lessons</h4>
-  <main class="row">
-    <div class="lesson-summary valign-wrapper" ng-repeat="lesson in currentUser.lessons" ng-click="selectLesson(lesson)">
+  <h5>Lessons</h5>
+  <div class="lesson-summary" ng-repeat="lesson in currentUser.lessons" ng-click="selectLesson(lesson)">
+    <h6 class="title">{{lesson.lessonDetails.title}}</h6>
+    <div class="valign-wrapper">
       <div class="col s10">
-        <div>
-          <h5>{{lesson.lessonDetails.title}}</h5>
-          <img class="col s10 offset-s1 responsive-img" ng-src="{{lesson.lessonDetails.image}}" alt="">
-        </div>
-        <div class="col s12">
-          <h6>{{lesson.lessonDetails.description}}</h6>
-        </div>
+        <img class="responsive-img" ng-src="{{lesson.lessonDetails.image}}" alt="">
+        <p ng-show="!lesson.completed">{{lesson.lessonDetails.description | limitTo: 50}}...</p>
       </div>
-      <div class="col s2"><progress-circle></progress-circle></div>
-    <div class="divider"></div>
+      <div class="col s2 m5"><progress-circle></progress-circle></div>
     </div>
-  </main>
+  </div>
 </article>
