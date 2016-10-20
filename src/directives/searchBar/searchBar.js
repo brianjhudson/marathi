@@ -14,6 +14,9 @@ function searchBar() {
         $rootScope.$on("userUpdate", function(event, user) {
           $scope.currentUser = user;
         });
+        $scope.selectLesson = lesson => {
+          userService.selectLesson(lesson);
+        }
 
     }
   }
