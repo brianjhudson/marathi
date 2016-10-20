@@ -17,6 +17,10 @@ function searchBar() {
         $scope.selectLesson = lesson => {
           userService.selectLesson(lesson);
         }
+        $scope.selectTerm = term => {
+          lesson.currentTerm = lesson.lessonDetails.terms.indexOf(term);
+          userService.selectLesson(lesson)
+        }
 
     }
   }

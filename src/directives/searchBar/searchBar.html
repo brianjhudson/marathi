@@ -3,11 +3,9 @@
   <i class="material-icons youtube_search_for"></i>
   <input type="text" class="search" placeholder="Search lessons" ng-model="searchTerm">
   <div ng-show="searchTerm" ng-repeat="lesson in currentUser.lessons | filter: searchTerm">
-  <lesson-list-item>
     <h6 ng-click="selectLesson(lesson)">{{lesson.lessonDetails.title}}</h6>
     <ul ng-repeat="term in lesson.lessonDetails.terms | filter: searchTerm">
-      <li>{{term.term}}, {{term.transliteration}}, {{term.explanation | limitTo: 5}}...</li>
+      <li ng-click="selectTerm(term)">{{term.term}}, {{term.transliteration}}, {{term.explanation | limitTo: 20}}</li>
     </ul>
-  </lesson-list-item>
   </div>
 </article>
