@@ -1,21 +1,39 @@
 <section class="user-home-container">
   <login-modal></login-modal>
-  <lesson-entry-modal></lesson-entry-modal>
-  <term-entry-modal></term-entry-modal>
   <term-display></term-display>
-  <modal-trigger text="Add Lesson" target="lessonEntryModal"></modal-trigger>
-  <modal-trigger text="Add Term" target="termEntryModal"></modal-trigger>
-  <div class="row dashboard">
-    <div class="lesson-and-user-container col s12 m8 offset-m2 l4 offset-l1">
-      <div class="user-summary-container">
-        <user-summary></user-summary>
+
+  <div class="row">
+    <div class="dashboard col s12 m10 offset-m1">
+      <div class="row">
+        <div class="sidebar col s12 l3">
+          <div class="user-summary-container">
+            <user-summary></user-summary>
+          </div>
+          <div class="lesson-list-container">
+            <lesson-list-display></lesson-list-display>
+          </div>
+        </div>
+        <div class="lesson-display-container col s12 l6">
+          <lesson-display></lesson-display>
+        </div>
+        <div class="contribute col s12 l3">
+          <!--Search Terms, Add Terms, Add Lessons -->
+          <!-- Move to directives -->
+          <div class="section">
+            <search-bar></search-bar>
+          </div>
+          <div class="divider"></div>
+          <div class="section">
+            <h5>Contribute</h5>
+            <div class="center-align">
+              <modal-trigger text="Add Lesson" target="lessonEntryModal"></modal-trigger>
+              <modal-trigger text="Add Term" target="termEntryModal"></modal-trigger>
+              <lesson-entry-modal></lesson-entry-modal>
+              <term-entry-modal></term-entry-modal>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="lesson-list-container">
-        <lesson-list-display></lesson-list-display>
-      </div>
-    </div>
-    <div class="lesson-display-container col s12 m8 offset-m2 l6">
-      <lesson-display></lesson-display>
     </div>
   </div>
 </section>

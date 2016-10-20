@@ -8,6 +8,11 @@ $script-font: "Oleo Script";
   margin: 0;
 }
 
+h6 {
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
 @import "./views/home";
 @import "./directives/navbar/nav";
 @import "./views/user.scss";

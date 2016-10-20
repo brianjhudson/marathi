@@ -5,8 +5,17 @@
 
   .dashboard {
     min-height: 60vh;
-    margin: 10px;
     background-color: #fff;
     box-shadow: 5px 5px 5px hsla(0, 0%, 20%, 0.5);
+    padding: 50px 25px;
+
+    .sidebar {
+      border-right: 1px solid hsla(0, 0%, 40%, 0.5);
+    }
+  }
+  .search {
+    border: 1px solid hsla(0, 0%, 95%, 1);
+    border-radius: 20px;
+    padding-left: 10px;
   }
 }

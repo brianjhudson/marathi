@@ -33,6 +33,8 @@ import progressCircle from "./directives/progressIndicator/progressCircle";
 import progressCircleTemp from "./directives/progressIndicator/progressCircle.html";
 import termDisplay from "./directives/termDisplay/termDisplay";
 import termDisplayTemp from "./directives/termDisplay/termDisplay.html";
+import searchBar from "./directives/searchBar/searchBar";
+import searchBarTemp from "./directives/searchBar/searchBar.html";
 
 
 // Views
@@ -58,6 +60,7 @@ angular.module( "marathiApp", [uiRouter, angularMaterialize])
 .directive("lessonDisplay", lessonDisplay)
 .directive("progressCircle", progressCircle)
 .directive("termDisplay", termDisplay)
+.directive("searchBar", searchBar)
 .config(function($stateProvider, $urlRouterProvider) {
 	$stateProvider
 		.state("home", {

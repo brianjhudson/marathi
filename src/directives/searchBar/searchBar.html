@@ -1,0 +1,9 @@
+<article>
+  <h5>Search</h5>
+  <i class="material-icons youtube_search_for"></i>
+  <input type="text" class="search" placeholder="Search lessons" ng-model="searchTerm">
+  <div ng-show="searchTerm" ng-repeat="lesson in currentUser.lessons | filter: searchTerm">
+    <h6>{{lesson.lessonDetails.title}}</h6>
+    <p>{{lesson.lessonDetails.description | limitTo: 50}}...</p>
+  </div>
+</article>

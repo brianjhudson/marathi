@@ -1,13 +1,11 @@
-<div class="row">
-  <article class="welcome col s12 m8 offset-m2 l6 offset-l3">
-    <header class="valign-wrapper">
-      <img ng-src="{{currentUser.photo}}" alt="" class="circle col s2">
-      <h4 class="col s10">{{currentUser.name}}</h4>
-    </header>
-    <h5 class="row center-align">Welcome<span ng-if="currentUser.returning"> Back</span>!</h5>
-    <main ng-hide="!currentUser.loggedIn" class="col s6 offset-s3">
-      <h6><span class="figure">{{currentUser.lessons.length || 0}}</span> Lessons Completed</h6>
-      <h6><span class="figure">{{currentUser.dayStreak}}</span> Day Streak</h6>
-    </main>
-  </article>
-</div>
+<article class="user-summary">
+  <header class="valign-wrapper">
+    <img ng-src="{{currentUser.photo}}" alt="" class="circle responsive-img">
+    <h4 class="">{{currentUser.name}}</h4>
+  </header>
+  <h5 class="row center-align">Welcome<span ng-if="currentUser.returning"> Back</span>!</h5>
+  <main ng-hide="!currentUser.loggedIn" class="">
+    <h6><span class="figure">{{currentUser.lessons.length || 0}}</span> Lessons Completed</h6>
+    <h6><span class="figure">{{currentUser.dayStreak}}</span> Day Streak</h6>
+  </main>
+</article>
