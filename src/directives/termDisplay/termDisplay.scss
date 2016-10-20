@@ -15,6 +15,14 @@
     .card-title {
       font-size: 1.25em;
     }
+    .term-credit {
+      @include credit();
+      font-size: 0.5em;
+    }
+    audio {
+      width: 30px;
+      float: right;
+    }
   }
   #button-wrapper {
     display: flex;

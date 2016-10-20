@@ -9,6 +9,8 @@
     <div class="card term-card">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator responsive-img" ng-src="{{lesson.lessonDetails.terms[lesson.currentTerm].image}}">
+        <p class="term-credit right-align">{{lesson.lessonDetails.terms[lesson.currentTerm].imageCredit | limitTo: 50}}</p>
+
       </div>
       <div class="card-content">
         <span class="card-title activator grey-text text-darken-4">{{lesson.lessonDetails.terms[lesson.currentTerm].term}}<i class="material-icons right">more_vert</i></span>
@@ -21,12 +23,12 @@
         </span>
         <p>
           {{lesson.lessonDetails.terms[lesson.currentTerm].transliteration}}
-          <!-- <audio controls autoplay>
+          <audio controls autoplay>
             <source
             src="{{lesson.lessonDetails.terms[lesson.currentTerm].sound}}"
-            type="audio/mp4"
+            type="audio/x-m4a"
             >
-            </audio> -->
+            </audio>
         </p>
         <p>{{lesson.lessonDetails.terms[lesson.currentTerm].explanation}}</p>
         <br>

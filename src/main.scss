@@ -14,6 +14,12 @@ h6 {
   font-weight: 400;
 }
 
+@mixin credit() {
+  width: 90%;
+  font-style: italic;
+  font-size: 90%;
+}
+
 @import "./views/home";
 @import "./directives/navbar/nav";
 @import "./views/user.scss";

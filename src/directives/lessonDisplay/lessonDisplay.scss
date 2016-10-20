@@ -1,5 +1,12 @@
 .lesson-display {
   .title {
-    font-family: $script-font;    
+    font-family: $script-font;
   }
+  .cover-image {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+.credit {
+  @include credit()
 }

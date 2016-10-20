@@ -3,8 +3,10 @@
   <main>
     <div class="cover">
       <h5 class="title">{{currentUser.selectedLesson.lessonDetails.title}}</h5>
-      <img class="cover-image responsive-img" ng-src="{{currentUser.selectedLesson.lessonDetails.image}}" alt="">
-      <p class="credit right-align">{{currentUser.selectedLesson.lessonDetails.imageCredit}}</p>
+      <div class="center-align">
+        <img class="cover-image responsive-img" ng-src="{{currentUser.selectedLesson.lessonDetails.image}}" alt="">
+      </div>
+      <p class="credit right-align">{{currentUser.selectedLesson.lessonDetails.imageCredit | limitTo: 50}}</p>
       <p class="description">{{currentUser.selectedLesson.lessonDetails.description}}</p>
       <div class="divider"></div>
       <p class="source">{{currentUser.selectedLesson.lessonDetails.source}}</p>
