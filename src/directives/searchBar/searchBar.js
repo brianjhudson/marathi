@@ -20,7 +20,9 @@ function searchBar() {
           });
         }
         $scope.selectTerm = term => {
-
+          userService.setCurrentTerm(term).then(result => {
+            console.log(result);
+          })
         }
 
     }

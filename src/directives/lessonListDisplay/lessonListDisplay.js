@@ -15,9 +15,11 @@ function lessonListDisplay() {
           // TODO: Add regular getLessons for guest
         });
         $scope.selectLesson = (lesson) => {
-          userService.selectLesson(lesson);
+          userService.selectLesson(lesson).then(result => {
+            console.log(result);
+          });
         }
-        
+
     }
 
   }

@@ -5,7 +5,7 @@
   <div ng-show="searchTerm" ng-repeat="lesson in currentUser.lessons | filter: searchTerm">
     <h6 ng-click="selectLesson(lesson)">{{lesson.lessonDetails.title}}</h6>
     <ul ng-repeat="term in lesson.lessonDetails.terms | filter: searchTerm">
-      <li ng-click="selectTerm(term)">{{term.term}}, {{term.transliteration}}, {{term.explanation | limitTo: 20}}</li>
+      <li ng-href="#termDisplayModal" ng-click="selectTerm(term)" modal>{{term.term}}, {{term.transliteration}}, {{term.explanation | limitTo: 20}}</li>
     </ul>
   </div>
 </article>
