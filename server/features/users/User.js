@@ -10,7 +10,12 @@ const User = new mongoose.Schema({
   , lastLogin: {type: Date, default: new Date()}
   , dayStreak: {type: Number, default: 0}
   , returning: {type: Boolean, default: false}
-  , selectedLesson: {type: mongoose.Schema.Types.ObjectId, ref: "Lesson"}
+  , selectedLesson: {
+      lessonId: {type: mongoose.Schema.Types.ObjectId, ref: "Lesson", default: "58054c8edcba0f490c709c3f"}
+      , completed: {type: Boolean, default: false}
+      , score: {type: Number, default: 0}
+      , currentTerm: {type: Number, default: 0}
+  }
   , lessons: [{
       lessonId: {type: mongoose.Schema.Types.ObjectId, ref: "Lesson"}
       , completed: {type: Boolean, default: false}

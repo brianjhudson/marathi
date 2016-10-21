@@ -18,10 +18,10 @@ function userService($http, $rootScope, lessonService) {
               this.currentUser.lessons[i].lessonDetails = result.data;
             })
           }
-          if (!this.currentUser.selectedLesson._id) {
-            this.currentUser.selectedLesson = this.currentUser.lessons[0];
-            console.log(this.currentUser.selectedLesson);
-          }
+          // if (!this.currentUser.selectedLesson._id) {
+          //   this.currentUser.selectedLesson = this.currentUser.lessons[0];
+          //   console.log(this.currentUser.selectedLesson);
+          // }
           let lastLogin = new Date(this.currentUser.lastLogin).getTime();
           let today = new Date().getTime();
           let dateJoined = new Date(this.currentUser.dateJoined).getTime();
@@ -38,7 +38,7 @@ function userService($http, $rootScope, lessonService) {
     this.selectLesson = (lesson) => {
       this.currentUser.selectedLesson = lesson;
       $rootScope.$emit("userUpdate", this.currentUser)
-      return $http.put("/api/users/select", {id: lesson._id}).then(result => {
+      return $http.put("/api/users/select", lesson).then(result => {
         return result;
       })
     }
