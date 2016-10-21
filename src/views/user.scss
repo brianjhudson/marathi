@@ -12,5 +12,9 @@
     border: 1px solid $theme-color;
     border-radius: 20px;
     padding-left: 10px;
+
+    &:active {
+      border: 2px solid $theme-color;
+    }
   }
 }

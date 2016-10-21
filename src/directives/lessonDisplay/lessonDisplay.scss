@@ -1,6 +1,8 @@
 .lesson-display {
-  width: 80%;
-  margin: 0 auto;
+  @media (min-width: 900px) {
+    width: 80%;
+    margin: 0 auto;    
+  }
   .title {
     font-family: $script-font;
   }
