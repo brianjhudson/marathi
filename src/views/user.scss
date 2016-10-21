@@ -1,6 +1,6 @@
 .user-home-container {
   min-height: 100vh;
-  background: url("https://hd.unsplash.com/photo-1470075446540-4391a96ec621") no-repeat center center;
+  background: $theme-color url("https://hd.unsplash.com/photo-1470075446540-4391a96ec621") no-repeat center center;
   background-size: cover;
 
   .dashboard {

@@ -6,6 +6,7 @@ function termDisplay() {
     , replace: true
     , template: termDisplayTemp
     , scope: {
+        mode: "="
     }
     , controller: function($scope, $state, $rootScope, userService) {
         // Initial State
@@ -24,7 +25,17 @@ function termDisplay() {
         }
         $rootScope.$on("userUpdate", function(event, user) {
           setTimeout(() => {
-            $scope.lesson = user.selectedLesson;
+            if ($scope.mode === "lesson") {
+              $scope.lesson = user.selectedLesson;
+            } else {
+              $scope.lesson = {
+                currentTerm: 0
+                , lessonDetails: {
+                  title: "Review"
+                  , terms: user.reviewItems
+                }
+              } 
+            }
             $scope.lesson.score = 0;
             if(!$scope.lesson.currentTerm) {
               $scope.lesson.currentTerm = 0;
@@ -46,9 +57,11 @@ function termDisplay() {
 
         $scope.finishLesson = () => {
           $scope.lesson.completed = true;
-          userService.saveUserLesson($scope.lesson).then(result => {
-            console.log(result);
-          });
+          if ($scope.mode === "lesson") {
+            userService.saveUserLesson($scope.lesson).then(result => {
+              console.log(result);
+            });
+          }
         }
         $scope.previousTerm = () => {
           $scope.lesson.currentTerm--;
