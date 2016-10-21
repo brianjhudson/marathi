@@ -35,6 +35,9 @@ import termDisplay from "./directives/termDisplay/termDisplay";
 import termDisplayTemp from "./directives/termDisplay/termDisplay.html";
 import searchBar from "./directives/searchBar/searchBar";
 import searchBarTemp from "./directives/searchBar/searchBar.html";
+import check from "./directives/progressIndicator/check";
+import checkTemp from "./directives/progressIndicator/check.html";
+
 
 
 // Views
@@ -61,6 +64,7 @@ angular.module( "marathiApp", [uiRouter, angularMaterialize])
 .directive("progressCircle", progressCircle)
 .directive("termDisplay", termDisplay)
 .directive("searchBar", searchBar)
+.directive("check", check)
 .config(function($stateProvider, $urlRouterProvider) {
 	$stateProvider
 		.state("home", {

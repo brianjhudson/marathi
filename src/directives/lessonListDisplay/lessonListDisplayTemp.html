@@ -3,8 +3,10 @@
   <div class="lesson-summary" ng-class="{'active': currentUser.selectedLesson === lesson}" ng-repeat="lesson in currentUser.lessons" ng-click="selectLesson(lesson)">
     <h6 class="title">{{lesson.lessonDetails.title}}</h6>
     <div class="valign-wrapper">
-      <img class="col s8 responsive-img" ng-src="{{lesson.lessonDetails.image}}" alt="">
-      <div class="col s4"><progress-circle progress="lesson.progress"></progress-circle></div>
+      <img class="col s8 responsive-img" ng-show="lesson.completed" ng-src="{{lesson.lessonDetails.image}}" alt="">
+      <img class="col s12 responsive-img" ng-hide="lesson.completed" ng-src="{{lesson.lessonDetails.image}}" alt="">
+
+      <div class="col s4" ng-show="lesson.completed"><check></check></div>
     </div>
     <p>{{lesson.lessonDetails.description | limitTo: 50}}...</p>
   </div>

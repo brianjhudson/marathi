@@ -11,7 +11,7 @@ function lessonListDisplay() {
     , controller: function($scope, $rootScope, userService, lessonService) {
         $scope.currentUser = userService.currentUser;
         $rootScope.$on("userUpdate", function(event, user) {
-          $scope.currentUser = user;
+          $scope.currentUser = user;          
         });
 
         $scope.selectLesson = (lesson) => {

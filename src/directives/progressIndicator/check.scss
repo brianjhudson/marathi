@@ -1,0 +1,20 @@
+.check-container {
+  width: 80%;
+  margin: 0 auto;
+  // -ms-transform: rotate(-90deg); /* IE 9 */
+  // -ms-transform-origin: 50% 50%; /* IE 9 */
+  // -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+  // -webkit-transform-origin: 50% 50%; /* Chrome, Safari, Opera */
+  // transform: rotate(-90deg);
+  // transform-origin: 50% 50%;
+}
+.path {
+  stroke-dasharray: 100 100;  /*Stroke length is 594, gap is also 594; radius is 95.54*/
+  stroke-dashoffset: 100; /*The offset has to be the length of the stroke */
+  animation: dash 1s linear forwards;
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0; /*But we want the offset to go to zero (full length) or some value between.*/
+  }
+}

@@ -10,6 +10,7 @@ function lessonListItem() {
         lesson: "="
       }
     , link: function(scope, element, attr) {
+
     }
     , controller: function($scope, userService) {
 
