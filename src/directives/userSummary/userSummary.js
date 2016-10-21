@@ -11,6 +11,7 @@ function userSummary() {
         $scope.currentUser = userService.currentUser;
         $rootScope.$on("userUpdate", function(event, data) {
           $scope.currentUser = data;
+          $scope.lessonsCompleted = userService.getLessonsCompleted();          
         });
     }
   }
