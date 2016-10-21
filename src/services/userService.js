@@ -8,11 +8,11 @@ function userService($http, $rootScope, lessonService) {
           this.currentUser = response.data;
           this.currentUser.loggedIn = true;
           for (let i = 0; i < this.currentUser.lessons.length; i++) {
-            if (this.currentUser.lessons[i].completed = true) {
+            if (this.currentUser.lessons[i].completed === true) {
               this.lessonsCompleted++;
               this.currentUser.lessons[i].progress = 100;
             } else {
-              this.currentUser.lessons[i].progress = parseInt(this.currentUser.lessons[i].currentTerm / this.currentUser.lessons[i].length * 100);
+              this.currentUser.lessons[i].progress = Math.round(this.currentUser.lessons[i].currentTerm / this.currentUser.lessons[i].length * 100);
             }
             lessonService.getLessonById(this.currentUser.lessons[i]._id).then(result => {
               this.currentUser.lessons[i].lessonDetails = result.data;

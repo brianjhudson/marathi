@@ -6,10 +6,10 @@ function progressCircle() {
     , replace: true
     , template: progressCircleTemp
     , scope: {
-        showNumber: "="
-        , progress: "="
+        progress: "="
     }
     , controller: function($scope, $rootScope, userService) {
+        console.log($scope.progress);
         setTimeout(animateCounter(), 500)
         function animateCounter() {
           for (let i = 0; i <= $scope.progress; i++) {
