@@ -9,7 +9,7 @@ function termDisplay() {
     }
     , controller: function($scope, $state, $rootScope, userService) {
         // Initial State
-
+        $scope.loading = true;
         $scope.currentUser = userService.currentUser;
         $scope.stateName = $state.current.name;
         $scope.lesson = {};
@@ -23,12 +23,15 @@ function termDisplay() {
           , answers: ["a", "b", "c", "d"]
         }
         $rootScope.$on("userUpdate", function(event, user) {
-          $scope.lesson = user.selectedLesson;
-          $scope.lesson.score = 0;
-          if(!$scope.lesson.currentTerm) {
-            $scope.lesson.currentTerm = 0;
-            $scope.beginning = true;
-          }
+          setTimeout(() => {
+            $scope.lesson = user.selectedLesson;
+            $scope.lesson.score = 0;
+            if(!$scope.lesson.currentTerm) {
+              $scope.lesson.currentTerm = 0;
+              $scope.beginning = true;
+            }
+            $scope.loading = false;
+          }, 1000)
         });
 
         $scope.answerQuestion = (answer) => {

@@ -5,7 +5,20 @@
     <div class="progress"><div class="determinate" style="width: {{progress}}%"></div>
 </div>
   </div>
-  <div class="modal-content">
+  <div class="modal-content" ng-show="loading">
+    <div class="preloader-wrapper big active">
+      <div class="spinner-layer spinner-blue-only">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-content" ng-hide="loading">
     <div ng-show="review.reviewMode" class="card review-card">
       <div class="card-image valign-wrapper center-align">
         <img ng-hide="revealAnswer" ng-src="{{review.reviewImage}}">
