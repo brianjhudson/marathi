@@ -15,5 +15,12 @@ function lessonService($http, $rootScope) {
     return $http.get("/api/lessons").then(result => result);
   }
 
+  this.formatGuestLessons = (lessons) => {
+    let userLessons = [];
+    for (let i = 0; i < lessons.length; i++) {
+      userLessons[i] = {lessonDetails: lessons[i]};
+    };
+    return userLessons;
+  }
 }
 export default lessonService;
