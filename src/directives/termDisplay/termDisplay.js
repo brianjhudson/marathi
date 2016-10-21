@@ -44,6 +44,12 @@ function termDisplay() {
           }
         }
 
+        $scope.finishLesson = () => {
+          $scope.lesson.completed = true;
+          userService.saveUserLesson($scope.lesson).then(result => {
+            console.log(result);
+          });
+        }
         $scope.previousTerm = () => {
           $scope.lesson.currentTerm--;
           if ($scope.lesson.currentTerm === 0) $scope.beginning = true;

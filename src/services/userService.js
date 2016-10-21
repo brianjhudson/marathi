@@ -30,6 +30,27 @@ function userService($http, $rootScope, lessonService) {
       this.currentUser.selectedLesson = lesson;
       $rootScope.$emit("userUpdate", this.currentUser)
     }
+
+    this.saveUserLesson = (lesson) => {
+      // Update selected Lesson
+      this.currentUser.selectedLesson = lesson;
+      const lessonObj = {
+        id: lesson._id
+        , completed: lesson.completed
+        , score: lesson.score
+      };
+
+      // Update actual lesson in user schema
+      for (let i = 0; i < this.currentUser.lessons.length; i++) {
+        if (this.currentUser.selectedLesson._id === this.currentUser.lessons[i]._id) {
+          this.currentUser.lessons[i] = this.currentUser.selectedLesson;
+        }
+      }
+      $rootScope.$emit("userUpdate", this.currentUser);
+      return $http.post("/api/users/lesson", lessonObj).then(result => {
+        return result;
+      })
+    }
 }
 
 export default userService;
