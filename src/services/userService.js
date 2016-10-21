@@ -18,9 +18,13 @@ function userService($http, $rootScope, lessonService) {
           if (!this.currentUser.selectedLesson) {
             this.currentUser.selectedLesson = this.currentUser.lessons[0];
           }
-          this.currentUser.dayStreak = parseInt((this.currentUser.lastLogin.getTime() - this.currentUser.dateJoined.getTime()) / (1000 * 60 * 60 * 24));
-          if (this.currentUser.dayStreak > 0) this.currentUser.returning = true;
-
+          let lastLogin = new Date(this.currentUser.lastLogin).getTime();
+          let today = new Date().getTime();
+          let dateJoined = new Date(this.currentUser.dateJoined).getTime();
+          if ((lastLogin - dateJoined) > 1000) this.currentUser.returning = true;
+          if ((today - lastLogin) > (24 * 3600000) && (today - lastLogin) < (48 * 3600000)) {
+            this.currentUser.dayStreak++;
+          }
           $rootScope.$emit("userUpdate", this.currentUser);
         }
         return this.currentUser;
