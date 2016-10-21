@@ -12,6 +12,11 @@
   .modal-content {
     padding-bottom: 0px;
 
+    #review-image, #congrat-image, #lesson-image  {
+      height: 300px;
+      width: auto;
+      max-width: 80%;
+    }
     .card-title {
       font-size: 1.25em;
     }

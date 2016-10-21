@@ -20,17 +20,20 @@
   </div>
   <div class="modal-content" ng-hide="loading">
     <div ng-show="review.reviewMode" class="card review-card">
-      <div class="card-image valign-wrapper center-align">
-        <img ng-hide="revealAnswer" ng-src="{{review.reviewImage}}">
-        <img ng-show="showCongratulations" src="https://images.unsplash.com/photo-1472162072942-cd5147eb3902?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=700a3af0851978b7b35cba21f5e9414a">
-        <h2 ng-show="showIncorrectAnswer">Sorry!</h2>
-
+      <div class="card-image">
+        <img id="review-image" ng-hide="revealAnswer" ng-src="{{review.reviewImage}}">
+        <img id="congrat-image" ng-show="showCongratulations" src="https://images.unsplash.com/photo-1472162072942-cd5147eb3902?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=700a3af0851978b7b35cba21f5e9414a">
+        <img id="wrong-image" ng-show="showIncorrectAnswer" ng-src="https://c2.staticflickr.com/4/3675/9436653177_fd00cc9d2c_b.jpg" alt="">
         <span class="card-title"></span>
       </div>
       <div class="card-content">
         <p class="term-credit right-align">{{review.reviewImageCredit | limitTo: 50}}</p>
+        <p class="term-credit right-align" ng-show="showCongratulations">Ben White, unsplash.com</a></p>
+        <p class="term-credit right-align" ng-show="showIncorrectAnswer">Donnie Ray Jones, Flickr, <a href="https://creativecommons.org/licenses/by/2.0/legalcode">CC License</a></p>
+
         <span ng-hide="showCongratulations" class="card-title">{{review.reviewQuestion}}</span>
         <span ng-show="showCongratulations" class="card-title">Congratulations!</span>
+        <span ng-show="showIncorrectAnswer" class="card-title">Sorry! Better Luck Next Time.</span>
       </div>
       <div class="card-action center-align">
         <a class="answers" ng-hide="revealAnswer" ng-repeat="answer in review.answers" ng-click="answerQuestion(answer)">{{answer}}</a>
@@ -39,7 +42,7 @@
     </div>
     <div ng-hide="review.reviewMode" class="card term-card">
       <div class="card-image waves-effect waves-block waves-light">
-        <img class="activator responsive-img" ng-src="{{lesson.lessonDetails.terms[lesson.currentTerm].image}}">
+        <img id="lesson-image" class="activator responsive-img" ng-src="{{lesson.lessonDetails.terms[lesson.currentTerm].image}}">
         <p class="term-credit right-align">{{lesson.lessonDetails.terms[lesson.currentTerm].imageCredit | limitTo: 50}}</p>
 
       </div>

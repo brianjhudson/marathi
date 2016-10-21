@@ -17,8 +17,9 @@ function termDisplay() {
         $scope.term = {};
         $scope.lesson.currentTerm = 0;
         $scope.progress = 0;
-        $scope.showCorrectAnswer = false;
+        $scope.showIncorrectAnswer = false;
         $scope.showCongratulations = false;
+        $scope.revealAnswer = false;
         $scope.review = {
           reviewMode: false
           , answers: ["a", "b", "c", "d"]
@@ -74,7 +75,7 @@ function termDisplay() {
             reviewMode: false
             , answers: ["a", "b", "c", "d"]
             }
-          $scope.showInCorrectAnswer = false;
+          $scope.showIncorrectAnswer = false;
           $scope.showCongratulations = false;
           $scope.revealAnswer = false;
 
@@ -98,15 +99,15 @@ function termDisplay() {
               reviewMode: false
               , answers: ["a", "b", "c", "d"]
               }
-            $scope.showInCorrectAnswer = false;
+            $scope.showIncorrectAnswer = false;
             $scope.showCongratulations = false;
             $scope.revealAnswer = false;
 
           } else {
+            $scope.review.reviewMode = true;
             $scope.review = terms[$scope.lesson.currentTerm];
             if ($scope.mode === "lesson") {
               $scope.review.answers = [];
-              $scope.review.reviewMode = true;
               $scope.review.answers.push($scope.review.reviewAnswer);
               // Generate three random indices, look up answers, and push to review
 
