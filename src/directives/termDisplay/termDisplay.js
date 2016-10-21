@@ -21,6 +21,7 @@ function termDisplay() {
         $scope.showCongratulations = false;
         $scope.revealAnswer = false;
         $scope.exit = false;
+        $scope.beginning = true;
         $scope.finished = false;
         $scope.review = {
           reviewMode: false
@@ -58,7 +59,7 @@ function termDisplay() {
         }
 
         $scope.previousTerm = () => {
-          $scope.lesson.currentTerm--;
+          if ($scope.lesson.currentTerm > 0) $scope.lesson.currentTerm--;
           if ($scope.lesson.currentTerm === 0) $scope.beginning = true;
           $scope.progress = parseInt($scope.lesson.currentTerm / $scope.lesson.lessonDetails.terms.length * 100);
           //Reset review properties
@@ -78,11 +79,11 @@ function termDisplay() {
           let lessonLength = terms.length;
           // If just finished a review question, proceed to next term and reset review
           if ($scope.review.reviewMode) {
-            if($scope.lesson.currentTerm === lessonLength - 1) {
+            if($scope.lesson.currentTerm === $scope.lesson.lessonDetails.terms.length - 1) {
               $scope.finished = true;
             } else {
               $scope.lesson.currentTerm++;
-              $scope.progress = parseInt($scope.lesson.currentTerm / lessonLength * 100);
+              $scope.progress = parseInt($scope.lesson.currentTerm / $scope.lesson.lessonDetails.terms.length * 100);
             }
             // Reset reviewObject
             $scope.review = {
@@ -94,21 +95,20 @@ function termDisplay() {
             $scope.revealAnswer = false;
 
           } else {
-            $scope.review.reviewMode = true;
-            $scope.review = terms[$scope.lesson.currentTerm];
+            $scope.review = $scope.lesson.lessonDetails.terms[$scope.lesson.currentTerm];
             $scope.review.answers = [];
             $scope.review.answers.push($scope.review.reviewAnswer);
             // Generate three random indices, look up answers, and push to review
 
             for (let i = 0; i < 3; i++) {
-              let answerIndex = Math.floor(Math.random() * lessonLength);
-              while ($scope.review.answers.indexOf(terms[answerIndex].term) !== -1 || $scope.review.answers.indexOf(terms[answerIndex].transliteration) !== -1) {
-                answerIndex = Math.floor(Math.random() * lessonLength);
+              let answerIndex = Math.floor(Math.random() * $scope.lesson.lessonDetails.terms.length);
+              while ($scope.review.answers.indexOf($scope.lesson.lessonDetails.terms[answerIndex].term) !== -1 || $scope.review.answers.indexOf($scope.lesson.lessonDetails.terms[answerIndex].transliteration) !== -1) {
+                answerIndex = Math.floor(Math.random() * $scope.lesson.lessonDetails.terms.length);
               }
               if ($scope.review.reviewAnswerType === "transliteration")  {
-                $scope.review.answers.push(terms[answerIndex].transliteration)
+                $scope.review.answers.push($scope.lesson.lessonDetails.terms[answerIndex].transliteration)
               } else {
-                $scope.review.answers.push(terms[answerIndex].term)
+                $scope.review.answers.push($scope.lesson.lessonDetails.terms[answerIndex].term)
               }
             }
             // Put answer in random position
@@ -116,6 +116,7 @@ function termDisplay() {
             $scope.review.answers.splice(0, 1)
             $scope.review.answers.splice(answerIndex, 0, $scope.review.reviewAnswer);
             $scope.revealAnswer = false;
+            $scope.review.reviewMode = true;
           }
 
         }

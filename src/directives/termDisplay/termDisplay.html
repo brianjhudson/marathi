@@ -95,9 +95,9 @@
   </div>
   <!-- Action Buttons -->
   <div id="button-wrapper" ng-hide="loading">
-    <a ng-hide="beginning" ng-click="previousTerm()" class="btn next-term-button">Previous</a><br>
-    <a ng-hide="finished" ng-click="nextTerm()" class="btn next-term-button">Next</a><br>
-    <a ng-show="finished" ng-click="finishLesson()" class="btn exit-button">Finish</a><br>
+    <a ng-hide="beginning" ng-click="previousTerm()" class="previous-term-button"><i class="large material-icons">skip_previous</i></a><br>
+    <a ng-hide="finished" ng-click="nextTerm()" class="next-term-button"><i class="large material-icons">skip_next</i></a><br>
+    <a ng-show="finished" ng-click="finishLesson()" class="btn-flat exit-button">Finish</a><br>
     <a ng-show="exit" class="modal-action modal-close waves-effect waves-light btn exit-button">Exit</a><br>
   </div>
 </div>

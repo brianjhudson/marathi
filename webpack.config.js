@@ -10,7 +10,7 @@ module.exports = {
   , module: {
       loaders: [
 
-        { test: /\.js$/, include: path.join( __dirname, 'src' ), loaders: [ 'babel' ] },
+        { test: /\.js$/, include: path.join( __dirname, 'src' ), loaders: [ 'ng-annotate', 'babel' ] },
         { test: /\.html$/, loader: 'html' },
         { test: /(\.css)$/, loaders: [ 'style', 'css' ] },
         { test: /(\.scss)$/, loaders: [ 'style', 'css', 'sass' ] },
