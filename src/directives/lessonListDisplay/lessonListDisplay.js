@@ -13,8 +13,9 @@ function lessonListDisplay() {
         $rootScope.$on("userUpdate", function(event, user) {
           $scope.currentUser = user;
           if (!$scope.currentUser.loggedIn) {
-            lessonService.getLessons().then(result = {
+            lessonService.getLessons().then(result => {
               $scope.currentUser.lessons = lessonService.formatGuestLessons(result.data);
+              console.log(fired);
             })
           }
           // TODO: Add regular getLessons for guest

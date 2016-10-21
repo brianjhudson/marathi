@@ -3,18 +3,19 @@
     <a class="brand-logo" ui-sref="home"><img src="../../images/marathi-logo.png" alt=""></a>
     <a href="#" class="button-collapse" data-activates="nav-mobile" data-sidenav="left" data-menuwidth="500" data-closeonclick="true"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down main-nav">
-      <li ng-show="currentUser.loggedIn"><a ui-sref="user">Profile</a></li>
-      <li ng-show="currentUser.loggedIn || guest"><a ui-sref="lessons">Lessons</a></li>
-      <li ng-show="currentUser.loggedIn"><a ui-sref="review">Review</a></li>
-      <li ng-hide="currentUser.loggedIn"><a ui-sref="user">Start Learning</a></li>
+      <li ng-show="currentUser.loggedIn || guest"><a modal href="#termDisplayModal">Launch Lesson</a></li>
+      <!-- <li ng-show="currentUser.loggedIn"><a ui-sref="review">Review</a></li> -->
+      <!-- <li ng-hide="currentUser.loggedIn"><a ui-sref="user">Start Learning</a></li> -->
       <li ng-hide="currentUser.loggedIn"><a modal href="#loginModal">Sign In</a></li>
       <li ng-show="currentUser.loggedIn || guest"><a href="/logout">Logout</a></li>
     </ul>
     <ul class="side-nav" id="nav-mobile">
-      <li ng-show="currentUser.loggedIn"><a ui-sref="user">Profile</a></li>
-      <li ng-show="currentUser.loggedIn || guest"><a ui-sref="lessons">Lessons</a></li>
-      <li ng-show="currentUser.loggedIn"><a ui-sref="review">Review</a></li>
-      <li ng-hide="currentUser.loggedIn"><a ui-sref="user">Start Learning</a></li>
+      <a class="button-collapse" data-activates="nav-mobile" data-closeonclick="true">&times;</a>
+      <br>
+      <!-- <li ng-show="currentUser.loggedIn"><a ui-sref="user">Profile</a></li> -->
+      <li ng-show="currentUser.loggedIn || guest"><a modal href="#termDisplayModal">Launch Lesson</a></li>
+      <!-- <li ng-show="currentUser.loggedIn"><a ui-sref="review">Review</a></li>
+      <li ng-hide="currentUser.loggedIn"><a ui-sref="user">Start Learning</a></li> -->
       <li ng-hide="currentUser.loggedIn"><a modal href="#loginModal">Sign In</a></li>
       <li ng-show="currentUser.loggedIn"><a href="/logout">Logout</a></li>
     </ul>
