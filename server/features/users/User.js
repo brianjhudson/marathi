@@ -9,6 +9,7 @@ const User = new mongoose.Schema({
   , dateJoined: {type: Date, default: new Date()}
   , lastLogin: {type: Date, default: new Date()}
   , dayStreak: {type: Number, default: 0}
+  , returning: {type: Boolean, default: false}
   , selectedLesson: {type: mongoose.Schema.Types.ObjectId, ref: "Lesson"}
   , lessons: [{
       lessonId: {type: mongoose.Schema.Types.ObjectId, ref: "Lesson"}

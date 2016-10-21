@@ -1,24 +1,26 @@
 function userService($http, $rootScope, lessonService) {
     this.currentUser = {loggedIn: false, selectedLesson: {currentTerm: 0, terms: []}};
-    let lessonSelected = false;
+    this.lessonCompleted = 0;
 
     this.getUser = () => {
       return $http.get("/user").then(response => {
         if (response.data) {
           this.currentUser = response.data;
           this.currentUser.loggedIn = true;
-          // Populate details for lessons
-          // This allows users to customize each lesson -- but requires a second call to original lessons
           for (let i = 0; i < this.currentUser.lessons.length; i++) {
-            //Set selected lesson
-            if (!lessonSelected && this.currentUser.lessons[i].completed == false) {
-              this.currentUser.selectedLesson = this.currentUser.lessons[i];
-              lessonSelected = true;
+            if (this.currentUser.lessons[i].completed = true) {
+              this.lessonsCompleted++;
             }
             lessonService.getLessonById(this.currentUser.lessons[i]._id).then(result => {
               this.currentUser.lessons[i].lessonDetails = result.data;
             })
           }
+          if (!this.currentUser.selectedLesson) {
+            this.currentUser.selectedLesson = this.currentUser.lessons[0];
+          }
+          this.currentUser.dayStreak = parseInt((this.currentUser.lastLogin.getTime() - this.currentUser.dateJoined.getTime()) / (1000 * 60 * 60 * 24));
+          if (this.currentUser.dayStreak > 0) this.currentUser.returning = true;
+
           $rootScope.$emit("userUpdate", this.currentUser);
         }
         return this.currentUser;
