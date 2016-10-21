@@ -21,30 +21,21 @@ function termDisplay() {
         $scope.showCongratulations = false;
         $scope.revealAnswer = false;
         $scope.exit = false;
+        $scope.finished = false;
         $scope.review = {
           reviewMode: false
           , answers: ["a", "b", "c", "d"]
         }
         $rootScope.$on("userUpdate", function(event, user) {
-            if ($scope.mode === "lesson") {
-              $scope.currentUser = user;
-              $scope.lesson = user.selectedLesson;
-            } else {
-              $scope.lesson = {
-                currentTerm: 0
-                , lessonDetails: {
-                    title: "Review"
-                  , terms: user.reviewItems
-                }
-              }
-            }
-            $scope.lesson.score = 0;
-            if(!$scope.lesson.currentTerm) {
-              $scope.lesson.currentTerm = 0;
-              $scope.beginning = true;
-            }
-            $scope.loading = false;
-          });
+          $scope.currentUser = user;
+          $scope.lesson = user.selectedLesson;
+          $scope.lesson.score = 0;
+          if(!$scope.lesson.currentTerm) {
+            $scope.lesson.currentTerm = 0;
+            $scope.beginning = true;
+          }
+          $scope.loading = false;
+        });
 
         $scope.answerQuestion = (answer) => {
           $scope.revealAnswer = true;
@@ -61,12 +52,11 @@ function termDisplay() {
           $scope.lesson.completed = true;
           $scope.exit = true;
           $scope.progress = Math.round($scope.lesson.score / $scope.lesson.lessonDetails.terms.length * 100);
-          if ($scope.mode === "lesson") {
-            userService.saveUserLesson($scope.lesson).then(result => {
-              console.log(result);
-            });
-          }
+          userService.saveUserLesson($scope.lesson).then(result => {
+            console.log(result);
+          });
         }
+
         $scope.previousTerm = () => {
           $scope.lesson.currentTerm--;
           if ($scope.lesson.currentTerm === 0) $scope.beginning = true;
@@ -79,7 +69,6 @@ function termDisplay() {
           $scope.showIncorrectAnswer = false;
           $scope.showCongratulations = false;
           $scope.revealAnswer = false;
-
         }
 
         $scope.nextTerm = () => {
@@ -107,27 +96,25 @@ function termDisplay() {
           } else {
             $scope.review.reviewMode = true;
             $scope.review = terms[$scope.lesson.currentTerm];
-            if ($scope.mode === "lesson") {
-              $scope.review.answers = [];
-              $scope.review.answers.push($scope.review.reviewAnswer);
-              // Generate three random indices, look up answers, and push to review
+            $scope.review.answers = [];
+            $scope.review.answers.push($scope.review.reviewAnswer);
+            // Generate three random indices, look up answers, and push to review
 
-              for (let i = 0; i < 3; i++) {
-                let answerIndex = Math.floor(Math.random() * lessonLength);
-                while ($scope.review.answers.indexOf(terms[answerIndex].term) !== -1 || $scope.review.answers.indexOf(terms[answerIndex].transliteration) !== -1) {
-                  answerIndex = Math.floor(Math.random() * lessonLength);
-                }
-                if ($scope.review.reviewAnswerType === "transliteration")  {
-                  $scope.review.answers.push(terms[answerIndex].transliteration)
-                } else {
-                  $scope.review.answers.push(terms[answerIndex].term)
-                }
+            for (let i = 0; i < 3; i++) {
+              let answerIndex = Math.floor(Math.random() * lessonLength);
+              while ($scope.review.answers.indexOf(terms[answerIndex].term) !== -1 || $scope.review.answers.indexOf(terms[answerIndex].transliteration) !== -1) {
+                answerIndex = Math.floor(Math.random() * lessonLength);
               }
-              // Put answer in random position
-              let answerIndex = Math.floor(Math.random() * 4);
-              $scope.review.answers.splice(0, 1)
-              $scope.review.answers.splice(answerIndex, 0, $scope.review.reviewAnswer);
+              if ($scope.review.reviewAnswerType === "transliteration")  {
+                $scope.review.answers.push(terms[answerIndex].transliteration)
+              } else {
+                $scope.review.answers.push(terms[answerIndex].term)
+              }
             }
+            // Put answer in random position
+            let answerIndex = Math.floor(Math.random() * 4);
+            $scope.review.answers.splice(0, 1)
+            $scope.review.answers.splice(answerIndex, 0, $scope.review.reviewAnswer);
             $scope.revealAnswer = false;
           }
 

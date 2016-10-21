@@ -10,14 +10,12 @@ function lessonDisplay() {
 
     }
     , controller: function($scope, $rootScope, userService, lessonService) {
+        $scope.mode = "lesson"
         $scope.currentUser = userService.currentUser;
         $rootScope.$on("userUpdate", function(event, user) {
-          console.log(user);
           $scope.currentUser = user;
         })
-
     }
-
   }
 }
 

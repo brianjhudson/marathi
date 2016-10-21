@@ -29,7 +29,7 @@
       <progress-circle progress="progress"></progress-circle>
     </div>
     <!-- Review Card -->
-    <div ng-show="review.reviewMode" class="card review-card" ng-hide="loading">
+    <div ng-hide="!review.reviewMode || finished || loading" class="card review-card" ng-hide="loading">
       <div class="card-image">
         <img id="review-image" ng-hide="revealAnswer" ng-src="{{review.reviewImage}}">
         <img id="congrat-image" ng-show="showCongratulations" src="https://images.unsplash.com/photo-1472162072942-cd5147eb3902?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=700a3af0851978b7b35cba21f5e9414a">
@@ -52,7 +52,7 @@
     </div>
 
     <!-- Lesson Card -->
-    <div ng-hide="review.reviewMode" class="card term-card">
+    <div ng-hide="review.reviewMode || loading || finished" class="card term-card">
       <div class="card-image waves-effect waves-block waves-light">
         <img id="lesson-image" class="activator responsive-img" ng-src="{{lesson.lessonDetails.terms[lesson.currentTerm].image}}">
         <p class="term-credit right-align">{{lesson.lessonDetails.terms[lesson.currentTerm].imageCredit | limitTo: 50}}</p>
