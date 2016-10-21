@@ -41,7 +41,7 @@
         <p class="term-credit right-align" ng-show="showCongratulations">Ben White, unsplash.com</a></p>
         <p class="term-credit right-align" ng-show="showIncorrectAnswer">Donnie Ray Jones, Flickr, <a href="https://creativecommons.org/licenses/by/2.0/legalcode">CC License</a></p>
 
-        <span ng-hide="showCongratulations" class="card-title">{{review.reviewQuestion}}</span>
+        <span ng-hide="showCongratulations || showIncorrectAnswer" class="card-title">{{review.reviewQuestion}}</span>
         <span ng-show="showCongratulations" class="card-title">Congratulations!</span>
         <span ng-show="showIncorrectAnswer" class="card-title">Sorry! Better Luck Next Time.</span>
       </div>
