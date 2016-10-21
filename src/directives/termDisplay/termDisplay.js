@@ -26,6 +26,7 @@ function termDisplay() {
         $rootScope.$on("userUpdate", function(event, user) {
           setTimeout(() => {
             if ($scope.mode === "lesson") {
+              $scope.currentUser = user;
               $scope.lesson = user.selectedLesson;
             } else {
               $scope.lesson = {
@@ -34,7 +35,7 @@ function termDisplay() {
                   title: "Review"
                   , terms: user.reviewItems
                 }
-              } 
+              }
             }
             $scope.lesson.score = 0;
             if(!$scope.lesson.currentTerm) {
@@ -49,9 +50,10 @@ function termDisplay() {
           $scope.revealAnswer = true;
           if (answer === $scope.review.reviewAnswer) {
             $scope.showCongratulations = true;
-            $scope.lesson.score++
+            $scope.lesson.score++;
           } else {
             $scope.showIncorrectAnswer = true;
+            $scope.user.reviewItems.push($scope.review);
           }
         }
 
