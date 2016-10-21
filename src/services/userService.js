@@ -18,8 +18,9 @@ function userService($http, $rootScope, lessonService) {
               this.currentUser.lessons[i].lessonDetails = result.data;
             })
           }
-          if (!this.currentUser.selectedLesson) {
+          if (!this.currentUser.selectedLesson._id) {
             this.currentUser.selectedLesson = this.currentUser.lessons[0];
+            console.log(this.currentUser.selectedLesson);
           }
           let lastLogin = new Date(this.currentUser.lastLogin).getTime();
           let today = new Date().getTime();

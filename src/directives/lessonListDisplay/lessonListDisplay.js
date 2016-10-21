@@ -12,17 +12,10 @@ function lessonListDisplay() {
         $scope.currentUser = userService.currentUser;
         $rootScope.$on("userUpdate", function(event, user) {
           $scope.currentUser = user;
-          if (!$scope.currentUser.loggedIn) {
-            lessonService.getLessons().then(result => {
-              $scope.currentUser.lessons = lessonService.formatGuestLessons(result.data);
-              console.log(fired);
-            })
-          }
-          // TODO: Add regular getLessons for guest
         });
+
         $scope.selectLesson = (lesson) => {
           userService.selectLesson(lesson).then(result => {
-            console.log(result);
           });
         }
 
