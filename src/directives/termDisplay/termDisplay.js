@@ -10,7 +10,7 @@ function termDisplay() {
     , link: function(scope, element, attr) {
     }
     , controller: function($scope, $state, $rootScope, userService) {
-        // Call userService to get user
+        // Initial State
 
         $scope.currentUser = userService.currentUser;
         $scope.stateName = $state.current.name;
@@ -18,16 +18,15 @@ function termDisplay() {
         $scope.term = {};
         $scope.lesson.currentTerm = 0;
         $scope.progress = 0;
+        $scope.showCorrectAnswer = false;
+        $scope.showCongratulations = false;
         $scope.review = {
           reviewMode: false
           , answers: ["a", "b", "c", "d"]
         }
-        $scope.showCorrectAnswer = false;
-        $scope.showCongratulations = false;
         $rootScope.$on("userUpdate", function(event, user) {
           $scope.lesson = user.selectedLesson;
           $scope.lesson.score = 0;
-          // Initialize terms
           if(!$scope.lesson.currentTerm) {
             $scope.lesson.currentTerm = 0;
             $scope.beginning = true;

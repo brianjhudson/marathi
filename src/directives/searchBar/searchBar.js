@@ -15,7 +15,9 @@ function searchBar() {
           $scope.currentUser = user;
         });
         $scope.selectLesson = lesson => {
-          userService.selectLesson(lesson);
+          userService.selectLesson(lesson).then(result => {
+            console.log(result);
+          });
         }
         $scope.selectTerm = term => {
 

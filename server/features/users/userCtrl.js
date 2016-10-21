@@ -19,6 +19,13 @@ module.exports = {
       req.logout();
       res.redirect('/');
   }
+
+	, selectUserLesson(req, res) {
+			User.findByIdAndUpdate(req.user._id, {$set: {"selectedLesson": req.body.id}}, (err, user) => {
+				if (err) return res.status(500).json(err);
+				return res.status(200).json(user);
+			});
+	}
 	, saveUserLesson(req, res) {
 		User.findOneAndUpdate({_id: req.user._id, lessons: {_id: req.body.id}}, {$set: {
 				"lessons.$.score": req.body.score

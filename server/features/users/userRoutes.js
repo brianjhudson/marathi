@@ -11,4 +11,8 @@ module.exports = app => {
 
   app.get("/user", ensure.ensureLoggedIn(), userCtrl.getUser);
   app.get('/logout', userCtrl.logoutUser);
+
+  app.put("/api/users/save", ensure.ensureLoggedIn(), userCtrl.saveUserLesson);
+  app.put("/api/users/select", ensure.ensureLoggedIn(), userCtrl.selectUserLesson);
+
 }

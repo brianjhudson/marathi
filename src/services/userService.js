@@ -19,7 +19,6 @@ function userService($http, $rootScope, lessonService) {
               this.currentUser.lessons[i].lessonDetails = result.data;
             })
           }
-
           $rootScope.$emit("userUpdate", this.currentUser);
         }
         return this.currentUser;
@@ -29,6 +28,9 @@ function userService($http, $rootScope, lessonService) {
     this.selectLesson = (lesson) => {
       this.currentUser.selectedLesson = lesson;
       $rootScope.$emit("userUpdate", this.currentUser)
+      return $http.put("/api/users/select", {id: lesson._id}).then(result => {
+        return result;
+      })
     }
 
     this.saveUserLesson = (lesson) => {
@@ -40,14 +42,14 @@ function userService($http, $rootScope, lessonService) {
         , score: lesson.score
       };
 
-      // Update actual lesson in user schema
+      // Update lesson in this.currentUser
       for (let i = 0; i < this.currentUser.lessons.length; i++) {
         if (this.currentUser.selectedLesson._id === this.currentUser.lessons[i]._id) {
           this.currentUser.lessons[i] = this.currentUser.selectedLesson;
         }
       }
       $rootScope.$emit("userUpdate", this.currentUser);
-      return $http.post("/api/users/lesson", lessonObj).then(result => {
+      return $http.put("/api/users/save", lessonObj).then(result => {
         return result;
       })
     }
