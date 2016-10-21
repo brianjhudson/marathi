@@ -12,6 +12,9 @@
   .modal-content {
     padding-bottom: 0px;
 
+    .finish-message {
+      font-family: $script-font;
+    }
     #review-image, #congrat-image, #lesson-image  {
       height: 300px;
       width: auto;

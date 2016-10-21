@@ -1,25 +1,35 @@
 <div id="termDisplayModal" class="modal">
+  <!-- Header: title and progress-->
   <div class="modal-header">
     <a href="#/{{stateName}}" ng-click="" class="modal-action modal-close waves-effect waves-green btn-flat center-align">&times;</a>
     <span class="title">{{lesson.lessonDetails.title}}</span>
-    <div class="progress"><div class="determinate" style="width: {{progress}}%"></div>
-</div>
+    <div class="progress"><div class="determinate" style="width: {{progress}}%"></div></div>
   </div>
-  <div class="modal-content" ng-show="loading">
-    <div class="preloader-wrapper big active">
-      <div class="spinner-layer spinner-blue-only">
-        <div class="circle-clipper left">
-          <div class="circle"></div>
-        </div><div class="gap-patch">
-          <div class="circle"></div>
-        </div><div class="circle-clipper right">
-          <div class="circle"></div>
+
+  <div class="modal-content">
+  <!-- Preloader -->
+    <div class="valign-wrapper" ng-show="loading">
+      <div class="preloader-wrapper big active">
+        <div class="spinner-layer spinner-blue-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div><div class="gap-patch">
+            <div class="circle"></div>
+          </div><div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="modal-content" ng-hide="loading">
-    <div ng-show="review.reviewMode" class="card review-card">
+
+    <!-- Finish Message-->
+    <div class="valign-wrapper center-align" ng-show="finished">
+      <h4 class="finish-message">Great Job!</h4>
+      <h5>Your Score:</h5>
+      <progress-circle progress="progress"></progress-circle>
+    </div>
+    <!-- Review Card -->
+    <div ng-show="review.reviewMode" class="card review-card" ng-hide="loading">
       <div class="card-image">
         <img id="review-image" ng-hide="revealAnswer" ng-src="{{review.reviewImage}}">
         <img id="congrat-image" ng-show="showCongratulations" src="https://images.unsplash.com/photo-1472162072942-cd5147eb3902?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=700a3af0851978b7b35cba21f5e9414a">
@@ -40,6 +50,8 @@
         <a ng-show="revealAnswer">{{review.reviewAnswer}}</a>
       </div>
     </div>
+
+    <!-- Lesson Card -->
     <div ng-hide="review.reviewMode" class="card term-card">
       <div class="card-image waves-effect waves-block waves-light">
         <img id="lesson-image" class="activator responsive-img" ng-src="{{lesson.lessonDetails.terms[lesson.currentTerm].image}}">
@@ -81,7 +93,8 @@
       </div>
     </div>
   </div>
-  <div id="button-wrapper">
+  <!-- Action Buttons -->
+  <div id="button-wrapper" ng-hide="loading">
     <a ng-hide="beginning" ng-click="previousTerm()" class="btn next-term-button">Previous</a><br>
     <a ng-hide="finished" ng-click="nextTerm()" class="btn next-term-button">Next</a><br>
     <a ng-show="finished" ng-click="finishLesson()" class="btn exit-button">Finish</a><br>

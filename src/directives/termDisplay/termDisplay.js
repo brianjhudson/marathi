@@ -20,12 +20,12 @@ function termDisplay() {
         $scope.showIncorrectAnswer = false;
         $scope.showCongratulations = false;
         $scope.revealAnswer = false;
+        $scope.exit = false;
         $scope.review = {
           reviewMode: false
           , answers: ["a", "b", "c", "d"]
         }
         $rootScope.$on("userUpdate", function(event, user) {
-          setTimeout(() => {
             if ($scope.mode === "lesson") {
               $scope.currentUser = user;
               $scope.lesson = user.selectedLesson;
@@ -33,7 +33,7 @@ function termDisplay() {
               $scope.lesson = {
                 currentTerm: 0
                 , lessonDetails: {
-                  title: "Review"
+                    title: "Review"
                   , terms: user.reviewItems
                 }
               }
@@ -44,8 +44,7 @@ function termDisplay() {
               $scope.beginning = true;
             }
             $scope.loading = false;
-          }, 1000)
-        });
+          });
 
         $scope.answerQuestion = (answer) => {
           $scope.revealAnswer = true;
@@ -60,6 +59,8 @@ function termDisplay() {
 
         $scope.finishLesson = () => {
           $scope.lesson.completed = true;
+          $scope.exit = true;
+          $scope.progress = Math.round($scope.lesson.score / $scope.lesson.lessonDetails.terms.length * 100);
           if ($scope.mode === "lesson") {
             userService.saveUserLesson($scope.lesson).then(result => {
               console.log(result);
