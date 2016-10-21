@@ -4,7 +4,7 @@
     <h6 class="title">{{lesson.lessonDetails.title}}</h6>
     <div class="valign-wrapper">
       <img class="col s8 responsive-img" ng-src="{{lesson.lessonDetails.image}}" alt="">
-      <div class="col s4"><progress-circle></progress-circle></div>
+      <div class="col s4"><progress-circle progress="lesson.progress"></progress-circle></div>
     </div>
     <p>{{lesson.lessonDetails.description | limitTo: 50}}...</p>
   </div>

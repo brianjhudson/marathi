@@ -7,7 +7,7 @@ function progressCircle() {
     , template: progressCircleTemp
     , scope: {
         showNumber: "="
-        progress: "="
+        , progress: "="
     }
     , controller: function($scope, $rootScope, userService) {
         setTimeout(animateCounter(), 500)
