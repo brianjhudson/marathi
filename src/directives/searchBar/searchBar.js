@@ -7,8 +7,6 @@ function searchBar() {
     , template: searchBarTemp
     , scope: {
     }
-    , link: function(scope, element, attr) {
-    }
     , controller: function($scope, $rootScope, userService) {
         $scope.currentUser = userService.currentUser;
         $rootScope.$on("userUpdate", function(event, user) {

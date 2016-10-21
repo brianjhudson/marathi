@@ -37,10 +37,10 @@ function userService($http, $rootScope, lessonService) {
       for (let i = 0; i < this.currentUser.lessons.length; i++) {
         if (term.lesson === this.currentUser.lessons[i]._id) {
           this.currentUser.selectedLesson = this.currentUser.lessons[i];
+          
           break;
         }
       }
-      this.currentUser.currentTerm = this.currentUser.selectedLesson.terms.indexOf(term);
       this.saveUserLesson(this.currentUser.selectedLesson).then(result => {
         return result;
       })

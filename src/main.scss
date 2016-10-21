@@ -20,6 +20,35 @@ h6 {
   font-size: 90%;
 }
 
+@mixin lineAnimation($color, $bottom: 18px) {
+  &:hover, &:active {
+    background-color: transparent;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: $bottom;
+    background-color: $color;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  &:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+
+
 @import "./views/home";
 @import "./directives/navbar/nav";
 @import "./views/user.scss";
@@ -28,4 +57,4 @@ h6 {
 @import "./directives/progressIndicator/progressCircle";
 @import "./directives/lessonDisplay/lessonDisplay";
 @import "./directives/lessonListDisplay/lessonListDisplay";
-@import "./directives/termDisplay/termDisplay"
+@import "./directives/termDisplay/termDisplay";

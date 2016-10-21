@@ -7,8 +7,6 @@ function termDisplay() {
     , template: termDisplayTemp
     , scope: {
     }
-    , link: function(scope, element, attr) {
-    }
     , controller: function($scope, $state, $rootScope, userService) {
         // Initial State
 
