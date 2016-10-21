@@ -12,6 +12,10 @@
     margin-bottom: 20px
   }
 
+  .spinner-layer, .preloader-wrapper {
+    background: transparent;
+  }
+
   .continue-button {
     margin: 10px auto;
     display: flex;
