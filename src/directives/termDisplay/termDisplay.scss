@@ -12,6 +12,10 @@
   .modal-content {
     padding-bottom: 0px;
 
+    .answers {
+      text-transform: lowercase;
+    }
+
     .finish-message {
       font-family: $script-font;
     }
