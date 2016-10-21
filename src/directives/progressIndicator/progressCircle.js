@@ -5,14 +5,14 @@ function progressCircle() {
     restrict: "E"
     , replace: true
     , template: progressCircleTemp
-    , scope: {}
-    , link: function(scope, element, attr) {
+    , scope: {
+        showNumber: "="
+        progress: "="
     }
     , controller: function($scope, $rootScope, userService) {
-        const progress = 100;
         setTimeout(animateCounter(), 500)
         function animateCounter() {
-          for (let i = 0; i <= progress; i++) {
+          for (let i = 0; i <= $scope.progress; i++) {
             setTimeout(logCounter(i), i * 10);
           }
         }
