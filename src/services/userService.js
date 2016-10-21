@@ -1,6 +1,7 @@
 function userService($http, $rootScope, lessonService) {
     this.currentUser = {loggedIn: false, selectedLesson: {currentTerm: 0, terms: []}};
     this.lessonsCompleted = 0;
+    let lessonSelected = false;
 
     this.getUser = () => {
       return $http.get("/user").then(response => {
@@ -8,6 +9,9 @@ function userService($http, $rootScope, lessonService) {
           this.currentUser = response.data;
           this.currentUser.loggedIn = true;
           for (let i = 0; i < this.currentUser.lessons.length; i++) {
+            if (!lessonSelected && this.currentUser.lessons[i].completed === false) {
+              this.currentUser.selectedLesson = this.currentUser.lessons[i];
+            }
             if (this.currentUser.lessons[i].completed === true) {
               this.lessonsCompleted++;
               this.currentUser.lessons[i].progress = 100;
@@ -18,10 +22,10 @@ function userService($http, $rootScope, lessonService) {
               this.currentUser.lessons[i].lessonDetails = result.data;
             })
           }
-          // if (!this.currentUser.selectedLesson._id) {
-          //   this.currentUser.selectedLesson = this.currentUser.lessons[0];
-          //   console.log(this.currentUser.selectedLesson);
-          // }
+          if (!this.currentUser.selectedLesson._id) {
+            this.currentUser.selectedLesson = this.currentUser.lessons[0];
+            console.log(this.currentUser.selectedLesson);
+          }
           let lastLogin = new Date(this.currentUser.lastLogin).getTime();
           let today = new Date().getTime();
           let dateJoined = new Date(this.currentUser.dateJoined).getTime();
@@ -60,12 +64,6 @@ function userService($http, $rootScope, lessonService) {
     this.saveUserLesson = (lesson) => {
       // Update selected Lesson
       this.currentUser.selectedLesson = lesson;
-      const lessonObj = {
-        id: lesson._id
-        , completed: lesson.completed
-        , score: lesson.score
-        , currentTerm: lesson.currentTerm
-      };
 
       // Update lesson in this.currentUser
       for (let i = 0; i < this.currentUser.lessons.length; i++) {
@@ -74,8 +72,8 @@ function userService($http, $rootScope, lessonService) {
           break;
         }
       }
-      $rootScope.$emit("userUpdate", this.currentUser);
-      return $http.put("/api/users/save", lessonObj).then(result => {
+      $rootScope.$emit("userUpdate", lesson);
+      return $http.put("/api/users/save", this.currentUser.lessons).then(result => {
         return result;
       })
     }
