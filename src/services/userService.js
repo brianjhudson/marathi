@@ -54,7 +54,7 @@ function userService($http, $rootScope, lessonService) {
         id: lesson._id
         , completed: lesson.completed
         , score: lesson.score
-        , currentTerm: lesson.currentTerm;
+        , currentTerm: lesson.currentTerm
       };
 
       // Update lesson in this.currentUser

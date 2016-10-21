@@ -5,6 +5,7 @@ module.exports = {
 	getUser(req, res) {
 		User.findById(req.user._id)
 		.populate("lessons")
+		.populate("selectedLesson")
 		// .populate("reviewItems")
 		// .populate("termsCreated")
 		// .populate("lessonsCreated")
