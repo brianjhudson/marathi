@@ -37,7 +37,7 @@ function userService($http, $rootScope, lessonService) {
       for (let i = 0; i < this.currentUser.lessons.length; i++) {
         if (term.lesson === this.currentUser.lessons[i]._id) {
           this.currentUser.selectedLesson = this.currentUser.lessons[i];
-          
+          this.currentUser.selectedLesson.currentTerm = i;
           break;
         }
       }
@@ -54,6 +54,7 @@ function userService($http, $rootScope, lessonService) {
         id: lesson._id
         , completed: lesson.completed
         , score: lesson.score
+        , currentTerm: lesson.currentTerm;
       };
 
       // Update lesson in this.currentUser

@@ -9,10 +9,12 @@ const User = new mongoose.Schema({
   , dateJoined: {type: Date, default: new Date()}
   , lastLogin: {type: Date, default: new Date()}
   , dayStreak: {type: Number, default: 0}
+  , selectedLesson: {type: mongoose.Schema.Types.ObjectId, ref: "Lesson"}
   , lessons: [{
       lessonId: {type: mongoose.Schema.Types.ObjectId, ref: "Lesson"}
       , completed: {type: Boolean, default: false}
       , score: {type: Number, default: 0}
+      , currentTerm: {type: Number, default: 0}
     }]
   , reviewItems: [{type: mongoose.Schema.Types.ObjectId, ref: "Term"}]
   , termsCreated: [{type: mongoose.Schema.Types.ObjectId, ref: "Term"}]
