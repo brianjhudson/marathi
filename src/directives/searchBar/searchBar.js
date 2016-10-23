@@ -17,10 +17,10 @@ function searchBar() {
             console.log(result);
           });
         }
-        $scope.selectTerm = term => {
-          userService.setCurrentTerm(term).then(result => {
-            console.log(result);
-          })
+        // $scope.selectTerm = term => {
+        //   userService.setCurrentTerm(term).then(result => {
+        //     console.log(result);
+        //   })
         }
 
     }
