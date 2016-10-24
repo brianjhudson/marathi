@@ -21,7 +21,7 @@ function searchBar() {
         //   userService.setCurrentTerm(term).then(result => {
         //     console.log(result);
         //   })
-        }
+        // }
 
     }
   }
