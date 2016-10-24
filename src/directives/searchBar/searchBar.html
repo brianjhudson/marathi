@@ -7,7 +7,7 @@
     <h6 class="search-result">{{lesson.lessonDetails.title}}</h6>
     <ul ng-repeat="term in lesson.lessonDetails.terms | filter: searchTerm">
       <!--<li class="search-result" ng-href="#termDisplayModal" ng-click="selectTerm(term)" modal>{{term.term}}, {{term.transliteration}}, {{term.explanation | limitTo: 20}}</li>-->
-      <li class="search-result" ng-href="#termDisplayModal" modal>{{term.term}}, {{term.transliteration}}, {{term.explanation | limitTo: 20}}</li>
+      <li class="search-result">{{term.term}}, {{term.transliteration}}, {{term.explanation | limitTo: 20}}</li>
     </ul>    
   </div>
 </article>
