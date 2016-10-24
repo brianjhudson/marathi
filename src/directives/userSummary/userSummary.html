@@ -1,19 +1,13 @@
 <article class="user-summary">
-  <div class="welcome col s8">
-    <h5>Welcome<span ng-if="currentUser.returning"> Back</span>!</h5>
-    <h6 class="name">{{currentUser.name}}</h6>
+  <h5>Welcome<span ng-if="currentUser.returning"> Back</span>!</h5>
+  <h6 class="name">{{currentUser.name}}</h6>
+  <div class="valign-wrapper">
+    <img ng-src="{{currentUser.photo}}" alt="" class="col s4 profile-img circle center-align">
+    <div class="col s8">
+      <p><span class="figure">{{lessonsCompleted}}</span> Lesson<span ng-show="lessonsCompleted > 1">s</span> Completed</p>
+      <p><span class="figure">{{currentUser.dayStreak}}</span> Day Streak</p>
+    </div>
   </div>
-  <div class="col s4 center-align">
-    <img ng-src="{{currentUser.photo}}" alt="" class="profile-img circle">
-  </div>
-  <div class="col s12">
-    <p class="col s4 l12"><span class="figure">{{currentUser.dayStreak}}</span> Day Streak</p>
-    <p class="col s4 l12"><span class="figure">{{lessonsCompleted}}</span> Lesson<span ng-show="lessonsCompleted > 1">s</span> Completed</p>
-    <p class="col s4 l12">Average</p>
-  </div>
-  
-
-
   <!-- <div ng-hide="currentUser.loggedIn" class="center-align">
     <h6>Feel free to explore</h6>
     <p>You can sign in any time to access content.</p>
