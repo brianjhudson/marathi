@@ -1,11 +1,12 @@
 .user-summary {
-  margin-bottom: 25px;
-  border-bottom: 1px solid hsl(0, 0%, 95%);
+  margin-bottom: 25px; 
+
   .profile-img {
-    width: 8vh;
+    width: 6vh;
     height: auto;
   }
   .name, .figure {
     font-family: $script-font;
   }
+
 }
