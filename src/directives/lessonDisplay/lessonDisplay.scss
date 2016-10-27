@@ -10,6 +10,27 @@
     width: 80%;
     margin: 0 auto;
   }
+  .description {
+    padding: 20px;
+  }
+  .source {
+    padding: 20px;
+    font-style: italic;
+    font-size: .9em;
+  }
+  .sample {
+    padding: 20px;    
+  }
+  .sample-term {
+    display: inline-block;
+    width: 40%;
+    padding: 5%;    
+  }
+  .sample-image { 
+    height: 100px;
+    width: auto;
+  }
+
 }
 .credit {
   @include credit()
