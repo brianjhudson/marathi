@@ -6,7 +6,12 @@ function termEntryModal() {
     , replace: true
     , template: termEntryModalTemp
     , scope: {}
-    , controller: function($state, $scope) {
+    , controller: function($state, $scope, lessonService) {
+        lessonService.getLessons().then(response => {
+          $scope.lessons = response.data;
+          console.log($scope.lessons);
+        });
+        console.log($scope.lessons)
         $scope.stateName = $state.current.name;
         $scope.newTerm = {};
         $scope.postTerm = term => {
