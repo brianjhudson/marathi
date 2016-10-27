@@ -14,7 +14,7 @@
     <modal-trigger text="Let's Begin" target="termDisplayModal"></modal-trigger>
     <div class="sample">
       <h6>Sample Terms: </h6>
-      <div class="sample-term center-align" ng-repeat="term in currentUser.selectedLesson.lessonDetails.terms | limitTo: 6">
+      <div class="sample-term center-align" ng-repeat="term in currentUser.selectedLesson.lessonDetails.terms | limitTo: 6 | orderBy: '-term'">
         <img ng-src="{{term.image}}" alt="" class="sample-image">
         <p class="sample-term">{{term.term}}, {{term.transliteration}}</p>
       </div>
