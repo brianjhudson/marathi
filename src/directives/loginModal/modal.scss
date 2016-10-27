@@ -29,3 +29,6 @@
     height: 60px;
   }
 }
+.entry-modal {
+  @include longModal();
+}

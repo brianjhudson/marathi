@@ -1,7 +1,5 @@
 #termDisplayModal {
-  margin-top: -50px;
-  width: 100vw;
-  min-height: 95vh;
+  @include longModal();
   .title {
     font-size: .90em;
   }
@@ -34,13 +32,6 @@
   #button-wrapper {
     display: flex;
     justify-content: center;
-  }
-
-  @media (min-width: 390px) {
-    width: 60vh;
-  }
-  @media (min-width: 992px) {
-    width: 60vh;
   }
 }
 

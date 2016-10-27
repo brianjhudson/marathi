@@ -20,6 +20,20 @@ h6 {
   font-size: 90%;
 }
 
+@mixin longModal() {
+  margin-top: -50px;
+  width: 100vw;
+  min-height: 95vh;
+
+  @media (min-width: 390px) {
+    width: 60vh;
+  }
+  @media (min-width: 992px) {
+    width: 60vh;
+  }
+
+}
+
 @mixin lineAnimation($color, $bottom: 18px) {
   &:hover, &:active {
     background-color: transparent;
