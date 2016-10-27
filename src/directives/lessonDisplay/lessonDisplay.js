@@ -6,9 +6,6 @@ function lessonDisplay() {
     , replace: true
     , template: lessonDisplayTemp
     , scope: {}
-    , link: function(scope, element, attr) {
-
-    }
     , controller: function($scope, $rootScope, userService, lessonService) {
         $scope.mode = "lesson"
         $scope.currentUser = userService.currentUser;
