@@ -7,16 +7,17 @@ function termEntryModal() {
     , template: termEntryModalTemp
     , scope: {}
     , controller: function($state, $scope, lessonService) {
-        lessonService.getLessons().then(response => {
-          $scope.lessons = response.data;
-          console.log($scope.lessons);
-        });
-        console.log($scope.lessons)
         $scope.stateName = $state.current.name;
         $scope.newTerm = {};
+
+        lessonService.getLessons().then(response => {
+          $scope.lessons = response.data;
+        });
+
         $scope.postTerm = term => {
           term.author = $scope.currentUser._id;
           term.language = "Marathi";
+
           lessonService.postTerm(term).then(result => {
             $scope.newTerm = {};
             return result;
