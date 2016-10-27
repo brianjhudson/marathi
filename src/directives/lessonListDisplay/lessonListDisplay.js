@@ -6,8 +6,6 @@ function lessonListDisplay() {
     , replace: true
     , template: lessonListDisplayTemp
     , scope: {}
-    , link: function(scope, element, attr) {
-    }
     , controller: function($scope, $rootScope, userService, lessonService) {
         $scope.currentUser = userService.currentUser;
         $rootScope.$on("userUpdate", function(event, user) {
