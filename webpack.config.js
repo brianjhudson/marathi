@@ -1,5 +1,7 @@
 var webpack = require("webpack");
 var path = require("path");
+var ngAnnotatePlugin = require('ng-annotate-webpack-plugin');
+
 
 module.exports = {
   entry: [
@@ -8,7 +10,7 @@ module.exports = {
   , module: {
       loaders: [
 
-        { test: /\.js$/, include: path.join( __dirname, 'src' ), loaders: [ 'ng-annotate', 'babel' ] },
+        { test: /\.js$/, loaders: [ 'babel' ]},
         { test: /\.html$/, loader: 'html' },
         { test: /(\.css)$/, loaders: [ 'style', 'css' ] },
         { test: /(\.scss)$/, loaders: [ 'style', 'css', 'sass' ] },
@@ -42,10 +44,14 @@ module.exports = {
       contentBase: "http://127.0.0.1:3000"
   }
   , plugins: [
+    new ngAnnotatePlugin({
+    add: true,
+    // other ng-annotate options here 
+    }), 
     new webpack.ProvidePlugin({
       "$": "jquery"
       , 'window.jQuery': 'jquery'
-    }),
+    }),    
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin()
   ]
