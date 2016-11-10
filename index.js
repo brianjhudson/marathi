@@ -1,7 +1,7 @@
 const express = require("express")
     , sessionConfig = require("./server/config/config")
     , app = express()
-    , port = process.env.PORT || 3000;
+    , port = process.env.PORT || 8080;
 
 // JSON and Session
 const {json} = require("body-parser")
