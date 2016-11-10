@@ -20,7 +20,7 @@ function termEntryModal() {
 
           lessonService.postTerm(term).then(result => {
             $scope.newTerm = {};
-            return result;
+            // Insert toast            
           })
         }
 
