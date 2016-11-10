@@ -1,11 +1,9 @@
-const webpack = require("webpack");
-const path = require("path");
+var webpack = require("webpack");
+var path = require("path");
 
 module.exports = {
   entry: [
-    "webpack-dev-server/client?http://127.0.0.1:8080/",
-    "webpack/hot/dev-server",
-    , "./src/app.js"
+    "./src/app.js"
   ]
   , module: {
       loaders: [
@@ -37,7 +35,7 @@ module.exports = {
   }
   , output: {
       path: __dirname + "/dist/"
-      , publicPath: "http://127.0.0.1:8080/assets/"
+      , publicPath: "/"
       , filename: "bundle.js"
   }
   , devServer: {
