@@ -1,6 +1,6 @@
 const {Strategy} = require("passport-facebook")
-    , User = require("../features/users/User")
-    , Lesson = require("../features/lessons/Lesson")
+    , User = require("./features/users/User")
+    , Lesson = require("./features/lessons/Lesson")
 
 module.exports = new Strategy({
     clientID: process.env.CLIENT_ID,
