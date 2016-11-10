@@ -4,8 +4,10 @@
   "description": "A language learning app for Marathi",
   "main": "index.js",
   "scripts": {
-    "start": "index.js",
-    "engines": {"node": "6.7.0"},
+    "start": "node index.js",
+    "engines": {
+      "node": "6.7.0"
+    },
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Brian Hudson",
@@ -30,6 +32,7 @@
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.16.0",
     "css-loader": "^0.25.0",
+    "eslint-config-devmountain": "^1.2.2",
     "file-loader": "^0.9.0",
     "html-loader": "^0.4.4",
     "image-webpack-loader": "^2.0.0",
