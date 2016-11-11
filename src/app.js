@@ -1,6 +1,9 @@
 // Packages
 import angular from "angular";
+<<<<<<< HEAD
 import routing from "./config.js";
+=======
+>>>>>>> parent of 1627cf6... Changed angular declaration from import to variable and rebundled
 import uiRouter from "angular-ui-router";
 import angularMaterialize from "angular-materialize";
 import 'materialize-css/bin/materialize.js';
