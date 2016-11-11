@@ -1,6 +1,5 @@
 // Packages
 import angular from "angular";
-import routing from "./config.js";
 import uiRouter from "angular-ui-router";
 import angularMaterialize from "angular-materialize";
 import 'materialize-css/bin/materialize.js';
@@ -48,7 +47,6 @@ import 'materialize-css/bin/materialize.css';
 import "./main.scss";
 
 angular.module( "marathiApp", [uiRouter, angularMaterialize])
-.config("routing", routing)
 .controller("mainController", mainController)
 .service("lessonService", lessonService)
 .controller("userController", userController)
@@ -65,3 +63,19 @@ angular.module( "marathiApp", [uiRouter, angularMaterialize])
 .directive("termDisplay", termDisplay)
 .directive("searchBar", searchBar)
 .directive("check", check)
+.config(function($stateProvider, $urlRouterProvider) {
+	$stateProvider
+		.state("home", {
+			controller: mainController
+			, url: "/"
+			, template: homeHtml
+		})
+
+		.state("user", {
+			controller: userController
+			, url: "/user"
+			, template: userHtml
+		})
+
+	$urlRouterProvider.otherwise("/");
+})
