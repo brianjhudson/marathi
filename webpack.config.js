@@ -49,8 +49,8 @@ module.exports = {
     // other ng-annotate options here 
     }), 
     new webpack.ProvidePlugin({
-      "$": "jquery"
-      , 'window.jQuery': 'jquery'
+        $: "jquery",
+        jQuery: "jquery"    
     }),    
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin()
