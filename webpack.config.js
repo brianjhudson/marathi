@@ -10,7 +10,7 @@ module.exports = {
   , module: {
       loaders: [
 
-        { test: /\.js$/, loaders: [ 'ng-annotate', 'babel' ]},
+        { test: /\.js$/, loaders: [ 'babel' ]},
         { test: /\.html$/, loader: 'html' },
         { test: /(\.css)$/, loaders: [ 'style', 'css' ] },
         { test: /(\.scss)$/, loaders: [ 'style', 'css', 'sass' ] },
@@ -48,10 +48,10 @@ module.exports = {
         $: "jquery",
         jQuery: "jquery"    
     }),    
-    // new ngAnnotatePlugin({
-    // add: true,
-    // // other ng-annotate options here 
-    // }), 
+    new ngAnnotatePlugin({
+    add: true,
+    // other ng-annotate options here 
+    }), 
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin()
   ]
