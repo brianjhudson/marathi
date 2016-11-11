@@ -1,5 +1,5 @@
 // Packages
-import angular from "angular";
+const angular = require("angular");
 import uiRouter from "angular-ui-router";
 import angularMaterialize from "angular-materialize";
 import 'materialize-css/bin/materialize.js';
