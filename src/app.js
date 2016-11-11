@@ -1,6 +1,6 @@
 // Packages
 import angular from "angular";
-import routing from "./config";
+import routing from "./config.js";
 import uiRouter from "angular-ui-router";
 import angularMaterialize from "angular-materialize";
 import 'materialize-css/bin/materialize.js';
