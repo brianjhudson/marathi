@@ -44,14 +44,14 @@ module.exports = {
       contentBase: "http://127.0.0.1:3000"
   }
   , plugins: [
-    new ngAnnotatePlugin({
-    add: true,
-    // other ng-annotate options here 
-    }), 
     new webpack.ProvidePlugin({
         $: "jquery",
         jQuery: "jquery"    
     }),    
+    new ngAnnotatePlugin({
+    add: true,
+    // other ng-annotate options here 
+    }), 
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin()
   ]
