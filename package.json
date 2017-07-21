@@ -7,19 +7,21 @@
     "start": "node index.js"
   },
   "engines": {
-      "node": "6.6.0"
-   },
+    "node": "6.6.0"
+  },
   "author": "Brian Hudson",
   "license": "ISC",
   "dependencies": {
     "angular": "^1.5.8",
     "angular-materialize": "^0.2.1",
     "angular-ui-router": "^0.3.1",
+    "aws-sdk": "^2.7.13",
     "body-parser": "^1.15.2",
     "connect-ensure-login": "^0.1.1",
     "cors": "^2.8.1",
     "express": "^4.14.0",
     "express-session": "^1.14.1",
+    "materialize-css": "^0.99.0",
     "materialize-css-loader": "0.0.9",
     "mongoose": "^4.6.3",
     "ng-annotate-loader": "^0.2.0",
