@@ -2,7 +2,7 @@
 import angular from "angular";
 import uiRouter from "angular-ui-router";
 import angularMaterialize from "angular-materialize";
-import 'materialize-css/bin/materialize.js';
+
 
 // Services
 import lessonService from "./services/lessonService";
@@ -37,13 +37,14 @@ import searchBar from "./directives/searchBar/searchBar";
 import searchBarTemp from "./directives/searchBar/searchBar.html";
 import check from "./directives/progressIndicator/check";
 import checkTemp from "./directives/progressIndicator/check.html";
+import fileread from "./directives/fileread/fileread";
 
 // Views
 import homeHtml from "./views/home.html";
 import userHtml from "./views/user.html";
 
 // Styles
-import 'materialize-css/bin/materialize.css';
+import 'materialize-css/dist/css/materialize.min.css';
 import "./main.scss";
 
 angular.module( "marathiApp", [uiRouter, angularMaterialize])
@@ -63,6 +64,7 @@ angular.module( "marathiApp", [uiRouter, angularMaterialize])
 .directive("termDisplay", termDisplay)
 .directive("searchBar", searchBar)
 .directive("check", check)
+.directive("fileread", fileread)
 .config(function($stateProvider, $urlRouterProvider) {
 	$stateProvider
 		.state("home", {
