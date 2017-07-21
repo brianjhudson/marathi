@@ -1,9 +1,35 @@
 const User = require("./User");
+const Lesson = require("../lessons/Lesson");
 
 module.exports = {
+	createGuest(req, res) {
+          const newUser = new User({
+            facebook_id: Math.floor(Math.random() * 1000000)
+            , name: "Guest"
+          });
 
-	getUser(req, res) {
-		User.findById(req.user._id)
+
+          Lesson.find({}, "_id", (err, lessons) => {
+            for (let i = 0; i < lessons.length; i++) {
+              newUser.lessons.push(lessons[i]);
+            }
+            newUser.save((err, user) => {
+              if (err) return res.status(500).json(err);
+			  res.redirect("/#/user");
+            })
+		  });
+	}
+
+	, getUser(req, res) {
+		let property, searchTerm
+		if (req.user) {
+			property = "id";
+			searchTerm = req.user_id;
+		} else {
+			property = "name";
+			searchTerm = "Guest"
+		}
+		User.findOne({[property]: searchTerm})
 		.populate("lessons")
 		.populate("selectedLesson.lessonId")
 		.populate("reviewItems")

@@ -9,7 +9,8 @@ module.exports = app => {
     {successReturnToOrRedirect: "https://bolu-app.herokuapp.com/#/user", failureRedirect: "/"})
   );
 
-  app.get("/user", ensure.ensureLoggedIn(), userCtrl.getUser);
+  app.get("/guest", userCtrl.createGuest);
+  app.get("/user", userCtrl.getUser);
   app.get('/logout', userCtrl.logoutUser);
 
   app.put("/api/users/save", ensure.ensureLoggedIn(), userCtrl.saveUserLesson);
