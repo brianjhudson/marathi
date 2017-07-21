@@ -2,3 +2,6 @@ node_modules
 config
 *.zip
 jsconfig.json
+dist/
+settings.json
+.vscode/

@@ -1,14 +1,16 @@
 const express = require("express")
 const app = express()
-const port = process.env.PORT || 8080;
+const port = 8000;
 
 // JSON and Session
-const {json} = require("body-parser")
+const bodyParser = require("body-parser")
 const session = require("express-session");
-app.use(json());
-app.use(express.static(`${__dirname}/dist`));
-app.use(session({secret: process.env.SESSION_SECRET, resave: false, saveUninitialized: true}));
+app.use(bodyParser.json({limit: '50mb'}));
+app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));
 
+app.use(express.static(`${__dirname}/dist`));
+const sessionConfig = require("./server/config/config")
+app.use(session(sessionConfig));
 // Passport
 const passport = require("passport")
     , strategy = require("./server/strategy");
@@ -21,7 +23,9 @@ passport.deserializeUser((user, done) => done(null, user));
 
 // Mongoose
 const mongoose = require("mongoose");
-mongoose.connect(process.env.MONGOURI);
+const mongoUri = require("./server/config/database").mongoUri;
+mongoose.connect(mongoUri, {useMongoClient: true});
+
 mongoose.connection.once("open", () => console.log(`Connected to MongoDB`));
 
 //Routes
