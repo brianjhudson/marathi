@@ -1,11 +1,12 @@
 const {Strategy} = require("passport-facebook")
     , User = require("./features/users/User")
     , Lesson = require("./features/lessons/Lesson")
+    , config = require("./config/facebookConfig.js")
 
 module.exports = new Strategy({
-    clientID: process.env.CLIENT_ID,
-    clientSecret: process.env.CLIENT_SECRET,
-    callbackURL: "https://bolu-app.herokuapp.com/auth/facebook/callback"
+    clientID: config.clientId,
+    clientSecret: config.secret,
+    callbackURL: config.cbURL
   },
   (token, refreshToken, profile, done) => {
     process.nextTick(function() {
