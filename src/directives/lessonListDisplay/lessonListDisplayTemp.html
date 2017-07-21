@@ -6,7 +6,7 @@
       <img class="col s8 responsive-img" ng-show="lesson.completed" ng-src="{{lesson.lessonDetails.image}}" alt="">
       <img class="col s12 responsive-img" ng-hide="lesson.completed" ng-src="{{lesson.lessonDetails.image}}" alt="">
 
-      <div class="col s4" ng-show="lesson.completed"><check></check></div>
+      <div class="col s4" ng-show="lesson.completed"><progressCircle progress="50"></progressCircle></div>
     </div>
     <p>{{lesson.lessonDetails.description | limitTo: 50}}...</p>
   </div>

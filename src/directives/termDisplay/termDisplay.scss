@@ -1,5 +1,10 @@
 #termDisplayModal {
   @include longModal();
+  img {
+    max-height: 30vh;
+    width: auto;
+    margin: 0 auto;
+  }
   .title {
     font-size: .90em;
   }
@@ -36,9 +41,14 @@
 }
 
 .term-card {
-  img {
-    width: 60%;
+  .img-container {
+    width: 40vh;
     margin: 0 auto;
+
+    img {
+      height: 40vh;
+      width: auto;
+    }
 
   }
 }

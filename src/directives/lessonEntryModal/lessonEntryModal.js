@@ -6,7 +6,7 @@ function lessonEntryModal() {
     , replace: true
     , template: lessonEntryModalTemp
     , scope: {}
-    , controller: function($state, $scope) {
+    , controller: function($state, $scope, lessonService) {
         $scope.stateName = $state.current.name;
         $scope.newLesson = {};
         $scope.postLesson = lesson => {
@@ -15,8 +15,7 @@ function lessonEntryModal() {
             $scope.newLesson = {};
             return result;
           })
-        }
-
+        };
     }
   }
 }

@@ -79,4 +79,6 @@ function userService($http, $rootScope, lessonService) {
     }
 }
 
+userService.$inject = ['$http', '$rootScope', 'lessonService']
 export default userService;
+// angular.module('marathiApp').service('userService', userService)

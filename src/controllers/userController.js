@@ -25,4 +25,6 @@ function userController($scope, $rootScope, userService) {
 
 }
 
+userController.$inject = ['$scope', '$rootScope', 'userService']
 export default userController;
+// angular.module('marathiApp').controller('userController', userController)

@@ -23,6 +23,15 @@
             <input type="text" ng-model="newLesson.image" length="150">
             <label>Image Url</label>
           </div>
+          <div class="file-field input-field">
+            <div class="btn">
+              <span>File</span>
+              <input type="file" fileread accept="image/*">
+            </div>
+            <div class="file-path-wrapper">
+              <input class="file-path" type="text">
+            </div>
+          </div>
           <div input-field>
             <input type="text" ng-model="newLesson.imageCredit" length="150">
             <label>Image Credit (if you need to attribute the source)</label>
