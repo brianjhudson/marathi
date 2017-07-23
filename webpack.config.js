@@ -23,13 +23,10 @@ module.exports = {
         {
           test: /\.(jpe?g|png|gif|svg)$/i,
           loaders: [
-              'file?hash=sha512&digest=hex&name=fonts/[hash].[ext]',
+              'file?name=images/[name].[ext]',
               'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false$name=images/[name].[ext]'
           ]
         }
-        // { test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?limit=10000&mimetype=image/svg+xml' },
-        // { test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192' }
-
       ]
   }
   , resolve: {
