@@ -11,12 +11,6 @@ function userController($scope, $rootScope, userService) {
     userService.getUser().then(response => {
       if(response) {
         $scope.currentUser = response;
-        // let testLesson = response.lessons[0];
-        // testLesson.score = 80;
-        // testLesson.completed = true;
-        // testLesson.currentTerm = 3;
-        // userService.selectLesson(testLesson);
-        // userService.saveUserLesson(testLesson);
       }
     })
   }
