@@ -12,9 +12,15 @@ function navDirective() {
         $rootScope.$on("userUpdate", function(event, data) {
           $scope.currentUser = data;
         });
-        $scope.showLogin = () => {
-           console.log($("#loginModal"))
-           $("#loginModal").fadeIn()
+        $scope.showSideNav = () => {
+           $("#nav-mobile").animate({
+              left: 0
+           }, 300, 'linear')
+        }
+        $scope.hideSideNav = () => {
+           $("#nav-mobile").animate({
+              left: "-300px"
+           }, 300, 'linear')
         }
     }
   }

@@ -17,3 +17,33 @@
     @include lineAnimation(#fff);
   }
 }
+.nav-mobile {
+   position: fixed;
+   width: 300px;
+   height: 100vh;
+   background: #fff;
+   z-index: 10;
+   left: -300px;
+}
+.nav-mobile li {
+  float: none;
+  line-height: 48px;
+}
+
+.nav-mobile li.active {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.nav-mobile a, .nav-mobile li > a {
+  color: rgba(0, 0, 0, 0.87);
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 32px;
+}
+
+.nav-mobile li > a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
