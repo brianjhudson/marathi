@@ -54,43 +54,42 @@
 
          <!-- Lesson Card -->
          <div ng-hide="review.reviewMode || loading || finished" class="card term-card">
-            <div class="card-image waves-effect waves-block waves-light">
-            <img id="lesson-image" class="activator responsive-img" ng-src="{{lesson.lessonDetails.terms[lesson.currentTerm].image}}">
-            <p class="term-credit right-align">{{lesson.lessonDetails.terms[lesson.currentTerm].imageCredit | limitTo: 50}}</p>
-
+            <div ng-hide="showDetails" class="card-image waves-effect waves-block waves-light">
+               <img ng-click="showDetails = !showDetails" id="lesson-image" class="activator" ng-src="{{lesson.lessonDetails.terms[lesson.currentTerm].image}}">
+               <p class="term-credit right-align">{{lesson.lessonDetails.terms[lesson.currentTerm].imageCredit | limitTo: 50}}</p>
             </div>
-            <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">{{lesson.lessonDetails.terms[lesson.currentTerm].term}}<i class="material-icons right">more_vert</i></span>
-            <p>{{lesson.lessonDetails.terms[lesson.currentTerm].transliteration}}</p>
+            <div ng-hide="showDetails" class="card-content">
+               <span ng-click="showDetails = !showDetails" class="card-title activator grey-text text-darken-4">{{lesson.lessonDetails.terms[lesson.currentTerm].term}}<i class="material-icons right">more_vert</i></span>
+               <p>{{lesson.lessonDetails.terms[lesson.currentTerm].transliteration}}</p>
             </div>
-            <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">
-               {{lesson.lessonDetails.terms[lesson.currentTerm].term}}
-               <i class="material-icons right">close</i>
-            </span>
-            <p>
-               {{lesson.lessonDetails.terms[lesson.currentTerm].transliteration}}
-               <!-- <audio controls autoplay>
-                  <source
-                  src="{{lesson.lessonDetails.terms[lesson.currentTerm].sound}}"
-                  type="audio/x-m4a"
-                  >
-                  </audio> -->
-            </p>
-            <p>{{lesson.lessonDetails.terms[lesson.currentTerm].explanation}}</p>
-            <br>
-            <div class="valign-wrapper">
-               <div class="example col s6">
-                  <h6>Example:</h6>
-                  <p>{{lesson.lessonDetails.terms[lesson.currentTerm].example}}</p>
-                  <p>{{lesson.lessonDetails.terms[lesson.currentTerm].exampleTransliteration}}</p>
-                  <p>{{lesson.lessonDetails.terms[lesson.currentTerm].exampleTranslation}}</p>
+            <div ng-show="showDetails" class="card-reveal">
+               <span class="card-title grey-text text-darken-4">
+                  {{lesson.lessonDetails.terms[lesson.currentTerm].term}}
+                  <i ng-click="showDetails = !showDetails" class="material-icons right">close</i>
+               </span>
+               <p>
+                  {{lesson.lessonDetails.terms[lesson.currentTerm].transliteration}}
+                  <!-- <audio controls autoplay>
+                     <source
+                     src="{{lesson.lessonDetails.terms[lesson.currentTerm].sound}}"
+                     type="audio/x-m4a"
+                     >
+                     </audio> -->
+               </p>
+               <p>{{lesson.lessonDetails.terms[lesson.currentTerm].explanation}}</p>
+               <br>
+               <div class="valign-wrapper">
+                  <div class="example col s6">
+                     <h6>Example:</h6>
+                     <p>{{lesson.lessonDetails.terms[lesson.currentTerm].example}}</p>
+                     <p>{{lesson.lessonDetails.terms[lesson.currentTerm].exampleTransliteration}}</p>
+                     <p>{{lesson.lessonDetails.terms[lesson.currentTerm].exampleTranslation}}</p>
+                  </div>
+                  <div class="image col s6 center-align">
+                     <img class="responsive-img"
+                     ng-src="{{lesson.lessonDetails.terms[lesson.currentTerm].image}}" alt="">
+                  </div>
                </div>
-               <div class="image col s6 center-align">
-                  <img class="responsive-img"
-                  ng-src="{{lesson.lessonDetails.terms[lesson.currentTerm].image}}" alt="">
-               </div>
-            </div>
             </div>
          </div>
       </div>
