@@ -16,6 +16,16 @@
     background: transparent;
   }
 
+  .facebook-button, .continue-button {
+     width: 312px;
+     height: 50px;
+
+     @media screen and (max-width: 350px) {
+        width: 100vw;
+        height: auto;
+     }
+  }
+
   .continue-button {
     margin: 10px auto;
     display: flex;
@@ -25,8 +35,10 @@
     text-transform: none;
     font-size: 22px;
     font-weight: 500;
-    width: 290px;
-    height: 60px;
+  }
+
+  @media screen and (max-width: 400px) {
+     width: 100vw;
   }
 }
 .entry-modal {
