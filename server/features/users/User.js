@@ -11,13 +11,13 @@ const User = new mongoose.Schema({
   , dayStreak: {type: Number, default: 0}
   , returning: {type: Boolean, default: false}
   , selectedLesson: {
-      lessonId: {type: mongoose.Schema.Types.ObjectId, ref: "Lesson"}
+      lessonDetails: {type: mongoose.Schema.Types.ObjectId, ref: "Lesson"}
       , completed: {type: Boolean, default: false}
       , score: {type: Number, default: 0}
       , currentTerm: {type: Number, default: 0}
   }
   , lessons: [{
-      lessonId: {type: mongoose.Schema.Types.ObjectId, ref: "Lesson"}
+      lessonDetails: {type: mongoose.Schema.Types.ObjectId, ref: "Lesson"}
       , completed: {type: Boolean, default: false}
       , score: {type: Number, default: 0}
       , currentTerm: {type: Number, default: 0}

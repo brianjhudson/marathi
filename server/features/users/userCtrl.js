@@ -11,11 +11,12 @@ module.exports = {
 
           Lesson.find({}, "_id", (err, lessons) => {
             for (let i = 0; i < lessons.length; i++) {
-              newUser.lessons.push(lessons[i]);
+              newUser.lessons.push({lessonDetails: lessons[i]._id, completed: false, score: 0, currentTerm: 0});
             }
+            newUser.selectedLesson = newUser.lessons[0]
             newUser.save((err, user) => {
               if (err) return res.status(500).json(err);
-			  res.redirect("/#/user");
+			  res.redirect("/#!/user");
             })
 		  });
 	}
@@ -30,14 +31,14 @@ module.exports = {
 			searchTerm = "Guest"
 		}
 		User.findOne({[property]: searchTerm})
-		.populate("lessons")
-		.populate("selectedLesson.lessonId")
+		.populate({path: "lessons.lessonDetails", populate: {path: "terms"}})
+		.populate({path: "selectedLesson.lessonDetails", populate: {path: "terms"}})
 		.populate("reviewItems")
 		.populate("termsCreated")
-		.populate("lessonsCreated")
+      .populate("lessonsCreated")
 		.exec((err, user) => {
 			console.log("Get User Error: ", err);
-			if (err) return res.status(500).json(err);
+         if (err) return res.status(500).json(err);
 			return res.status(200).json(user);
 		})
 	}
@@ -48,7 +49,7 @@ module.exports = {
   }
 
 	, selectUserLesson(req, res) {
-			User.findByIdAndUpdate(req.user._id, {$set: {selectedLesson: req.body.id}}, (err, user) => {
+			User.findByIdAndUpdate(req.user._id, {$set: {selectedLesson: req.body}}, (err, user) => {
 				if (err) return res.status(500).json(err);
 				return res.status(200).json(user);
 			});

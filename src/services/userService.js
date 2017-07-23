@@ -1,7 +1,6 @@
 function userService($http, $rootScope, lessonService) {
     this.currentUser = {loggedIn: false, selectedLesson: {currentTerm: 0, terms: []}};
     this.lessonsCompleted = 0;
-    let lessonSelected = false;
 
     this.getUser = () => {
       return $http.get("/user").then(response => {
@@ -9,22 +8,12 @@ function userService($http, $rootScope, lessonService) {
           this.currentUser = response.data;
           this.currentUser.loggedIn = true;
           for (let i = 0; i < this.currentUser.lessons.length; i++) {
-            if (!lessonSelected && this.currentUser.lessons[i].completed === false) {
-              this.currentUser.selectedLesson = this.currentUser.lessons[i];
-            }
             if (this.currentUser.lessons[i].completed === true) {
-              this.lessonsCompleted++;
-              this.currentUser.lessons[i].progress = 100;
+               this.lessonsCompleted++;
+               this.currentUser.lessons[i].progress = 100;
             } else {
-              this.currentUser.lessons[i].progress = Math.round(this.currentUser.lessons[i].currentTerm / this.currentUser.lessons[i].length * 100);
+               this.currentUser.lessons[i].progress = Math.round(this.currentUser.lessons[i].currentTerm / this.currentUser.lessons[i].lessonDetails.terms.length * 100);
             }
-            lessonService.getLessonById(this.currentUser.lessons[i]._id).then(result => {
-              this.currentUser.lessons[i].lessonDetails = result.data;
-            })
-          }
-          if (!this.currentUser.selectedLesson._id) {
-            this.currentUser.selectedLesson = this.currentUser.lessons[0];
-            console.log(this.currentUser.selectedLesson);
           }
           let lastLogin = new Date(this.currentUser.lastLogin).getTime();
           let today = new Date().getTime();
@@ -35,6 +24,7 @@ function userService($http, $rootScope, lessonService) {
           }
           $rootScope.$emit("userUpdate", this.currentUser);
         }
+         console.log("USER: ", this.currentUser)
         return this.currentUser;
       })
     }
