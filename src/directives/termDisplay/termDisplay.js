@@ -6,7 +6,8 @@ function termDisplay() {
     , replace: true
     , template: termDisplayTemp
     , scope: {
-        mode: "="
+        mode: "=",
+        hideModal: "&"
     }
     , controller: function($scope, $state, $rootScope, userService) {
         // Initial State
@@ -119,6 +120,9 @@ function termDisplay() {
             $scope.review.reviewMode = true;
           }
 
+        }
+        $scope.fadeOut = () => {
+           $("#termDisplayModal").fadeOut()
         }
     }
   }

@@ -1,8 +1,6 @@
 // Packages
 import angular from "angular";
 import uiRouter from "angular-ui-router";
-import angularMaterialize from "angular-materialize";
-
 
 // Services
 import lessonService from "./services/lessonService";
@@ -47,7 +45,7 @@ import userHtml from "./views/user.html";
 import 'materialize-css/dist/css/materialize.min.css';
 import "./main.scss";
 
-angular.module( "marathiApp", [uiRouter, angularMaterialize])
+angular.module( "marathiApp", [uiRouter])
 .controller("mainController", mainController)
 .service("lessonService", lessonService)
 .controller("userController", userController)

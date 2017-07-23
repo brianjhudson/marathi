@@ -5,7 +5,9 @@ function termEntryModal() {
     restrict: "E"
     , replace: true
     , template: termEntryModalTemp
-    , scope: {}
+    , scope: {
+       hideModal: "&"
+    }
     , controller: function($state, $scope, lessonService) {
         $scope.stateName = $state.current.name;
         $scope.newTerm = {};
@@ -22,6 +24,9 @@ function termEntryModal() {
             $scope.newTerm = {};
             // Insert toast            
           })
+        }
+        $scope.fadeOut = () => {
+           $("#termEntryModal").fadeOut()
         }
 
     }

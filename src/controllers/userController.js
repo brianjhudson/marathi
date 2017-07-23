@@ -20,6 +20,14 @@ function userController($scope, $rootScope, userService) {
       }
     })
   }
+   $scope.showModal = (target) => {
+      $("#" + target + "-overlay").fadeIn()
+      $("#" + target).fadeIn()
+   }
+   $scope.hideModal = (target) => {
+      $("#" + target + "-overlay").fadeOut()
+      $("#" + target).fadeOut()
+   }
 
   init();
 

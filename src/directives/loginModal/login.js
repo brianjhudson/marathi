@@ -5,7 +5,9 @@ function loginModal() {
     restrict: "E"
     , replace: true
     , template: loginTemp
-    , scope: {}
+    , scope: {
+       hideModal: "&"
+    }
     , controller: function($state, $scope) {
         $scope.stateName = $state.current.name;
     }

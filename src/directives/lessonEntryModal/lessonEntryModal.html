@@ -1,45 +1,47 @@
-<div id="lessonEntryModal" class="modal s4 offset-s4 entry-modal">
-  <div class="modal-header">
-    <a href="#/{{stateName}}" class="modal-action modal-close waves-effect waves-green btn-flat center-align">&times;</a>
-  </div>
-  <div class="modal-content">
-      <h4 class="title">Add A Lesson</h4>
-      <form>
-        <fieldset>
-          <legend>Lesson Entry</legend>
-          <div input-field>
-              <input type="text" ng-model="newLesson.title" length="150">
-              <label>Lesson Title</label>
-          </div>
-          <div input-field>
-              <textarea ng-model="newLesson.description" class="materialize-textarea"></textarea>
-              <label>Description</label>
-          </div>
-          <div input-field>
-            <input type="text" ng-model="newLesson.source" length="150">
-            <label>Source (if you used an outside source)</label>
-          </div>
-          <div input-field>
-            <input type="text" ng-model="newLesson.image" length="150">
-            <label>Image Url</label>
-          </div>
-          <div class="file-field input-field">
-            <div class="btn">
-              <span>File</span>
-              <input type="file" fileread accept="image/*">
-            </div>
-            <div class="file-path-wrapper">
-              <input class="file-path" type="text">
-            </div>
-          </div>
-          <div input-field>
-            <input type="text" ng-model="newLesson.imageCredit" length="150">
-            <label>Image Credit (if you need to attribute the source)</label>
-          </div>
-        </fieldset>
-      </form>
-  </div>
-  <div class="modal-foooter">
-    <button ng-click="postLesson(newLesson)" class="modal-action modal-close waves-effect waves-light btn continue-button">Submit</button><br>
-  </div>
+<div id="lesson-entry-modal-overlay" class="modal-overlay">
+   <div id="lesson-entry-modal" class="modal s4 offset-s4 entry-modal">
+      <div class="modal-header">
+         <a ng-click="hideModal({target: 'lesson-entry-modal'})" class="modal-action modal-close waves-effect waves-green btn-flat center-align">&times;</a>
+      </div>
+      <div class="modal-content">
+            <h4 class="title">Add A Lesson</h4>
+            <form>
+            <fieldset>
+               <legend>Lesson Entry</legend>
+               <div input-field>
+                  <input type="text" ng-model="newLesson.title" length="150">
+                  <label>Lesson Title</label>
+               </div>
+               <div input-field>
+                  <textarea ng-model="newLesson.description" class="materialize-textarea"></textarea>
+                  <label>Description</label>
+               </div>
+               <div input-field>
+                  <input type="text" ng-model="newLesson.source" length="150">
+                  <label>Source (if you used an outside source)</label>
+               </div>
+               <div input-field>
+                  <input type="text" ng-model="newLesson.image" length="150">
+                  <label>Image Url</label>
+               </div>
+               <div class="file-field input-field">
+                  <div class="btn">
+                  <span>File</span>
+                  <input type="file" fileread accept="image/*">
+                  </div>
+                  <div class="file-path-wrapper">
+                  <input class="file-path" type="text">
+                  </div>
+               </div>
+               <div input-field>
+                  <input type="text" ng-model="newLesson.imageCredit" length="150">
+                  <label>Image Credit (if you need to attribute the source)</label>
+               </div>
+            </fieldset>
+            </form>
+      </div>
+      <div class="modal-foooter">
+         <button ng-click="postLesson(newLesson)" class="modal-action modal-close waves-effect waves-light btn continue-button">Submit</button><br>
+      </div>
+   </div>
 </div>

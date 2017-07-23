@@ -21,9 +21,10 @@ h6 {
 }
 
 @mixin longModal() {
-  margin-top: -50px;
+  margin-top: 5vh;
   width: 100vw;
-  min-height: 95vh;
+  max-height: 90vh;
+  overflow: scroll;
 
   @media (min-width: 390px) {
     width: 60vh;

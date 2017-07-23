@@ -1,103 +1,105 @@
-<div id="termDisplayModal" class="modal">
-  <!-- Header: title and progress-->
-  <div class="modal-header">
-    <a href="#/{{stateName}}" ng-click="" class="modal-action modal-close waves-effect waves-green btn-flat center-align">&times;</a>
-    <span class="title">{{lesson.lessonDetails.title}}</span>
-    <div class="progress"><div class="determinate" style="width: {{progress}}%"></div></div>
-  </div>
+<div id="term-display-modal-overlay" class="modal-overlay">
+   <div id="term-display-modal" class="modal entry-modal">
+      <!-- Header: title and progress-->
+      <div class="modal-header">
+         <a ng-click="hideModal({target: 'term-display-modal'})" class="modal-action modal-close waves-effect waves-green btn-flat center-align">&times;</a>
+         <span class="title">{{lesson.lessonDetails.title}}</span>
+         <div class="progress"><div class="determinate" style="width: {{progress}}%"></div></div>
+      </div>
 
-  <div class="modal-content">
-  <!-- Preloader -->
-    <div class="valign-wrapper" ng-show="loading">
-      <div class="preloader-wrapper big active">
-        <div class="spinner-layer spinner-blue-only">
-          <div class="circle-clipper left">
-            <div class="circle"></div>
-          </div><div class="gap-patch">
-            <div class="circle"></div>
-          </div><div class="circle-clipper right">
-            <div class="circle"></div>
-          </div>
-        </div>
-      </div>
-    </div>
+      <div class="modal-content">
+      <!-- Preloader -->
+         <div class="valign-wrapper" ng-show="loading">
+            <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue-only">
+               <div class="circle-clipper left">
+                  <div class="circle"></div>
+               </div><div class="gap-patch">
+                  <div class="circle"></div>
+               </div><div class="circle-clipper right">
+                  <div class="circle"></div>
+               </div>
+            </div>
+            </div>
+         </div>
 
-    <!-- Finish Message-->
-    <div class="center-align" ng-show="finished">
-      <h4 class="finish-message">Great Job!</h4>
-      <h5>Your Score:</h5>
-      <progress-circle progress="progress"></progress-circle>
-    </div>
-    <!-- Review Card -->
-    <div ng-hide="!review.reviewMode || finished || loading" class="card review-card" ng-hide="loading">
-      <div class="card-image">
-        <img id="review-image" ng-hide="revealAnswer" ng-src="{{review.reviewImage}}">
-        <img id="congrat-image" ng-show="showCongratulations" src="https://images.unsplash.com/photo-1472162072942-cd5147eb3902?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=700a3af0851978b7b35cba21f5e9414a">
-        <img id="wrong-image" ng-show="showIncorrectAnswer" ng-src="https://c2.staticflickr.com/4/3675/9436653177_fd00cc9d2c_b.jpg" alt="">
-        <span class="card-title"></span>
-      </div>
-      <div class="card-content">
-        <p class="term-credit right-align">{{review.reviewImageCredit | limitTo: 50}}</p>
-        <p class="term-credit right-align" ng-show="showCongratulations">Ben White, unsplash.com</a></p>
-        <p class="term-credit right-align" ng-show="showIncorrectAnswer">Donnie Ray Jones, Flickr, <a href="https://creativecommons.org/licenses/by/2.0/legalcode">CC License</a></p>
+         <!-- Finish Message-->
+         <div class="center-align" ng-show="finished">
+            <h4 class="finish-message">Great Job!</h4>
+            <h5>Your Score:</h5>
+            <progress-circle progress="progress"></progress-circle>
+         </div>
+         <!-- Review Card -->
+         <div ng-hide="!review.reviewMode || finished || loading" class="card review-card" ng-hide="loading">
+            <div class="card-image">
+            <img id="review-image" ng-hide="revealAnswer" ng-src="{{review.reviewImage}}">
+            <img id="congrat-image" ng-show="showCongratulations" src="https://images.unsplash.com/photo-1472162072942-cd5147eb3902?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=700a3af0851978b7b35cba21f5e9414a">
+            <img id="wrong-image" ng-show="showIncorrectAnswer" ng-src="https://c2.staticflickr.com/4/3675/9436653177_fd00cc9d2c_b.jpg" alt="">
+            <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+            <p class="term-credit right-align">{{review.reviewImageCredit | limitTo: 50}}</p>
+            <p class="term-credit right-align" ng-show="showCongratulations">Ben White, unsplash.com</a></p>
+            <p class="term-credit right-align" ng-show="showIncorrectAnswer">Donnie Ray Jones, Flickr, <a href="https://creativecommons.org/licenses/by/2.0/legalcode">CC License</a></p>
 
-        <span ng-hide="showCongratulations || showIncorrectAnswer" class="card-title">{{review.reviewQuestion}}</span>
-        <span ng-show="showCongratulations" class="card-title">Congratulations!</span>
-        <span ng-show="showIncorrectAnswer" class="card-title">Sorry! Better Luck Next Time.</span>
-      </div>
-      <div class="card-action center-align">
-        <a class="answers" ng-hide="revealAnswer" ng-repeat="answer in review.answers" ng-click="answerQuestion(answer)">{{answer}}</a>
-        <a ng-show="revealAnswer">{{review.reviewAnswer}}</a>
-      </div>
-    </div>
+            <span ng-hide="showCongratulations || showIncorrectAnswer" class="card-title">{{review.reviewQuestion}}</span>
+            <span ng-show="showCongratulations" class="card-title">Congratulations!</span>
+            <span ng-show="showIncorrectAnswer" class="card-title">Sorry! Better Luck Next Time.</span>
+            </div>
+            <div class="card-action center-align">
+            <a class="answers" ng-hide="revealAnswer" ng-repeat="answer in review.answers" ng-click="answerQuestion(answer)">{{answer}}</a>
+            <a ng-show="revealAnswer">{{review.reviewAnswer}}</a>
+            </div>
+         </div>
 
-    <!-- Lesson Card -->
-    <div ng-hide="review.reviewMode || loading || finished" class="card term-card">
-      <div class="card-image waves-effect waves-block waves-light">
-        <img id="lesson-image" class="activator responsive-img" ng-src="{{lesson.lessonDetails.terms[lesson.currentTerm].image}}">
-        <p class="term-credit right-align">{{lesson.lessonDetails.terms[lesson.currentTerm].imageCredit | limitTo: 50}}</p>
+         <!-- Lesson Card -->
+         <div ng-hide="review.reviewMode || loading || finished" class="card term-card">
+            <div class="card-image waves-effect waves-block waves-light">
+            <img id="lesson-image" class="activator responsive-img" ng-src="{{lesson.lessonDetails.terms[lesson.currentTerm].image}}">
+            <p class="term-credit right-align">{{lesson.lessonDetails.terms[lesson.currentTerm].imageCredit | limitTo: 50}}</p>
 
+            </div>
+            <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">{{lesson.lessonDetails.terms[lesson.currentTerm].term}}<i class="material-icons right">more_vert</i></span>
+            <p>{{lesson.lessonDetails.terms[lesson.currentTerm].transliteration}}</p>
+            </div>
+            <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">
+               {{lesson.lessonDetails.terms[lesson.currentTerm].term}}
+               <i class="material-icons right">close</i>
+            </span>
+            <p>
+               {{lesson.lessonDetails.terms[lesson.currentTerm].transliteration}}
+               <!-- <audio controls autoplay>
+                  <source
+                  src="{{lesson.lessonDetails.terms[lesson.currentTerm].sound}}"
+                  type="audio/x-m4a"
+                  >
+                  </audio> -->
+            </p>
+            <p>{{lesson.lessonDetails.terms[lesson.currentTerm].explanation}}</p>
+            <br>
+            <div class="valign-wrapper">
+               <div class="example col s6">
+                  <h6>Example:</h6>
+                  <p>{{lesson.lessonDetails.terms[lesson.currentTerm].example}}</p>
+                  <p>{{lesson.lessonDetails.terms[lesson.currentTerm].exampleTransliteration}}</p>
+                  <p>{{lesson.lessonDetails.terms[lesson.currentTerm].exampleTranslation}}</p>
+               </div>
+               <div class="image col s6 center-align">
+                  <img class="responsive-img"
+                  ng-src="{{lesson.lessonDetails.terms[lesson.currentTerm].image}}" alt="">
+               </div>
+            </div>
+            </div>
+         </div>
       </div>
-      <div class="card-content">
-        <span class="card-title activator grey-text text-darken-4">{{lesson.lessonDetails.terms[lesson.currentTerm].term}}<i class="material-icons right">more_vert</i></span>
-        <p>{{lesson.lessonDetails.terms[lesson.currentTerm].transliteration}}</p>
+      <!-- Action Buttons -->
+      <div id="button-wrapper" ng-hide="loading">
+         <a ng-hide="beginning" ng-click="previousTerm()" class="previous-term-button"><i class="large material-icons">skip_previous</i></a><br>
+         <a ng-hide="finished" ng-click="nextTerm()" class="next-term-button"><i class="large material-icons">skip_next</i></a><br>
+         <a ng-show="finished" ng-click="finishLesson()" class="btn-flat exit-button">Finish</a><br>
+         <a ng-show="exit" class="modal-action modal-close waves-effect waves-light btn exit-button">Exit</a><br>
       </div>
-      <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4">
-          {{lesson.lessonDetails.terms[lesson.currentTerm].term}}
-          <i class="material-icons right">close</i>
-        </span>
-        <p>
-          {{lesson.lessonDetails.terms[lesson.currentTerm].transliteration}}
-          <!-- <audio controls autoplay>
-            <source
-            src="{{lesson.lessonDetails.terms[lesson.currentTerm].sound}}"
-            type="audio/x-m4a"
-            >
-            </audio> -->
-        </p>
-        <p>{{lesson.lessonDetails.terms[lesson.currentTerm].explanation}}</p>
-        <br>
-        <div class="valign-wrapper">
-          <div class="example col s6">
-            <h6>Example:</h6>
-            <p>{{lesson.lessonDetails.terms[lesson.currentTerm].example}}</p>
-            <p>{{lesson.lessonDetails.terms[lesson.currentTerm].exampleTransliteration}}</p>
-            <p>{{lesson.lessonDetails.terms[lesson.currentTerm].exampleTranslation}}</p>
-          </div>
-          <div class="image col s6 center-align">
-            <img class="responsive-img"
-            ng-src="{{lesson.lessonDetails.terms[lesson.currentTerm].image}}" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Action Buttons -->
-  <div id="button-wrapper" ng-hide="loading">
-    <a ng-hide="beginning" ng-click="previousTerm()" class="previous-term-button"><i class="large material-icons">skip_previous</i></a><br>
-    <a ng-hide="finished" ng-click="nextTerm()" class="next-term-button"><i class="large material-icons">skip_next</i></a><br>
-    <a ng-show="finished" ng-click="finishLesson()" class="btn-flat exit-button">Finish</a><br>
-    <a ng-show="exit" class="modal-action modal-close waves-effect waves-light btn exit-button">Exit</a><br>
-  </div>
+   </div>
 </div>

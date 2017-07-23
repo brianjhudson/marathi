@@ -11,7 +11,7 @@
       <p class="description">{{currentUser.selectedLesson.lessonDetails.description}}</p>
       <p class="source">{{currentUser.selectedLesson.lessonDetails.source}}</p>
     </div>
-    <modal-trigger text="Let's Begin" target="termDisplayModal"></modal-trigger>
+    <modal-trigger text="Let's Begin" target="term-display-modal"></modal-trigger>
     <div class="sample">
       <h6>Sample Terms: </h6>
       <div class="sample-term center-align" ng-repeat="term in currentUser.selectedLesson.lessonDetails.terms | limitTo: 6 | orderBy: '-term'">

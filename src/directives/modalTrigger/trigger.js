@@ -9,6 +9,12 @@ function modalTrigger() {
       text: "@"
       , target: "@"
     }
+   , controller: function($scope) {
+      $scope.showModal = () => {
+         $("#" + $scope.target + "-overlay").fadeIn()
+         $("#" + $scope.target).fadeIn()
+      }
+   }
   }
 }
 

@@ -3,7 +3,15 @@ function mainController($scope, $rootScope, userService) {
   $rootScope.$on("userUpdate", function(event, data) {
     $scope.currentUser = data;
   })
+  $scope.showModal = target => {
+     $("#" + target + "-overlay").fadeIn()
+     $("#" + target).fadeIn().css('top', '20vh')
 
+  }
+  $scope.hideModal = target => {
+     $("#" + target + "-overlay").fadeOut()
+     $("#" + target).fadeOut()
+  }
 }
 
 mainController.$inject = ['$scope', '$rootScope', 'userService']

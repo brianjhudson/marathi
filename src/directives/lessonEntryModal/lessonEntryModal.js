@@ -5,7 +5,9 @@ function lessonEntryModal() {
     restrict: "E"
     , replace: true
     , template: lessonEntryModalTemp
-    , scope: {}
+    , scope: {
+       hideModal: "&"
+    }
     , controller: function($state, $scope, lessonService) {
         $scope.stateName = $state.current.name;
         $scope.newLesson = {};

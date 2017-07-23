@@ -1,26 +1,30 @@
-<div id="loginModal" class="modal s4 offset-s4">
-  <div class="modal-header">
-    <a href="#/{{stateName}}" class="modal-action modal-close waves-effect waves-green btn-flat center-align">&times;</a>
-  </div>
-    <div class="modal-content center-align">
-        <h4 ng-hide="loading" class="title">Sign In</h4>
-        <h4 ng-show="loading" class="title">Please Wait</h4>
-        <div ng-hide="loading" class="explanation">
-          <p>Please sign in to track your progress!.</p>
-          <p>We will only access your profile information to save you as a user.</p>
-        </div>
-        <div ng-show="loading" class="preloader-wrapper big active">
-          <div class="spinner-layer spinner-blue-only">
-            <div class="circle-clipper left">
-              <div class="circle"></div>
-            </div><div class="gap-patch">
-              <div class="circle"></div>
-            </div><div class="circle-clipper right">
-              <div class="circle"></div>
+<div id="login-modal-overlay" class="modal-overlay">
+   <div id="login-modal" class="modal">
+      <div class="s4 offset-s4">
+         <div class="modal-header">
+            <a ng-click="hideModal({target: 'login-modal'})" class="modal-action modal-close waves-effect waves-green btn-flat center-align">&times;</a>
+         </div>
+         <div class="modal-content center-align">
+            <h4 ng-hide="loading" class="title">Sign In</h4>
+            <h4 ng-show="loading" class="title">Please Wait</h4>
+            <div ng-hide="loading" class="explanation">
+               <p>Please sign in to track your progress!.</p>
+               <p>We will only access your profile information to save you as a user.</p>
             </div>
-          </div>
-        </div>
-        <a ng-hide="loading" ng-click="loading=!loading" href="/auth/facebook"><img class="facebook-button" src="https://scontent-dft4-1.xx.fbcdn.net/t39.2178-6/851579_209602122530903_1060396115_n.png" alt=""></a><br>
-        <a href="/guest" class="modal-action modal-close waves-effect waves-light btn continue-button">Enter as Guest</a><br> 
-    </div>
+            <div ng-show="loading" class="preloader-wrapper big active">
+               <div class="spinner-layer spinner-blue-only">
+                  <div class="circle-clipper left">
+                  <div class="circle"></div>
+                  </div><div class="gap-patch">
+                  <div class="circle"></div>
+                  </div><div class="circle-clipper right">
+                  <div class="circle"></div>
+                  </div>
+               </div>
+            </div>
+            <a ng-hide="loading" ng-click="loading=!loading" href="/auth/facebook"><img class="facebook-button" src="https://scontent-dft4-1.xx.fbcdn.net/t39.2178-6/851579_209602122530903_1060396115_n.png" alt=""></a><br>
+            <a href="/guest" class="modal-action modal-close waves-effect waves-light btn continue-button">Enter as Guest</a><br> 
+         </div>
+      </div>
+   </div>
 </div>
