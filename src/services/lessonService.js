@@ -39,4 +39,3 @@ function lessonService($http, $rootScope) {
 }
 lessonService.$inject = ['$http', '$rootScope']
 export default lessonService;
-// angular.module('marathiApp').service('lessonService', lessonService)

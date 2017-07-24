@@ -8,10 +8,13 @@ function loginModal() {
     , scope: {
        hideModal: "&"
     }
-    , controller: function($state, $scope) {
-        $scope.stateName = $state.current.name;
-    }
+    , controller: loginModalController
   }
 }
 
+function loginModalController($state, $scope) {
+   $scope.stateName = $state.current.name;
+}
+
+loginModalController.$inject = ["$state", "$scope"]
 export default loginModal;

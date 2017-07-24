@@ -8,18 +8,20 @@ function lessonEntryModal() {
     , scope: {
        hideModal: "&"
     }
-    , controller: function($state, $scope, lessonService) {
-        $scope.stateName = $state.current.name;
-        $scope.newLesson = {};
-        $scope.postLesson = lesson => {
-          lesson.author = $scope.currentUser._id;
-          lessonService.postLesson(lesson).then(result => {
-            $scope.newLesson = {};
-            return result;
-          })
-        };
-    }
+    , controller: lessonEntryModalController
   }
 }
+function lessonEntryModalController($state, $scope, lessonService) {
+   $scope.stateName = $state.current.name;
+   $scope.newLesson = {};
+   $scope.postLesson = lesson => {
+      lesson.author = $scope.currentUser._id;
+      lessonService.postLesson(lesson).then(result => {
+      $scope.newLesson = {};
+      return result;
+      })
+   };
+}
+lessonEntryModalController.$inject = ["$state", "$scope", "lessonService"]
 
 export default lessonEntryModal;

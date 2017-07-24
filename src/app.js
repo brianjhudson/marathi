@@ -63,7 +63,7 @@ angular.module( "marathiApp", [uiRouter])
 .directive("searchBar", searchBar)
 .directive("check", check)
 .directive("fileread", fileread)
-.config(function($stateProvider, $urlRouterProvider) {
+.config(["$stateProvider", "$urlRouterProvider", function($stateProvider, $urlRouterProvider) {
 	$stateProvider
 		.state("home", {
 			controller: mainController
@@ -78,4 +78,4 @@ angular.module( "marathiApp", [uiRouter])
 		})
 
 	$urlRouterProvider.otherwise("/");
-})
+}])

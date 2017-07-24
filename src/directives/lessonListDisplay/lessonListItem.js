@@ -9,14 +9,9 @@ function lessonListItem() {
     , scope: {
         lesson: "="
       }
-    , link: function(scope, element, attr) {
 
-    }
-    , controller: function($scope, userService) {
-
-    }
 
   }
 }
-
+lessonListItem.$inject = []
 export default lessonListItem;
