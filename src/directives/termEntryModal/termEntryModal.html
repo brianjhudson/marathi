@@ -21,7 +21,7 @@
                   <label>Explanation</label>
                </div>
                <div input-field>
-                  <select material-select ng-model="newTerm.lesson">
+                  <select ng-model="newTerm.lesson">
                      <option ng-repeat="lesson in lessons" value="{{lesson._id}}">{{lesson.title}}</option>
                   </select>
                   <label>Select a Lesson</label>
@@ -29,7 +29,7 @@
 
             </fieldset>
             <fieldset>
-               <legend ng-click="showOptions = !showOptions">Additional Information <span ng-show="!showOptions">&#x25BC;</span><span ng-show="showOptions">&#x25B2;</legend>
+               <legend ng-click="showOptions = !showOptions">Additional Information <span class="term-entry-arrow" ng-show="!showOptions">&#x25BC;</span><span class="term-entry-arrow" ng-show="showOptions">&#x25B2;</legend>
                <div ng-show="showOptions">
                   <div input-field>
                   <select material-select ng-model="newTerm.category">

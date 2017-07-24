@@ -1,5 +1,6 @@
 #term-display-modal {
   @include longModal();
+  height: 80vh;
   .card-image img {
     max-height: 30vh;
     width: auto;

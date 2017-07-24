@@ -14,6 +14,13 @@ h6 {
   font-weight: 400;
 }
 
+select {
+   display: block;
+}
+
+.term-entry-arrow {
+   font-size: 0.75em;
+}
 @mixin credit() {
   width: 90%;
   font-style: italic;
