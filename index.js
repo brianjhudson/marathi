@@ -1,6 +1,6 @@
 const express = require("express")
 const app = express()
-const port = 8000;
+const port = require('./server/config/config').port;
 
 // JSON and Session
 const bodyParser = require("body-parser")
@@ -24,6 +24,7 @@ passport.deserializeUser((user, done) => done(null, user));
 // Mongoose
 const mongoose = require("mongoose");
 const mongoUri = require("./server/config/database").mongoUri;
+mongoose.Promise = global.Promise
 mongoose.connect(mongoUri, {useMongoClient: true});
 
 mongoose.connection.once("open", () => console.log(`Connected to MongoDB`));
