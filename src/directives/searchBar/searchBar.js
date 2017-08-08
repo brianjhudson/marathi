@@ -6,6 +6,7 @@ function searchBar() {
     , replace: true
     , template: searchBarTemp
     , scope: {
+       showModal: "&"
     }
     , controller: searchController
   }
@@ -18,6 +19,10 @@ function searchController($scope, $rootScope, userService) {
    $scope.selectLesson = lesson => {
       userService.selectLesson(lesson).then(result => {
       });
+   }
+   $scope.selectTerm = (term, lesson) => {
+      lesson.currentTerm = lesson.lessonDetails.terms.indexOf(term);$scope.currentUser.selectedLesson = lesson; $scope.selectLesson(lesson); 
+      $scope.showModal({target: 'term-display-modal'})
    }
 }
 searchController.$inject = ["$scope", "$rootScope", "userService"]
