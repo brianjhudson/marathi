@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "4f96dd19593c929dd2f9"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "3b62357fea914ab64af4"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -600,137 +600,133 @@
 
 	var _angularUiRouter2 = _interopRequireDefault(_angularUiRouter);
 
-	var _angularMaterialize = __webpack_require__(5);
-
-	var _angularMaterialize2 = _interopRequireDefault(_angularMaterialize);
-
-	var _lessonService = __webpack_require__(9);
+	var _lessonService = __webpack_require__(5);
 
 	var _lessonService2 = _interopRequireDefault(_lessonService);
 
-	var _userService = __webpack_require__(10);
+	var _userService = __webpack_require__(6);
 
 	var _userService2 = _interopRequireDefault(_userService);
 
-	var _mainController = __webpack_require__(11);
+	var _mainController = __webpack_require__(7);
 
 	var _mainController2 = _interopRequireDefault(_mainController);
 
-	var _userController = __webpack_require__(12);
+	var _userController = __webpack_require__(10);
 
 	var _userController2 = _interopRequireDefault(_userController);
 
-	var _navDirective = __webpack_require__(13);
+	var _navDirective = __webpack_require__(11);
 
 	var _navDirective2 = _interopRequireDefault(_navDirective);
 
-	var _navDirective3 = __webpack_require__(14);
+	var _navDirective3 = __webpack_require__(12);
 
 	var _navDirective4 = _interopRequireDefault(_navDirective3);
 
-	var _userSummary = __webpack_require__(16);
+	var _userSummary = __webpack_require__(14);
 
 	var _userSummary2 = _interopRequireDefault(_userSummary);
 
-	var _userSummary3 = __webpack_require__(17);
+	var _userSummary3 = __webpack_require__(15);
 
 	var _userSummary4 = _interopRequireDefault(_userSummary3);
 
-	var _login = __webpack_require__(18);
+	var _login = __webpack_require__(16);
 
 	var _login2 = _interopRequireDefault(_login);
 
-	var _login3 = __webpack_require__(19);
+	var _login3 = __webpack_require__(17);
 
 	var _login4 = _interopRequireDefault(_login3);
 
-	var _trigger = __webpack_require__(20);
+	var _trigger = __webpack_require__(18);
 
 	var _trigger2 = _interopRequireDefault(_trigger);
 
-	var _trigger3 = __webpack_require__(21);
+	var _trigger3 = __webpack_require__(19);
 
 	var _trigger4 = _interopRequireDefault(_trigger3);
 
-	var _lessonEntryModal = __webpack_require__(22);
+	var _lessonEntryModal = __webpack_require__(20);
 
 	var _lessonEntryModal2 = _interopRequireDefault(_lessonEntryModal);
 
-	var _lessonEntryModal3 = __webpack_require__(23);
+	var _lessonEntryModal3 = __webpack_require__(21);
 
 	var _lessonEntryModal4 = _interopRequireDefault(_lessonEntryModal3);
 
-	var _termEntryModal = __webpack_require__(24);
+	var _termEntryModal = __webpack_require__(22);
 
 	var _termEntryModal2 = _interopRequireDefault(_termEntryModal);
 
-	var _termEntryModal3 = __webpack_require__(25);
+	var _termEntryModal3 = __webpack_require__(23);
 
 	var _termEntryModal4 = _interopRequireDefault(_termEntryModal3);
 
-	var _lessonListDisplay = __webpack_require__(26);
+	var _lessonListDisplay = __webpack_require__(24);
 
 	var _lessonListDisplay2 = _interopRequireDefault(_lessonListDisplay);
 
-	var _lessonListDisplayTemp = __webpack_require__(27);
+	var _lessonListDisplayTemp = __webpack_require__(25);
 
 	var _lessonListDisplayTemp2 = _interopRequireDefault(_lessonListDisplayTemp);
 
-	var _lessonDisplay = __webpack_require__(28);
+	var _lessonDisplay = __webpack_require__(26);
 
 	var _lessonDisplay2 = _interopRequireDefault(_lessonDisplay);
 
-	var _lessonDisplay3 = __webpack_require__(29);
+	var _lessonDisplay3 = __webpack_require__(27);
 
 	var _lessonDisplay4 = _interopRequireDefault(_lessonDisplay3);
 
-	var _progressCircle = __webpack_require__(30);
+	var _progressCircle = __webpack_require__(28);
 
 	var _progressCircle2 = _interopRequireDefault(_progressCircle);
 
-	var _progressCircle3 = __webpack_require__(31);
+	var _progressCircle3 = __webpack_require__(29);
 
 	var _progressCircle4 = _interopRequireDefault(_progressCircle3);
 
-	var _termDisplay = __webpack_require__(32);
+	var _termDisplay = __webpack_require__(30);
 
 	var _termDisplay2 = _interopRequireDefault(_termDisplay);
 
-	var _termDisplay3 = __webpack_require__(33);
+	var _termDisplay3 = __webpack_require__(31);
 
 	var _termDisplay4 = _interopRequireDefault(_termDisplay3);
 
-	var _searchBar = __webpack_require__(34);
+	var _searchBar = __webpack_require__(32);
 
 	var _searchBar2 = _interopRequireDefault(_searchBar);
 
-	var _searchBar3 = __webpack_require__(35);
+	var _searchBar3 = __webpack_require__(33);
 
 	var _searchBar4 = _interopRequireDefault(_searchBar3);
 
-	var _check = __webpack_require__(36);
+	var _check = __webpack_require__(34);
 
 	var _check2 = _interopRequireDefault(_check);
 
-	var _check3 = __webpack_require__(37);
+	var _check3 = __webpack_require__(35);
 
 	var _check4 = _interopRequireDefault(_check3);
 
-	var _fileread = __webpack_require__(38);
+	var _fileread = __webpack_require__(36);
 
 	var _fileread2 = _interopRequireDefault(_fileread);
 
-	var _home = __webpack_require__(39);
+	var _home = __webpack_require__(37);
 
 	var _home2 = _interopRequireDefault(_home);
 
-	var _user = __webpack_require__(43);
+	var _user = __webpack_require__(41);
 
 	var _user2 = _interopRequireDefault(_user);
 
-	__webpack_require__(44);
+	__webpack_require__(42);
 
-	__webpack_require__(58);
+	__webpack_require__(56);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -738,8 +734,7 @@
 
 
 	// Views
-	// Packages
-	_angular2.default.module("marathiApp", [_angularUiRouter2.default, _angularMaterialize2.default]).controller("mainController", _mainController2.default).service("lessonService", _lessonService2.default).controller("userController", _userController2.default).service("userService", _userService2.default).directive("navDirective", _navDirective2.default).directive("userSummary", _userSummary2.default).directive("loginModal", _login2.default).directive("modalTrigger", _trigger2.default).directive("lessonEntryModal", _lessonEntryModal2.default).directive("termEntryModal", _termEntryModal2.default).directive("lessonListDisplay", _lessonListDisplay2.default).directive("lessonDisplay", _lessonDisplay2.default).directive("progressCircle", _progressCircle2.default).directive("termDisplay", _termDisplay2.default).directive("searchBar", _searchBar2.default).directive("check", _check2.default).directive("fileread", _fileread2.default).config(function ($stateProvider, $urlRouterProvider) {
+	_angular2.default.module("marathiApp", [_angularUiRouter2.default]).controller("mainController", _mainController2.default).service("lessonService", _lessonService2.default).controller("userController", _userController2.default).service("userService", _userService2.default).directive("navDirective", _navDirective2.default).directive("userSummary", _userSummary2.default).directive("loginModal", _login2.default).directive("modalTrigger", _trigger2.default).directive("lessonEntryModal", _lessonEntryModal2.default).directive("termEntryModal", _termEntryModal2.default).directive("lessonListDisplay", _lessonListDisplay2.default).directive("lessonDisplay", _lessonDisplay2.default).directive("progressCircle", _progressCircle2.default).directive("termDisplay", _termDisplay2.default).directive("searchBar", _searchBar2.default).directive("check", _check2.default).directive("fileread", _fileread2.default).config(["$stateProvider", "$urlRouterProvider", function ($stateProvider, $urlRouterProvider) {
 		$stateProvider.state("home", {
 			controller: _mainController2.default,
 			url: "/",
@@ -751,7 +746,7 @@
 		});
 
 		$urlRouterProvider.otherwise("/");
-	});
+	}]);
 
 	// Directives
 
@@ -760,6 +755,7 @@
 
 
 	// Services
+	// Packages
 
 /***/ }),
 /* 2 */
@@ -23455,1314 +23451,178 @@
 
 /***/ }),
 /* 5 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
 	'use strict';
 
-	__webpack_require__(6);
-	module.exports = 'ui.materialize';
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	function lessonService($http, $rootScope) {
+	  this.storeImage = function (imageData, fileName) {
+	    console.log("Fired");
+	    var imageExtension = imageData.split(';')[0].split('/');
+	    imageExtension = imageExtension[imageExtension.length - 1];
+
+	    var newImage = {
+	      imageName: fileName,
+	      imageBody: imageData,
+	      imageExtension: imageExtension
+	    };
+
+	    return $http.post('/api/lessonPhoto', newImage).then(function (result) {
+	      return result;
+	    });
+	  };
+
+	  // this.postLesson = lesson => {
+	  //   return $http.post("/api/lessons", lesson).then(result => result);
+	  // }
+
+	  this.postTerm = function (term) {
+	    return $http.post("/api/terms", term).then(function (result) {
+	      return result;
+	    });
+	  };
+
+	  this.getLessonById = function (id) {
+	    return $http.get("/api/lesson/" + id).then(function (result) {
+	      return result;
+	    });
+	  };
+
+	  this.getLessons = function () {
+	    return $http.get("/api/lessons").then(function (result) {
+	      return result;
+	    });
+	  };
+
+	  this.formatGuestLessons = function (lessons) {
+	    var userLessons = [];
+	    for (var i = 0; i < lessons.length; i++) {
+	      userLessons[i] = { lessonDetails: lessons[i] };
+	    };
+	    return userLessons;
+	  };
+	}
+	lessonService.$inject = ['$http', '$rootScope'];
+	exports.default = lessonService;
 
 /***/ }),
 /* 6 */
+/***/ (function(module, exports) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	function userService($http, $rootScope, lessonService) {
+	  var _this = this;
+
+	  this.currentUser = { loggedIn: false, selectedLesson: { currentTerm: 0, terms: [] } };
+	  this.lessonsCompleted = 0;
+
+	  this.getUser = function () {
+	    return $http.get("/user").then(function (response) {
+	      if (response.data) {
+	        _this.currentUser = response.data;
+	        _this.currentUser.loggedIn = true;
+	        for (var i = 0; i < _this.currentUser.lessons.length; i++) {
+	          if (_this.currentUser.lessons[i].completed === true) {
+	            _this.lessonsCompleted++;
+	            _this.currentUser.lessons[i].progress = 100;
+	          } else {
+	            _this.currentUser.lessons[i].progress = Math.round(_this.currentUser.lessons[i].currentTerm / _this.currentUser.lessons[i].lessonDetails.terms.length * 100);
+	          }
+	        }
+	        var lastLogin = new Date(_this.currentUser.lastLogin).getTime();
+	        var today = new Date().getTime();
+	        var dateJoined = new Date(_this.currentUser.dateJoined).getTime();
+	        if (lastLogin - dateJoined > 1000) _this.currentUser.returning = true;
+	        if (today - lastLogin > 24 * 3600000 && today - lastLogin < 48 * 3600000) {
+	          _this.currentUser.dayStreak++;
+	        }
+	        $rootScope.$emit("userUpdate", _this.currentUser);
+	      }
+	      console.log("USER: ", _this.currentUser);
+	      return _this.currentUser;
+	    });
+	  };
+
+	  this.selectLesson = function (lesson) {
+	    _this.currentUser.selectedLesson = lesson;
+	    $rootScope.$emit("userUpdate", _this.currentUser);
+	    return $http.put("/api/users/select", lesson).then(function (result) {
+	      return result;
+	    });
+	  };
+
+	  this.setCurrentTerm = function (term) {
+	    for (var i = 0; i < _this.currentUser.lessons.length; i++) {
+	      if (term.lesson === _this.currentUser.lessons[i]._id) {
+	        _this.currentUser.selectedLesson = _this.currentUser.lessons[i];
+	        _this.currentUser.selectedLesson.currentTerm = i;
+	        break;
+	      }
+	    }
+	    _this.saveUserLesson(_this.currentUser.selectedLesson).then(function (result) {
+	      return result;
+	    });
+	  };
+
+	  this.saveUserLesson = function (lesson) {
+	    // Update selected Lesson
+	    _this.currentUser.selectedLesson = lesson;
+
+	    // Update lesson in this.currentUser
+	    for (var i = 0; i < _this.currentUser.lessons.length; i++) {
+	      if (_this.currentUser.selectedLesson._id === _this.currentUser.lessons[i]._id) {
+	        _this.currentUser.lessons[i] = _this.currentUser.selectedLesson;
+	        break;
+	      }
+	    }
+	    $rootScope.$emit("userUpdate", lesson);
+	    return $http.put("/api/users/save", _this.currentUser.lessons).then(function (result) {
+	      return result;
+	    });
+	  };
+	}
+
+	userService.$inject = ['$http', '$rootScope', 'lessonService'];
+	exports.default = userService;
+
+/***/ }),
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function($) {"use strict";
 
-	(function (angular) {
-	    var undefined;
-	    angular.module("ui.materialize", ["ui.materialize.ngModel", "ui.materialize.collapsible", "ui.materialize.toast", "ui.materialize.sidenav", "ui.materialize.material_select", "ui.materialize.dropdown", "ui.materialize.inputfield", "ui.materialize.input_date", "ui.materialize.tabs", "ui.materialize.pagination", "ui.materialize.pushpin", "ui.materialize.scrollspy", "ui.materialize.parallax", "ui.materialize.modal", "ui.materialize.tooltipped", "ui.materialize.slider", "ui.materialize.materialboxed", "ui.materialize.scrollFire", "ui.materialize.nouislider", "ui.materialize.input_clock", "ui.materialize.carousel"]);
-
-	    /*     example usage:
-	     <div scroll-fire="func('Scrolled', 2000)" ></div>
-	     */
-	    angular.module("ui.materialize.scrollFire", []).directive("scrollFire", ["$compile", "$timeout", function ($compile, $timeout) {
-	        return {
-	            restrict: "A",
-	            scope: {
-	                offset: "@",
-	                scrollFire: "&"
-	            },
-	            link: function link(scope, element, attrs) {
-	                var offset = scope.offset;
-	                if (!angular.isDefined(scope.offset)) {
-	                    offset = 0;
-	                }
-	                offset = Number(offset) || 0;
-
-	                var fired = false;
-	                var handler = throttle(function () {
-	                    if (fired) {
-	                        return;
-	                    }
-	                    var windowScroll = window.pageYOffset + window.innerHeight;
-
-	                    var elementOffset = element[0].getBoundingClientRect().top + window.pageYOffset;
-
-	                    if (windowScroll > elementOffset + offset) {
-	                        fired = true;
-	                        scope.scrollFire({});
-	                        stop();
-	                    }
-	                }, 100);
-
-	                function stop() {
-	                    $(window).off("scroll resize blur focus", handler);
-	                }
-
-	                $(window).on("scroll resize blur focus", handler);
-	                handler();
-
-	                scope.$on('$destroy', stop);
-	            }
-	        };
-	    }]);
-
-	    // The throttle function from underscore: https://github.com/jashkenas/underscore/blob/master/underscore.js
-	    function throttle(func, wait) {
-	        var timeout, context, args, result;
-	        var previous = 0;
-
-	        var later = function later() {
-	            previous = +new Date();
-	            timeout = null;
-	            result = func.apply(context, args);
-	            if (!timeout) context = args = null;
-	        };
-
-	        var throttled = function throttled() {
-	            var now = +new Date();
-	            var remaining = wait - (now - previous);
-	            context = this;
-	            args = arguments;
-	            if (remaining <= 0 || remaining > wait) {
-	                if (timeout) {
-	                    clearTimeout(timeout);
-	                    timeout = null;
-	                }
-	                previous = now;
-	                result = func.apply(context, args);
-	                if (!timeout) context = args = null;
-	            } else if (!timeout) {
-	                timeout = setTimeout(later, remaining);
-	            }
-	            return result;
-	        };
-
-	        throttled.cancel = function () {
-	            clearTimeout(timeout);
-	            previous = 0;
-	            timeout = context = args = null;
-	        };
-
-	        return throttled;
-	    };
-
-	    angular.module("ui.materialize.ngModel", []).directive("ngModel", ["$timeout", function ($timeout) {
-	        return {
-	            restrict: 'A',
-	            priority: -1, // lower priority than built-in ng-model so it runs first
-	            link: function link(scope, element, attr) {
-	                scope.$watch(attr.ngModel, function (value, oldValue) {
-	                    $timeout(function () {
-	                        // To stop an infinite feedback-loop with material multiple-select.
-	                        if (value instanceof Array && oldValue instanceof Array) {
-	                            if (value.length == oldValue.length) {
-	                                return;
-	                            }
-	                        }
-	                        if (element.is('select')) {
-	                            return;
-	                        }
-	                        // This fix is mainly to get placeholders to appear correctly, and it apparently screws things for the selects, so only doing this on something that isn't a select.
-	                        if (value) {
-	                            element.trigger("change");
-	                        } else if (element.attr('placeholder') === undefined) {
-	                            if (!element.is(":focus")) element.trigger("blur");
-	                        }
-	                    });
-	                });
-	            }
-	        };
-	    }]);
-
-	    /* example usage:
-	    <div slider height='500' transition='400'></div>
-	    */
-	    angular.module("ui.materialize.slider", []).directive("slider", ["$timeout", function ($timeout) {
-	        return {
-	            restrict: 'A',
-	            scope: {
-	                height: '=',
-	                transition: '=',
-	                interval: '=',
-	                indicators: '='
-	            },
-	            link: function link(scope, element, attrs) {
-	                element.addClass("slider");
-	                $timeout(function () {
-	                    element.slider({
-	                        height: angular.isDefined(scope.height) ? scope.height : 400,
-	                        transition: angular.isDefined(scope.transition) ? scope.transition : 500,
-	                        interval: angular.isDefined(scope.interval) ? scope.interval : 6000,
-	                        indicators: angular.isDefined(scope.indicators) ? scope.indicators : true
-	                    });
-	                });
-	            }
-	        };
-	    }]);
-
-	    /* example usage:
-	     <div carousel height='500' transition='400'></div>
-	     */
-	    angular.module("ui.materialize.carousel", []).directive("carousel", ["$timeout", function ($timeout) {
-	        return {
-	            restrict: 'A',
-	            scope: {
-	                timeConstant: '@',
-	                dist: '@',
-	                shift: '@',
-	                padding: '@',
-	                fullWidth: '@',
-	                indicators: '@',
-	                noWrap: '@'
-	            },
-	            link: function link(scope, element, attrs) {
-	                element.addClass("carousel");
-
-	                $timeout(function () {
-	                    element.carousel({
-	                        time_constant: angular.isDefined(scope.timeConstant) ? scope.timeConstant : 200,
-	                        dist: angular.isDefined(scope.dist) ? scope.dist : -100,
-	                        shift: angular.isDefined(scope.shift) ? scope.shift : 0,
-	                        padding: angular.isDefined(scope.padding) ? scope.padding : 0,
-	                        full_width: angular.isDefined(scope.fullWidth) ? scope.fullWidth : false,
-	                        indicators: angular.isDefined(scope.indicators) ? scope.indicators : false,
-	                        no_wrap: angular.isDefined(scope.noWrap) ? scope.noWrap : false
-	                    });
-	                });
-	            }
-	        };
-	    }]);
-
-	    angular.module("ui.materialize.collapsible", []).directive("collapsible", ["$timeout", function ($timeout) {
-	        return {
-	            link: function link(scope, element, attrs) {
-	                $timeout(function () {
-	                    element.collapsible();
-	                });
-	                if ("watch" in attrs) {
-	                    scope.$watch(function () {
-	                        return element[0].innerHTML;
-	                    }, function (oldVal, newVal) {
-	                        if (oldVal !== newVal) {
-	                            $timeout(function () {
-	                                element.collapsible();
-	                            });
-	                        }
-	                    });
-	                }
-	            }
-	        };
-	    }]);
-
-	    angular.module("ui.materialize.parallax", []).directive("parallax", ["$timeout", function ($timeout) {
-	        return {
-	            link: function link(scope, element, attrs) {
-	                $timeout(function () {
-	                    element.parallax();
-	                });
-	            }
-	        };
-	    }]);
-
-	    angular.module("ui.materialize.toast", []).constant("toastConfig", {
-	        duration: 3000
-	    }).directive("toast", ["toastConfig", function (toastConfig) {
-	        return {
-	            scope: {
-	                message: "@",
-	                duration: "@",
-	                callback: "&"
-	            },
-	            link: function link(scope, element, attrs) {
-	                element.bind(attrs.toast, function () {
-	                    var message = angular.isDefined(scope.message) ? scope.message : "";
-	                    var toastclass = angular.isDefined(attrs.toastclass) ? attrs.toastclass : "";
-	                    Materialize.toast(message, scope.duration ? scope.duration : toastConfig.duration, toastclass, scope.callback);
-	                });
-	            }
-	        };
-	    }]);
-
-	    angular.module('ui.materialize.pushpin', []).directive('pushpin', [function () {
-	        return {
-	            restrict: 'AE',
-	            require: ['?pushpinTop', '?pushpinOffset', '?pushpinBottom'],
-	            link: function link(scope, element, attrs) {
-	                var top = attrs.pushpinTop || 0;
-	                var offset = attrs.pushpinOffset || 0;
-	                var bottom = attrs.pushpinBottom || Infinity;
-	                setTimeout(function () {
-	                    element.pushpin({ top: top, offset: offset, bottom: bottom });
-	                }, 0);
-	            }
-	        };
-	    }]);
-
-	    // TODO: Add some documentation for this.
-	    angular.module("ui.materialize.scrollspy", []).directive("scrollspy", ["$timeout", function ($timeout) {
-	        return {
-	            restrict: 'A',
-	            link: function link(scope, element, attrs) {
-	                element.addClass("scrollspy");
-	                $timeout(function () {
-	                    element.scrollSpy();
-	                });
-	            }
-	        };
-	    }]);
-
-	    angular.module("ui.materialize.tabs", []).directive("tabs", ["$timeout", function ($timeout) {
-	        return {
-	            scope: {
-	                reload: '='
-	            },
-	            link: function link(scope, element, attrs) {
-	                element.addClass("tabs");
-	                $timeout(function () {
-	                    element.tabs();
-	                });
-
-	                scope.$watch('reload', function (newValue) {
-	                    if (newValue === true) {
-	                        element.tabs();
-	                        scope.reload = false;
-	                    }
-	                });
-	            }
-	        };
-	    }]);
-
-	    // Example: <a href="#" data-activates="nav-mobile" class="button-collapse top-nav" data-sidenav="left" data-menuwidth="500"  data-closeonclick="true">
-	    // data-activates is handled by the jQuery plugin.
-	    angular.module("ui.materialize.sidenav", []).directive("sidenav", [function () {
-	        return {
-	            scope: {
-	                menuwidth: "@",
-	                closeonclick: "@"
-	            },
-	            link: function link(scope, element, attrs) {
-	                element.sideNav({
-	                    menuWidth: angular.isDefined(scope.menuwidth) ? parseInt(scope.menuwidth, 10) : undefined,
-	                    edge: attrs.sidenav ? attrs.sidenav : "left",
-	                    closeOnClick: angular.isDefined(scope.closeonclick) ? scope.closeonclick == "true" : undefined
-	                });
-	            }
-	        };
-	    }]);
-
-	    // This works, unless the content inside the select changes.
-	    angular.module("ui.materialize.material_select", []).directive("materialSelect", ["$compile", "$timeout", function ($compile, $timeout) {
-	        return {
-	            link: function link(scope, element, attrs) {
-	                if (element.is("select")) {
-	                    //BugFix 139: In case of multiple enabled. Avoid the circular looping.
-	                    var initSelect = function initSelect(newVal, oldVal) {
-	                        if (attrs.multiple) {
-	                            if (oldVal !== undefined && newVal !== undefined) {
-	                                if (oldVal.length === newVal.length) {
-	                                    return;
-	                                }
-	                            }
-	                            var activeUl = element.siblings("ul.active");
-	                            if (newVal !== undefined && activeUl.length) {
-	                                // If select is open
-	                                var selectedOptions = activeUl.children("li.active").length; // Number of selected elements
-	                                if (selectedOptions == newVal.length) {
-	                                    return;
-	                                }
-	                            }
-	                        }
-
-	                        element.siblings(".caret").remove();
-	                        function fixActive() {
-	                            if (!attrs.multiple) {
-	                                var value = element.val();
-	                                var ul = element.siblings("ul");
-	                                ul.find("li").each(function () {
-	                                    var that = $(this);
-	                                    if (that.text() === value) {
-	                                        that.addClass("active");
-	                                    }
-	                                });
-	                            }
-	                        }
-	                        scope.$evalAsync(function () {
-	                            //element.material_select();
-	                            //Lines 301-311 fix Dogfalo/materialize/issues/901 and should be removed and the above uncommented whenever 901 is fixed
-	                            element.material_select(function () {
-	                                if (!attrs.multiple) {
-	                                    element.siblings('input.select-dropdown').trigger('close');
-	                                }
-	                                fixActive();
-	                            });
-	                            var onMouseDown = function onMouseDown(e) {
-	                                // preventing the default still allows the scroll, but blocks the blur.
-	                                // We're inside the scrollbar if the clientX is >= the clientWidth.
-	                                if (e.clientX >= e.target.clientWidth || e.clientY >= e.target.clientHeight) {
-	                                    e.preventDefault();
-	                                }
-	                            };
-	                            element.siblings('input.select-dropdown').off("mousedown.material_select_fix").on('mousedown.material_select_fix', onMouseDown);
-
-	                            fixActive();
-
-	                            element.siblings('input.select-dropdown').off("click.material_select_fix").on("click.material_select_fix", function () {
-	                                $("input.select-dropdown").not(element.siblings("input.select-dropdown")).trigger("close");
-	                            });
-	                        });
-	                    };
-
-	                    $timeout(initSelect);
-	                    if (attrs.ngModel) {
-
-	                        if (attrs.ngModel && !angular.isDefined(scope.$eval(attrs.ngModel))) {
-	                            // This whole thing fixes that if initialized with undefined, then a ghost value option is inserted. If this thing wasn't done, then adding the 'watch' attribute could also fix it. #160
-	                            var hasChangedFromUndefined = false;
-	                            scope.$watch(attrs.ngModel, function (newVal, oldVal) {
-	                                if (!hasChangedFromUndefined && angular.isDefined(scope.$eval(attrs.ngModel))) {
-	                                    hasChangedFromUndefined = true;
-	                                    initSelect(); // initSelect without arguments forces it to actually run.
-	                                } else {
-	                                    initSelect(newVal, oldVal);
-	                                }
-	                            });
-	                        } else {
-	                            scope.$watch(attrs.ngModel, initSelect);
-	                        }
-	                    }
-	                    if ("watch" in attrs) {
-	                        scope.$watch(function () {
-	                            return element[0].innerHTML;
-	                        }, function (newValue, oldValue) {
-	                            if (newValue !== oldValue) {
-	                                $timeout(initSelect);
-	                            }
-	                        });
-	                    }
-
-	                    if (attrs.ngDisabled) {
-	                        scope.$watch(attrs.ngDisabled, initSelect);
-	                    }
-	                }
-	            }
-	        };
-	    }]);
-
-	    /*
-	     Example usage, notice the empty dropdown tag in the dropdown trigger.
-	     <!-- Dropdown Trigger -->
-	     <a class='dropdown-button btn' href='javascript:void(0);' data-activates='demoDropdown'
-	        dropdown constrain-width="false">
-	        Select a demo
-	     </a>
-	     <!-- Dropdown Structure -->
-	     <ul id='demoDropdown' class='dropdown-content'>
-	     <li ng-repeat="demo in demoDefiniftions">
-	     <a href="javascript:void(0);" ng-click="selectDemo(demo)">{{demo.name}}</a>
-	     </li>
-	     </ul>*/
-	    angular.module("ui.materialize.dropdown", []).directive("dropdown", ["$timeout", function ($timeout) {
-	        return {
-	            scope: {
-	                inDuration: "@",
-	                outDuration: "@",
-	                constrainWidth: "@",
-	                hover: "@",
-	                alignment: "@",
-	                gutter: "@",
-	                belowOrigin: "@"
-	            },
-	            link: function link(scope, element, attrs) {
-	                $timeout(function () {
-	                    element.dropdown({
-	                        inDuration: angular.isDefined(scope.inDuration) ? scope.inDuration : undefined,
-	                        outDuration: angular.isDefined(scope.outDuration) ? scope.outDuration : undefined,
-	                        constrain_width: angular.isDefined(scope.constrainWidth) ? scope.constrainWidth : undefined,
-	                        hover: angular.isDefined(scope.hover) ? scope.hover : undefined,
-	                        alignment: angular.isDefined(scope.alignment) ? scope.alignment : undefined,
-	                        gutter: angular.isDefined(scope.gutter) ? scope.gutter : undefined,
-	                        belowOrigin: angular.isDefined(scope.belowOrigin) ? scope.belowOrigin : undefined
-	                    });
-	                });
-	            }
-	        };
-	    }]);
-
-	    /**
-	     * Instead of adding the .input-field class to a div surrounding a label and input, add the attribute input-field.
-	     * That way it will also work when angular destroys/recreates the elements.
-	     *
-	     * Example:
-	     <inputfield style="margin-top:10px">
-	     <label>{{name}}:</label>
-	     <input type="text" name="{{name}}" ng-model="value">
-	     </inputfield>
-	     */
-	    angular.module("ui.materialize.inputfield", []).directive('inputField', ["$timeout", function ($timeout) {
-	        var inputLabelIdCounter = 0;
-	        return {
-	            transclude: true,
-	            scope: {},
-	            link: function link(scope, element) {
-	                $timeout(function () {
-	                    var input = element.find("> > input, > > textarea");
-	                    var label = element.find("> > label");
-
-	                    if (input.length == 1 && label.length == 1 && !input.attr("id") && !label.attr("for")) {
-	                        var id = "angularMaterializeID" + inputLabelIdCounter++;
-	                        input.attr("id", id);
-	                        label.attr("for", id);
-	                    }
-
-	                    Materialize.updateTextFields();
-
-	                    // The "> > [selector]", is to restrict to only those tags that are direct children of the directive element. Otherwise we might hit to many elements with the selectors.
-
-	                    // Triggering autoresize of the textareas.
-	                    element.find("> > .materialize-textarea").each(function () {
-	                        var that = $(this);
-	                        that.addClass("materialize-textarea");
-	                        that.trigger("autoresize");
-	                        var model = that.attr("ng-model");
-	                        if (model) {
-	                            scope.$parent.$watch(model, function (a, b) {
-	                                if (a !== b) {
-	                                    $timeout(function () {
-	                                        that.trigger("autoresize");
-	                                    });
-	                                }
-	                            });
-	                        }
-	                    });
-
-	                    // Adding char-counters.
-	                    element.find('> > .materialize-textarea, > > input').each(function (index, countable) {
-	                        countable = angular.element(countable);
-	                        if (!countable.siblings('span[class="character-counter"]').length) {
-	                            countable.characterCounter();
-	                        }
-	                    });
-	                });
-	            },
-	            template: '<div ng-transclude class="input-field"></div>'
-	        };
-	    }]);
-
-	    /**
-	     * Add pickadate directive
-	     * Type text is mandatory
-	     * Example:
-	     <input input-date
-	        type="text"
-	        name="created"
-	        id="inputCreated"
-	        ng-model="currentTime"
-	        format="dd/mm/yyyy"
-	        months-full="{{ monthFr }}"
-	        months-short="{{ monthShortFr }}"
-	        weekdays-full="{{ weekdaysFullFr }}"
-	        weekdays-short="{{ weekdaysShortFr }}"
-	        weekdays-letter="{{ weekdaysLetterFr }}"
-	        disable="disable"
-	        today="today"
-	        clear="clear"
-	        close="close"
-	        on-start="onStart()"
-	        on-render="onRender()"
-	        on-open="onOpen()"
-	        on-close="onClose()"
-	        on-set="onSet()"
-	        on-stop="onStop()" />
-	     */
-	    angular.module("ui.materialize.input_date", []).directive('inputDate', ["$compile", "$timeout", function ($compile, $timeout) {
-	        // Fix for issue 46. This gotta be a bug in the materialize code, but this fixes it.
-	        var style = $('<style>#inputCreated_root {outline: none;}</style>');
-	        $('html > head').append(style);
-
-	        // Define Prototype Date format
-	        // Use like this
-	        // today = new Date();
-	        // var dateString = today.format("dd-m-yy");
-	        var dateFormat = function () {
-
-	            var token = /d{1,4}|m{1,4}|yy(?:yy)?|([HhMsTt])\1?|[LloSZ]|"[^"]*"|'[^']*'/g,
-	                timezone = /\b(?:[PMCEA][SDP]T|(?:Pacific|Mountain|Central|Eastern|Atlantic) (?:Standard|Daylight|Prevailing) Time|(?:GMT|UTC)(?:[-+]\d{4})?)\b/g,
-	                timezoneClip = /[^-+\dA-Z]/g,
-	                pad = function pad(val, len) {
-	                val = String(val);
-	                len = len || 2;
-	                while (val.length < len) {
-	                    val = "0" + val;
-	                }
-	                return val;
-	            };
-
-	            // Regexes and supporting functions are cached through closure
-	            return function (date, mask, utc) {
-
-	                var dF = dateFormat;
-
-	                // You can't provide utc if you skip other args (use the "UTC:" mask prefix)
-	                if (arguments.length === 1 && Object.prototype.toString.call(date) == "[object String]" && !/\d/.test(date)) {
-	                    mask = date;
-	                    date = undefined;
-	                }
-
-	                // Passing date through Date applies Date.parse, if necessary
-	                date = date ? new Date(date) : new Date();
-	                if (isNaN(date)) throw SyntaxError("invalid date");
-
-	                mask = String(dF.masks[mask] || mask || dF.masks["default"]);
-
-	                // Allow setting the utc argument via the mask
-	                if (mask.slice(0, 4) == "UTC:") {
-	                    mask = mask.slice(4);
-	                    utc = true;
-	                }
-
-	                var _ = utc ? "getUTC" : "get",
-	                    d = date[_ + "Date"](),
-	                    D = date[_ + "Day"](),
-	                    m = date[_ + "Month"](),
-	                    y = date[_ + "FullYear"](),
-	                    H = date[_ + "Hours"](),
-	                    M = date[_ + "Minutes"](),
-	                    s = date[_ + "Seconds"](),
-	                    L = date[_ + "Milliseconds"](),
-	                    o = utc ? 0 : date.getTimezoneOffset(),
-	                    flags = {
-	                    d: d,
-	                    dd: pad(d),
-	                    ddd: dF.i18n.dayNames[D],
-	                    dddd: dF.i18n.dayNames[D + 7],
-	                    m: m + 1,
-	                    mm: pad(m + 1),
-	                    mmm: dF.i18n.monthNames[m],
-	                    mmmm: dF.i18n.monthNames[m + 12],
-	                    yy: String(y).slice(2),
-	                    yyyy: y,
-	                    h: H % 12 || 12,
-	                    hh: pad(H % 12 || 12),
-	                    H: H,
-	                    HH: pad(H),
-	                    M: M,
-	                    MM: pad(M),
-	                    s: s,
-	                    ss: pad(s),
-	                    l: pad(L, 3),
-	                    L: pad(L > 99 ? Math.round(L / 10) : L),
-	                    t: H < 12 ? "a" : "p",
-	                    tt: H < 12 ? "am" : "pm",
-	                    T: H < 12 ? "A" : "P",
-	                    TT: H < 12 ? "AM" : "PM",
-	                    Z: utc ? "UTC" : (String(date).match(timezone) || [""]).pop().replace(timezoneClip, ""),
-	                    o: (o > 0 ? "-" : "+") + pad(Math.floor(Math.abs(o) / 60) * 100 + Math.abs(o) % 60, 4),
-	                    S: ["th", "st", "nd", "rd"][d % 10 > 3 ? 0 : (d % 100 - d % 10 != 10) * d % 10]
-	                };
-
-	                return mask.replace(token, function ($0) {
-	                    return $0 in flags ? flags[$0] : $0.slice(1, $0.length - 1);
-	                });
-	            };
-	        }();
-
-	        // Some common format strings
-	        dateFormat.masks = {
-	            "default": "ddd mmm dd yyyy HH:MM:ss",
-	            shortDate: "m/d/yy",
-	            mediumDate: "mmm d, yyyy",
-	            longDate: "mmmm d, yyyy",
-	            fullDate: "dddd, mmmm d, yyyy",
-	            shortTime: "h:MM TT",
-	            mediumTime: "h:MM:ss TT",
-	            longTime: "h:MM:ss TT Z",
-	            isoDate: "yyyy-mm-dd",
-	            isoTime: "HH:MM:ss",
-	            isoDateTime: "yyyy-mm-dd'T'HH:MM:ss",
-	            isoUtcDateTime: "UTC:yyyy-mm-dd'T'HH:MM:ss'Z'"
-	        };
-
-	        // Internationalization strings
-	        dateFormat.i18n = {
-	            dayNames: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-	            monthNames: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
-	        };
-
-	        // For convenience...
-	        Date.prototype.format = function (mask, utc) {
-	            return dateFormat(this, mask, utc);
-	        };
-
-	        /**
-	         * Validate date object
-	         * @param  {Date}  date
-	         * @return {Boolean}
-	         */
-	        var isValidDate = function isValidDate(date) {
-	            if (Object.prototype.toString.call(date) === '[object Date]') {
-	                return !isNaN(date.getTime());
-	            }
-	            return false;
-	        };
-
-	        return {
-	            require: 'ngModel',
-	            scope: {
-	                container: "@",
-	                format: "@",
-	                formatSubmit: "@",
-	                monthsFull: "@",
-	                monthsShort: "@",
-	                weekdaysFull: "@",
-	                weekdaysShort: "@",
-	                weekdaysLetter: "@",
-	                firstDay: "=",
-	                disable: "=",
-	                today: "=",
-	                clear: "=",
-	                close: "=",
-	                selectYears: "=",
-	                selectMonths: "=",
-	                onStart: "&",
-	                onRender: "&",
-	                onOpen: "&",
-	                onClose: "&",
-	                onSet: "&",
-	                onStop: "&",
-	                ngReadonly: "=?",
-	                max: "@",
-	                min: "@"
-	            },
-	            link: function link(scope, element, attrs, ngModelCtrl) {
-
-	                ngModelCtrl.$formatters.unshift(function (modelValue) {
-	                    if (modelValue) {
-	                        var date = new Date(modelValue);
-	                        return angular.isDefined(scope.format) ? date.format(scope.format) : date.format('d mmmm, yyyy');
-	                    }
-	                    return null;
-	                });
-
-	                var monthsFull = angular.isDefined(scope.monthsFull) ? scope.$eval(scope.monthsFull) : undefined,
-	                    monthsShort = angular.isDefined(scope.monthsShort) ? scope.$eval(scope.monthsShort) : undefined,
-	                    weekdaysFull = angular.isDefined(scope.weekdaysFull) ? scope.$eval(scope.weekdaysFull) : undefined,
-	                    weekdaysShort = angular.isDefined(scope.weekdaysShort) ? scope.$eval(scope.weekdaysShort) : undefined,
-	                    weekdaysLetter = angular.isDefined(scope.weekdaysLetter) ? scope.$eval(scope.weekdaysLetter) : undefined;
-
-	                $compile(element.contents())(scope);
-	                if (!scope.ngReadonly) {
-	                    $timeout(function () {
-	                        var options = {
-	                            container: scope.container,
-	                            format: angular.isDefined(scope.format) ? scope.format : undefined,
-	                            formatSubmit: angular.isDefined(scope.formatSubmit) ? scope.formatSubmit : undefined,
-	                            monthsFull: angular.isDefined(monthsFull) ? monthsFull : undefined,
-	                            monthsShort: angular.isDefined(monthsShort) ? monthsShort : undefined,
-	                            weekdaysFull: angular.isDefined(weekdaysFull) ? weekdaysFull : undefined,
-	                            weekdaysShort: angular.isDefined(weekdaysShort) ? weekdaysShort : undefined,
-	                            weekdaysLetter: angular.isDefined(weekdaysLetter) ? weekdaysLetter : undefined,
-	                            firstDay: angular.isDefined(scope.firstDay) ? scope.firstDay : 0,
-	                            disable: angular.isDefined(scope.disable) ? scope.disable : undefined,
-	                            today: angular.isDefined(scope.today) ? scope.today : undefined,
-	                            clear: angular.isDefined(scope.clear) ? scope.clear : undefined,
-	                            close: angular.isDefined(scope.close) ? scope.close : undefined,
-	                            selectYears: angular.isDefined(scope.selectYears) ? scope.selectYears : undefined,
-	                            selectMonths: angular.isDefined(scope.selectMonths) ? scope.selectMonths : undefined,
-	                            onStart: angular.isDefined(scope.onStart) ? function () {
-	                                scope.onStart();
-	                            } : undefined,
-	                            onRender: angular.isDefined(scope.onRender) ? function () {
-	                                scope.onRender();
-	                            } : undefined,
-	                            onOpen: angular.isDefined(scope.onOpen) ? function () {
-	                                scope.onOpen();
-	                            } : undefined,
-	                            onClose: angular.isDefined(scope.onClose) ? function () {
-	                                scope.onClose();
-	                            } : undefined,
-	                            onSet: angular.isDefined(scope.onSet) ? function () {
-	                                scope.onSet();
-	                            } : undefined,
-	                            onStop: angular.isDefined(scope.onStop) ? function () {
-	                                scope.onStop();
-	                            } : undefined
-	                        };
-	                        if (!scope.container) {
-	                            delete options.container;
-	                        }
-	                        var pickadateInput = element.pickadate(options);
-	                        //pickadate API
-	                        var picker = pickadateInput.pickadate('picker');
-
-	                        //watcher of min, max, and disabled dates
-	                        scope.$watch('max', function (newMax) {
-	                            if (picker) {
-	                                var maxDate = new Date(newMax);
-	                                picker.set({ max: isValidDate(maxDate) ? maxDate : false });
-	                            }
-	                        });
-	                        scope.$watch('min', function (newMin) {
-	                            if (picker) {
-	                                var minDate = new Date(newMin);
-	                                picker.set({ min: isValidDate(minDate) ? minDate : false });
-	                            }
-	                        });
-	                        scope.$watch('disable', function (newDisabled) {
-	                            if (picker) {
-	                                var disabledDates = angular.isDefined(newDisabled) && angular.isArray(newDisabled) ? newDisabled : false;
-	                                picker.set({ disable: disabledDates });
-	                            }
-	                        });
-	                    });
-	                }
-	            }
-	        };
-	    }]);
-
-	    /**
-	     * time-picker directive
-	     * Example:
-	     <label for="input_starttime">Time</label>
-	     <input id="input_starttime" input-clock data-twelvehour="false" type="text">
-	     */
-	    angular.module("ui.materialize.input_clock", []).directive('inputClock', [function () {
-	        return {
-	            restrict: 'A',
-	            scope: {
-	                default: "@",
-	                fromnow: "=?",
-	                donetext: "@",
-	                autoclose: "=?",
-	                ampmclickable: "=?",
-	                darktheme: "=?",
-	                twelvehour: "=?",
-	                vibrate: "=?"
-	            },
-	            link: function link(scope, element) {
-	                $(element).addClass("timepicker");
-	                if (!scope.ngReadonly) {
-	                    element.pickatime({
-	                        default: angular.isDefined(scope.default) ? scope.default : '',
-	                        fromnow: angular.isDefined(scope.fromnow) ? scope.fromnow : 0,
-	                        donetext: angular.isDefined(scope.donetext) ? scope.donetext : 'Done',
-	                        autoclose: angular.isDefined(scope.autoclose) ? scope.autoclose : false,
-	                        ampmclickable: angular.isDefined(scope.ampmclickable) ? scope.ampmclickable : false,
-	                        darktheme: angular.isDefined(scope.darktheme) ? scope.darktheme : false,
-	                        twelvehour: angular.isDefined(scope.twelvehour) ? scope.twelvehour : true,
-	                        vibrate: angular.isDefined(scope.vibrate) ? scope.vibrate : true
-	                    });
-	                }
-	            }
-	        };
-	    }]);
-
-	    /**
-	     * Example:
-	     <pagination
-	        page="1"
-	        page-size="10"
-	        total="100"
-	        pagination-action="changePage(page)"
-	        ul-class="customClass">
-	     * ul-class could be either an object or a string
-	     *
-	     * Based on https://github.com/brantwills/Angular-Paging
-	     */
-	    angular.module("ui.materialize.pagination", []).directive('pagination', ["$sce", function ($sce) {
-
-	        // Assign null-able scope values from settings
-	        function setScopeValues(scope, attrs) {
-	            scope.List = [];
-	            scope.Hide = false;
-	            scope.page = parseInt(scope.page) || 1;
-	            scope.total = parseInt(scope.total) || 0;
-	            scope.dots = scope.dots || '...';
-	            scope.ulClass = scope.ulClass || attrs.ulClass || 'pagination';
-	            scope.adjacent = parseInt(scope.adjacent) || 2;
-	            scope.activeClass = 'active';
-	            scope.disabledClass = 'disabled';
-
-	            scope.scrollTop = scope.$eval(attrs.scrollTop);
-	            scope.hideIfEmpty = scope.$eval(attrs.hideIfEmpty);
-	            scope.showPrevNext = scope.$eval(attrs.showPrevNext);
-	            scope.useSimplePrevNext = scope.$eval(attrs.useSimplePrevNext);
-	        }
-
-	        // Validate and clean up any scope values
-	        // This happens after we have set the
-	        // scope values
-	        function validateScopeValues(scope, pageCount) {
-	            // Block where the page is larger than the pageCount
-	            if (scope.page > pageCount) {
-	                scope.page = pageCount;
-	            }
-
-	            // Block where the page is less than 0
-	            if (scope.page <= 0) {
-	                scope.page = 1;
-	            }
-
-	            // Block where adjacent value is 0 or below
-	            if (scope.adjacent <= 0) {
-	                scope.adjacent = 2;
-	            }
-
-	            // Hide from page if we have 1 or less pages
-	            // if directed to hide empty
-	            if (pageCount <= 1) {
-	                scope.Hide = scope.hideIfEmpty;
-	            }
-	        }
-
-	        // Internal Pagination Click Action
-	        function internalAction(scope, page) {
-	            page = page.valueOf();
-	            // Block clicks we try to load the active page
-	            if (scope.page == page) {
-	                return;
-	            }
-
-	            // Update the page in scope and fire any paging actions
-	            scope.page = page;
-	            scope.paginationAction({
-	                page: page
-	            });
-
-	            // If allowed scroll up to the top of the page
-	            if (scope.scrollTop) {
-	                scrollTo(0, 0);
-	            }
-	        }
-
-	        // Add Range of Numbers
-	        function addRange(start, finish, scope) {
-	            var i = 0;
-	            for (i = start; i <= finish; i++) {
-	                var item = {
-	                    value: $sce.trustAsHtml(i.toString()),
-	                    liClass: scope.page == i ? scope.activeClass : 'waves-effect',
-	                    action: function action() {
-	                        internalAction(scope, this.value);
-	                    }
-	                };
-
-	                scope.List.push(item);
-	            }
-	        }
-
-	        // Add Dots ie: 1 2 [...] 10 11 12 [...] 56 57
-	        function addDots(scope) {
-	            scope.List.push({
-	                value: $sce.trustAsHtml(scope.dots)
-	            });
-	        }
-
-	        // Add First Pages
-	        function addFirst(scope, next) {
-	            addRange(1, 2, scope);
-
-	            // We ignore dots if the next value is 3
-	            // ie: 1 2 [...] 3 4 5 becomes just 1 2 3 4 5
-	            if (next != 3) {
-	                addDots(scope);
-	            }
-	        }
-
-	        /**
-	        * Add the first, previous, next, and last buttons if desired
-	        * The logic is defined by the mode of interest
-	        * This method will simply return if the scope.showPrevNext is false
-	        * This method will simply return if there are no pages to display
-	        *
-	        * @param {Object} scope - The local directive scope object
-	        * @param {int} pageCount - The last page number or total page count
-	        * @param {string} mode - The mode of interest either prev or last
-	        */
-	        function addPrevNext(scope, pageCount, mode) {
-
-	            // Ignore if we are not showing
-	            // or there are no pages to display
-	            if (!scope.showPrevNext || pageCount < 1) {
-	                return;
-	            }
-
-	            // Local variables to help determine logic
-	            var disabled, alpha, beta;
-
-	            // Determine logic based on the mode of interest
-	            // Calculate the previous / next page and if the click actions are allowed
-	            if (mode === 'prev') {
-
-	                disabled = scope.page - 1 <= 0;
-	                var prevPage = scope.page - 1 <= 0 ? 1 : scope.page - 1;
-
-	                if (scope.useSimplePrevNext) {
-	                    alpha = { value: "<<", title: 'First Page', page: 1 };
-	                    beta = { value: "<", title: 'Previous Page', page: prevPage };
-	                } else {
-	                    alpha = { value: "<i class=\"material-icons\">first_page</i>", title: 'First Page', page: 1 };
-	                    beta = { value: "<i class=\"material-icons\">chevron_left</i>", title: 'Previous Page', page: prevPage };
-	                }
-	            } else {
-
-	                disabled = scope.page + 1 > pageCount;
-	                var nextPage = scope.page + 1 >= pageCount ? pageCount : scope.page + 1;
-
-	                if (scope.useSimplePrevNext) {
-	                    alpha = { value: ">", title: 'Next Page', page: nextPage };
-	                    beta = { value: ">>", title: 'Last Page', page: pageCount };
-	                } else {
-	                    alpha = { value: "<i class=\"material-icons\">chevron_right</i>", title: 'Next Page', page: nextPage };
-	                    beta = { value: "<i class=\"material-icons\">last_page</i>", title: 'Last Page', page: pageCount };
-	                }
-	            }
-
-	            // Create the Add Item Function
-	            var addItem = function addItem(item, disabled) {
-	                scope.List.push({
-	                    value: $sce.trustAsHtml(item.value),
-	                    title: item.title,
-	                    liClass: disabled ? scope.disabledClass : '',
-	                    action: function action() {
-	                        if (!disabled) {
-	                            internalAction(scope, item.page);
-	                        }
-	                    }
-	                });
-	            };
-
-	            // Add our items
-	            addItem(alpha, disabled);
-	            addItem(beta, disabled);
-	        }
-
-	        function addLast(pageCount, scope, prev) {
-	            // We ignore dots if the previous value is one less that our start range
-	            // ie: 1 2 3 4 [...] 5 6  becomes just 1 2 3 4 5 6
-	            if (prev != pageCount - 2) {
-	                addDots(scope);
-	            }
-
-	            addRange(pageCount - 1, pageCount, scope);
-	        }
-
-	        // Main build function
-	        function build(scope, attrs) {
-
-	            // Block divide by 0 and empty page size
-	            if (!scope.pageSize || scope.pageSize < 0) {
-	                return;
-	            }
-
-	            // Assign scope values
-	            setScopeValues(scope, attrs);
-
-	            // local variables
-	            var start,
-	                size = scope.adjacent * 2,
-	                pageCount = Math.ceil(scope.total / scope.pageSize);
-
-	            // Validation Scope
-	            validateScopeValues(scope, pageCount);
-
-	            // Add the Next and Previous buttons to our list
-	            addPrevNext(scope, pageCount, 'prev');
-
-	            if (pageCount < 5 + size) {
-
-	                start = 1;
-	                addRange(start, pageCount, scope);
-	            } else {
-
-	                var finish;
-
-	                if (scope.page <= 1 + size) {
-
-	                    start = 1;
-	                    finish = 2 + size + (scope.adjacent - 1);
-
-	                    addRange(start, finish, scope);
-	                    addLast(pageCount, scope, finish);
-	                } else if (pageCount - size > scope.page && scope.page > size) {
-
-	                    start = scope.page - scope.adjacent;
-	                    finish = scope.page + scope.adjacent;
-
-	                    addFirst(scope, start);
-	                    addRange(start, finish, scope);
-	                    addLast(pageCount, scope, finish);
-	                } else {
-
-	                    start = pageCount - (1 + size + (scope.adjacent - 1));
-	                    finish = pageCount;
-
-	                    addFirst(scope, start);
-	                    addRange(start, finish, scope);
-	                }
-	            }
-	            addPrevNext(scope, pageCount, 'next');
-	        }
-
-	        return {
-	            restrict: 'EA',
-	            scope: {
-	                page: '=',
-	                pageSize: '=',
-	                total: '=',
-	                dots: '@',
-	                hideIfEmpty: '@',
-	                adjacent: '@',
-	                scrollTop: '@',
-	                showPrevNext: '@',
-	                useSimplePrevNext: '@',
-	                paginationAction: '&',
-	                ulClass: '=?'
-	            },
-	            template: '<ul ng-hide="Hide" ng-class="ulClass"> ' + '<li ' + 'ng-class="Item.liClass" ' + 'ng-click="Item.action()" ' + 'ng-repeat="Item in List"> ' + '<a href> ' + '<span ng-bind-html="Item.value"></span> ' + '</a>' + '</ul>',
-	            link: function link(scope, element, attrs) {
-
-	                // Hook in our watched items
-	                scope.$watchCollection('[page, total, pageSize]', function () {
-	                    build(scope, attrs);
-	                });
-	            }
-	        };
-	    }]);
-
-	    /*     example usage:
-	     <!-- Modal Trigger -->
-	     <a class='btn' data-target='demoModal' modal>show Modal</a>
-	     <!-- Modal Structure -->
-	     <div id="demoModal" class="modal">
-	     <div class="modal-content">
-	     <h4>Modal Header</h4>
-	     <p>A bunch of text</p>
-	     </div>
-	     <div class="modal-footer">
-	     <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-	     </div>
-	     </div>
-	     */
-	    angular.module("ui.materialize.modal", []).directive("modal", ["$compile", "$timeout", function ($compile, $timeout) {
-	        return {
-	            scope: {
-	                dismissible: "=",
-	                opacity: "@",
-	                inDuration: "@",
-	                outDuration: "@",
-	                ready: '&?',
-	                complete: '&?',
-	                open: '=?',
-	                enableTabs: '@?'
-	            },
-	            link: function link(scope, element, attrs) {
-	                $timeout(function () {
-	                    var modalEl = $(attrs.href ? attrs.href : '#' + attrs.target);
-	                    $compile(element.contents())(scope);
-
-	                    var complete = function complete() {
-	                        angular.isFunction(scope.complete) && scope.$apply(scope.complete);
-
-	                        scope.open = false;
-	                        scope.$apply();
-	                    };
-	                    var ready = function ready() {
-	                        angular.isFunction(scope.ready) && scope.$apply(scope.ready);
-	                        // Need to keep open boolean in sync.
-	                        scope.open = true;
-	                        scope.$apply();
-
-	                        // If tab support is enabled we need to re-init the tabs
-	                        // See https://github.com/Dogfalo/materialize/issues/1634
-	                        if (scope.enableTabs) {
-	                            modalEl.find('ul.tabs').tabs();
-	                        }
-	                    };
-	                    var options = {
-	                        dismissible: angular.isDefined(scope.dismissible) ? scope.dismissible : undefined,
-	                        opacity: angular.isDefined(scope.opacity) ? scope.opacity : undefined,
-	                        in_duration: angular.isDefined(scope.inDuration) ? scope.inDuration : undefined,
-	                        out_duration: angular.isDefined(scope.outDuration) ? scope.outDuration : undefined,
-	                        ready: ready,
-	                        complete: complete
-	                    };
-	                    modalEl.modal(options);
-	                    element.modal(options);
-
-	                    // Setup watch for opening / closing modal programatically.
-	                    if (angular.isDefined(attrs.open) && modalEl.length > 0) {
-	                        scope.$watch('open', function (value, lastValue) {
-	                            if (!angular.isDefined(value)) {
-	                                return;
-	                            }
-	                            value === true ? modalEl.modal('open') : modalEl.modal('close');
-	                        });
-	                    }
-	                });
-	            }
-	        };
-	    }]);
-
-	    /*     example usage:
-	    <!-- data-position can be : bottom, top, left, or right -->
-	    <!-- data-delay controls delay before tooltip shows (in milliseconds)-->
-	    <a class="btn" tooltipped data-position="bottom" data-delay="50" data-tooltip="I am tooltip">Hover me!</a>
-	     */
-	    angular.module("ui.materialize.tooltipped", []).directive("tooltipped", ["$compile", "$timeout", function ($compile, $timeout) {
-	        return {
-	            restrict: "A",
-	            link: function link(scope, element, attrs) {
-
-	                var rmDestroyListener = Function.prototype; //assigning to noop
-
-	                function init() {
-	                    element.addClass("tooltipped");
-	                    $compile(element.contents())(scope);
-
-	                    $timeout(function () {
-	                        // https://github.com/Dogfalo/materialize/issues/3546
-	                        // if element.addClass("tooltipped") would not be executed, then probably this would not be needed
-	                        if (element.attr('data-tooltip-id')) {
-	                            element.tooltip('remove');
-	                        }
-	                        element.tooltip();
-	                    });
-	                    rmDestroyListener = scope.$on('$destroy', function () {
-	                        element.tooltip("remove");
-	                    });
-	                }
-
-	                attrs.$observe('tooltipped', function (value) {
-	                    if (value === 'false' && rmDestroyListener !== Function.prototype) {
-	                        element.tooltip("remove");
-	                        rmDestroyListener();
-	                        rmDestroyListener = Function.prototype;
-	                    } else if (value !== 'false' && rmDestroyListener === Function.prototype) {
-	                        init();
-	                    }
-	                });
-
-	                if (attrs.tooltipped !== 'false') {
-	                    init();
-	                }
-
-	                // just to be sure, that tooltip is removed when somehow element is destroyed, but the parent scope is not
-	                element.on('$destroy', function () {
-	                    element.tooltip("remove");
-	                });
-	            }
-	        };
-	    }]);
-
-	    /*     example usage:
-	    <!-- normal materialboxed -->
-	    <img materialboxed class="materialboxed responsive-img" width="650" src="images/sample-1.jpg">
-	     <!-- caption materialboxed -->
-	    <img materialboxed class="materialboxed" data-caption="A picture of some deer and tons of trees" width="250" src="iamges/nature_portrait_by_pw_fotografie-d63tx0n.jpg">
-	      */
-	    angular.module("ui.materialize.materialboxed", []).directive("materialboxed", ["$timeout", function ($timeout) {
-	        return {
-	            restrict: 'A',
-	            link: function link(scope, element, attrs) {
-
-	                $timeout(function () {
-	                    element.materialbox();
-	                });
-	            }
-	        };
-	    }]);
-
-	    /* example usage:
-	        In controller:
-	            $scope.value = [30];
-	            $scope.value = 30;
-	            $scope.value = [30, 40];
-	         <div nouislider ng-model='value' min="0" max="100"></div>
-	        <div nouislider ng-model='value' connect="lower" min="0" max="100"></div> (green) bar beetwen one handle
-	        <div nouislider ng-model='value' connect="true" min="0" max="100"></div> (green) bar beetwen handles
-	    */
-	    angular.module("ui.materialize.nouislider", []).directive("nouislider", ["$timeout", function ($timeout) {
-	        return {
-	            restrict: 'A',
-	            scope: {
-	                ngModel: '=',
-	                min: '@',
-	                max: '@',
-	                step: '@?',
-	                connect: '@?',
-	                tooltips: '@?',
-	                behaviour: '@?'
-	            },
-	            link: function link(scope, element, attrs) {
-	                var modelIsArray = false;
-
-	                var watchNgModel = scope.$watch('ngModel', function (newValue) {
-	                    if (newValue !== undefined) {
-	                        createNoUiSlider();
-	                        watchNgModel();
-	                    }
-	                });
-
-	                element[0].noUiSlider.on('update', function (values, input) {
-	                    $timeout(function () {
-	                        scope.ngModel = modelIsArray ? values : values[0];
-	                    });
-	                });
-
-	                function createNoUiSlider() {
-	                    if (angular.isArray(scope.ngModel)) {
-	                        modelIsArray = true;
-	                    }
-
-	                    noUiSlider.create(element[0], {
-	                        start: scope.ngModel || 0,
-	                        step: parseFloat(scope.step || 1),
-	                        tooltips: angular.isDefined(scope.tooltips) ? scope.tooltips : undefined,
-	                        connect: angular.isDefined(scope.connect) ? scope.connect : [false, false],
-	                        behaviour: angular.isDefined(scope.behaviour) ? scope.behaviour : undefined,
-	                        range: {
-	                            'min': parseFloat(scope.min || 0),
-	                            'max': parseFloat(scope.max || 100)
-	                        },
-	                        format: {
-	                            to: function to(number) {
-	                                return Math.round(number * 100) / 100;
-	                            },
-	                            from: function from(number) {
-	                                return Number(number);
-	                            }
-	                        }
-	                    });
-
-	                    function getConnection(value) {
-	                        value.toLowerCase();
-
-	                        if ('true' === value || 'false' === value) {
-	                            return JSON.parse(value);
-	                        }
-
-	                        return value;
-	                    }
-	                };
-	            }
-	        };
-	    }]);
-	})(angular);
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(7)))
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	function mainController($scope, $rootScope, userService) {
+	  $scope.currentUser = userService.currentUser;
+	  $rootScope.$on("userUpdate", function (event, data) {
+	    $scope.currentUser = data;
+	  });
+	  $scope.showModal = function (target) {
+	    $("#" + target + "-overlay").fadeIn();
+	    $("#" + target).fadeIn().css('top', '20vh');
+	  };
+	  $scope.hideModal = function (target) {
+	    $("#" + target + "-overlay").fadeOut();
+	    $("#" + target).fadeOut();
+	  };
+	}
+
+	mainController.$inject = ['$scope', '$rootScope', 'userService'];
+
+	exports.default = mainController;
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(module) {"use strict";
@@ -34171,10 +33031,10 @@
 
 		return jQuery;
 	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)(module)))
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, exports) {
 
 	"use strict";
@@ -34191,191 +33051,10 @@
 	};
 
 /***/ }),
-/* 9 */
-/***/ (function(module, exports) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	function lessonService($http, $rootScope) {
-	  this.storeImage = function (imageData, fileName) {
-	    console.log("Fired");
-	    var imageExtension = imageData.split(';')[0].split('/');
-	    imageExtension = imageExtension[imageExtension.length - 1];
-
-	    var newImage = {
-	      imageName: fileName,
-	      imageBody: imageData,
-	      imageExtension: imageExtension
-	    };
-
-	    return $http.post('/api/lessonPhoto', newImage).then(function (result) {
-	      return result;
-	    });
-	  };
-
-	  // this.postLesson = lesson => {
-	  //   return $http.post("/api/lessons", lesson).then(result => result);
-	  // }
-
-	  this.postTerm = function (term) {
-	    return $http.post("/api/terms", term).then(function (result) {
-	      return result;
-	    });
-	  };
-
-	  this.getLessonById = function (id) {
-	    return $http.get("/api/lesson/" + id).then(function (result) {
-	      return result;
-	    });
-	  };
-
-	  this.getLessons = function () {
-	    return $http.get("/api/lessons").then(function (result) {
-	      return result;
-	    });
-	  };
-
-	  this.formatGuestLessons = function (lessons) {
-	    var userLessons = [];
-	    for (var i = 0; i < lessons.length; i++) {
-	      userLessons[i] = { lessonDetails: lessons[i] };
-	    };
-	    return userLessons;
-	  };
-	}
-	lessonService.$inject = ['$http', '$rootScope'];
-	exports.default = lessonService;
-	// angular.module('marathiApp').service('lessonService', lessonService)
-
-/***/ }),
 /* 10 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-	"use strict";
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	function userService($http, $rootScope, lessonService) {
-	  var _this = this;
-
-	  this.currentUser = { loggedIn: false, selectedLesson: { currentTerm: 0, terms: [] } };
-	  this.lessonsCompleted = 0;
-	  var lessonSelected = false;
-
-	  this.getUser = function () {
-	    return $http.get("/user").then(function (response) {
-	      if (response.data) {
-	        _this.currentUser = response.data;
-	        _this.currentUser.loggedIn = true;
-
-	        var _loop = function _loop(i) {
-	          if (!lessonSelected && _this.currentUser.lessons[i].completed === false) {
-	            _this.currentUser.selectedLesson = _this.currentUser.lessons[i];
-	          }
-	          if (_this.currentUser.lessons[i].completed === true) {
-	            _this.lessonsCompleted++;
-	            _this.currentUser.lessons[i].progress = 100;
-	          } else {
-	            _this.currentUser.lessons[i].progress = Math.round(_this.currentUser.lessons[i].currentTerm / _this.currentUser.lessons[i].length * 100);
-	          }
-	          lessonService.getLessonById(_this.currentUser.lessons[i]._id).then(function (result) {
-	            _this.currentUser.lessons[i].lessonDetails = result.data;
-	          });
-	        };
-
-	        for (var i = 0; i < _this.currentUser.lessons.length; i++) {
-	          _loop(i);
-	        }
-	        if (!_this.currentUser.selectedLesson._id) {
-	          _this.currentUser.selectedLesson = _this.currentUser.lessons[0];
-	          console.log(_this.currentUser.selectedLesson);
-	        }
-	        var lastLogin = new Date(_this.currentUser.lastLogin).getTime();
-	        var today = new Date().getTime();
-	        var dateJoined = new Date(_this.currentUser.dateJoined).getTime();
-	        if (lastLogin - dateJoined > 1000) _this.currentUser.returning = true;
-	        if (today - lastLogin > 24 * 3600000 && today - lastLogin < 48 * 3600000) {
-	          _this.currentUser.dayStreak++;
-	        }
-	        $rootScope.$emit("userUpdate", _this.currentUser);
-	      }
-	      return _this.currentUser;
-	    });
-	  };
-
-	  this.selectLesson = function (lesson) {
-	    _this.currentUser.selectedLesson = lesson;
-	    $rootScope.$emit("userUpdate", _this.currentUser);
-	    return $http.put("/api/users/select", lesson).then(function (result) {
-	      return result;
-	    });
-	  };
-
-	  this.setCurrentTerm = function (term) {
-	    for (var i = 0; i < _this.currentUser.lessons.length; i++) {
-	      if (term.lesson === _this.currentUser.lessons[i]._id) {
-	        _this.currentUser.selectedLesson = _this.currentUser.lessons[i];
-	        _this.currentUser.selectedLesson.currentTerm = i;
-	        break;
-	      }
-	    }
-	    _this.saveUserLesson(_this.currentUser.selectedLesson).then(function (result) {
-	      return result;
-	    });
-	  };
-
-	  this.saveUserLesson = function (lesson) {
-	    // Update selected Lesson
-	    _this.currentUser.selectedLesson = lesson;
-
-	    // Update lesson in this.currentUser
-	    for (var i = 0; i < _this.currentUser.lessons.length; i++) {
-	      if (_this.currentUser.selectedLesson._id === _this.currentUser.lessons[i]._id) {
-	        _this.currentUser.lessons[i] = _this.currentUser.selectedLesson;
-	        break;
-	      }
-	    }
-	    $rootScope.$emit("userUpdate", lesson);
-	    return $http.put("/api/users/save", _this.currentUser.lessons).then(function (result) {
-	      return result;
-	    });
-	  };
-	}
-
-	userService.$inject = ['$http', '$rootScope', 'lessonService'];
-	exports.default = userService;
-	// angular.module('marathiApp').service('userService', userService)
-
-/***/ }),
-/* 11 */
-/***/ (function(module, exports) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	function mainController($scope, $rootScope, userService) {
-	  $scope.currentUser = userService.currentUser;
-	  $rootScope.$on("userUpdate", function (event, data) {
-	    $scope.currentUser = data;
-	  });
-	}
-
-	mainController.$inject = ['$scope', '$rootScope', 'userService'];
-
-	exports.default = mainController;
-	// angular.module("marathiApp").controller('mainController', mainController)
-
-/***/ }),
-/* 12 */
-/***/ (function(module, exports) {
-
-	'use strict';
+	/* WEBPACK VAR INJECTION */(function($) {"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -34393,69 +33072,85 @@
 	    userService.getUser().then(function (response) {
 	      if (response) {
 	        $scope.currentUser = response;
-	        // let testLesson = response.lessons[0];
-	        // testLesson.score = 80;
-	        // testLesson.completed = true;
-	        // testLesson.currentTerm = 3;
-	        // userService.selectLesson(testLesson);
-	        // userService.saveUserLesson(testLesson);
 	      }
 	    });
 	  }
+	  $scope.showModal = function (target) {
+	    $("#" + target + "-overlay").fadeIn();
+	    $("#" + target).fadeIn();
+	  };
+	  $scope.hideModal = function (target) {
+	    $("#" + target + "-overlay").fadeOut();
+	    $("#" + target).fadeOut();
+	  };
 
 	  init();
 	}
 
 	userController.$inject = ['$scope', '$rootScope', 'userService'];
 	exports.default = userController;
-	// angular.module('marathiApp').controller('userController', userController)
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
 
 /***/ }),
-/* 13 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	"use strict";
+	/* WEBPACK VAR INJECTION */(function($) {"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
-	  value: true
+	   value: true
 	});
 
-	var _navDirective = __webpack_require__(14);
+	var _navDirective = __webpack_require__(12);
 
 	var _navDirective2 = _interopRequireDefault(_navDirective);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function navDirective() {
-	  return {
-	    restrict: "E",
-	    template: _navDirective2.default,
-	    scope: {},
-	    controller: function controller($scope, $rootScope, userService) {
-	      $scope.currentUser = userService.currentUser;
-	      $rootScope.$on("userUpdate", function (event, data) {
-	        $scope.currentUser = data;
-	      });
-	    }
-	  };
+	   return {
+	      restrict: "E",
+	      template: _navDirective2.default,
+	      scope: {
+	         showModal: "&"
+	      },
+	      controller: navController
+	   };
 	}
-
+	function navController($scope, $rootScope, userService) {
+	   $scope.currentUser = userService.currentUser;
+	   $rootScope.$on("userUpdate", function (event, data) {
+	      $scope.currentUser = data;
+	   });
+	   $scope.showSideNav = function () {
+	      $("#nav-mobile").animate({
+	         left: 0
+	      }, 300, 'linear');
+	   };
+	   $scope.hideSideNav = function () {
+	      $("#nav-mobile").animate({
+	         left: "-300px"
+	      }, 300, 'linear');
+	   };
+	}
+	navController.$inject = ["$scope", "$rootScope", "userService"];
 	exports.default = navDirective;
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	module.exports = "<nav class=\"navigation\">\r\n  <div class=\"nav-wrapper\">\r\n    <a class=\"brand-logo\" ui-sref=\"home\"><img src=\"" + __webpack_require__(13) + "\" alt=\"\"></a>\r\n    <a href=\"#\" class=\"button-collapse\" ng-click=\"showSideNav()\"><i class=\"material-icons\">menu</i></a>\r\n    <ul class=\"right hide-on-med-and-down main-nav\">\r\n      <li ng-show=\"currentUser.loggedIn || guest\"><a ng-click=\"showModal({target: 'term-display-modal'})\">Launch Lesson</a></li>\r\n      <li ng-hide=\"currentUser.loggedIn\"><a ng-click=\"showModal({target: 'login-modal'})\">Sign In</a></li>\r\n      <li ng-show=\"currentUser.loggedIn || guest\"><a href=\"/logout\">Logout</a></li>\r\n    </ul>\r\n    <ul class=\"nav-mobile\" id=\"nav-mobile\">\r\n      <li><a ng-click=\"hideSideNav()\">&times;</a></li>\r\n      <li ng-show=\"currentUser.loggedIn || guest\"><a ng-click=\"showModal({target: 'term-display-modal'})\">Launch Lesson</a></li>\r\n      <li ng-hide=\"currentUser.loggedIn\"><a ng-click=\"showModal({target: 'login-modal'})\">Sign In</a></li>\r\n      <li ng-show=\"currentUser.loggedIn || guest\"><a href=\"/logout\">Logout</a></li>\r\n    </ul>\r\n  </div>\r\n</nav>\r\n";
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "images/marathi-logo.png";
 
 /***/ }),
 /* 14 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	module.exports = "<nav class=\"navigation\">\r\n  <div class=\"nav-wrapper\">\r\n    <a class=\"brand-logo\" ui-sref=\"home\"><img src=\"" + __webpack_require__(15) + "\" alt=\"\"></a>\r\n    <a href=\"#\" class=\"button-collapse\" data-activates=\"nav-mobile\" data-sidenav=\"left\" data-menuwidth=\"500\" data-closeonclick=\"true\"><i class=\"material-icons\">menu</i></a>\r\n    <ul class=\"right hide-on-med-and-down main-nav\">\r\n      <li ng-show=\"currentUser.loggedIn || guest\"><a modal href=\"#termDisplayModal\">Launch Lesson</a></li>\r\n      <!-- <li ng-show=\"currentUser.loggedIn\"><a ui-sref=\"review\">Review</a></li> -->\r\n      <!-- <li ng-hide=\"currentUser.loggedIn\"><a ui-sref=\"user\">Start Learning</a></li> -->\r\n      <li ng-hide=\"currentUser.loggedIn\"><a modal href=\"#loginModal\">Sign In</a></li>\r\n      <li ng-show=\"currentUser.loggedIn || guest\"><a href=\"/logout\">Logout</a></li>\r\n    </ul>\r\n    <ul class=\"side-nav\" id=\"nav-mobile\">\r\n      <a class=\"button-collapse\" data-activates=\"nav-mobile\" data-closeonclick=\"true\">&times;</a>\r\n      <br>\r\n      <!-- <li ng-show=\"currentUser.loggedIn\"><a ui-sref=\"user\">Profile</a></li> -->\r\n      <li ng-show=\"currentUser.loggedIn || guest\"><a modal href=\"#termDisplayModal\">Launch Lesson</a></li>\r\n      <!-- <li ng-show=\"currentUser.loggedIn\"><a ui-sref=\"review\">Review</a></li>\r\n      <li ng-hide=\"currentUser.loggedIn\"><a ui-sref=\"user\">Start Learning</a></li> -->\r\n      <li ng-hide=\"currentUser.loggedIn\"><a modal href=\"#loginModal\">Sign In</a></li>\r\n      <li ng-show=\"currentUser.loggedIn\"><a href=\"/logout\">Logout</a></li>\r\n    </ul>\r\n  </div>\r\n</nav>\r\n";
-
-/***/ }),
-/* 15 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "fonts/de0178e74b4e0543ab5e85ebb1591004.png";
-
-/***/ }),
-/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -34464,7 +33159,7 @@
 	  value: true
 	});
 
-	var _userSummary = __webpack_require__(17);
+	var _userSummary = __webpack_require__(15);
 
 	var _userSummary2 = _interopRequireDefault(_userSummary);
 
@@ -34477,26 +33172,28 @@
 	    template: _userSummary2.default,
 	    scope: {}
 	    // Check to see if user appears upon login--if not, see if we need to pass user in scope
-	    , controller: function controller($scope, $rootScope, userService) {
-	      $scope.currentUser = userService.currentUser;
-	      $rootScope.$on("userUpdate", function (event, data) {
-	        $scope.currentUser = data;
-	        $scope.lessonsCompleted = userService.lessonsCompleted;
-	      });
-	    }
+	    , controller: userSummaryController
 	  };
 	}
+	function userSummaryController($scope, $rootScope, userService) {
+	  $scope.currentUser = userService.currentUser;
+	  $rootScope.$on("userUpdate", function (event, data) {
+	    $scope.currentUser = data;
+	    $scope.lessonsCompleted = userService.lessonsCompleted;
+	  });
+	}
 
+	userSummaryController.$inject = ["$scope", "$rootScope", "userService"];
 	exports.default = userSummary;
 
 /***/ }),
-/* 17 */
+/* 15 */
 /***/ (function(module, exports) {
 
 	module.exports = "<article class=\"user-summary\">\r\n  <h5>Welcome<span ng-if=\"currentUser.returning\"> Back</span>!</h5>\r\n  <h6 class=\"name\">{{currentUser.name}}</h6>\r\n  <div class=\"valign-wrapper\">\r\n    <img ng-src=\"{{currentUser.photo}}\" alt=\"\" class=\"col s4 profile-img circle center-align\">\r\n    <div class=\"col s8\">\r\n      <p><span class=\"figure\">{{lessonsCompleted}}</span> Lesson<span ng-show=\"lessonsCompleted > 1\">s</span> Completed</p>\r\n      <p><span class=\"figure\">{{currentUser.dayStreak}}</span> Day Streak</p>\r\n    </div>\r\n  </div>\r\n  <!-- <div ng-hide=\"currentUser.loggedIn\" class=\"center-align\">\r\n    <h6>Feel free to explore</h6>\r\n    <p>You can sign in any time to access content.</p>\r\n    <p>Just click the sign in link at the top.</p>\r\n  </div> -->\r\n</article>\r\n";
 
 /***/ }),
-/* 18 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -34505,7 +33202,7 @@
 	  value: true
 	});
 
-	var _login = __webpack_require__(19);
+	var _login = __webpack_require__(17);
 
 	var _login2 = _interopRequireDefault(_login);
 
@@ -34516,32 +33213,37 @@
 	    restrict: "E",
 	    replace: true,
 	    template: _login2.default,
-	    scope: {},
-	    controller: function controller($state, $scope) {
-	      $scope.stateName = $state.current.name;
-	    }
+	    scope: {
+	      hideModal: "&"
+	    },
+	    controller: loginModalController
 	  };
 	}
 
+	function loginModalController($state, $scope) {
+	  $scope.stateName = $state.current.name;
+	}
+
+	loginModalController.$inject = ["$state", "$scope"];
 	exports.default = loginModal;
 
 /***/ }),
-/* 19 */
+/* 17 */
 /***/ (function(module, exports) {
 
-	module.exports = "<div id=\"loginModal\" class=\"modal s4 offset-s4\">\r\n  <div class=\"modal-header\">\r\n    <a href=\"#/{{stateName}}\" class=\"modal-action modal-close waves-effect waves-green btn-flat center-align\">&times;</a>\r\n  </div>\r\n    <div class=\"modal-content center-align\">\r\n        <h4 ng-hide=\"loading\" class=\"title\">Sign In</h4>\r\n        <h4 ng-show=\"loading\" class=\"title\">Please Wait</h4>\r\n        <div ng-hide=\"loading\" class=\"explanation\">\r\n          <p>Please sign in to track your progress!.</p>\r\n          <p>We will only access your profile information to save you as a user.</p>\r\n        </div>\r\n        <div ng-show=\"loading\" class=\"preloader-wrapper big active\">\r\n          <div class=\"spinner-layer spinner-blue-only\">\r\n            <div class=\"circle-clipper left\">\r\n              <div class=\"circle\"></div>\r\n            </div><div class=\"gap-patch\">\r\n              <div class=\"circle\"></div>\r\n            </div><div class=\"circle-clipper right\">\r\n              <div class=\"circle\"></div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <a ng-hide=\"loading\" ng-click=\"loading=!loading\" href=\"/auth/facebook\"><img class=\"facebook-button\" src=\"https://scontent-dft4-1.xx.fbcdn.net/t39.2178-6/851579_209602122530903_1060396115_n.png\" alt=\"\"></a><br>\r\n        <a href=\"/guest\" class=\"modal-action modal-close waves-effect waves-light btn continue-button\">Enter as Guest</a><br> \r\n    </div>\r\n</div>\r\n";
+	module.exports = "<div id=\"login-modal-overlay\" class=\"modal-overlay\">\r\n   <div id=\"login-modal\" class=\"modal\">\r\n      <div class=\"s4 offset-s4\">\r\n         <div class=\"modal-header\">\r\n            <a ng-click=\"hideModal({target: 'login-modal'})\" class=\"modal-action modal-close waves-effect waves-green btn-flat center-align\">&times;</a>\r\n         </div>\r\n         <div class=\"modal-content center-align\">\r\n            <h4 ng-hide=\"loading\" class=\"title\">Sign In</h4>\r\n            <h4 ng-show=\"loading\" class=\"title\">Please Wait</h4>\r\n            <div ng-hide=\"loading\" class=\"explanation\">\r\n               <p>Please sign in to track your progress!.</p>\r\n               <p>We will only access your profile information to save you as a user.</p>\r\n            </div>\r\n            <div ng-show=\"loading\" class=\"preloader-wrapper big active\">\r\n               <div class=\"spinner-layer spinner-blue-only\">\r\n                  <div class=\"circle-clipper left\">\r\n                  <div class=\"circle\"></div>\r\n                  </div><div class=\"gap-patch\">\r\n                  <div class=\"circle\"></div>\r\n                  </div><div class=\"circle-clipper right\">\r\n                  <div class=\"circle\"></div>\r\n                  </div>\r\n               </div>\r\n            </div>\r\n            <a ng-hide=\"loading\" ng-click=\"loading=!loading\" href=\"/auth/facebook\"><img class=\"facebook-button\" src=\"/images/facebook-login-button.png\" alt=\"\"></a><br>\r\n            <a href=\"/guest\" class=\"modal-action modal-close waves-effect waves-light btn continue-button\">Enter as Guest</a><br> \r\n         </div>\r\n      </div>\r\n   </div>\r\n</div>\r\n";
 
 /***/ }),
-/* 20 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	"use strict";
+	/* WEBPACK VAR INJECTION */(function($) {"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 
-	var _trigger = __webpack_require__(21);
+	var _trigger = __webpack_require__(19);
 
 	var _trigger2 = _interopRequireDefault(_trigger);
 
@@ -34555,61 +33257,133 @@
 	    scope: {
 	      text: "@",
 	      target: "@"
-	    }
+	    },
+	    controller: modalTriggerController
+	  };
+	}
+	function modalTriggerController($scope) {
+	  $scope.showModal = function () {
+	    $("#" + $scope.target + "-overlay").fadeIn();
+	    $("#" + $scope.target).fadeIn();
 	  };
 	}
 
+	modalTriggerController.$inject = ["$scope"];
+
 	exports.default = modalTrigger;
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
 
 /***/ }),
-/* 21 */
+/* 19 */
 /***/ (function(module, exports) {
 
-	module.exports = "<section class=\"row center-align\">\r\n    <a ng-href=\"#{{target}}\" class=\"btn\" modal>{{text}}</a>\r\n</section>\r\n";
+	module.exports = "<section class=\"row center-align\">\r\n    <button ng-click=\"showModal()\" class=\"btn\" modal>{{text}}</button>\r\n</section>\r\n";
 
 /***/ }),
-/* 22 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
-	  value: true
+	   value: true
 	});
 
-	var _lessonEntryModal = __webpack_require__(23);
+	var _lessonEntryModal = __webpack_require__(21);
 
 	var _lessonEntryModal2 = _interopRequireDefault(_lessonEntryModal);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function lessonEntryModal() {
-	  return {
-	    restrict: "E",
-	    replace: true,
-	    template: _lessonEntryModal2.default,
-	    scope: {},
-	    controller: function controller($state, $scope, lessonService) {
-	      $scope.stateName = $state.current.name;
-	      $scope.newLesson = {};
-	      $scope.postLesson = function (lesson) {
-	        lesson.author = $scope.currentUser._id;
-	        lessonService.postLesson(lesson).then(function (result) {
-	          $scope.newLesson = {};
-	          return result;
-	        });
-	      };
-	    }
-	  };
+	   return {
+	      restrict: "E",
+	      replace: true,
+	      template: _lessonEntryModal2.default,
+	      scope: {
+	         hideModal: "&"
+	      },
+	      controller: lessonEntryModalController
+	   };
 	}
+	function lessonEntryModalController($state, $scope, lessonService) {
+	   $scope.stateName = $state.current.name;
+	   $scope.newLesson = {};
+	   $scope.postLesson = function (lesson) {
+	      lesson.author = $scope.currentUser._id;
+	      lessonService.postLesson(lesson).then(function (result) {
+	         $scope.newLesson = {};
+	         return result;
+	      });
+	   };
+	}
+	lessonEntryModalController.$inject = ["$state", "$scope", "lessonService"];
 
 	exports.default = lessonEntryModal;
+
+/***/ }),
+/* 21 */
+/***/ (function(module, exports) {
+
+	module.exports = "<div id=\"lesson-entry-modal-overlay\" class=\"modal-overlay\">\r\n   <div id=\"lesson-entry-modal\" class=\"modal s4 offset-s4 entry-modal\">\r\n      <div class=\"modal-header\">\r\n         <a ng-click=\"hideModal({target: 'lesson-entry-modal'})\" class=\"modal-action modal-close waves-effect waves-green btn-flat center-align\">&times;</a>\r\n      </div>\r\n      <div class=\"modal-content\">\r\n            <h4 class=\"title\">Add A Lesson</h4>\r\n            <form>\r\n            <fieldset>\r\n               <legend>Lesson Entry</legend>\r\n               <div input-field>\r\n                  <input type=\"text\" ng-model=\"newLesson.title\" length=\"150\">\r\n                  <label>Lesson Title</label>\r\n               </div>\r\n               <div input-field>\r\n                  <textarea ng-model=\"newLesson.description\" class=\"materialize-textarea\"></textarea>\r\n                  <label>Description</label>\r\n               </div>\r\n               <div input-field>\r\n                  <input type=\"text\" ng-model=\"newLesson.source\" length=\"150\">\r\n                  <label>Source (if you used an outside source)</label>\r\n               </div>\r\n               <div input-field>\r\n                  <input type=\"text\" ng-model=\"newLesson.image\" length=\"150\">\r\n                  <label>Image Url</label>\r\n               </div>\r\n               <div class=\"file-field input-field\">\r\n                  <div class=\"btn\">\r\n                  <span>File</span>\r\n                  <input type=\"file\" fileread accept=\"image/*\">\r\n                  </div>\r\n                  <div class=\"file-path-wrapper\">\r\n                  <input class=\"file-path\" type=\"text\">\r\n                  </div>\r\n               </div>\r\n               <div input-field>\r\n                  <input type=\"text\" ng-model=\"newLesson.imageCredit\" length=\"150\">\r\n                  <label>Image Credit (if you need to attribute the source)</label>\r\n               </div>\r\n            </fieldset>\r\n            </form>\r\n      </div>\r\n      <div class=\"modal-foooter\">\r\n         <button ng-click=\"postLesson(newLesson)\" class=\"modal-action modal-close waves-effect waves-light btn continue-button\">Submit</button><br>\r\n      </div>\r\n   </div>\r\n</div>";
+
+/***/ }),
+/* 22 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function($) {"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	   value: true
+	});
+
+	var _termEntryModal = __webpack_require__(23);
+
+	var _termEntryModal2 = _interopRequireDefault(_termEntryModal);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function termEntryModal() {
+	   return {
+	      restrict: "E",
+	      replace: true,
+	      template: _termEntryModal2.default,
+	      scope: {
+	         hideModal: "&"
+	      },
+	      controller: termEntryController
+	   };
+	}
+	function termEntryController($state, $scope, lessonService) {
+	   $scope.stateName = $state.current.name;
+	   $scope.newTerm = {};
+
+	   lessonService.getLessons().then(function (response) {
+	      $scope.lessons = response.data;
+	   });
+
+	   $scope.postTerm = function (term) {
+	      term.author = $scope.currentUser._id;
+	      term.language = "Marathi";
+
+	      lessonService.postTerm(term).then(function (result) {
+	         $scope.newTerm = {};
+	         // Insert toast            
+	      });
+	   };
+	   $scope.fadeOut = function () {
+	      $("#termEntryModal").fadeOut();
+	   };
+	}
+	termEntryController.$inject = ["$state", "$scope", "lessonService"];
+	exports.default = termEntryModal;
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
 
 /***/ }),
 /* 23 */
 /***/ (function(module, exports) {
 
-	module.exports = "<div id=\"lessonEntryModal\" class=\"modal s4 offset-s4 entry-modal\">\r\n  <div class=\"modal-header\">\r\n    <a href=\"#/{{stateName}}\" class=\"modal-action modal-close waves-effect waves-green btn-flat center-align\">&times;</a>\r\n  </div>\r\n  <div class=\"modal-content\">\r\n      <h4 class=\"title\">Add A Lesson</h4>\r\n      <form>\r\n        <fieldset>\r\n          <legend>Lesson Entry</legend>\r\n          <div input-field>\r\n              <input type=\"text\" ng-model=\"newLesson.title\" length=\"150\">\r\n              <label>Lesson Title</label>\r\n          </div>\r\n          <div input-field>\r\n              <textarea ng-model=\"newLesson.description\" class=\"materialize-textarea\"></textarea>\r\n              <label>Description</label>\r\n          </div>\r\n          <div input-field>\r\n            <input type=\"text\" ng-model=\"newLesson.source\" length=\"150\">\r\n            <label>Source (if you used an outside source)</label>\r\n          </div>\r\n          <div input-field>\r\n            <input type=\"text\" ng-model=\"newLesson.image\" length=\"150\">\r\n            <label>Image Url</label>\r\n          </div>\r\n          <div class=\"file-field input-field\">\r\n            <div class=\"btn\">\r\n              <span>File</span>\r\n              <input type=\"file\" fileread accept=\"image/*\">\r\n            </div>\r\n            <div class=\"file-path-wrapper\">\r\n              <input class=\"file-path\" type=\"text\">\r\n            </div>\r\n          </div>\r\n          <div input-field>\r\n            <input type=\"text\" ng-model=\"newLesson.imageCredit\" length=\"150\">\r\n            <label>Image Credit (if you need to attribute the source)</label>\r\n          </div>\r\n        </fieldset>\r\n      </form>\r\n  </div>\r\n  <div class=\"modal-foooter\">\r\n    <button ng-click=\"postLesson(newLesson)\" class=\"modal-action modal-close waves-effect waves-light btn continue-button\">Submit</button><br>\r\n  </div>\r\n</div>";
+	module.exports = "<div id=\"term-entry-modal-overlay\" class=\"modal-overlay\">\r\n   <div id=\"term-entry-modal\" class=\"modal s4 offset-s4 entry-modal\">\r\n      <div class=\"modal-header\">\r\n         <a ng-click=\"hideModal({target: 'term-entry-modal'})\" class=\"modal-action modal-close waves-effect waves-green btn-flat center-align\">&times;</a>\r\n      </div>\r\n      <div class=\"modal-content\">\r\n            <h4 class=\"title\">Add A Term</h4>\r\n            <form>\r\n            <fieldset>\r\n               <legend>Term Entry</legend>\r\n               <div input-field>\r\n                  <input type=\"text\" ng-model=\"newTerm.term\" length=\"150\">\r\n                  <label>New Term</label>\r\n               </div>\r\n               <div input-field>\r\n                  <input type=\"text\" ng-model=\"newTerm.transliteration\"></input>\r\n                  <label>Transliteration</label>\r\n               </div>\r\n               <div input-field>\r\n                  <input type=\"text\" ng-model=\"newTerm.explanation\" length=\"150\">\r\n                  <label>Explanation</label>\r\n               </div>\r\n               <div input-field>\r\n                  <select ng-model=\"newTerm.lesson\">\r\n                     <option ng-repeat=\"lesson in lessons\" value=\"{{lesson._id}}\">{{lesson.title}}</option>\r\n                  </select>\r\n                  <label>Select a Lesson</label>\r\n                  </div>\r\n\r\n            </fieldset>\r\n            <fieldset>\r\n               <legend ng-click=\"showOptions = !showOptions\">Additional Information <span class=\"term-entry-arrow\" ng-show=\"!showOptions\">&#x25BC;</span><span class=\"term-entry-arrow\" ng-show=\"showOptions\">&#x25B2;</legend>\r\n               <div ng-show=\"showOptions\">\r\n                  <div input-field>\r\n                  <select material-select ng-model=\"newTerm.category\">\r\n                     <option value=\"alphabet\">Alphabet</option>\r\n                     <option value=\"grammar\">Grammar</option>\r\n                     <option value=\"vocabulary\">Vocabulary</option>\r\n                     <option value=\"culture\">Culture</option>\r\n                  </select>\r\n                  <label>Category</label>\r\n                  </div>\r\n                  <div input-field>\r\n                  <input type=\"text\" ng-model=\"newTerm.topic\" length=\"150\">\r\n                  <label>Topic</label>\r\n                  </div>\r\n                  <div input-field>\r\n                  <input type=\"text\" ng-model=\"newTerm.theme\" length=\"150\">\r\n                  <label>Theme</label>\r\n                  </div>\r\n                  <div input-field>\r\n                  <input type=\"text\" ng-model=\"newTerm.image\" length=\"150\">\r\n                  <label>Image</label>\r\n                  </div>\r\n                  <div input-field>\r\n                  <input type=\"text\" ng-model=\"newTerm.imageCredit\" length=\"150\">\r\n                  <label>Image Credit (if needed)</label>\r\n                  </div>\r\n                  <div input-field>\r\n                  <input type=\"text\" ng-model=\"newTerm.sound\" length=\"150\">\r\n                  <label>Sound File Url</label>\r\n                  </div>\r\n                  <div input-field>\r\n                  <input type=\"text\" ng-model=\"newTerm.example\" length=\"150\">\r\n                  <label>Example</label>\r\n                  </div>\r\n                  <div input-field>\r\n                  <input type=\"text\" ng-model=\"newTerm.exampleTransliteration\" length=\"150\">\r\n                  <label>Transliteration of Example</label>\r\n                  </div>\r\n                  <div input-field>\r\n                  <input type=\"text\" ng-model=\"newTerm.exampleTranslation\" length=\"150\">\r\n                  <label>Translation of Example</label>\r\n                  </div>\r\n                  <div input-field>\r\n                  <input type=\"text\" ng-model=\"newTerm.reviewQuestion\" length=\"150\">\r\n                  <label>Review Question</label>\r\n                  </div>\r\n                  <div input-field>\r\n                  <input type=\"text\" ng-model=\"newTerm.reviewAnswer\" length=\"150\">\r\n                  <label>Review Answer</label>\r\n                  </div>\r\n                  <div input-field>\r\n                  <select material-select ng-model=\"newTerm.reviewAnswerType\">\r\n                     <option value=\"term\">Term</option>\r\n                     <option value=\"transliteration\">Transliteration</option>\r\n                     <option value=\"definition\">Definition</option>\r\n                     <option value=\"translation\">Translation</option>\r\n                  </select>\r\n                  <label>Review Answer Type</label>\r\n                  </div>\r\n                  <div input-field>\r\n                  <input type=\"text\" ng-model=\"newTerm.reviewImage\" length=\"150\">\r\n                  <label>Review Image</label>\r\n                  </div>\r\n                  <div input-field>\r\n                  <input type=\"text\" ng-model=\"newTerm.reviewImageCredit\" length=\"150\">\r\n                  <label>Review Image Credit</label>\r\n                  </div>           \r\n               </div>\r\n            </fieldset>\r\n            </form>\r\n      </div>\r\n      <div class=\"modal-foooter\">\r\n         <button ng-click=\"postTerm(newTerm)\" class=\"modal-action modal-close waves-effect waves-light btn continue-button\">Submit</button><br>\r\n      </div>\r\n   </div>\r\n</div>";
 
 /***/ }),
 /* 24 */
@@ -34618,49 +33392,44 @@
 	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
-	  value: true
+	   value: true
 	});
 
-	var _termEntryModal = __webpack_require__(25);
+	var _lessonListDisplayTemp = __webpack_require__(25);
 
-	var _termEntryModal2 = _interopRequireDefault(_termEntryModal);
+	var _lessonListDisplayTemp2 = _interopRequireDefault(_lessonListDisplayTemp);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	function termEntryModal() {
-	  return {
-	    restrict: "E",
-	    replace: true,
-	    template: _termEntryModal2.default,
-	    scope: {},
-	    controller: function controller($state, $scope, lessonService) {
-	      $scope.stateName = $state.current.name;
-	      $scope.newTerm = {};
+	function lessonListDisplay() {
+	   return {
+	      restrict: "E",
+	      replace: true,
+	      template: _lessonListDisplayTemp2.default,
+	      scope: {},
+	      controller: lessonListDisplayController
 
-	      lessonService.getLessons().then(function (response) {
-	        $scope.lessons = response.data;
-	      });
-
-	      $scope.postTerm = function (term) {
-	        term.author = $scope.currentUser._id;
-	        term.language = "Marathi";
-
-	        lessonService.postTerm(term).then(function (result) {
-	          $scope.newTerm = {};
-	          // Insert toast            
-	        });
-	      };
-	    }
-	  };
+	   };
 	}
+	function lessonListDisplayController($scope, $rootScope, userService, lessonService) {
+	   $scope.currentUser = userService.currentUser;
+	   $rootScope.$on("userUpdate", function (event, user) {
+	      $scope.currentUser = user;
+	   });
 
-	exports.default = termEntryModal;
+	   $scope.selectLesson = function (lesson) {
+	      userService.selectLesson(lesson).then(function (result) {});
+	   };
+	}
+	lessonListDisplayController.$inject = ["$scope", "$rootScope", "userService", "lessonService"];
+
+	exports.default = lessonListDisplay;
 
 /***/ }),
 /* 25 */
 /***/ (function(module, exports) {
 
-	module.exports = "<div id=\"termEntryModal\" class=\"modal s4 offset-s4 entry-modal\">\r\n  <div class=\"modal-header\">\r\n    <a href=\"#/{{stateName}}\" class=\"modal-action modal-close waves-effect waves-green btn-flat center-align\">&times;</a>\r\n  </div>\r\n  <div class=\"modal-content\">\r\n      <h4 class=\"title\">Add A Term</h4>\r\n      <form>\r\n        <fieldset>\r\n          <legend>Term Entry</legend>\r\n          <div input-field>\r\n              <input type=\"text\" ng-model=\"newTerm.term\" length=\"150\">\r\n              <label>New Term</label>\r\n          </div>\r\n          <div input-field>\r\n              <input type=\"text\" ng-model=\"newTerm.transliteration\"></input>\r\n              <label>Transliteration</label>\r\n          </div>\r\n          <div input-field>\r\n            <input type=\"text\" ng-model=\"newTerm.explanation\" length=\"150\">\r\n            <label>Explanation</label>\r\n          </div>\r\n           <div input-field>\r\n              <select material-select ng-model=\"newTerm.lesson\">\r\n                <option ng-repeat=\"lesson in lessons\" value=\"{{lesson._id}}\">{{lesson.title}}</option>\r\n              </select>\r\n              <label>Select a Lesson</label>\r\n            </div>\r\n\r\n        </fieldset>\r\n        <fieldset>\r\n          <legend ng-click=\"showOptions = !showOptions\">Additional Information <span ng-show=\"!showOptions\">&#x25BC;</span><span ng-show=\"showOptions\">&#x25B2;</legend>\r\n          <div ng-show=\"showOptions\">\r\n            <div input-field>\r\n              <select material-select ng-model=\"newTerm.category\">\r\n                <option value=\"alphabet\">Alphabet</option>\r\n                <option value=\"grammar\">Grammar</option>\r\n                <option value=\"vocabulary\">Vocabulary</option>\r\n                <option value=\"culture\">Culture</option>\r\n              </select>\r\n              <label>Category</label>\r\n            </div>\r\n            <div input-field>\r\n              <input type=\"text\" ng-model=\"newTerm.topic\" length=\"150\">\r\n              <label>Topic</label>\r\n            </div>\r\n            <div input-field>\r\n              <input type=\"text\" ng-model=\"newTerm.theme\" length=\"150\">\r\n              <label>Theme</label>\r\n            </div>\r\n            <div input-field>\r\n              <input type=\"text\" ng-model=\"newTerm.image\" length=\"150\">\r\n              <label>Image</label>\r\n            </div>\r\n            <div input-field>\r\n              <input type=\"text\" ng-model=\"newTerm.imageCredit\" length=\"150\">\r\n              <label>Image Credit (if needed)</label>\r\n            </div>\r\n            <div input-field>\r\n              <input type=\"text\" ng-model=\"newTerm.sound\" length=\"150\">\r\n              <label>Sound File Url</label>\r\n            </div>\r\n            <div input-field>\r\n              <input type=\"text\" ng-model=\"newTerm.example\" length=\"150\">\r\n              <label>Example</label>\r\n            </div>\r\n            <div input-field>\r\n              <input type=\"text\" ng-model=\"newTerm.exampleTransliteration\" length=\"150\">\r\n              <label>Transliteration of Example</label>\r\n            </div>\r\n            <div input-field>\r\n              <input type=\"text\" ng-model=\"newTerm.exampleTranslation\" length=\"150\">\r\n              <label>Translation of Example</label>\r\n            </div>\r\n            <div input-field>\r\n              <input type=\"text\" ng-model=\"newTerm.reviewQuestion\" length=\"150\">\r\n              <label>Review Question</label>\r\n            </div>\r\n            <div input-field>\r\n              <input type=\"text\" ng-model=\"newTerm.reviewAnswer\" length=\"150\">\r\n              <label>Review Answer</label>\r\n            </div>\r\n            <div input-field>\r\n              <select material-select ng-model=\"newTerm.reviewAnswerType\">\r\n                <option value=\"term\">Term</option>\r\n                <option value=\"transliteration\">Transliteration</option>\r\n                <option value=\"definition\">Definition</option>\r\n                <option value=\"translation\">Translation</option>\r\n              </select>\r\n              <label>Review Answer Type</label>\r\n            </div>\r\n            <div input-field>\r\n              <input type=\"text\" ng-model=\"newTerm.reviewImage\" length=\"150\">\r\n              <label>Review Image</label>\r\n            </div>\r\n            <div input-field>\r\n              <input type=\"text\" ng-model=\"newTerm.reviewImageCredit\" length=\"150\">\r\n              <label>Review Image Credit</label>\r\n            </div>           \r\n          </div>\r\n        </fieldset>\r\n      </form>\r\n  </div>\r\n  <div class=\"modal-foooter\">\r\n    <button ng-click=\"postTerm(newTerm)\" class=\"modal-action modal-close waves-effect waves-light btn continue-button\">Submit</button><br>\r\n  </div>\r\n</div>\r\n";
+	module.exports = "<article class=\"lesson-list-display\">\r\n  <h5>Lessons</h5>\r\n  <div class=\"lesson-summary\" ng-class=\"{'active': currentUser.selectedLesson === lesson}\" ng-repeat=\"lesson in currentUser.lessons\" ng-click=\"selectLesson(lesson)\">\r\n    <h6 class=\"title\">{{lesson.lessonDetails.title}}</h6>\r\n    <div class=\"valign-wrapper\">\r\n      <img class=\"col s8 responsive-img\" ng-show=\"lesson.completed\" ng-src=\"{{lesson.lessonDetails.image}}\" alt=\"\">\r\n      <img class=\"col s12 responsive-img\" ng-hide=\"lesson.completed\" ng-src=\"{{lesson.lessonDetails.image}}\" alt=\"\">\r\n\r\n      <div class=\"col s4\" ng-show=\"lesson.completed\"><progressCircle progress=\"50\"></progressCircle></div>\r\n    </div>\r\n    <p>{{lesson.lessonDetails.description | limitTo: 50}}...</p>\r\n  </div>\r\n</article>\r\n";
 
 /***/ }),
 /* 26 */
@@ -34672,51 +33441,7 @@
 	  value: true
 	});
 
-	var _lessonListDisplayTemp = __webpack_require__(27);
-
-	var _lessonListDisplayTemp2 = _interopRequireDefault(_lessonListDisplayTemp);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function lessonListDisplay() {
-	  return {
-	    restrict: "E",
-	    replace: true,
-	    template: _lessonListDisplayTemp2.default,
-	    scope: {},
-	    controller: function controller($scope, $rootScope, userService, lessonService) {
-	      $scope.currentUser = userService.currentUser;
-	      $rootScope.$on("userUpdate", function (event, user) {
-	        $scope.currentUser = user;
-	      });
-
-	      $scope.selectLesson = function (lesson) {
-	        userService.selectLesson(lesson).then(function (result) {});
-	      };
-	    }
-
-	  };
-	}
-
-	exports.default = lessonListDisplay;
-
-/***/ }),
-/* 27 */
-/***/ (function(module, exports) {
-
-	module.exports = "<article class=\"lesson-list-display\">\r\n  <h5>Lessons</h5>\r\n  <div class=\"lesson-summary\" ng-class=\"{'active': currentUser.selectedLesson === lesson}\" ng-repeat=\"lesson in currentUser.lessons\" ng-click=\"selectLesson(lesson)\">\r\n    <h6 class=\"title\">{{lesson.lessonDetails.title}}</h6>\r\n    <div class=\"valign-wrapper\">\r\n      <img class=\"col s8 responsive-img\" ng-show=\"lesson.completed\" ng-src=\"{{lesson.lessonDetails.image}}\" alt=\"\">\r\n      <img class=\"col s12 responsive-img\" ng-hide=\"lesson.completed\" ng-src=\"{{lesson.lessonDetails.image}}\" alt=\"\">\r\n\r\n      <div class=\"col s4\" ng-show=\"lesson.completed\"><progressCircle progress=\"50\"></progressCircle></div>\r\n    </div>\r\n    <p>{{lesson.lessonDetails.description | limitTo: 50}}...</p>\r\n  </div>\r\n</article>\r\n";
-
-/***/ }),
-/* 28 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	"use strict";
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _lessonDisplay = __webpack_require__(29);
+	var _lessonDisplay = __webpack_require__(27);
 
 	var _lessonDisplay2 = _interopRequireDefault(_lessonDisplay);
 
@@ -34728,23 +33453,76 @@
 	    replace: true,
 	    template: _lessonDisplay2.default,
 	    scope: {},
-	    controller: function controller($scope, $rootScope, userService, lessonService) {
-	      $scope.mode = "lesson";
-	      $scope.currentUser = userService.currentUser;
-	      $rootScope.$on("userUpdate", function (event, user) {
-	        $scope.currentUser = user;
-	      });
-	    }
+	    controller: lessonDisplayController
 	  };
 	}
 
+	function lessonDisplayController($scope, $rootScope, userService, lessonService) {
+	  $scope.mode = "lesson";
+	  $scope.currentUser = userService.currentUser;
+	  $rootScope.$on("userUpdate", function (event, user) {
+	    $scope.currentUser = user;
+	  });
+	}
+	lessonDisplayController.$inject = ["$scope", "$rootScope", "userService", "lessonService"];
 	exports.default = lessonDisplay;
+
+/***/ }),
+/* 27 */
+/***/ (function(module, exports) {
+
+	module.exports = "<article class=\"lesson-display\">\r\n  <h5>Current Lesson</h5>\r\n  <main>\r\n    <div class=\"cover\">\r\n      <h5 class=\"title\">{{currentUser.selectedLesson.lessonDetails.title}}</h5>\r\n      <div class=\"center-align\">\r\n        <img class=\"cover-image responsive-img\" ng-src=\"{{currentUser.selectedLesson.lessonDetails.image}}\" alt=\"\">\r\n      </div>\r\n      <p class=\"credit right-align\">{{currentUser.selectedLesson.lessonDetails.imageCredit | limitTo: 50}}</p>\r\n      <div class=\"divider\"></div>\r\n      <p class=\"description\">{{currentUser.selectedLesson.lessonDetails.description}}</p>\r\n      <p class=\"source\">{{currentUser.selectedLesson.lessonDetails.source}}</p>\r\n    </div>\r\n    <modal-trigger text=\"Let's Begin\" target=\"term-display-modal\"></modal-trigger>\r\n    <div class=\"sample\">\r\n      <h6>Sample Terms: </h6>\r\n      <div class=\"sample-term center-align\" ng-repeat=\"term in currentUser.selectedLesson.lessonDetails.terms | limitTo: 6 | orderBy: '-term'\">\r\n        <img ng-src=\"{{term.image}}\" alt=\"\" class=\"sample-image\">\r\n        <p class=\"sample-term\">{{term.term}}, {{term.transliteration}}</p>\r\n      </div>\r\n    </div>\r\n    <term-display mode=\"mode\"></term-display>\r\n  </main>\r\n</article>\r\n";
+
+/***/ }),
+/* 28 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function($) {"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	   value: true
+	});
+
+	var _progressCircle = __webpack_require__(29);
+
+	var _progressCircle2 = _interopRequireDefault(_progressCircle);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function progressCircle() {
+	   return {
+	      restrict: "E",
+	      replace: true,
+	      template: _progressCircle2.default,
+	      scope: {
+	         progress: "="
+	      },
+	      controller: progressController
+	   };
+	}
+	function progressController($scope, $rootScope, userService) {
+	   setTimeout(animateCounter(), 500);
+	   function animateCounter() {
+	      for (var i = 0; i <= $scope.progress; i++) {
+	         setTimeout(logCounter(i), i * 10);
+	      }
+	   }
+	   function logCounter(i) {
+	      return function () {
+	         $('.text').text(i + "%");
+	      };
+	   }
+	}
+	progressController.$inject = ["$scope", "$rootScope", "userService"];
+
+	exports.default = progressCircle;
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
 
 /***/ }),
 /* 29 */
 /***/ (function(module, exports) {
 
-	module.exports = "<article class=\"lesson-display\">\r\n  <h5>Current Lesson</h5>\r\n  <main>\r\n    <div class=\"cover\">\r\n      <h5 class=\"title\">{{currentUser.selectedLesson.lessonDetails.title}}</h5>\r\n      <div class=\"center-align\">\r\n        <img class=\"cover-image responsive-img\" ng-src=\"{{currentUser.selectedLesson.lessonDetails.image}}\" alt=\"\">\r\n      </div>\r\n      <p class=\"credit right-align\">{{currentUser.selectedLesson.lessonDetails.imageCredit | limitTo: 50}}</p>\r\n      <div class=\"divider\"></div>\r\n      <p class=\"description\">{{currentUser.selectedLesson.lessonDetails.description}}</p>\r\n      <p class=\"source\">{{currentUser.selectedLesson.lessonDetails.source}}</p>\r\n    </div>\r\n    <modal-trigger text=\"Let's Begin\" target=\"termDisplayModal\"></modal-trigger>\r\n    <div class=\"sample\">\r\n      <h6>Sample Terms: </h6>\r\n      <div class=\"sample-term center-align\" ng-repeat=\"term in currentUser.selectedLesson.lessonDetails.terms | limitTo: 6 | orderBy: '-term'\">\r\n        <img ng-src=\"{{term.image}}\" alt=\"\" class=\"sample-image\">\r\n        <p class=\"sample-term\">{{term.term}}, {{term.transliteration}}</p>\r\n      </div>\r\n    </div>\r\n    <term-display mode=\"mode\"></term-display>\r\n  </main>\r\n</article>\r\n";
+	module.exports = "<div class=\"progress-circle-container\">\r\n  <svg data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 218.8 218.8\">\r\n    <defs>\r\n      <style>\r\n        .cls-1 {\r\n          fill: transparent;\r\n          stroke: #00a8ba;\r\n          stroke-miterlimit: 10;\r\n          stroke-width: 20px;\r\n        }\r\n      </style>\r\n    </defs>\r\n    <title>Untitled-1</title>\r\n    <text class=\"text\" x=\"50\" y=\"-90\" transform=\"rotate(90, 0, 0)\" style=\"font-family: Times New Roman;\r\n         font-size: 62px;\r\n         stroke: #CA1E5A;\r\n         fill: #CA1E5A;\">0%</text>\r\n    <path class=\"path cls-1\" d=\"M352.6,199.6a95.24,95.24,0,0,1-.87,12.9,94,94,0,0,1-19,45,94.55,94.55,0,0,1-99.14,33.27,94,94,0,0,1-30.22-14.29,94.67,94.67,0,0,1-34.2-45.32,93.7,93.7,0,0,1-3.74-13.82,94.9,94.9,0,0,1-1.66-17.74q0-4.54.42-9A93.87,93.87,0,0,1,181,145.19a94.81,94.81,0,0,1,36.87-31,93.7,93.7,0,0,1,19.32-6.67,94.71,94.71,0,0,1,21-2.34q3.32,0,6.59.23A94.31,94.31,0,0,1,352.6,199.6Z\" transform=\"translate(-148.8 -90.2)\"/>\r\n  </svg>\r\n</div>\r\n";
 
 /***/ }),
 /* 30 */
@@ -34753,47 +33531,150 @@
 	/* WEBPACK VAR INJECTION */(function($) {"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
-	  value: true
+	   value: true
 	});
 
-	var _progressCircle = __webpack_require__(31);
+	var _termDisplay = __webpack_require__(31);
 
-	var _progressCircle2 = _interopRequireDefault(_progressCircle);
+	var _termDisplay2 = _interopRequireDefault(_termDisplay);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	function progressCircle() {
-	  return {
-	    restrict: "E",
-	    replace: true,
-	    template: _progressCircle2.default,
-	    scope: {
-	      progress: "="
-	    },
-	    controller: function controller($scope, $rootScope, userService) {
-	      setTimeout(animateCounter(), 500);
-	      function animateCounter() {
-	        for (var i = 0; i <= $scope.progress; i++) {
-	          setTimeout(logCounter(i), i * 10);
-	        }
-	      }
-	      function logCounter(i) {
-	        return function () {
-	          $('.text').text(i + "%");
-	        };
-	      }
-	    }
-	  };
+	function termDisplay() {
+	   return {
+	      restrict: "E",
+	      replace: true,
+	      template: _termDisplay2.default,
+	      scope: {
+	         mode: "=",
+	         hideModal: "&"
+	      },
+	      controller: termController
+	   };
 	}
+	function termController($scope, $state, $rootScope, userService) {
+	   // Initial State
+	   $scope.loading = true;
+	   $scope.currentUser = userService.currentUser;
+	   $scope.stateName = $state.current.name;
+	   $scope.lesson = {};
+	   $scope.term = {};
+	   $scope.lesson.currentTerm = 0;
+	   $scope.progress = 0;
+	   $scope.showIncorrectAnswer = false;
+	   $scope.showCongratulations = false;
+	   $scope.revealAnswer = false;
+	   $scope.exit = false;
+	   $scope.beginning = true;
+	   $scope.finished = false;
+	   $scope.review = {
+	      reviewMode: false,
+	      answers: ["a", "b", "c", "d"]
+	   };
+	   $rootScope.$on("userUpdate", function (event, user) {
+	      $scope.currentUser = user;
+	      $scope.lesson = user.selectedLesson;
+	      $scope.lesson.score = 0;
+	      if (!$scope.lesson.currentTerm) {
+	         $scope.lesson.currentTerm = 0;
+	         $scope.beginning = true;
+	      }
+	      $scope.loading = false;
+	   });
 
-	exports.default = progressCircle;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(7)))
+	   $scope.answerQuestion = function (answer) {
+	      $scope.revealAnswer = true;
+	      if (answer === $scope.review.reviewAnswer) {
+	         $scope.showCongratulations = true;
+	         $scope.lesson.score++;
+	      } else {
+	         $scope.showIncorrectAnswer = true;
+	         $scope.user.reviewItems.push($scope.review);
+	      }
+	   };
+
+	   $scope.finishLesson = function () {
+	      $scope.lesson.completed = true;
+	      $scope.exit = true;
+	      $scope.progress = Math.round($scope.lesson.score / $scope.lesson.lessonDetails.terms.length * 100);
+	      userService.saveUserLesson($scope.lesson).then(function (result) {
+	         console.log(result);
+	      });
+	   };
+
+	   $scope.previousTerm = function () {
+	      if ($scope.lesson.currentTerm > 0) $scope.lesson.currentTerm--;
+	      if ($scope.lesson.currentTerm === 0) $scope.beginning = true;
+	      $scope.progress = parseInt($scope.lesson.currentTerm / $scope.lesson.lessonDetails.terms.length * 100);
+	      //Reset review properties
+	      $scope.review = {
+	         reviewMode: false,
+	         answers: ["a", "b", "c", "d"]
+	      };
+	      $scope.showIncorrectAnswer = false;
+	      $scope.showCongratulations = false;
+	      $scope.revealAnswer = false;
+	   };
+
+	   $scope.nextTerm = function () {
+	      // Activate previous button
+	      $scope.beginning = false;
+	      var terms = $scope.lesson.lessonDetails.terms;
+	      var lessonLength = terms.length;
+	      // If just finished a review question, proceed to next term and reset review
+	      if ($scope.review.reviewMode) {
+	         if ($scope.lesson.currentTerm === $scope.lesson.lessonDetails.terms.length - 1) {
+	            $scope.finished = true;
+	         } else {
+	            $scope.lesson.currentTerm++;
+	            $scope.progress = parseInt($scope.lesson.currentTerm / $scope.lesson.lessonDetails.terms.length * 100);
+	         }
+	         // Reset reviewObject
+	         $scope.review = {
+	            reviewMode: false,
+	            answers: ["a", "b", "c", "d"]
+	         };
+	         $scope.showIncorrectAnswer = false;
+	         $scope.showCongratulations = false;
+	         $scope.revealAnswer = false;
+	      } else {
+	         $scope.review = $scope.lesson.lessonDetails.terms[$scope.lesson.currentTerm];
+	         $scope.review.answers = [];
+	         $scope.review.answers.push($scope.review.reviewAnswer);
+	         // Generate three random indices, look up answers, and push to review
+
+	         for (var i = 0; i < 3; i++) {
+	            var _answerIndex = Math.floor(Math.random() * $scope.lesson.lessonDetails.terms.length);
+	            while ($scope.review.answers.indexOf($scope.lesson.lessonDetails.terms[_answerIndex].term) !== -1 || $scope.review.answers.indexOf($scope.lesson.lessonDetails.terms[_answerIndex].transliteration) !== -1) {
+	               _answerIndex = Math.floor(Math.random() * $scope.lesson.lessonDetails.terms.length);
+	            }
+	            if ($scope.review.reviewAnswerType === "transliteration") {
+	               $scope.review.answers.push($scope.lesson.lessonDetails.terms[_answerIndex].transliteration);
+	            } else {
+	               $scope.review.answers.push($scope.lesson.lessonDetails.terms[_answerIndex].term);
+	            }
+	         }
+	         // Put answer in random position
+	         var answerIndex = Math.floor(Math.random() * 4);
+	         $scope.review.answers.splice(0, 1);
+	         $scope.review.answers.splice(answerIndex, 0, $scope.review.reviewAnswer);
+	         $scope.revealAnswer = false;
+	         $scope.review.reviewMode = true;
+	      }
+	   };
+	   $scope.fadeOut = function () {
+	      $("#termDisplayModal").fadeOut();
+	   };
+	}
+	termController.$inject = ["$scope", "$state", "$rootScope", "userService"];
+	exports.default = termDisplay;
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
 
 /***/ }),
 /* 31 */
 /***/ (function(module, exports) {
 
-	module.exports = "<div class=\"progress-circle-container\">\r\n  <svg data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 218.8 218.8\">\r\n    <defs>\r\n      <style>\r\n        .cls-1 {\r\n          fill: transparent;\r\n          stroke: #00a8ba;\r\n          stroke-miterlimit: 10;\r\n          stroke-width: 20px;\r\n        }\r\n      </style>\r\n    </defs>\r\n    <title>Untitled-1</title>\r\n    <text class=\"text\" x=\"50\" y=\"-90\" transform=\"rotate(90, 0, 0)\" style=\"font-family: Times New Roman;\r\n         font-size: 62px;\r\n         stroke: #CA1E5A;\r\n         fill: #CA1E5A;\">0%</text>\r\n    <path class=\"path cls-1\" d=\"M352.6,199.6a95.24,95.24,0,0,1-.87,12.9,94,94,0,0,1-19,45,94.55,94.55,0,0,1-99.14,33.27,94,94,0,0,1-30.22-14.29,94.67,94.67,0,0,1-34.2-45.32,93.7,93.7,0,0,1-3.74-13.82,94.9,94.9,0,0,1-1.66-17.74q0-4.54.42-9A93.87,93.87,0,0,1,181,145.19a94.81,94.81,0,0,1,36.87-31,93.7,93.7,0,0,1,19.32-6.67,94.71,94.71,0,0,1,21-2.34q3.32,0,6.59.23A94.31,94.31,0,0,1,352.6,199.6Z\" transform=\"translate(-148.8 -90.2)\"/>\r\n  </svg>\r\n</div>\r\n";
+	module.exports = "<div id=\"term-display-modal-overlay\" class=\"modal-overlay\">\r\n   <div id=\"term-display-modal\" class=\"modal entry-modal\">\r\n      <!-- Header: title and progress-->\r\n      <div class=\"modal-header\">\r\n         <a ng-click=\"hideModal({target: 'term-display-modal'})\" class=\"modal-action modal-close waves-effect waves-green btn-flat center-align\">&times;</a>\r\n         <span class=\"title\">{{lesson.lessonDetails.title}}</span>\r\n         <div class=\"progress\"><div class=\"determinate\" style=\"width: {{progress}}%\"></div></div>\r\n      </div>\r\n\r\n      <div class=\"modal-content\">\r\n      <!-- Preloader -->\r\n         <div class=\"valign-wrapper\" ng-show=\"loading\">\r\n            <div class=\"preloader-wrapper big active\">\r\n            <div class=\"spinner-layer spinner-blue-only\">\r\n               <div class=\"circle-clipper left\">\r\n                  <div class=\"circle\"></div>\r\n               </div><div class=\"gap-patch\">\r\n                  <div class=\"circle\"></div>\r\n               </div><div class=\"circle-clipper right\">\r\n                  <div class=\"circle\"></div>\r\n               </div>\r\n            </div>\r\n            </div>\r\n         </div>\r\n\r\n         <!-- Finish Message-->\r\n         <div class=\"center-align\" ng-show=\"finished\">\r\n            <h4 class=\"finish-message\">Great Job!</h4>\r\n            <h5>Your Score:</h5>\r\n            <progress-circle progress=\"progress\"></progress-circle>\r\n         </div>\r\n         <!-- Review Card -->\r\n         <div ng-hide=\"!review.reviewMode || finished || loading\" class=\"card review-card\" ng-hide=\"loading\">\r\n            <div class=\"card-image\">\r\n            <img id=\"review-image\" ng-hide=\"revealAnswer\" ng-src=\"{{review.reviewImage}}\">\r\n            <img id=\"congrat-image\" ng-show=\"showCongratulations\" src=\"https://images.unsplash.com/photo-1472162072942-cd5147eb3902?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=700a3af0851978b7b35cba21f5e9414a\">\r\n            <img id=\"wrong-image\" ng-show=\"showIncorrectAnswer\" ng-src=\"https://c2.staticflickr.com/4/3675/9436653177_fd00cc9d2c_b.jpg\" alt=\"\">\r\n            <span class=\"card-title\"></span>\r\n            </div>\r\n            <div class=\"card-content\">\r\n            <p class=\"term-credit right-align\">{{review.reviewImageCredit | limitTo: 50}}</p>\r\n            <p class=\"term-credit right-align\" ng-show=\"showCongratulations\">Ben White, unsplash.com</a></p>\r\n            <p class=\"term-credit right-align\" ng-show=\"showIncorrectAnswer\">Donnie Ray Jones, Flickr, <a href=\"https://creativecommons.org/licenses/by/2.0/legalcode\">CC License</a></p>\r\n\r\n            <span ng-hide=\"showCongratulations || showIncorrectAnswer\" class=\"card-title\">{{review.reviewQuestion}}</span>\r\n            <span ng-show=\"showCongratulations\" class=\"card-title\">Congratulations!</span>\r\n            <span ng-show=\"showIncorrectAnswer\" class=\"card-title\">Sorry! Better Luck Next Time.</span>\r\n            </div>\r\n            <div class=\"card-action center-align\">\r\n            <a class=\"answers\" ng-hide=\"revealAnswer\" ng-repeat=\"answer in review.answers\" ng-click=\"answerQuestion(answer)\">{{answer}}</a>\r\n            <a ng-show=\"revealAnswer\">{{review.reviewAnswer}}</a>\r\n            </div>\r\n         </div>\r\n\r\n         <!-- Lesson Card -->\r\n         <div ng-hide=\"review.reviewMode || loading || finished\" class=\"card term-card\">\r\n            <div ng-hide=\"showDetails\" class=\"card-image waves-effect waves-block waves-light\">\r\n               <img ng-click=\"showDetails = !showDetails\" id=\"lesson-image\" class=\"activator\" ng-src=\"{{lesson.lessonDetails.terms[lesson.currentTerm].image}}\">\r\n               <p class=\"term-credit right-align\">{{lesson.lessonDetails.terms[lesson.currentTerm].imageCredit | limitTo: 50}}</p>\r\n            </div>\r\n            <div ng-hide=\"showDetails\" class=\"card-content\">\r\n               <span ng-click=\"showDetails = !showDetails\" class=\"card-title activator grey-text text-darken-4\">{{lesson.lessonDetails.terms[lesson.currentTerm].term}}<i class=\"material-icons right\">more_vert</i></span>\r\n               <p>{{lesson.lessonDetails.terms[lesson.currentTerm].transliteration}}</p>\r\n            </div>\r\n            <div ng-show=\"showDetails\" class=\"card-reveal\">\r\n               <span class=\"card-title grey-text text-darken-4\">\r\n                  {{lesson.lessonDetails.terms[lesson.currentTerm].term}}\r\n                  <i ng-click=\"showDetails = !showDetails\" class=\"material-icons right\">close</i>\r\n               </span>\r\n               <p>\r\n                  {{lesson.lessonDetails.terms[lesson.currentTerm].transliteration}}\r\n                  <!-- <audio controls autoplay>\r\n                     <source\r\n                     src=\"{{lesson.lessonDetails.terms[lesson.currentTerm].sound}}\"\r\n                     type=\"audio/x-m4a\"\r\n                     >\r\n                     </audio> -->\r\n               </p>\r\n               <p>{{lesson.lessonDetails.terms[lesson.currentTerm].explanation}}</p>\r\n               <br>\r\n               <div class=\"valign-wrapper\">\r\n                  <div class=\"example col s6\">\r\n                     <h6>Example:</h6>\r\n                     <p>{{lesson.lessonDetails.terms[lesson.currentTerm].example}}</p>\r\n                     <p>{{lesson.lessonDetails.terms[lesson.currentTerm].exampleTransliteration}}</p>\r\n                     <p>{{lesson.lessonDetails.terms[lesson.currentTerm].exampleTranslation}}</p>\r\n                  </div>\r\n                  <div class=\"image col s6 center-align\">\r\n                     <img class=\"responsive-img\"\r\n                     ng-src=\"{{lesson.lessonDetails.terms[lesson.currentTerm].image}}\" alt=\"\">\r\n                  </div>\r\n               </div>\r\n            </div>\r\n         </div>\r\n      </div>\r\n      <!-- Action Buttons -->\r\n      <div id=\"button-wrapper\" ng-hide=\"loading\">\r\n         <a ng-hide=\"beginning\" ng-click=\"previousTerm()\" class=\"previous-term-button\"><i class=\"large material-icons\">skip_previous</i></a><br>\r\n         <a ng-hide=\"finished\" ng-click=\"nextTerm()\" class=\"next-term-button\"><i class=\"large material-icons\">skip_next</i></a><br>\r\n         <a ng-show=\"finished\" ng-click=\"finishLesson()\" class=\"btn-flat exit-button\">Finish</a><br>\r\n         <a ng-show=\"exit\" class=\"modal-action modal-close waves-effect waves-light btn exit-button\">Exit</a><br>\r\n      </div>\r\n   </div>\r\n</div>";
 
 /***/ }),
 /* 32 */
@@ -34802,144 +33683,48 @@
 	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
-	  value: true
+	   value: true
 	});
 
-	var _termDisplay = __webpack_require__(33);
+	var _searchBar = __webpack_require__(33);
 
-	var _termDisplay2 = _interopRequireDefault(_termDisplay);
+	var _searchBar2 = _interopRequireDefault(_searchBar);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	function termDisplay() {
-	  return {
-	    restrict: "E",
-	    replace: true,
-	    template: _termDisplay2.default,
-	    scope: {
-	      mode: "="
-	    },
-	    controller: function controller($scope, $state, $rootScope, userService) {
-	      // Initial State
-	      $scope.loading = true;
-	      $scope.currentUser = userService.currentUser;
-	      $scope.stateName = $state.current.name;
-	      $scope.lesson = {};
-	      $scope.term = {};
-	      $scope.lesson.currentTerm = 0;
-	      $scope.progress = 0;
-	      $scope.showIncorrectAnswer = false;
-	      $scope.showCongratulations = false;
-	      $scope.revealAnswer = false;
-	      $scope.exit = false;
-	      $scope.beginning = true;
-	      $scope.finished = false;
-	      $scope.review = {
-	        reviewMode: false,
-	        answers: ["a", "b", "c", "d"]
-	      };
-	      $rootScope.$on("userUpdate", function (event, user) {
-	        $scope.currentUser = user;
-	        $scope.lesson = user.selectedLesson;
-	        $scope.lesson.score = 0;
-	        if (!$scope.lesson.currentTerm) {
-	          $scope.lesson.currentTerm = 0;
-	          $scope.beginning = true;
-	        }
-	        $scope.loading = false;
-	      });
-
-	      $scope.answerQuestion = function (answer) {
-	        $scope.revealAnswer = true;
-	        if (answer === $scope.review.reviewAnswer) {
-	          $scope.showCongratulations = true;
-	          $scope.lesson.score++;
-	        } else {
-	          $scope.showIncorrectAnswer = true;
-	          $scope.user.reviewItems.push($scope.review);
-	        }
-	      };
-
-	      $scope.finishLesson = function () {
-	        $scope.lesson.completed = true;
-	        $scope.exit = true;
-	        $scope.progress = Math.round($scope.lesson.score / $scope.lesson.lessonDetails.terms.length * 100);
-	        userService.saveUserLesson($scope.lesson).then(function (result) {
-	          console.log(result);
-	        });
-	      };
-
-	      $scope.previousTerm = function () {
-	        if ($scope.lesson.currentTerm > 0) $scope.lesson.currentTerm--;
-	        if ($scope.lesson.currentTerm === 0) $scope.beginning = true;
-	        $scope.progress = parseInt($scope.lesson.currentTerm / $scope.lesson.lessonDetails.terms.length * 100);
-	        //Reset review properties
-	        $scope.review = {
-	          reviewMode: false,
-	          answers: ["a", "b", "c", "d"]
-	        };
-	        $scope.showIncorrectAnswer = false;
-	        $scope.showCongratulations = false;
-	        $scope.revealAnswer = false;
-	      };
-
-	      $scope.nextTerm = function () {
-	        // Activate previous button
-	        $scope.beginning = false;
-	        var terms = $scope.lesson.lessonDetails.terms;
-	        var lessonLength = terms.length;
-	        // If just finished a review question, proceed to next term and reset review
-	        if ($scope.review.reviewMode) {
-	          if ($scope.lesson.currentTerm === $scope.lesson.lessonDetails.terms.length - 1) {
-	            $scope.finished = true;
-	          } else {
-	            $scope.lesson.currentTerm++;
-	            $scope.progress = parseInt($scope.lesson.currentTerm / $scope.lesson.lessonDetails.terms.length * 100);
-	          }
-	          // Reset reviewObject
-	          $scope.review = {
-	            reviewMode: false,
-	            answers: ["a", "b", "c", "d"]
-	          };
-	          $scope.showIncorrectAnswer = false;
-	          $scope.showCongratulations = false;
-	          $scope.revealAnswer = false;
-	        } else {
-	          $scope.review = $scope.lesson.lessonDetails.terms[$scope.lesson.currentTerm];
-	          $scope.review.answers = [];
-	          $scope.review.answers.push($scope.review.reviewAnswer);
-	          // Generate three random indices, look up answers, and push to review
-
-	          for (var i = 0; i < 3; i++) {
-	            var _answerIndex = Math.floor(Math.random() * $scope.lesson.lessonDetails.terms.length);
-	            while ($scope.review.answers.indexOf($scope.lesson.lessonDetails.terms[_answerIndex].term) !== -1 || $scope.review.answers.indexOf($scope.lesson.lessonDetails.terms[_answerIndex].transliteration) !== -1) {
-	              _answerIndex = Math.floor(Math.random() * $scope.lesson.lessonDetails.terms.length);
-	            }
-	            if ($scope.review.reviewAnswerType === "transliteration") {
-	              $scope.review.answers.push($scope.lesson.lessonDetails.terms[_answerIndex].transliteration);
-	            } else {
-	              $scope.review.answers.push($scope.lesson.lessonDetails.terms[_answerIndex].term);
-	            }
-	          }
-	          // Put answer in random position
-	          var answerIndex = Math.floor(Math.random() * 4);
-	          $scope.review.answers.splice(0, 1);
-	          $scope.review.answers.splice(answerIndex, 0, $scope.review.reviewAnswer);
-	          $scope.revealAnswer = false;
-	          $scope.review.reviewMode = true;
-	        }
-	      };
-	    }
-	  };
+	function searchBar() {
+	   return {
+	      restrict: "E",
+	      replace: true,
+	      template: _searchBar2.default,
+	      scope: {
+	         showModal: "&"
+	      },
+	      controller: searchController
+	   };
 	}
+	function searchController($scope, $rootScope, userService) {
+	   $scope.currentUser = userService.currentUser;
+	   $rootScope.$on("userUpdate", function (event, user) {
+	      $scope.currentUser = user;
+	   });
+	   $scope.selectLesson = function (lesson) {
+	      userService.selectLesson(lesson).then(function (result) {});
+	   };
+	   $scope.selectTerm = function (term, lesson) {
+	      lesson.currentTerm = lesson.lessonDetails.terms.indexOf(term);$scope.currentUser.selectedLesson = lesson;$scope.selectLesson(lesson);
+	      $scope.showModal({ target: 'term-display-modal' });
+	   };
+	}
+	searchController.$inject = ["$scope", "$rootScope", "userService"];
 
-	exports.default = termDisplay;
+	exports.default = searchBar;
 
 /***/ }),
 /* 33 */
 /***/ (function(module, exports) {
 
-	module.exports = "<div id=\"termDisplayModal\" class=\"modal\">\r\n  <!-- Header: title and progress-->\r\n  <div class=\"modal-header\">\r\n    <a href=\"#/{{stateName}}\" ng-click=\"\" class=\"modal-action modal-close waves-effect waves-green btn-flat center-align\">&times;</a>\r\n    <span class=\"title\">{{lesson.lessonDetails.title}}</span>\r\n    <div class=\"progress\"><div class=\"determinate\" style=\"width: {{progress}}%\"></div></div>\r\n  </div>\r\n\r\n  <div class=\"modal-content\">\r\n  <!-- Preloader -->\r\n    <div class=\"valign-wrapper\" ng-show=\"loading\">\r\n      <div class=\"preloader-wrapper big active\">\r\n        <div class=\"spinner-layer spinner-blue-only\">\r\n          <div class=\"circle-clipper left\">\r\n            <div class=\"circle\"></div>\r\n          </div><div class=\"gap-patch\">\r\n            <div class=\"circle\"></div>\r\n          </div><div class=\"circle-clipper right\">\r\n            <div class=\"circle\"></div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n    <!-- Finish Message-->\r\n    <div class=\"center-align\" ng-show=\"finished\">\r\n      <h4 class=\"finish-message\">Great Job!</h4>\r\n      <h5>Your Score:</h5>\r\n      <progress-circle progress=\"progress\"></progress-circle>\r\n    </div>\r\n    <!-- Review Card -->\r\n    <div ng-hide=\"!review.reviewMode || finished || loading\" class=\"card review-card\" ng-hide=\"loading\">\r\n      <div class=\"card-image\">\r\n        <img id=\"review-image\" ng-hide=\"revealAnswer\" ng-src=\"{{review.reviewImage}}\">\r\n        <img id=\"congrat-image\" ng-show=\"showCongratulations\" src=\"https://images.unsplash.com/photo-1472162072942-cd5147eb3902?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=700a3af0851978b7b35cba21f5e9414a\">\r\n        <img id=\"wrong-image\" ng-show=\"showIncorrectAnswer\" ng-src=\"https://c2.staticflickr.com/4/3675/9436653177_fd00cc9d2c_b.jpg\" alt=\"\">\r\n        <span class=\"card-title\"></span>\r\n      </div>\r\n      <div class=\"card-content\">\r\n        <p class=\"term-credit right-align\">{{review.reviewImageCredit | limitTo: 50}}</p>\r\n        <p class=\"term-credit right-align\" ng-show=\"showCongratulations\">Ben White, unsplash.com</a></p>\r\n        <p class=\"term-credit right-align\" ng-show=\"showIncorrectAnswer\">Donnie Ray Jones, Flickr, <a href=\"https://creativecommons.org/licenses/by/2.0/legalcode\">CC License</a></p>\r\n\r\n        <span ng-hide=\"showCongratulations || showIncorrectAnswer\" class=\"card-title\">{{review.reviewQuestion}}</span>\r\n        <span ng-show=\"showCongratulations\" class=\"card-title\">Congratulations!</span>\r\n        <span ng-show=\"showIncorrectAnswer\" class=\"card-title\">Sorry! Better Luck Next Time.</span>\r\n      </div>\r\n      <div class=\"card-action center-align\">\r\n        <a class=\"answers\" ng-hide=\"revealAnswer\" ng-repeat=\"answer in review.answers\" ng-click=\"answerQuestion(answer)\">{{answer}}</a>\r\n        <a ng-show=\"revealAnswer\">{{review.reviewAnswer}}</a>\r\n      </div>\r\n    </div>\r\n\r\n    <!-- Lesson Card -->\r\n    <div ng-hide=\"review.reviewMode || loading || finished\" class=\"card term-card\">\r\n      <div class=\"card-image waves-effect waves-block waves-light\">\r\n        <img id=\"lesson-image\" class=\"activator responsive-img\" ng-src=\"{{lesson.lessonDetails.terms[lesson.currentTerm].image}}\">\r\n        <p class=\"term-credit right-align\">{{lesson.lessonDetails.terms[lesson.currentTerm].imageCredit | limitTo: 50}}</p>\r\n\r\n      </div>\r\n      <div class=\"card-content\">\r\n        <span class=\"card-title activator grey-text text-darken-4\">{{lesson.lessonDetails.terms[lesson.currentTerm].term}}<i class=\"material-icons right\">more_vert</i></span>\r\n        <p>{{lesson.lessonDetails.terms[lesson.currentTerm].transliteration}}</p>\r\n      </div>\r\n      <div class=\"card-reveal\">\r\n        <span class=\"card-title grey-text text-darken-4\">\r\n          {{lesson.lessonDetails.terms[lesson.currentTerm].term}}\r\n          <i class=\"material-icons right\">close</i>\r\n        </span>\r\n        <p>\r\n          {{lesson.lessonDetails.terms[lesson.currentTerm].transliteration}}\r\n          <!-- <audio controls autoplay>\r\n            <source\r\n            src=\"{{lesson.lessonDetails.terms[lesson.currentTerm].sound}}\"\r\n            type=\"audio/x-m4a\"\r\n            >\r\n            </audio> -->\r\n        </p>\r\n        <p>{{lesson.lessonDetails.terms[lesson.currentTerm].explanation}}</p>\r\n        <br>\r\n        <div class=\"valign-wrapper\">\r\n          <div class=\"example col s6\">\r\n            <h6>Example:</h6>\r\n            <p>{{lesson.lessonDetails.terms[lesson.currentTerm].example}}</p>\r\n            <p>{{lesson.lessonDetails.terms[lesson.currentTerm].exampleTransliteration}}</p>\r\n            <p>{{lesson.lessonDetails.terms[lesson.currentTerm].exampleTranslation}}</p>\r\n          </div>\r\n          <div class=\"image col s6 center-align\">\r\n            <img class=\"responsive-img\"\r\n            ng-src=\"{{lesson.lessonDetails.terms[lesson.currentTerm].image}}\" alt=\"\">\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <!-- Action Buttons -->\r\n  <div id=\"button-wrapper\" ng-hide=\"loading\">\r\n    <a ng-hide=\"beginning\" ng-click=\"previousTerm()\" class=\"previous-term-button\"><i class=\"large material-icons\">skip_previous</i></a><br>\r\n    <a ng-hide=\"finished\" ng-click=\"nextTerm()\" class=\"next-term-button\"><i class=\"large material-icons\">skip_next</i></a><br>\r\n    <a ng-show=\"finished\" ng-click=\"finishLesson()\" class=\"btn-flat exit-button\">Finish</a><br>\r\n    <a ng-show=\"exit\" class=\"modal-action modal-close waves-effect waves-light btn exit-button\">Exit</a><br>\r\n  </div>\r\n</div>\r\n";
+	module.exports = "<article>\r\n  <h5>Search</h5>\r\n  <i class=\"material-icons youtube_search_for\"></i>\r\n  <input type=\"search\" class=\"search\" placeholder=\"Search lessons\" ng-model=\"searchTerm\">\r\n  <div ng-show=\"searchTerm\" ng-repeat=\"lesson in currentUser.lessons | filter: searchTerm\" ng-click=\"selectLesson(lesson)\">\r\n    <h6 class=\"search-result\">{{lesson.lessonDetails.title}}</h6>\r\n    <ul ng-repeat=\"term in lesson.lessonDetails.terms | filter: searchTerm\">\r\n      <li ng-click=\"selectTerm(term, lesson)\" class=\"search-result\">{{term.term}}, {{term.transliteration}}, {{term.explanation | limitTo: 20}}</li>\r\n    </ul>    \r\n  </div>\r\n</article>\r\n";
 
 /***/ }),
 /* 34 */
@@ -34951,56 +33736,7 @@
 	  value: true
 	});
 
-	var _searchBar = __webpack_require__(35);
-
-	var _searchBar2 = _interopRequireDefault(_searchBar);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function searchBar() {
-	  return {
-	    restrict: "E",
-	    replace: true,
-	    template: _searchBar2.default,
-	    scope: {},
-	    controller: function controller($scope, $rootScope, userService) {
-	      $scope.currentUser = userService.currentUser;
-	      $rootScope.$on("userUpdate", function (event, user) {
-	        $scope.currentUser = user;
-	      });
-	      $scope.selectLesson = function (lesson) {
-	        userService.selectLesson(lesson).then(function (result) {
-	          console.log(result);
-	        });
-	      };
-	      // $scope.selectTerm = term => {
-	      //   userService.setCurrentTerm(term).then(result => {
-	      //     console.log(result);
-	      //   })
-	      // }
-	    }
-	  };
-	}
-
-	exports.default = searchBar;
-
-/***/ }),
-/* 35 */
-/***/ (function(module, exports) {
-
-	module.exports = "<article>\r\n  <h5>Search</h5>\r\n  <i class=\"material-icons youtube_search_for\"></i>\r\n  <input type=\"search\" class=\"search\" placeholder=\"Search lessons\" ng-model=\"searchTerm\">\r\n  <div ng-show=\"searchTerm\" ng-repeat=\"lesson in currentUser.lessons | filter: searchTerm\" ng-click=\"selectLesson(lesson)\">\r\n    <!--<h6 class=\"search-result\" ng-click=\"selectLesson(lesson)\">{{lesson.lessonDetails.title}}</h6>-->\r\n    <h6 class=\"search-result\">{{lesson.lessonDetails.title}}</h6>\r\n    <ul ng-repeat=\"term in lesson.lessonDetails.terms | filter: searchTerm\">\r\n      <!--<li class=\"search-result\" ng-href=\"#termDisplayModal\" ng-click=\"selectTerm(term)\" modal>{{term.term}}, {{term.transliteration}}, {{term.explanation | limitTo: 20}}</li>-->\r\n      <li class=\"search-result\">{{term.term}}, {{term.transliteration}}, {{term.explanation | limitTo: 20}}</li>\r\n    </ul>    \r\n  </div>\r\n</article>\r\n";
-
-/***/ }),
-/* 36 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	"use strict";
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _check = __webpack_require__(37);
+	var _check = __webpack_require__(35);
 
 	var _check2 = _interopRequireDefault(_check);
 
@@ -35019,100 +33755,101 @@
 	exports.default = check;
 
 /***/ }),
-/* 37 */
+/* 35 */
 /***/ (function(module, exports) {
 
 	module.exports = "<div class=\"check-container\">\r\n  <svg id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 417.2 330.39\">\r\n    <defs>\r\n      <style>\r\n        .cls-1, .cls-2 {\r\n          fill: #5fd35f;\r\n        }\r\n\r\n        .cls-2 {\r\n          opacity: 0.28;\r\n          isolation: isolate;\r\n        }\r\n      </style>\r\n    </defs>\r\n    <title>Checkmark</title>\r\n    <path class=\"cls-1\" d=\"M508.74,227c-49.32-33.82-72.66-63.39-72.66-63.39C345,217.27,248.27,407.84,248.27,407.84c-45.33-63.82-90.91-81.62-90.91-81.62-20.49,27.38-55.81,63.87-55.81,63.87C183.92,412.28,253.07,493.7,253.07,493.7,402.56,259,508.74,227,508.74,227Z\" transform=\"translate(-101.54 -163.6)\"/>\r\n    <path class=\"cls-2\" d=\"M518.74,227.28c-49.32-33.82-72.66-63.39-72.66-63.39C355,217.55,258.27,408.12,258.27,408.12c-45.33-63.82-90.91-81.62-90.91-81.62-20.49,27.38-55.81,63.87-55.81,63.87C193.92,412.57,263.07,494,263.07,494,412.56,259.3,518.74,227.28,518.74,227.28Z\" transform=\"translate(-101.54 -163.6)\"/>\r\n  </svg>\r\n</div>\r\n";
 
 /***/ }),
-/* 38 */
+/* 36 */
 /***/ (function(module, exports) {
 
 	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
-	  value: true
+	   value: true
 	});
 	function fileread(lessonService) {
-	  return {
-	    restrict: "A",
-	    link: function link(scope, elem, attrs) {
-	      elem.bind("change", function (changeEvent) {
-	        var reader = new FileReader();
-
-	        reader.onloadend = function (loadEvent) {
-	          var fileread = loadEvent.target.result;
-	          var fileName = elem[0].files[0].name.split('.')[0];
-
-	          //   var tempArray = elem['context'].value.split('\\');
-	          //   var fileName = tempArray[tempArray.length - 1];
-
-	          lessonService.storeImage(fileread, fileName).then(function (result) {
-	            scope.newLesson.image = result.data.location;
-	          }).catch(function (err) {
-	            console.error(err);
-	          });
-	        };
-
-	        reader.readAsDataURL(changeEvent.target.files[0]);
-	      });
-	    }
-
-	  };
+	   return {
+	      restrict: "A",
+	      link: linkFunction
+	   };
 	}
 
+	function linkFunction(scope, elem, attrs) {
+	   elem.bind("change", function (changeEvent) {
+	      var reader = new FileReader();
+
+	      reader.onloadend = function (loadEvent) {
+	         var fileread = loadEvent.target.result;
+	         var fileName = elem[0].files[0].name.split('.')[0];
+
+	         //   var tempArray = elem['context'].value.split('\\');
+	         //   var fileName = tempArray[tempArray.length - 1];
+
+	         lessonService.storeImage(fileread, fileName).then(function (result) {
+	            scope.newLesson.image = result.data.location;
+	         }).catch(function (err) {
+	            console.error(err);
+	         });
+	      };
+
+	      reader.readAsDataURL(changeEvent.target.files[0]);
+	   });
+	}
+
+	linkFunction.$inject = ['scope', 'elem', 'attrs'];
 	fileread.$inject = ['lessonService'];
 	exports.default = fileread;
-	// angular.module('marathiApp').directive('fileread', fileread)
+
+/***/ }),
+/* 37 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	module.exports = "<nav-directive show-modal=\"showModal(target)\"></nav-directive>\r\n<div>\r\n  <!--Page Header -->\r\n  <header class=\"row home-header\">\r\n    <div class=\"intro\">\r\n      <p class=\"tagline\">Learn Marathi</p>\r\n      <p class=\"tagline\">with us!</p>\r\n      <a ng-click=\"showModal('login-modal')\" class=\"btn start-button\">Get Started</a>\r\n    </div>\r\n  </header>\r\n\r\n  <!-- Page Title -->\r\n  <h2 class=\"page-title center-align\">Explore a Language and Expand Your World</h2>\r\n\r\n  <!-- More Info: Icons and Captions -->\r\n  <section class=\"row more-info\">\r\n    <div class=\"col s4 center-align\">\r\n      <img class=\"info-icon\" src=\"" + __webpack_require__(38) + "\" alt=\"\">\r\n      <h4 class=\"caption\">Learn</h4>\r\n      <p class=\"subcaption\">Study letters and grammar to build a strong foundation.</p>\r\n    </div>\r\n    <div class=\"col s4 center-align\">\r\n      <img class=\"info-icon\" src=\"" + __webpack_require__(39) + "\" alt=\"\">\r\n      <h4 class=\"caption\">Converse</h4>\r\n      <p class=\"subcaption\">Gain vocabulary so you can begin speaking with confidence.</p>\r\n    </div>\r\n    <div class=\"col s4 center-align\">\r\n      <img class=\"info-icon\" src=\"" + __webpack_require__(40) + "\" alt=\"\">\r\n      <h4 class=\"caption\">Review</h4>\r\n      <p class=\"subcaption\">Test your knowledge to reinforce your learning and progress.</p>\r\n    </div>\r\n  </section>\r\n\r\n  <!-- Login Modal Trigger -->\r\n  <div class=\"begin-section\">\r\n      <a ng-click=\"showModal('login-modal')\" class=\"btn\">Let's Begin</a> \r\n  </div>\r\n\r\n  <!-- Login Modal -->\r\n  <login-modal hide-modal=\"hideModal(target)\"></login-modal>\r\n</div>\r\n";
+
+/***/ }),
+/* 38 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "images/k.png";
 
 /***/ }),
 /* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	module.exports = "<div>\r\n  <!--Page Header -->\r\n  <header class=\"row home-header\">\r\n    <div class=\"intro\">\r\n      <p class=\"tagline\">Learn Marathi</p>\r\n      <p class=\"tagline\">with us!</p>\r\n      <a modal href=\"#loginModal\" class=\"btn start-button\">Get Started</a>\r\n    </div>\r\n  </header>\r\n\r\n  <!-- Page Title -->\r\n  <h2 class=\"page-title center-align\">Explore a Language and Expand Your World</h2>\r\n\r\n  <!-- More Info: Icons and Captions -->\r\n  <section class=\"row more-info\">\r\n    <div class=\"col s4 center-align\">\r\n      <img class=\"info-icon\" src=\"" + __webpack_require__(40) + "\" alt=\"\">\r\n      <h4 class=\"caption\">Learn</h4>\r\n      <p class=\"subcaption\">Study letters and grammar to build a strong foundation.</p>\r\n    </div>\r\n    <div class=\"col s4 center-align\">\r\n      <img class=\"info-icon\" src=\"" + __webpack_require__(41) + "\" alt=\"\">\r\n      <h4 class=\"caption\">Converse</h4>\r\n      <p class=\"subcaption\">Gain vocabulary so you can begin speaking with confidence.</p>\r\n    </div>\r\n    <div class=\"col s4 center-align\">\r\n      <img class=\"info-icon\" src=\"" + __webpack_require__(42) + "\" alt=\"\">\r\n      <h4 class=\"caption\">Review</h4>\r\n      <p class=\"subcaption\">Test your knowledge to reinforce your learning and progress.</p>\r\n    </div>\r\n  </section>\r\n\r\n  <!-- Login Modal Trigger -->\r\n  <div class=\"begin-section\">\r\n    <modal-trigger text=\"Let's Begin\" target=\"loginModal\"></modal-trigger>\r\n  </div>\r\n\r\n  <!-- Login Modal -->\r\n  <login-modal></login-modal>\r\n</div>\r\n";
+	module.exports = __webpack_require__.p + "images/speech-bubbles.png";
 
 /***/ }),
 /* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "fonts/0aecbc539e3609d31ea55d947dd092bf.png";
+	module.exports = __webpack_require__.p + "images/review.png";
 
 /***/ }),
 /* 41 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-	module.exports = __webpack_require__.p + "fonts/b0988777da0dbe6965c27a4aa0ac65e2.png";
+	module.exports = "<nav-directive show-modal=\"showModal(target)\"></nav-directive>\r\n<section class=\"user-home-container\">\r\n  <login-modal></login-modal>\r\n  <term-display hide-modal=\"hideModal(target)\"></term-display>\r\n  <lesson-entry-modal hide-modal=\"hideModal(target)\"></lesson-entry-modal>\r\n  <term-entry-modal hide-modal=\"hideModal(target)\"></term-entry-modal>\r\n\r\n  <div class=\"row\">\r\n    <div class=\"dashboard col s12 m10 offset-m1\">\r\n        <div class=\"sidebar col s12 l3\">\r\n          <div class=\"section\">\r\n            <user-summary></user-summary>\r\n          </div>\r\n          <div class=\"divider .hide-on-small-only\"></div>\r\n          <div class=\"section\">\r\n            <lesson-list-display></lesson-list-display>\r\n          </div>\r\n          <div class=\"divider\"></div>\r\n        </div>\r\n        <div class=\"lesson-display-container col s12 l6\">\r\n          <div class=\"section\">\r\n            <lesson-display></lesson-display>\r\n          </div>\r\n        </div>\r\n        <div class=\"contribute col s12 l3\">\r\n          <!--Search Terms, Add Terms, Add Lessons -->\r\n          <!-- Move to directives -->\r\n          <div class=\"section\">\r\n            <search-bar show-modal=\"showModal(target)\"></search-bar>\r\n          </div>\r\n          <div class=\"divider\"></div>\r\n          <div class=\"section\">\r\n            <h5>Contribute</h5>\r\n            <div class=\"center-align\">\r\n              <modal-trigger text=\"Add Lesson\" target=\"lesson-entry-modal\"></modal-trigger>\r\n              <modal-trigger text=\"Add Term\" target=\"term-entry-modal\"></modal-trigger>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n  </div>\r\n</section>\r\n";
 
 /***/ }),
 /* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "fonts/8cdee64bbafc633cab005779e76e13bf.png";
-
-/***/ }),
-/* 43 */
-/***/ (function(module, exports) {
-
-	module.exports = "<section class=\"user-home-container\">\r\n  <login-modal></login-modal>\r\n  <term-display></term-display>\r\n  <lesson-entry-modal></lesson-entry-modal>\r\n  <term-entry-modal></term-entry-modal>\r\n\r\n  <div class=\"row\">\r\n    <div class=\"dashboard col s12 m10 offset-m1\">\r\n        <div class=\"sidebar col s12 l3\">\r\n          <div class=\"section\">\r\n            <user-summary></user-summary>\r\n          </div>\r\n          <div class=\"divider .hide-on-small-only\"></div>\r\n          <div class=\"section\">\r\n            <lesson-list-display></lesson-list-display>\r\n          </div>\r\n          <div class=\"divider\"></div>\r\n        </div>\r\n        <div class=\"lesson-display-container col s12 l6\">\r\n          <div class=\"section\">\r\n            <lesson-display></lesson-display>\r\n          </div>\r\n        </div>\r\n        <div class=\"contribute col s12 l3\">\r\n          <!--Search Terms, Add Terms, Add Lessons -->\r\n          <!-- Move to directives -->\r\n          <div class=\"section\">\r\n            <search-bar></search-bar>\r\n          </div>\r\n          <div class=\"divider\"></div>\r\n          <div class=\"section\">\r\n            <h5>Contribute</h5>\r\n            <div class=\"center-align\">\r\n              <modal-trigger text=\"Add Lesson\" target=\"lessonEntryModal\"></modal-trigger>\r\n              <modal-trigger text=\"Add Term\" target=\"termEntryModal\"></modal-trigger>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n  </div>\r\n</section>\r\n";
-
-/***/ }),
-/* 44 */
-/***/ (function(module, exports, __webpack_require__) {
-
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(45);
+	var content = __webpack_require__(43);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(57)(content, {});
+	var update = __webpack_require__(55)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(true) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept(45, function() {
-				var newContent = __webpack_require__(45);
+			module.hot.accept(43, function() {
+				var newContent = __webpack_require__(43);
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -35122,21 +33859,21 @@
 	}
 
 /***/ }),
-/* 45 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(46)();
+	exports = module.exports = __webpack_require__(44)();
 	// imports
 
 
 	// module
-	exports.push([module.id, "/*!\n * Materialize v0.99.0 (http://materializecss.com)\n * Copyright 2014-2017 Materialize\n * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)\n */\n.materialize-red{background-color:#e51c23 !important}.materialize-red-text{color:#e51c23 !important}.materialize-red.lighten-5{background-color:#fdeaeb !important}.materialize-red-text.text-lighten-5{color:#fdeaeb !important}.materialize-red.lighten-4{background-color:#f8c1c3 !important}.materialize-red-text.text-lighten-4{color:#f8c1c3 !important}.materialize-red.lighten-3{background-color:#f3989b !important}.materialize-red-text.text-lighten-3{color:#f3989b !important}.materialize-red.lighten-2{background-color:#ee6e73 !important}.materialize-red-text.text-lighten-2{color:#ee6e73 !important}.materialize-red.lighten-1{background-color:#ea454b !important}.materialize-red-text.text-lighten-1{color:#ea454b !important}.materialize-red.darken-1{background-color:#d0181e !important}.materialize-red-text.text-darken-1{color:#d0181e !important}.materialize-red.darken-2{background-color:#b9151b !important}.materialize-red-text.text-darken-2{color:#b9151b !important}.materialize-red.darken-3{background-color:#a21318 !important}.materialize-red-text.text-darken-3{color:#a21318 !important}.materialize-red.darken-4{background-color:#8b1014 !important}.materialize-red-text.text-darken-4{color:#8b1014 !important}.red{background-color:#F44336 !important}.red-text{color:#F44336 !important}.red.lighten-5{background-color:#FFEBEE !important}.red-text.text-lighten-5{color:#FFEBEE !important}.red.lighten-4{background-color:#FFCDD2 !important}.red-text.text-lighten-4{color:#FFCDD2 !important}.red.lighten-3{background-color:#EF9A9A !important}.red-text.text-lighten-3{color:#EF9A9A !important}.red.lighten-2{background-color:#E57373 !important}.red-text.text-lighten-2{color:#E57373 !important}.red.lighten-1{background-color:#EF5350 !important}.red-text.text-lighten-1{color:#EF5350 !important}.red.darken-1{background-color:#E53935 !important}.red-text.text-darken-1{color:#E53935 !important}.red.darken-2{background-color:#D32F2F !important}.red-text.text-darken-2{color:#D32F2F !important}.red.darken-3{background-color:#C62828 !important}.red-text.text-darken-3{color:#C62828 !important}.red.darken-4{background-color:#B71C1C !important}.red-text.text-darken-4{color:#B71C1C !important}.red.accent-1{background-color:#FF8A80 !important}.red-text.text-accent-1{color:#FF8A80 !important}.red.accent-2{background-color:#FF5252 !important}.red-text.text-accent-2{color:#FF5252 !important}.red.accent-3{background-color:#FF1744 !important}.red-text.text-accent-3{color:#FF1744 !important}.red.accent-4{background-color:#D50000 !important}.red-text.text-accent-4{color:#D50000 !important}.pink{background-color:#e91e63 !important}.pink-text{color:#e91e63 !important}.pink.lighten-5{background-color:#fce4ec !important}.pink-text.text-lighten-5{color:#fce4ec !important}.pink.lighten-4{background-color:#f8bbd0 !important}.pink-text.text-lighten-4{color:#f8bbd0 !important}.pink.lighten-3{background-color:#f48fb1 !important}.pink-text.text-lighten-3{color:#f48fb1 !important}.pink.lighten-2{background-color:#f06292 !important}.pink-text.text-lighten-2{color:#f06292 !important}.pink.lighten-1{background-color:#ec407a !important}.pink-text.text-lighten-1{color:#ec407a !important}.pink.darken-1{background-color:#d81b60 !important}.pink-text.text-darken-1{color:#d81b60 !important}.pink.darken-2{background-color:#c2185b !important}.pink-text.text-darken-2{color:#c2185b !important}.pink.darken-3{background-color:#ad1457 !important}.pink-text.text-darken-3{color:#ad1457 !important}.pink.darken-4{background-color:#880e4f !important}.pink-text.text-darken-4{color:#880e4f !important}.pink.accent-1{background-color:#ff80ab !important}.pink-text.text-accent-1{color:#ff80ab !important}.pink.accent-2{background-color:#ff4081 !important}.pink-text.text-accent-2{color:#ff4081 !important}.pink.accent-3{background-color:#f50057 !important}.pink-text.text-accent-3{color:#f50057 !important}.pink.accent-4{background-color:#c51162 !important}.pink-text.text-accent-4{color:#c51162 !important}.purple{background-color:#9c27b0 !important}.purple-text{color:#9c27b0 !important}.purple.lighten-5{background-color:#f3e5f5 !important}.purple-text.text-lighten-5{color:#f3e5f5 !important}.purple.lighten-4{background-color:#e1bee7 !important}.purple-text.text-lighten-4{color:#e1bee7 !important}.purple.lighten-3{background-color:#ce93d8 !important}.purple-text.text-lighten-3{color:#ce93d8 !important}.purple.lighten-2{background-color:#ba68c8 !important}.purple-text.text-lighten-2{color:#ba68c8 !important}.purple.lighten-1{background-color:#ab47bc !important}.purple-text.text-lighten-1{color:#ab47bc !important}.purple.darken-1{background-color:#8e24aa !important}.purple-text.text-darken-1{color:#8e24aa !important}.purple.darken-2{background-color:#7b1fa2 !important}.purple-text.text-darken-2{color:#7b1fa2 !important}.purple.darken-3{background-color:#6a1b9a !important}.purple-text.text-darken-3{color:#6a1b9a !important}.purple.darken-4{background-color:#4a148c !important}.purple-text.text-darken-4{color:#4a148c !important}.purple.accent-1{background-color:#ea80fc !important}.purple-text.text-accent-1{color:#ea80fc !important}.purple.accent-2{background-color:#e040fb !important}.purple-text.text-accent-2{color:#e040fb !important}.purple.accent-3{background-color:#d500f9 !important}.purple-text.text-accent-3{color:#d500f9 !important}.purple.accent-4{background-color:#a0f !important}.purple-text.text-accent-4{color:#a0f !important}.deep-purple{background-color:#673ab7 !important}.deep-purple-text{color:#673ab7 !important}.deep-purple.lighten-5{background-color:#ede7f6 !important}.deep-purple-text.text-lighten-5{color:#ede7f6 !important}.deep-purple.lighten-4{background-color:#d1c4e9 !important}.deep-purple-text.text-lighten-4{color:#d1c4e9 !important}.deep-purple.lighten-3{background-color:#b39ddb !important}.deep-purple-text.text-lighten-3{color:#b39ddb !important}.deep-purple.lighten-2{background-color:#9575cd !important}.deep-purple-text.text-lighten-2{color:#9575cd !important}.deep-purple.lighten-1{background-color:#7e57c2 !important}.deep-purple-text.text-lighten-1{color:#7e57c2 !important}.deep-purple.darken-1{background-color:#5e35b1 !important}.deep-purple-text.text-darken-1{color:#5e35b1 !important}.deep-purple.darken-2{background-color:#512da8 !important}.deep-purple-text.text-darken-2{color:#512da8 !important}.deep-purple.darken-3{background-color:#4527a0 !important}.deep-purple-text.text-darken-3{color:#4527a0 !important}.deep-purple.darken-4{background-color:#311b92 !important}.deep-purple-text.text-darken-4{color:#311b92 !important}.deep-purple.accent-1{background-color:#b388ff !important}.deep-purple-text.text-accent-1{color:#b388ff !important}.deep-purple.accent-2{background-color:#7c4dff !important}.deep-purple-text.text-accent-2{color:#7c4dff !important}.deep-purple.accent-3{background-color:#651fff !important}.deep-purple-text.text-accent-3{color:#651fff !important}.deep-purple.accent-4{background-color:#6200ea !important}.deep-purple-text.text-accent-4{color:#6200ea !important}.indigo{background-color:#3f51b5 !important}.indigo-text{color:#3f51b5 !important}.indigo.lighten-5{background-color:#e8eaf6 !important}.indigo-text.text-lighten-5{color:#e8eaf6 !important}.indigo.lighten-4{background-color:#c5cae9 !important}.indigo-text.text-lighten-4{color:#c5cae9 !important}.indigo.lighten-3{background-color:#9fa8da !important}.indigo-text.text-lighten-3{color:#9fa8da !important}.indigo.lighten-2{background-color:#7986cb !important}.indigo-text.text-lighten-2{color:#7986cb !important}.indigo.lighten-1{background-color:#5c6bc0 !important}.indigo-text.text-lighten-1{color:#5c6bc0 !important}.indigo.darken-1{background-color:#3949ab !important}.indigo-text.text-darken-1{color:#3949ab !important}.indigo.darken-2{background-color:#303f9f !important}.indigo-text.text-darken-2{color:#303f9f !important}.indigo.darken-3{background-color:#283593 !important}.indigo-text.text-darken-3{color:#283593 !important}.indigo.darken-4{background-color:#1a237e !important}.indigo-text.text-darken-4{color:#1a237e !important}.indigo.accent-1{background-color:#8c9eff !important}.indigo-text.text-accent-1{color:#8c9eff !important}.indigo.accent-2{background-color:#536dfe !important}.indigo-text.text-accent-2{color:#536dfe !important}.indigo.accent-3{background-color:#3d5afe !important}.indigo-text.text-accent-3{color:#3d5afe !important}.indigo.accent-4{background-color:#304ffe !important}.indigo-text.text-accent-4{color:#304ffe !important}.blue{background-color:#2196F3 !important}.blue-text{color:#2196F3 !important}.blue.lighten-5{background-color:#E3F2FD !important}.blue-text.text-lighten-5{color:#E3F2FD !important}.blue.lighten-4{background-color:#BBDEFB !important}.blue-text.text-lighten-4{color:#BBDEFB !important}.blue.lighten-3{background-color:#90CAF9 !important}.blue-text.text-lighten-3{color:#90CAF9 !important}.blue.lighten-2{background-color:#64B5F6 !important}.blue-text.text-lighten-2{color:#64B5F6 !important}.blue.lighten-1{background-color:#42A5F5 !important}.blue-text.text-lighten-1{color:#42A5F5 !important}.blue.darken-1{background-color:#1E88E5 !important}.blue-text.text-darken-1{color:#1E88E5 !important}.blue.darken-2{background-color:#1976D2 !important}.blue-text.text-darken-2{color:#1976D2 !important}.blue.darken-3{background-color:#1565C0 !important}.blue-text.text-darken-3{color:#1565C0 !important}.blue.darken-4{background-color:#0D47A1 !important}.blue-text.text-darken-4{color:#0D47A1 !important}.blue.accent-1{background-color:#82B1FF !important}.blue-text.text-accent-1{color:#82B1FF !important}.blue.accent-2{background-color:#448AFF !important}.blue-text.text-accent-2{color:#448AFF !important}.blue.accent-3{background-color:#2979FF !important}.blue-text.text-accent-3{color:#2979FF !important}.blue.accent-4{background-color:#2962FF !important}.blue-text.text-accent-4{color:#2962FF !important}.light-blue{background-color:#03a9f4 !important}.light-blue-text{color:#03a9f4 !important}.light-blue.lighten-5{background-color:#e1f5fe !important}.light-blue-text.text-lighten-5{color:#e1f5fe !important}.light-blue.lighten-4{background-color:#b3e5fc !important}.light-blue-text.text-lighten-4{color:#b3e5fc !important}.light-blue.lighten-3{background-color:#81d4fa !important}.light-blue-text.text-lighten-3{color:#81d4fa !important}.light-blue.lighten-2{background-color:#4fc3f7 !important}.light-blue-text.text-lighten-2{color:#4fc3f7 !important}.light-blue.lighten-1{background-color:#29b6f6 !important}.light-blue-text.text-lighten-1{color:#29b6f6 !important}.light-blue.darken-1{background-color:#039be5 !important}.light-blue-text.text-darken-1{color:#039be5 !important}.light-blue.darken-2{background-color:#0288d1 !important}.light-blue-text.text-darken-2{color:#0288d1 !important}.light-blue.darken-3{background-color:#0277bd !important}.light-blue-text.text-darken-3{color:#0277bd !important}.light-blue.darken-4{background-color:#01579b !important}.light-blue-text.text-darken-4{color:#01579b !important}.light-blue.accent-1{background-color:#80d8ff !important}.light-blue-text.text-accent-1{color:#80d8ff !important}.light-blue.accent-2{background-color:#40c4ff !important}.light-blue-text.text-accent-2{color:#40c4ff !important}.light-blue.accent-3{background-color:#00b0ff !important}.light-blue-text.text-accent-3{color:#00b0ff !important}.light-blue.accent-4{background-color:#0091ea !important}.light-blue-text.text-accent-4{color:#0091ea !important}.cyan{background-color:#00bcd4 !important}.cyan-text{color:#00bcd4 !important}.cyan.lighten-5{background-color:#e0f7fa !important}.cyan-text.text-lighten-5{color:#e0f7fa !important}.cyan.lighten-4{background-color:#b2ebf2 !important}.cyan-text.text-lighten-4{color:#b2ebf2 !important}.cyan.lighten-3{background-color:#80deea !important}.cyan-text.text-lighten-3{color:#80deea !important}.cyan.lighten-2{background-color:#4dd0e1 !important}.cyan-text.text-lighten-2{color:#4dd0e1 !important}.cyan.lighten-1{background-color:#26c6da !important}.cyan-text.text-lighten-1{color:#26c6da !important}.cyan.darken-1{background-color:#00acc1 !important}.cyan-text.text-darken-1{color:#00acc1 !important}.cyan.darken-2{background-color:#0097a7 !important}.cyan-text.text-darken-2{color:#0097a7 !important}.cyan.darken-3{background-color:#00838f !important}.cyan-text.text-darken-3{color:#00838f !important}.cyan.darken-4{background-color:#006064 !important}.cyan-text.text-darken-4{color:#006064 !important}.cyan.accent-1{background-color:#84ffff !important}.cyan-text.text-accent-1{color:#84ffff !important}.cyan.accent-2{background-color:#18ffff !important}.cyan-text.text-accent-2{color:#18ffff !important}.cyan.accent-3{background-color:#00e5ff !important}.cyan-text.text-accent-3{color:#00e5ff !important}.cyan.accent-4{background-color:#00b8d4 !important}.cyan-text.text-accent-4{color:#00b8d4 !important}.teal{background-color:#009688 !important}.teal-text{color:#009688 !important}.teal.lighten-5{background-color:#e0f2f1 !important}.teal-text.text-lighten-5{color:#e0f2f1 !important}.teal.lighten-4{background-color:#b2dfdb !important}.teal-text.text-lighten-4{color:#b2dfdb !important}.teal.lighten-3{background-color:#80cbc4 !important}.teal-text.text-lighten-3{color:#80cbc4 !important}.teal.lighten-2{background-color:#4db6ac !important}.teal-text.text-lighten-2{color:#4db6ac !important}.teal.lighten-1{background-color:#26a69a !important}.teal-text.text-lighten-1{color:#26a69a !important}.teal.darken-1{background-color:#00897b !important}.teal-text.text-darken-1{color:#00897b !important}.teal.darken-2{background-color:#00796b !important}.teal-text.text-darken-2{color:#00796b !important}.teal.darken-3{background-color:#00695c !important}.teal-text.text-darken-3{color:#00695c !important}.teal.darken-4{background-color:#004d40 !important}.teal-text.text-darken-4{color:#004d40 !important}.teal.accent-1{background-color:#a7ffeb !important}.teal-text.text-accent-1{color:#a7ffeb !important}.teal.accent-2{background-color:#64ffda !important}.teal-text.text-accent-2{color:#64ffda !important}.teal.accent-3{background-color:#1de9b6 !important}.teal-text.text-accent-3{color:#1de9b6 !important}.teal.accent-4{background-color:#00bfa5 !important}.teal-text.text-accent-4{color:#00bfa5 !important}.green{background-color:#4CAF50 !important}.green-text{color:#4CAF50 !important}.green.lighten-5{background-color:#E8F5E9 !important}.green-text.text-lighten-5{color:#E8F5E9 !important}.green.lighten-4{background-color:#C8E6C9 !important}.green-text.text-lighten-4{color:#C8E6C9 !important}.green.lighten-3{background-color:#A5D6A7 !important}.green-text.text-lighten-3{color:#A5D6A7 !important}.green.lighten-2{background-color:#81C784 !important}.green-text.text-lighten-2{color:#81C784 !important}.green.lighten-1{background-color:#66BB6A !important}.green-text.text-lighten-1{color:#66BB6A !important}.green.darken-1{background-color:#43A047 !important}.green-text.text-darken-1{color:#43A047 !important}.green.darken-2{background-color:#388E3C !important}.green-text.text-darken-2{color:#388E3C !important}.green.darken-3{background-color:#2E7D32 !important}.green-text.text-darken-3{color:#2E7D32 !important}.green.darken-4{background-color:#1B5E20 !important}.green-text.text-darken-4{color:#1B5E20 !important}.green.accent-1{background-color:#B9F6CA !important}.green-text.text-accent-1{color:#B9F6CA !important}.green.accent-2{background-color:#69F0AE !important}.green-text.text-accent-2{color:#69F0AE !important}.green.accent-3{background-color:#00E676 !important}.green-text.text-accent-3{color:#00E676 !important}.green.accent-4{background-color:#00C853 !important}.green-text.text-accent-4{color:#00C853 !important}.light-green{background-color:#8bc34a !important}.light-green-text{color:#8bc34a !important}.light-green.lighten-5{background-color:#f1f8e9 !important}.light-green-text.text-lighten-5{color:#f1f8e9 !important}.light-green.lighten-4{background-color:#dcedc8 !important}.light-green-text.text-lighten-4{color:#dcedc8 !important}.light-green.lighten-3{background-color:#c5e1a5 !important}.light-green-text.text-lighten-3{color:#c5e1a5 !important}.light-green.lighten-2{background-color:#aed581 !important}.light-green-text.text-lighten-2{color:#aed581 !important}.light-green.lighten-1{background-color:#9ccc65 !important}.light-green-text.text-lighten-1{color:#9ccc65 !important}.light-green.darken-1{background-color:#7cb342 !important}.light-green-text.text-darken-1{color:#7cb342 !important}.light-green.darken-2{background-color:#689f38 !important}.light-green-text.text-darken-2{color:#689f38 !important}.light-green.darken-3{background-color:#558b2f !important}.light-green-text.text-darken-3{color:#558b2f !important}.light-green.darken-4{background-color:#33691e !important}.light-green-text.text-darken-4{color:#33691e !important}.light-green.accent-1{background-color:#ccff90 !important}.light-green-text.text-accent-1{color:#ccff90 !important}.light-green.accent-2{background-color:#b2ff59 !important}.light-green-text.text-accent-2{color:#b2ff59 !important}.light-green.accent-3{background-color:#76ff03 !important}.light-green-text.text-accent-3{color:#76ff03 !important}.light-green.accent-4{background-color:#64dd17 !important}.light-green-text.text-accent-4{color:#64dd17 !important}.lime{background-color:#cddc39 !important}.lime-text{color:#cddc39 !important}.lime.lighten-5{background-color:#f9fbe7 !important}.lime-text.text-lighten-5{color:#f9fbe7 !important}.lime.lighten-4{background-color:#f0f4c3 !important}.lime-text.text-lighten-4{color:#f0f4c3 !important}.lime.lighten-3{background-color:#e6ee9c !important}.lime-text.text-lighten-3{color:#e6ee9c !important}.lime.lighten-2{background-color:#dce775 !important}.lime-text.text-lighten-2{color:#dce775 !important}.lime.lighten-1{background-color:#d4e157 !important}.lime-text.text-lighten-1{color:#d4e157 !important}.lime.darken-1{background-color:#c0ca33 !important}.lime-text.text-darken-1{color:#c0ca33 !important}.lime.darken-2{background-color:#afb42b !important}.lime-text.text-darken-2{color:#afb42b !important}.lime.darken-3{background-color:#9e9d24 !important}.lime-text.text-darken-3{color:#9e9d24 !important}.lime.darken-4{background-color:#827717 !important}.lime-text.text-darken-4{color:#827717 !important}.lime.accent-1{background-color:#f4ff81 !important}.lime-text.text-accent-1{color:#f4ff81 !important}.lime.accent-2{background-color:#eeff41 !important}.lime-text.text-accent-2{color:#eeff41 !important}.lime.accent-3{background-color:#c6ff00 !important}.lime-text.text-accent-3{color:#c6ff00 !important}.lime.accent-4{background-color:#aeea00 !important}.lime-text.text-accent-4{color:#aeea00 !important}.yellow{background-color:#ffeb3b !important}.yellow-text{color:#ffeb3b !important}.yellow.lighten-5{background-color:#fffde7 !important}.yellow-text.text-lighten-5{color:#fffde7 !important}.yellow.lighten-4{background-color:#fff9c4 !important}.yellow-text.text-lighten-4{color:#fff9c4 !important}.yellow.lighten-3{background-color:#fff59d !important}.yellow-text.text-lighten-3{color:#fff59d !important}.yellow.lighten-2{background-color:#fff176 !important}.yellow-text.text-lighten-2{color:#fff176 !important}.yellow.lighten-1{background-color:#ffee58 !important}.yellow-text.text-lighten-1{color:#ffee58 !important}.yellow.darken-1{background-color:#fdd835 !important}.yellow-text.text-darken-1{color:#fdd835 !important}.yellow.darken-2{background-color:#fbc02d !important}.yellow-text.text-darken-2{color:#fbc02d !important}.yellow.darken-3{background-color:#f9a825 !important}.yellow-text.text-darken-3{color:#f9a825 !important}.yellow.darken-4{background-color:#f57f17 !important}.yellow-text.text-darken-4{color:#f57f17 !important}.yellow.accent-1{background-color:#ffff8d !important}.yellow-text.text-accent-1{color:#ffff8d !important}.yellow.accent-2{background-color:#ff0 !important}.yellow-text.text-accent-2{color:#ff0 !important}.yellow.accent-3{background-color:#ffea00 !important}.yellow-text.text-accent-3{color:#ffea00 !important}.yellow.accent-4{background-color:#ffd600 !important}.yellow-text.text-accent-4{color:#ffd600 !important}.amber{background-color:#ffc107 !important}.amber-text{color:#ffc107 !important}.amber.lighten-5{background-color:#fff8e1 !important}.amber-text.text-lighten-5{color:#fff8e1 !important}.amber.lighten-4{background-color:#ffecb3 !important}.amber-text.text-lighten-4{color:#ffecb3 !important}.amber.lighten-3{background-color:#ffe082 !important}.amber-text.text-lighten-3{color:#ffe082 !important}.amber.lighten-2{background-color:#ffd54f !important}.amber-text.text-lighten-2{color:#ffd54f !important}.amber.lighten-1{background-color:#ffca28 !important}.amber-text.text-lighten-1{color:#ffca28 !important}.amber.darken-1{background-color:#ffb300 !important}.amber-text.text-darken-1{color:#ffb300 !important}.amber.darken-2{background-color:#ffa000 !important}.amber-text.text-darken-2{color:#ffa000 !important}.amber.darken-3{background-color:#ff8f00 !important}.amber-text.text-darken-3{color:#ff8f00 !important}.amber.darken-4{background-color:#ff6f00 !important}.amber-text.text-darken-4{color:#ff6f00 !important}.amber.accent-1{background-color:#ffe57f !important}.amber-text.text-accent-1{color:#ffe57f !important}.amber.accent-2{background-color:#ffd740 !important}.amber-text.text-accent-2{color:#ffd740 !important}.amber.accent-3{background-color:#ffc400 !important}.amber-text.text-accent-3{color:#ffc400 !important}.amber.accent-4{background-color:#ffab00 !important}.amber-text.text-accent-4{color:#ffab00 !important}.orange{background-color:#ff9800 !important}.orange-text{color:#ff9800 !important}.orange.lighten-5{background-color:#fff3e0 !important}.orange-text.text-lighten-5{color:#fff3e0 !important}.orange.lighten-4{background-color:#ffe0b2 !important}.orange-text.text-lighten-4{color:#ffe0b2 !important}.orange.lighten-3{background-color:#ffcc80 !important}.orange-text.text-lighten-3{color:#ffcc80 !important}.orange.lighten-2{background-color:#ffb74d !important}.orange-text.text-lighten-2{color:#ffb74d !important}.orange.lighten-1{background-color:#ffa726 !important}.orange-text.text-lighten-1{color:#ffa726 !important}.orange.darken-1{background-color:#fb8c00 !important}.orange-text.text-darken-1{color:#fb8c00 !important}.orange.darken-2{background-color:#f57c00 !important}.orange-text.text-darken-2{color:#f57c00 !important}.orange.darken-3{background-color:#ef6c00 !important}.orange-text.text-darken-3{color:#ef6c00 !important}.orange.darken-4{background-color:#e65100 !important}.orange-text.text-darken-4{color:#e65100 !important}.orange.accent-1{background-color:#ffd180 !important}.orange-text.text-accent-1{color:#ffd180 !important}.orange.accent-2{background-color:#ffab40 !important}.orange-text.text-accent-2{color:#ffab40 !important}.orange.accent-3{background-color:#ff9100 !important}.orange-text.text-accent-3{color:#ff9100 !important}.orange.accent-4{background-color:#ff6d00 !important}.orange-text.text-accent-4{color:#ff6d00 !important}.deep-orange{background-color:#ff5722 !important}.deep-orange-text{color:#ff5722 !important}.deep-orange.lighten-5{background-color:#fbe9e7 !important}.deep-orange-text.text-lighten-5{color:#fbe9e7 !important}.deep-orange.lighten-4{background-color:#ffccbc !important}.deep-orange-text.text-lighten-4{color:#ffccbc !important}.deep-orange.lighten-3{background-color:#ffab91 !important}.deep-orange-text.text-lighten-3{color:#ffab91 !important}.deep-orange.lighten-2{background-color:#ff8a65 !important}.deep-orange-text.text-lighten-2{color:#ff8a65 !important}.deep-orange.lighten-1{background-color:#ff7043 !important}.deep-orange-text.text-lighten-1{color:#ff7043 !important}.deep-orange.darken-1{background-color:#f4511e !important}.deep-orange-text.text-darken-1{color:#f4511e !important}.deep-orange.darken-2{background-color:#e64a19 !important}.deep-orange-text.text-darken-2{color:#e64a19 !important}.deep-orange.darken-3{background-color:#d84315 !important}.deep-orange-text.text-darken-3{color:#d84315 !important}.deep-orange.darken-4{background-color:#bf360c !important}.deep-orange-text.text-darken-4{color:#bf360c !important}.deep-orange.accent-1{background-color:#ff9e80 !important}.deep-orange-text.text-accent-1{color:#ff9e80 !important}.deep-orange.accent-2{background-color:#ff6e40 !important}.deep-orange-text.text-accent-2{color:#ff6e40 !important}.deep-orange.accent-3{background-color:#ff3d00 !important}.deep-orange-text.text-accent-3{color:#ff3d00 !important}.deep-orange.accent-4{background-color:#dd2c00 !important}.deep-orange-text.text-accent-4{color:#dd2c00 !important}.brown{background-color:#795548 !important}.brown-text{color:#795548 !important}.brown.lighten-5{background-color:#efebe9 !important}.brown-text.text-lighten-5{color:#efebe9 !important}.brown.lighten-4{background-color:#d7ccc8 !important}.brown-text.text-lighten-4{color:#d7ccc8 !important}.brown.lighten-3{background-color:#bcaaa4 !important}.brown-text.text-lighten-3{color:#bcaaa4 !important}.brown.lighten-2{background-color:#a1887f !important}.brown-text.text-lighten-2{color:#a1887f !important}.brown.lighten-1{background-color:#8d6e63 !important}.brown-text.text-lighten-1{color:#8d6e63 !important}.brown.darken-1{background-color:#6d4c41 !important}.brown-text.text-darken-1{color:#6d4c41 !important}.brown.darken-2{background-color:#5d4037 !important}.brown-text.text-darken-2{color:#5d4037 !important}.brown.darken-3{background-color:#4e342e !important}.brown-text.text-darken-3{color:#4e342e !important}.brown.darken-4{background-color:#3e2723 !important}.brown-text.text-darken-4{color:#3e2723 !important}.blue-grey{background-color:#607d8b !important}.blue-grey-text{color:#607d8b !important}.blue-grey.lighten-5{background-color:#eceff1 !important}.blue-grey-text.text-lighten-5{color:#eceff1 !important}.blue-grey.lighten-4{background-color:#cfd8dc !important}.blue-grey-text.text-lighten-4{color:#cfd8dc !important}.blue-grey.lighten-3{background-color:#b0bec5 !important}.blue-grey-text.text-lighten-3{color:#b0bec5 !important}.blue-grey.lighten-2{background-color:#90a4ae !important}.blue-grey-text.text-lighten-2{color:#90a4ae !important}.blue-grey.lighten-1{background-color:#78909c !important}.blue-grey-text.text-lighten-1{color:#78909c !important}.blue-grey.darken-1{background-color:#546e7a !important}.blue-grey-text.text-darken-1{color:#546e7a !important}.blue-grey.darken-2{background-color:#455a64 !important}.blue-grey-text.text-darken-2{color:#455a64 !important}.blue-grey.darken-3{background-color:#37474f !important}.blue-grey-text.text-darken-3{color:#37474f !important}.blue-grey.darken-4{background-color:#263238 !important}.blue-grey-text.text-darken-4{color:#263238 !important}.grey{background-color:#9e9e9e !important}.grey-text{color:#9e9e9e !important}.grey.lighten-5{background-color:#fafafa !important}.grey-text.text-lighten-5{color:#fafafa !important}.grey.lighten-4{background-color:#f5f5f5 !important}.grey-text.text-lighten-4{color:#f5f5f5 !important}.grey.lighten-3{background-color:#eee !important}.grey-text.text-lighten-3{color:#eee !important}.grey.lighten-2{background-color:#e0e0e0 !important}.grey-text.text-lighten-2{color:#e0e0e0 !important}.grey.lighten-1{background-color:#bdbdbd !important}.grey-text.text-lighten-1{color:#bdbdbd !important}.grey.darken-1{background-color:#757575 !important}.grey-text.text-darken-1{color:#757575 !important}.grey.darken-2{background-color:#616161 !important}.grey-text.text-darken-2{color:#616161 !important}.grey.darken-3{background-color:#424242 !important}.grey-text.text-darken-3{color:#424242 !important}.grey.darken-4{background-color:#212121 !important}.grey-text.text-darken-4{color:#212121 !important}.black{background-color:#000 !important}.black-text{color:#000 !important}.white{background-color:#fff !important}.white-text{color:#fff !important}.transparent{background-color:transparent !important}.transparent-text{color:transparent !important}/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=\"button\"],input[type=\"reset\"],input[type=\"submit\"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=\"checkbox\"],input[type=\"radio\"]{box-sizing:border-box;padding:0}input[type=\"number\"]::-webkit-inner-spin-button,input[type=\"number\"]::-webkit-outer-spin-button{height:auto}input[type=\"search\"]{-webkit-appearance:textfield;box-sizing:content-box}input[type=\"search\"]::-webkit-search-cancel-button,input[type=\"search\"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}ul:not(.browser-default){padding-left:0;list-style-type:none}ul:not(.browser-default) li{list-style-type:none}a{color:#039be5;text-decoration:none;-webkit-tap-highlight-color:transparent}.valign-wrapper{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.clearfix{clear:both}.z-depth-0{box-shadow:none !important}.z-depth-1,nav,.card-panel,.card,.toast,.btn,.btn-large,.btn-floating,.dropdown-content,.collapsible,.side-nav{box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2)}.z-depth-1-half,.btn:hover,.btn-large:hover,.btn-floating:hover{box-shadow:0 3px 3px 0 rgba(0,0,0,0.14),0 1px 7px 0 rgba(0,0,0,0.12),0 3px 1px -1px rgba(0,0,0,0.2)}.z-depth-2{box-shadow:0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.3)}.z-depth-3{box-shadow:0 6px 10px 0 rgba(0,0,0,0.14),0 1px 18px 0 rgba(0,0,0,0.12),0 3px 5px -1px rgba(0,0,0,0.3)}.z-depth-4,.modal{box-shadow:0 8px 10px 1px rgba(0,0,0,0.14),0 3px 14px 2px rgba(0,0,0,0.12),0 5px 5px -3px rgba(0,0,0,0.3)}.z-depth-5{box-shadow:0 16px 24px 2px rgba(0,0,0,0.14),0 6px 30px 5px rgba(0,0,0,0.12),0 8px 10px -5px rgba(0,0,0,0.3)}.hoverable{transition:box-shadow .25s;box-shadow:0}.hoverable:hover{transition:box-shadow .25s;box-shadow:0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}.divider{height:1px;overflow:hidden;background-color:#e0e0e0}blockquote{margin:20px 0;padding-left:1.5rem;border-left:5px solid #ee6e73}i{line-height:inherit}i.left{float:left;margin-right:15px}i.right{float:right;margin-left:15px}i.tiny{font-size:1rem}i.small{font-size:2rem}i.medium{font-size:4rem}i.large{font-size:6rem}img.responsive-img,video.responsive-video{max-width:100%;height:auto}.pagination li{display:inline-block;border-radius:2px;text-align:center;vertical-align:top;height:30px}.pagination li a{color:#444;display:inline-block;font-size:1.2rem;padding:0 10px;line-height:30px}.pagination li.active a{color:#fff}.pagination li.active{background-color:#ee6e73}.pagination li.disabled a{cursor:default;color:#999}.pagination li i{font-size:2rem}.pagination li.pages ul li{display:inline-block;float:none}@media only screen and (max-width: 992px){.pagination{width:100%}.pagination li.prev,.pagination li.next{width:10%}.pagination li.pages{width:80%;overflow:hidden;white-space:nowrap}}.breadcrumb{font-size:18px;color:rgba(255,255,255,0.7)}.breadcrumb i,.breadcrumb [class^=\"mdi-\"],.breadcrumb [class*=\"mdi-\"],.breadcrumb i.material-icons{display:inline-block;float:left;font-size:24px}.breadcrumb:before{content:'\\E5CC';color:rgba(255,255,255,0.7);vertical-align:top;display:inline-block;font-family:'Material Icons';font-weight:normal;font-style:normal;font-size:25px;margin:0 10px 0 8px;-webkit-font-smoothing:antialiased}.breadcrumb:first-child:before{display:none}.breadcrumb:last-child{color:#fff}.parallax-container{position:relative;overflow:hidden;height:500px}.parallax-container .parallax{position:absolute;top:0;left:0;right:0;bottom:0;z-index:-1}.parallax-container .parallax img{display:none;position:absolute;left:50%;bottom:0;min-width:100%;min-height:100%;-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);-webkit-transform:translateX(-50%);transform:translateX(-50%)}.pin-top,.pin-bottom{position:relative}.pinned{position:fixed !important}ul.staggered-list li{opacity:0}.fade-in{opacity:0;-webkit-transform-origin:0 50%;transform-origin:0 50%}@media only screen and (max-width: 600px){.hide-on-small-only,.hide-on-small-and-down{display:none !important}}@media only screen and (max-width: 992px){.hide-on-med-and-down{display:none !important}}@media only screen and (min-width: 601px){.hide-on-med-and-up{display:none !important}}@media only screen and (min-width: 600px) and (max-width: 992px){.hide-on-med-only{display:none !important}}@media only screen and (min-width: 993px){.hide-on-large-only{display:none !important}}@media only screen and (min-width: 993px){.show-on-large{display:block !important}}@media only screen and (min-width: 600px) and (max-width: 992px){.show-on-medium{display:block !important}}@media only screen and (max-width: 600px){.show-on-small{display:block !important}}@media only screen and (min-width: 601px){.show-on-medium-and-up{display:block !important}}@media only screen and (max-width: 992px){.show-on-medium-and-down{display:block !important}}@media only screen and (max-width: 600px){.center-on-small-only{text-align:center}}.page-footer{padding-top:20px;background-color:#ee6e73}.page-footer .footer-copyright{overflow:hidden;min-height:50px;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-ms-flex-align:center;align-items:center;padding:10px 0px;color:rgba(255,255,255,0.8);background-color:rgba(51,51,51,0.08)}table,th,td{border:none}table{width:100%;display:table}table.bordered>thead>tr,table.bordered>tbody>tr{border-bottom:1px solid #d0d0d0}table.striped>tbody>tr:nth-child(odd){background-color:#f2f2f2}table.striped>tbody>tr>td{border-radius:0}table.highlight>tbody>tr{transition:background-color .25s ease}table.highlight>tbody>tr:hover{background-color:#f2f2f2}table.centered thead tr th,table.centered tbody tr td{text-align:center}thead{border-bottom:1px solid #d0d0d0}td,th{padding:15px 5px;display:table-cell;text-align:left;vertical-align:middle;border-radius:2px}@media only screen and (max-width: 992px){table.responsive-table{width:100%;border-collapse:collapse;border-spacing:0;display:block;position:relative}table.responsive-table td:empty:before{content:'\\A0'}table.responsive-table th,table.responsive-table td{margin:0;vertical-align:top}table.responsive-table th{text-align:left}table.responsive-table thead{display:block;float:left}table.responsive-table thead tr{display:block;padding:0 10px 0 0}table.responsive-table thead tr th::before{content:\"\\A0\"}table.responsive-table tbody{display:block;width:auto;position:relative;overflow-x:auto;white-space:nowrap}table.responsive-table tbody tr{display:inline-block;vertical-align:top}table.responsive-table th{display:block;text-align:right}table.responsive-table td{display:block;min-height:1.25em;text-align:left}table.responsive-table tr{padding:0 10px}table.responsive-table thead{border:0;border-right:1px solid #d0d0d0}table.responsive-table.bordered th{border-bottom:0;border-left:0}table.responsive-table.bordered td{border-left:0;border-right:0;border-bottom:0}table.responsive-table.bordered tr{border:0}table.responsive-table.bordered tbody tr{border-right:1px solid #d0d0d0}}.collection{margin:.5rem 0 1rem 0;border:1px solid #e0e0e0;border-radius:2px;overflow:hidden;position:relative}.collection .collection-item{background-color:#fff;line-height:1.5rem;padding:10px 20px;margin:0;border-bottom:1px solid #e0e0e0}.collection .collection-item.avatar{min-height:84px;padding-left:72px;position:relative}.collection .collection-item.avatar .circle{position:absolute;width:42px;height:42px;overflow:hidden;left:15px;display:inline-block;vertical-align:middle}.collection .collection-item.avatar i.circle{font-size:18px;line-height:42px;color:#fff;background-color:#999;text-align:center}.collection .collection-item.avatar .title{font-size:16px}.collection .collection-item.avatar p{margin:0}.collection .collection-item.avatar .secondary-content{position:absolute;top:16px;right:16px}.collection .collection-item:last-child{border-bottom:none}.collection .collection-item.active{background-color:#26a69a;color:#eafaf9}.collection .collection-item.active .secondary-content{color:#fff}.collection a.collection-item{display:block;transition:.25s;color:#26a69a}.collection a.collection-item:not(.active):hover{background-color:#ddd}.collection.with-header .collection-header{background-color:#fff;border-bottom:1px solid #e0e0e0;padding:10px 20px}.collection.with-header .collection-item{padding-left:30px}.collection.with-header .collection-item.avatar{padding-left:72px}.secondary-content{float:right;color:#26a69a}.collapsible .collection{margin:0;border:none}.video-container{position:relative;padding-bottom:56.25%;height:0;overflow:hidden}.video-container iframe,.video-container object,.video-container embed{position:absolute;top:0;left:0;width:100%;height:100%}.progress{position:relative;height:4px;display:block;width:100%;background-color:#acece6;border-radius:2px;margin:.5rem 0 1rem 0;overflow:hidden}.progress .determinate{position:absolute;top:0;left:0;bottom:0;background-color:#26a69a;transition:width .3s linear}.progress .indeterminate{background-color:#26a69a}.progress .indeterminate:before{content:'';position:absolute;background-color:inherit;top:0;left:0;bottom:0;will-change:left, right;-webkit-animation:indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;animation:indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite}.progress .indeterminate:after{content:'';position:absolute;background-color:inherit;top:0;left:0;bottom:0;will-change:left, right;-webkit-animation:indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;animation:indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;-webkit-animation-delay:1.15s;animation-delay:1.15s}@-webkit-keyframes indeterminate{0%{left:-35%;right:100%}60%{left:100%;right:-90%}100%{left:100%;right:-90%}}@keyframes indeterminate{0%{left:-35%;right:100%}60%{left:100%;right:-90%}100%{left:100%;right:-90%}}@-webkit-keyframes indeterminate-short{0%{left:-200%;right:100%}60%{left:107%;right:-8%}100%{left:107%;right:-8%}}@keyframes indeterminate-short{0%{left:-200%;right:100%}60%{left:107%;right:-8%}100%{left:107%;right:-8%}}.hide{display:none !important}.left-align{text-align:left}.right-align{text-align:right}.center,.center-align{text-align:center}.left{float:left !important}.right{float:right !important}.no-select,input[type=range],input[type=range]+.thumb{-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.circle{border-radius:50%}.center-block{display:block;margin-left:auto;margin-right:auto}.truncate{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.no-padding{padding:0 !important}span.badge{min-width:3rem;padding:0 6px;margin-left:14px;text-align:center;font-size:1rem;line-height:22px;height:22px;color:#757575;float:right;box-sizing:border-box}span.badge.new{font-weight:300;font-size:0.8rem;color:#fff;background-color:#26a69a;border-radius:2px}span.badge.new:after{content:\" new\"}span.badge[data-badge-caption]::after{content:\" \" attr(data-badge-caption)}nav ul a span.badge{display:inline-block;float:none;margin-left:4px;line-height:22px;height:22px}.collection-item span.badge{margin-top:calc(.75rem - 11px)}.collapsible span.badge{margin-top:calc(1.5rem - 11px)}.side-nav span.badge{margin-top:calc(24px - 11px)}.material-icons{text-rendering:optimizeLegibility;-webkit-font-feature-settings:'liga';-moz-font-feature-settings:'liga';font-feature-settings:'liga'}.container{margin:0 auto;max-width:1280px;width:90%}@media only screen and (min-width: 601px){.container{width:85%}}@media only screen and (min-width: 993px){.container{width:70%}}.container .row{margin-left:-.75rem;margin-right:-.75rem}.section{padding-top:1rem;padding-bottom:1rem}.section.no-pad{padding:0}.section.no-pad-bot{padding-bottom:0}.section.no-pad-top{padding-top:0}.row{margin-left:auto;margin-right:auto;margin-bottom:20px}.row:after{content:\"\";display:table;clear:both}.row .col{float:left;box-sizing:border-box;padding:0 .75rem;min-height:1px}.row .col[class*=\"push-\"],.row .col[class*=\"pull-\"]{position:relative}.row .col.s1{width:8.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.s2{width:16.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.s3{width:25%;margin-left:auto;left:auto;right:auto}.row .col.s4{width:33.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.s5{width:41.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.s6{width:50%;margin-left:auto;left:auto;right:auto}.row .col.s7{width:58.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.s8{width:66.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.s9{width:75%;margin-left:auto;left:auto;right:auto}.row .col.s10{width:83.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.s11{width:91.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.s12{width:100%;margin-left:auto;left:auto;right:auto}.row .col.offset-s1{margin-left:8.3333333333%}.row .col.pull-s1{right:8.3333333333%}.row .col.push-s1{left:8.3333333333%}.row .col.offset-s2{margin-left:16.6666666667%}.row .col.pull-s2{right:16.6666666667%}.row .col.push-s2{left:16.6666666667%}.row .col.offset-s3{margin-left:25%}.row .col.pull-s3{right:25%}.row .col.push-s3{left:25%}.row .col.offset-s4{margin-left:33.3333333333%}.row .col.pull-s4{right:33.3333333333%}.row .col.push-s4{left:33.3333333333%}.row .col.offset-s5{margin-left:41.6666666667%}.row .col.pull-s5{right:41.6666666667%}.row .col.push-s5{left:41.6666666667%}.row .col.offset-s6{margin-left:50%}.row .col.pull-s6{right:50%}.row .col.push-s6{left:50%}.row .col.offset-s7{margin-left:58.3333333333%}.row .col.pull-s7{right:58.3333333333%}.row .col.push-s7{left:58.3333333333%}.row .col.offset-s8{margin-left:66.6666666667%}.row .col.pull-s8{right:66.6666666667%}.row .col.push-s8{left:66.6666666667%}.row .col.offset-s9{margin-left:75%}.row .col.pull-s9{right:75%}.row .col.push-s9{left:75%}.row .col.offset-s10{margin-left:83.3333333333%}.row .col.pull-s10{right:83.3333333333%}.row .col.push-s10{left:83.3333333333%}.row .col.offset-s11{margin-left:91.6666666667%}.row .col.pull-s11{right:91.6666666667%}.row .col.push-s11{left:91.6666666667%}.row .col.offset-s12{margin-left:100%}.row .col.pull-s12{right:100%}.row .col.push-s12{left:100%}@media only screen and (min-width: 601px){.row .col.m1{width:8.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.m2{width:16.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.m3{width:25%;margin-left:auto;left:auto;right:auto}.row .col.m4{width:33.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.m5{width:41.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.m6{width:50%;margin-left:auto;left:auto;right:auto}.row .col.m7{width:58.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.m8{width:66.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.m9{width:75%;margin-left:auto;left:auto;right:auto}.row .col.m10{width:83.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.m11{width:91.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.m12{width:100%;margin-left:auto;left:auto;right:auto}.row .col.offset-m1{margin-left:8.3333333333%}.row .col.pull-m1{right:8.3333333333%}.row .col.push-m1{left:8.3333333333%}.row .col.offset-m2{margin-left:16.6666666667%}.row .col.pull-m2{right:16.6666666667%}.row .col.push-m2{left:16.6666666667%}.row .col.offset-m3{margin-left:25%}.row .col.pull-m3{right:25%}.row .col.push-m3{left:25%}.row .col.offset-m4{margin-left:33.3333333333%}.row .col.pull-m4{right:33.3333333333%}.row .col.push-m4{left:33.3333333333%}.row .col.offset-m5{margin-left:41.6666666667%}.row .col.pull-m5{right:41.6666666667%}.row .col.push-m5{left:41.6666666667%}.row .col.offset-m6{margin-left:50%}.row .col.pull-m6{right:50%}.row .col.push-m6{left:50%}.row .col.offset-m7{margin-left:58.3333333333%}.row .col.pull-m7{right:58.3333333333%}.row .col.push-m7{left:58.3333333333%}.row .col.offset-m8{margin-left:66.6666666667%}.row .col.pull-m8{right:66.6666666667%}.row .col.push-m8{left:66.6666666667%}.row .col.offset-m9{margin-left:75%}.row .col.pull-m9{right:75%}.row .col.push-m9{left:75%}.row .col.offset-m10{margin-left:83.3333333333%}.row .col.pull-m10{right:83.3333333333%}.row .col.push-m10{left:83.3333333333%}.row .col.offset-m11{margin-left:91.6666666667%}.row .col.pull-m11{right:91.6666666667%}.row .col.push-m11{left:91.6666666667%}.row .col.offset-m12{margin-left:100%}.row .col.pull-m12{right:100%}.row .col.push-m12{left:100%}}@media only screen and (min-width: 993px){.row .col.l1{width:8.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.l2{width:16.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.l3{width:25%;margin-left:auto;left:auto;right:auto}.row .col.l4{width:33.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.l5{width:41.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.l6{width:50%;margin-left:auto;left:auto;right:auto}.row .col.l7{width:58.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.l8{width:66.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.l9{width:75%;margin-left:auto;left:auto;right:auto}.row .col.l10{width:83.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.l11{width:91.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.l12{width:100%;margin-left:auto;left:auto;right:auto}.row .col.offset-l1{margin-left:8.3333333333%}.row .col.pull-l1{right:8.3333333333%}.row .col.push-l1{left:8.3333333333%}.row .col.offset-l2{margin-left:16.6666666667%}.row .col.pull-l2{right:16.6666666667%}.row .col.push-l2{left:16.6666666667%}.row .col.offset-l3{margin-left:25%}.row .col.pull-l3{right:25%}.row .col.push-l3{left:25%}.row .col.offset-l4{margin-left:33.3333333333%}.row .col.pull-l4{right:33.3333333333%}.row .col.push-l4{left:33.3333333333%}.row .col.offset-l5{margin-left:41.6666666667%}.row .col.pull-l5{right:41.6666666667%}.row .col.push-l5{left:41.6666666667%}.row .col.offset-l6{margin-left:50%}.row .col.pull-l6{right:50%}.row .col.push-l6{left:50%}.row .col.offset-l7{margin-left:58.3333333333%}.row .col.pull-l7{right:58.3333333333%}.row .col.push-l7{left:58.3333333333%}.row .col.offset-l8{margin-left:66.6666666667%}.row .col.pull-l8{right:66.6666666667%}.row .col.push-l8{left:66.6666666667%}.row .col.offset-l9{margin-left:75%}.row .col.pull-l9{right:75%}.row .col.push-l9{left:75%}.row .col.offset-l10{margin-left:83.3333333333%}.row .col.pull-l10{right:83.3333333333%}.row .col.push-l10{left:83.3333333333%}.row .col.offset-l11{margin-left:91.6666666667%}.row .col.pull-l11{right:91.6666666667%}.row .col.push-l11{left:91.6666666667%}.row .col.offset-l12{margin-left:100%}.row .col.pull-l12{right:100%}.row .col.push-l12{left:100%}}@media only screen and (min-width: 1201px){.row .col.xl1{width:8.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.xl2{width:16.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.xl3{width:25%;margin-left:auto;left:auto;right:auto}.row .col.xl4{width:33.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.xl5{width:41.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.xl6{width:50%;margin-left:auto;left:auto;right:auto}.row .col.xl7{width:58.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.xl8{width:66.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.xl9{width:75%;margin-left:auto;left:auto;right:auto}.row .col.xl10{width:83.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.xl11{width:91.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.xl12{width:100%;margin-left:auto;left:auto;right:auto}.row .col.offset-xl1{margin-left:8.3333333333%}.row .col.pull-xl1{right:8.3333333333%}.row .col.push-xl1{left:8.3333333333%}.row .col.offset-xl2{margin-left:16.6666666667%}.row .col.pull-xl2{right:16.6666666667%}.row .col.push-xl2{left:16.6666666667%}.row .col.offset-xl3{margin-left:25%}.row .col.pull-xl3{right:25%}.row .col.push-xl3{left:25%}.row .col.offset-xl4{margin-left:33.3333333333%}.row .col.pull-xl4{right:33.3333333333%}.row .col.push-xl4{left:33.3333333333%}.row .col.offset-xl5{margin-left:41.6666666667%}.row .col.pull-xl5{right:41.6666666667%}.row .col.push-xl5{left:41.6666666667%}.row .col.offset-xl6{margin-left:50%}.row .col.pull-xl6{right:50%}.row .col.push-xl6{left:50%}.row .col.offset-xl7{margin-left:58.3333333333%}.row .col.pull-xl7{right:58.3333333333%}.row .col.push-xl7{left:58.3333333333%}.row .col.offset-xl8{margin-left:66.6666666667%}.row .col.pull-xl8{right:66.6666666667%}.row .col.push-xl8{left:66.6666666667%}.row .col.offset-xl9{margin-left:75%}.row .col.pull-xl9{right:75%}.row .col.push-xl9{left:75%}.row .col.offset-xl10{margin-left:83.3333333333%}.row .col.pull-xl10{right:83.3333333333%}.row .col.push-xl10{left:83.3333333333%}.row .col.offset-xl11{margin-left:91.6666666667%}.row .col.pull-xl11{right:91.6666666667%}.row .col.push-xl11{left:91.6666666667%}.row .col.offset-xl12{margin-left:100%}.row .col.pull-xl12{right:100%}.row .col.push-xl12{left:100%}}nav{color:#fff;background-color:#ee6e73;width:100%;height:56px;line-height:56px}nav.nav-extended{height:auto}nav.nav-extended .nav-wrapper{min-height:56px;height:auto}nav.nav-extended .nav-content{position:relative;line-height:normal}nav a{color:#fff}nav i,nav [class^=\"mdi-\"],nav [class*=\"mdi-\"],nav i.material-icons{display:block;font-size:24px;height:56px;line-height:56px}nav .nav-wrapper{position:relative;height:100%}@media only screen and (min-width: 993px){nav a.button-collapse{display:none}}nav .button-collapse{float:left;position:relative;z-index:1;height:56px;margin:0 18px}nav .button-collapse i{height:56px;line-height:56px}nav .brand-logo{position:absolute;color:#fff;display:inline-block;font-size:2.1rem;padding:0;white-space:nowrap}nav .brand-logo.center{left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}@media only screen and (max-width: 992px){nav .brand-logo{left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}nav .brand-logo.left,nav .brand-logo.right{padding:0;-webkit-transform:none;transform:none}nav .brand-logo.left{left:0.5rem}nav .brand-logo.right{right:0.5rem;left:auto}}nav .brand-logo.right{right:0.5rem;padding:0}nav .brand-logo i,nav .brand-logo [class^=\"mdi-\"],nav .brand-logo [class*=\"mdi-\"],nav .brand-logo i.material-icons{float:left;margin-right:15px}nav .nav-title{display:inline-block;font-size:32px;padding:28px 0}nav ul{margin:0}nav ul li{transition:background-color .3s;float:left;padding:0}nav ul li.active{background-color:rgba(0,0,0,0.1)}nav ul a{transition:background-color .3s;font-size:1rem;color:#fff;display:block;padding:0 15px;cursor:pointer}nav ul a.btn,nav ul a.btn-large,nav ul a.btn-large,nav ul a.btn-flat,nav ul a.btn-floating{margin-top:-2px;margin-left:15px;margin-right:15px}nav ul a.btn>.material-icons,nav ul a.btn-large>.material-icons,nav ul a.btn-large>.material-icons,nav ul a.btn-flat>.material-icons,nav ul a.btn-floating>.material-icons{height:inherit;line-height:inherit}nav ul a:hover{background-color:rgba(0,0,0,0.1)}nav ul.left{float:left}nav form{height:100%}nav .input-field{margin:0;height:100%}nav .input-field input{height:100%;font-size:1.2rem;border:none;padding-left:2rem}nav .input-field input:focus,nav .input-field input[type=text]:valid,nav .input-field input[type=password]:valid,nav .input-field input[type=email]:valid,nav .input-field input[type=url]:valid,nav .input-field input[type=date]:valid{border:none;box-shadow:none}nav .input-field label{top:0;left:0}nav .input-field label i{color:rgba(255,255,255,0.7);transition:color .3s}nav .input-field label.active i{color:#fff}.navbar-fixed{position:relative;height:56px;z-index:997}.navbar-fixed nav{position:fixed}@media only screen and (min-width: 601px){nav.nav-extended .nav-wrapper{min-height:64px}nav,nav .nav-wrapper i,nav a.button-collapse,nav a.button-collapse i{height:64px;line-height:64px}.navbar-fixed{height:64px}}@font-face{font-family:\"Roboto\";src:local(Roboto Thin),url(" + __webpack_require__(47) + ") format(\"woff2\"),url(" + __webpack_require__(48) + ") format(\"woff\");font-weight:100}@font-face{font-family:\"Roboto\";src:local(Roboto Light),url(" + __webpack_require__(49) + ") format(\"woff2\"),url(" + __webpack_require__(50) + ") format(\"woff\");font-weight:300}@font-face{font-family:\"Roboto\";src:local(Roboto Regular),url(" + __webpack_require__(51) + ") format(\"woff2\"),url(" + __webpack_require__(52) + ") format(\"woff\");font-weight:400}@font-face{font-family:\"Roboto\";src:local(Roboto Medium),url(" + __webpack_require__(53) + ") format(\"woff2\"),url(" + __webpack_require__(54) + ") format(\"woff\");font-weight:500}@font-face{font-family:\"Roboto\";src:local(Roboto Bold),url(" + __webpack_require__(55) + ") format(\"woff2\"),url(" + __webpack_require__(56) + ") format(\"woff\");font-weight:700}a{text-decoration:none}html{line-height:1.5;font-family:\"Roboto\", sans-serif;font-weight:normal;color:rgba(0,0,0,0.87)}@media only screen and (min-width: 0){html{font-size:14px}}@media only screen and (min-width: 992px){html{font-size:14.5px}}@media only screen and (min-width: 1200px){html{font-size:15px}}h1,h2,h3,h4,h5,h6{font-weight:400;line-height:1.1}h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font-weight:inherit}h1{font-size:4.2rem;line-height:110%;margin:2.1rem 0 1.68rem 0}h2{font-size:3.56rem;line-height:110%;margin:1.78rem 0 1.424rem 0}h3{font-size:2.92rem;line-height:110%;margin:1.46rem 0 1.168rem 0}h4{font-size:2.28rem;line-height:110%;margin:1.14rem 0 .912rem 0}h5{font-size:1.64rem;line-height:110%;margin:.82rem 0 .656rem 0}h6{font-size:1rem;line-height:110%;margin:.5rem 0 .4rem 0}em{font-style:italic}strong{font-weight:500}small{font-size:75%}.light,.page-footer .footer-copyright{font-weight:300}.thin{font-weight:200}.flow-text{font-weight:300}@media only screen and (min-width: 360px){.flow-text{font-size:1.2rem}}@media only screen and (min-width: 390px){.flow-text{font-size:1.224rem}}@media only screen and (min-width: 420px){.flow-text{font-size:1.248rem}}@media only screen and (min-width: 450px){.flow-text{font-size:1.272rem}}@media only screen and (min-width: 480px){.flow-text{font-size:1.296rem}}@media only screen and (min-width: 510px){.flow-text{font-size:1.32rem}}@media only screen and (min-width: 540px){.flow-text{font-size:1.344rem}}@media only screen and (min-width: 570px){.flow-text{font-size:1.368rem}}@media only screen and (min-width: 600px){.flow-text{font-size:1.392rem}}@media only screen and (min-width: 630px){.flow-text{font-size:1.416rem}}@media only screen and (min-width: 660px){.flow-text{font-size:1.44rem}}@media only screen and (min-width: 690px){.flow-text{font-size:1.464rem}}@media only screen and (min-width: 720px){.flow-text{font-size:1.488rem}}@media only screen and (min-width: 750px){.flow-text{font-size:1.512rem}}@media only screen and (min-width: 780px){.flow-text{font-size:1.536rem}}@media only screen and (min-width: 810px){.flow-text{font-size:1.56rem}}@media only screen and (min-width: 840px){.flow-text{font-size:1.584rem}}@media only screen and (min-width: 870px){.flow-text{font-size:1.608rem}}@media only screen and (min-width: 900px){.flow-text{font-size:1.632rem}}@media only screen and (min-width: 930px){.flow-text{font-size:1.656rem}}@media only screen and (min-width: 960px){.flow-text{font-size:1.68rem}}@media only screen and (max-width: 360px){.flow-text{font-size:1.2rem}}.scale-transition{transition:-webkit-transform 0.3s cubic-bezier(0.53, 0.01, 0.36, 1.63) !important;transition:transform 0.3s cubic-bezier(0.53, 0.01, 0.36, 1.63) !important;transition:transform 0.3s cubic-bezier(0.53, 0.01, 0.36, 1.63), -webkit-transform 0.3s cubic-bezier(0.53, 0.01, 0.36, 1.63) !important}.scale-transition.scale-out{-webkit-transform:scale(0);transform:scale(0);transition:-webkit-transform .2s !important;transition:transform .2s !important;transition:transform .2s, -webkit-transform .2s !important}.scale-transition.scale-in{-webkit-transform:scale(1);transform:scale(1)}.card-panel{transition:box-shadow .25s;padding:24px;margin:.5rem 0 1rem 0;border-radius:2px;background-color:#fff}.card{position:relative;margin:.5rem 0 1rem 0;background-color:#fff;transition:box-shadow .25s;border-radius:2px}.card .card-title{font-size:24px;font-weight:300}.card .card-title.activator{cursor:pointer}.card.small,.card.medium,.card.large{position:relative}.card.small .card-image,.card.medium .card-image,.card.large .card-image{max-height:60%;overflow:hidden}.card.small .card-image+.card-content,.card.medium .card-image+.card-content,.card.large .card-image+.card-content{max-height:40%}.card.small .card-content,.card.medium .card-content,.card.large .card-content{max-height:100%;overflow:hidden}.card.small .card-action,.card.medium .card-action,.card.large .card-action{position:absolute;bottom:0;left:0;right:0}.card.small{height:300px}.card.medium{height:400px}.card.large{height:500px}.card.horizontal{display:-webkit-flex;display:-ms-flexbox;display:flex}.card.horizontal.small .card-image,.card.horizontal.medium .card-image,.card.horizontal.large .card-image{height:100%;max-height:none;overflow:visible}.card.horizontal.small .card-image img,.card.horizontal.medium .card-image img,.card.horizontal.large .card-image img{height:100%}.card.horizontal .card-image{max-width:50%}.card.horizontal .card-image img{border-radius:2px 0 0 2px;max-width:100%;width:auto}.card.horizontal .card-stacked{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-flex:1;-ms-flex:1;flex:1;position:relative}.card.horizontal .card-stacked .card-content{-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1}.card.sticky-action .card-action{z-index:2}.card.sticky-action .card-reveal{z-index:1;padding-bottom:64px}.card .card-image{position:relative}.card .card-image img{display:block;border-radius:2px 2px 0 0;position:relative;left:0;right:0;top:0;bottom:0;width:100%}.card .card-image .card-title{color:#fff;position:absolute;bottom:0;left:0;max-width:100%;padding:24px}.card .card-content{padding:24px;border-radius:0 0 2px 2px}.card .card-content p{margin:0;color:inherit}.card .card-content .card-title{display:block;line-height:32px;margin-bottom:8px}.card .card-content .card-title i{line-height:32px}.card .card-action{position:relative;background-color:inherit;border-top:1px solid rgba(160,160,160,0.2);padding:16px 24px}.card .card-action:last-child{border-radius:0 0 2px 2px}.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating){color:#ffab40;margin-right:24px;transition:color .3s ease;text-transform:uppercase}.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover{color:#ffd8a6}.card .card-reveal{padding:24px;position:absolute;background-color:#fff;width:100%;overflow-y:auto;left:0;top:100%;height:100%;z-index:3;display:none}.card .card-reveal .card-title{cursor:pointer;display:block}#toast-container{display:block;position:fixed;z-index:10000}@media only screen and (max-width: 600px){#toast-container{min-width:100%;bottom:0%}}@media only screen and (min-width: 601px) and (max-width: 992px){#toast-container{left:5%;bottom:7%;max-width:90%}}@media only screen and (min-width: 993px){#toast-container{top:10%;right:7%;max-width:86%}}.toast{border-radius:2px;top:35px;width:auto;clear:both;margin-top:10px;position:relative;max-width:100%;height:auto;min-height:48px;line-height:1.5em;word-break:break-all;background-color:#323232;padding:10px 25px;font-size:1.1rem;font-weight:300;color:#fff;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}.toast .btn,.toast .btn-large,.toast .btn-flat{margin:0;margin-left:3rem}.toast.rounded{border-radius:24px}@media only screen and (max-width: 600px){.toast{width:100%;border-radius:0}}@media only screen and (min-width: 601px) and (max-width: 992px){.toast{float:left}}@media only screen and (min-width: 993px){.toast{float:right}}.tabs{position:relative;overflow-x:auto;overflow-y:hidden;height:48px;width:100%;background-color:#fff;margin:0 auto;white-space:nowrap}.tabs.tabs-transparent{background-color:transparent}.tabs.tabs-transparent .tab a,.tabs.tabs-transparent .tab.disabled a,.tabs.tabs-transparent .tab.disabled a:hover{color:rgba(255,255,255,0.7)}.tabs.tabs-transparent .tab a:hover,.tabs.tabs-transparent .tab a.active{color:#fff}.tabs.tabs-transparent .indicator{background-color:#fff}.tabs.tabs-fixed-width{display:-webkit-flex;display:-ms-flexbox;display:flex}.tabs.tabs-fixed-width .tab{-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1}.tabs .tab{display:inline-block;text-align:center;line-height:48px;height:48px;padding:0;margin:0;text-transform:uppercase}.tabs .tab a{color:rgba(238,110,115,0.7);display:block;width:100%;height:100%;padding:0 24px;font-size:14px;text-overflow:ellipsis;overflow:hidden;transition:color .28s ease}.tabs .tab a:hover,.tabs .tab a.active{background-color:transparent;color:#ee6e73}.tabs .tab.disabled a,.tabs .tab.disabled a:hover{color:rgba(238,110,115,0.7);cursor:default}.tabs .indicator{position:absolute;bottom:0;height:2px;background-color:#f6b2b5;will-change:left, right}@media only screen and (max-width: 992px){.tabs{display:-webkit-flex;display:-ms-flexbox;display:flex}.tabs .tab{-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1}.tabs .tab a{padding:0 12px}}.material-tooltip{padding:10px 8px;font-size:1rem;z-index:2000;background-color:transparent;border-radius:2px;color:#fff;min-height:36px;line-height:120%;opacity:0;position:absolute;text-align:center;max-width:calc(100% - 4px);overflow:hidden;left:0;top:0;pointer-events:none;visibility:hidden}.backdrop{position:absolute;opacity:0;height:7px;width:14px;border-radius:0 0 50% 50%;background-color:#323232;z-index:-1;-webkit-transform-origin:50% 0%;transform-origin:50% 0%;visibility:hidden}.btn,.btn-large,.btn-flat{border:none;border-radius:2px;display:inline-block;height:36px;line-height:36px;padding:0 2rem;text-transform:uppercase;vertical-align:middle;-webkit-tap-highlight-color:transparent}.btn.disabled,.disabled.btn-large,.btn-floating.disabled,.btn-large.disabled,.btn-flat.disabled,.btn:disabled,.btn-large:disabled,.btn-floating:disabled,.btn-large:disabled,.btn-flat:disabled,.btn[disabled],[disabled].btn-large,.btn-floating[disabled],.btn-large[disabled],.btn-flat[disabled]{pointer-events:none;background-color:#DFDFDF !important;box-shadow:none;color:#9F9F9F !important;cursor:default}.btn.disabled:hover,.disabled.btn-large:hover,.btn-floating.disabled:hover,.btn-large.disabled:hover,.btn-flat.disabled:hover,.btn:disabled:hover,.btn-large:disabled:hover,.btn-floating:disabled:hover,.btn-large:disabled:hover,.btn-flat:disabled:hover,.btn[disabled]:hover,[disabled].btn-large:hover,.btn-floating[disabled]:hover,.btn-large[disabled]:hover,.btn-flat[disabled]:hover{background-color:#DFDFDF !important;color:#9F9F9F !important}.btn,.btn-large,.btn-floating,.btn-large,.btn-flat{font-size:1rem;outline:0}.btn i,.btn-large i,.btn-floating i,.btn-large i,.btn-flat i{font-size:1.3rem;line-height:inherit}.btn:focus,.btn-large:focus,.btn-floating:focus{background-color:#1d7d74}.btn,.btn-large{text-decoration:none;color:#fff;background-color:#26a69a;text-align:center;letter-spacing:.5px;transition:.2s ease-out;cursor:pointer}.btn:hover,.btn-large:hover{background-color:#2bbbad}.btn-floating{display:inline-block;color:#fff;position:relative;overflow:hidden;z-index:1;width:40px;height:40px;line-height:40px;padding:0;background-color:#26a69a;border-radius:50%;transition:.3s;cursor:pointer;vertical-align:middle}.btn-floating:hover{background-color:#26a69a}.btn-floating:before{border-radius:0}.btn-floating.btn-large{width:56px;height:56px}.btn-floating.btn-large.halfway-fab{bottom:-28px}.btn-floating.btn-large i{line-height:56px}.btn-floating.halfway-fab{position:absolute;right:24px;bottom:-20px}.btn-floating.halfway-fab.left{right:auto;left:24px}.btn-floating i{width:inherit;display:inline-block;text-align:center;color:#fff;font-size:1.6rem;line-height:40px}button.btn-floating{border:none}.fixed-action-btn{position:fixed;right:23px;bottom:23px;padding-top:15px;margin-bottom:0;z-index:998}.fixed-action-btn.active ul{visibility:visible}.fixed-action-btn.horizontal{padding:0 0 0 15px}.fixed-action-btn.horizontal ul{text-align:right;right:64px;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);height:100%;left:auto;width:500px}.fixed-action-btn.horizontal ul li{display:inline-block;margin:15px 15px 0 0}.fixed-action-btn.toolbar{padding:0;height:56px}.fixed-action-btn.toolbar.active>a i{opacity:0}.fixed-action-btn.toolbar ul{display:-webkit-flex;display:-ms-flexbox;display:flex;top:0;bottom:0;z-index:1}.fixed-action-btn.toolbar ul li{-webkit-flex:1;-ms-flex:1;flex:1;display:inline-block;margin:0;height:100%;transition:none}.fixed-action-btn.toolbar ul li a{display:block;overflow:hidden;position:relative;width:100%;height:100%;background-color:transparent;box-shadow:none;color:#fff;line-height:56px;z-index:1}.fixed-action-btn.toolbar ul li a i{line-height:inherit}.fixed-action-btn ul{left:0;right:0;text-align:center;position:absolute;bottom:64px;margin:0;visibility:hidden}.fixed-action-btn ul li{margin-bottom:15px}.fixed-action-btn ul a.btn-floating{opacity:0}.fixed-action-btn .fab-backdrop{position:absolute;top:0;left:0;z-index:-1;width:40px;height:40px;background-color:#26a69a;border-radius:50%;-webkit-transform:scale(0);transform:scale(0)}.btn-flat{box-shadow:none;background-color:transparent;color:#343434;cursor:pointer;transition:background-color .2s}.btn-flat:focus,.btn-flat:hover{box-shadow:none}.btn-flat:focus{background-color:rgba(0,0,0,0.1)}.btn-flat.disabled{background-color:transparent !important;color:#b3b2b2 !important;cursor:default}.btn-large{height:54px;line-height:54px}.btn-large i{font-size:1.6rem}.btn-block{display:block}.dropdown-content{background-color:#fff;margin:0;display:none;min-width:100px;max-height:650px;overflow-y:auto;opacity:0;position:absolute;z-index:999;will-change:width, height}.dropdown-content li{clear:both;color:rgba(0,0,0,0.87);cursor:pointer;min-height:50px;line-height:1.5rem;width:100%;text-align:left;text-transform:none}.dropdown-content li:hover,.dropdown-content li.active,.dropdown-content li.selected{background-color:#eee}.dropdown-content li.active.selected{background-color:#e1e1e1}.dropdown-content li.divider{min-height:0;height:1px}.dropdown-content li>a,.dropdown-content li>span{font-size:16px;color:#26a69a;display:block;line-height:22px;padding:14px 16px}.dropdown-content li>span>label{top:1px;left:0;height:18px}.dropdown-content li>a>i{height:inherit;line-height:inherit;float:left;margin:0 24px 0 0;width:24px}.input-field.col .dropdown-content [type=\"checkbox\"]+label{top:1px;left:0;height:18px}/*!\n * Waves v0.6.0\n * http://fian.my.id/Waves\n *\n * Copyright 2014 Alfiana E. Sibuea and other contributors\n * Released under the MIT license\n * https://github.com/fians/Waves/blob/master/LICENSE\n */.waves-effect{position:relative;cursor:pointer;display:inline-block;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent;vertical-align:middle;z-index:1;transition:.3s ease-out}.waves-effect .waves-ripple{position:absolute;border-radius:50%;width:20px;height:20px;margin-top:-10px;margin-left:-10px;opacity:0;background:rgba(0,0,0,0.2);transition:all 0.7s ease-out;transition-property:opacity, -webkit-transform;transition-property:transform, opacity;transition-property:transform, opacity, -webkit-transform;-webkit-transform:scale(0);transform:scale(0);pointer-events:none}.waves-effect.waves-light .waves-ripple{background-color:rgba(255,255,255,0.45)}.waves-effect.waves-red .waves-ripple{background-color:rgba(244,67,54,0.7)}.waves-effect.waves-yellow .waves-ripple{background-color:rgba(255,235,59,0.7)}.waves-effect.waves-orange .waves-ripple{background-color:rgba(255,152,0,0.7)}.waves-effect.waves-purple .waves-ripple{background-color:rgba(156,39,176,0.7)}.waves-effect.waves-green .waves-ripple{background-color:rgba(76,175,80,0.7)}.waves-effect.waves-teal .waves-ripple{background-color:rgba(0,150,136,0.7)}.waves-effect input[type=\"button\"],.waves-effect input[type=\"reset\"],.waves-effect input[type=\"submit\"]{border:0;font-style:normal;font-size:inherit;text-transform:inherit;background:none}.waves-effect img{position:relative;z-index:-1}.waves-notransition{transition:none !important}.waves-circle{-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-mask-image:-webkit-radial-gradient(circle, white 100%, black 100%)}.waves-input-wrapper{border-radius:0.2em;vertical-align:bottom}.waves-input-wrapper .waves-button-input{position:relative;top:0;left:0;z-index:1}.waves-circle{text-align:center;width:2.5em;height:2.5em;line-height:2.5em;border-radius:50%;-webkit-mask-image:none}.waves-block{display:block}.waves-effect .waves-ripple{z-index:-1}.modal{display:none;position:fixed;left:0;right:0;background-color:#fafafa;padding:0;max-height:70%;width:55%;margin:auto;overflow-y:auto;border-radius:2px;will-change:top, opacity}@media only screen and (max-width: 992px){.modal{width:80%}}.modal h1,.modal h2,.modal h3,.modal h4{margin-top:0}.modal .modal-content{padding:24px}.modal .modal-close{cursor:pointer}.modal .modal-footer{border-radius:0 0 2px 2px;background-color:#fafafa;padding:4px 6px;height:56px;width:100%;text-align:right}.modal .modal-footer .btn,.modal .modal-footer .btn-large,.modal .modal-footer .btn-flat{margin:6px 0}.modal-overlay{position:fixed;z-index:999;top:-25%;left:0;bottom:0;right:0;height:125%;width:100%;background:#000;display:none;will-change:opacity}.modal.modal-fixed-footer{padding:0;height:70%}.modal.modal-fixed-footer .modal-content{position:absolute;height:calc(100% - 56px);max-height:100%;width:100%;overflow-y:auto}.modal.modal-fixed-footer .modal-footer{border-top:1px solid rgba(0,0,0,0.1);position:absolute;bottom:0}.modal.bottom-sheet{top:auto;bottom:-100%;margin:0;width:100%;max-height:45%;border-radius:0;will-change:bottom, opacity}.collapsible{border-top:1px solid #ddd;border-right:1px solid #ddd;border-left:1px solid #ddd;margin:.5rem 0 1rem 0}.collapsible-header{display:block;cursor:pointer;-webkit-tap-highlight-color:transparent;min-height:3rem;line-height:3rem;padding:0 1rem;background-color:#fff;border-bottom:1px solid #ddd}.collapsible-header i{width:2rem;font-size:1.6rem;line-height:3rem;display:block;float:left;text-align:center;margin-right:1rem}.collapsible-body{display:none;border-bottom:1px solid #ddd;box-sizing:border-box;padding:2rem}.side-nav .collapsible,.side-nav.fixed .collapsible{border:none;box-shadow:none}.side-nav .collapsible li,.side-nav.fixed .collapsible li{padding:0}.side-nav .collapsible-header,.side-nav.fixed .collapsible-header{background-color:transparent;border:none;line-height:inherit;height:inherit;padding:0 16px}.side-nav .collapsible-header:hover,.side-nav.fixed .collapsible-header:hover{background-color:rgba(0,0,0,0.05)}.side-nav .collapsible-header i,.side-nav.fixed .collapsible-header i{line-height:inherit}.side-nav .collapsible-body,.side-nav.fixed .collapsible-body{border:0;background-color:#fff}.side-nav .collapsible-body li a,.side-nav.fixed .collapsible-body li a{padding:0 23.5px 0 31px}.collapsible.popout{border:none;box-shadow:none}.collapsible.popout>li{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);margin:0 24px;transition:margin 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94)}.collapsible.popout>li.active{box-shadow:0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);margin:16px 0}.chip{display:inline-block;height:32px;font-size:13px;font-weight:500;color:rgba(0,0,0,0.6);line-height:32px;padding:0 12px;border-radius:16px;background-color:#e4e4e4;margin-bottom:5px;margin-right:5px}.chip>img{float:left;margin:0 8px 0 -12px;height:32px;width:32px;border-radius:50%}.chip .close{cursor:pointer;float:right;font-size:16px;line-height:32px;padding-left:8px}.chips{border:none;border-bottom:1px solid #9e9e9e;box-shadow:none;margin:0 0 20px 0;min-height:45px;outline:none;transition:all .3s}.chips.focus{border-bottom:1px solid #26a69a;box-shadow:0 1px 0 0 #26a69a}.chips:hover{cursor:text}.chips .chip.selected{background-color:#26a69a;color:#fff}.chips .input{background:none;border:0;color:rgba(0,0,0,0.6);display:inline-block;font-size:1rem;height:3rem;line-height:32px;outline:0;margin:0;padding:0 !important;width:120px !important}.chips .input:focus{border:0 !important;box-shadow:none !important}.chips .autocomplete-content{margin-top:0}.prefix ~ .chips{margin-left:3rem;width:92%;width:calc(100% - 3rem)}.chips:empty ~ label{font-size:0.8rem;-webkit-transform:translateY(-140%);transform:translateY(-140%)}.materialboxed{display:block;cursor:-webkit-zoom-in;cursor:zoom-in;position:relative;transition:opacity .4s;-webkit-backface-visibility:hidden}.materialboxed:hover:not(.active){opacity:.8}.materialboxed.active{cursor:-webkit-zoom-out;cursor:zoom-out}#materialbox-overlay{position:fixed;top:0;right:0;bottom:0;left:0;background-color:#292929;z-index:1000;will-change:opacity}.materialbox-caption{position:fixed;display:none;color:#fff;line-height:50px;bottom:0;left:0;width:100%;text-align:center;padding:0% 15%;height:50px;z-index:1000;-webkit-font-smoothing:antialiased}select:focus{outline:1px solid #c9f3ef}button:focus{outline:none;background-color:#2ab7a9}label{font-size:.8rem;color:#9e9e9e}::-webkit-input-placeholder{color:#d1d1d1}:-moz-placeholder{color:#d1d1d1}::-moz-placeholder{color:#d1d1d1}:-ms-input-placeholder{color:#d1d1d1}input:not([type]),input[type=text]:not(.browser-default),input[type=password]:not(.browser-default),input[type=email]:not(.browser-default),input[type=url]:not(.browser-default),input[type=time]:not(.browser-default),input[type=date]:not(.browser-default),input[type=datetime]:not(.browser-default),input[type=datetime-local]:not(.browser-default),input[type=tel]:not(.browser-default),input[type=number]:not(.browser-default),input[type=search]:not(.browser-default),textarea.materialize-textarea{background-color:transparent;border:none;border-bottom:1px solid #9e9e9e;border-radius:0;outline:none;height:3rem;width:100%;font-size:1rem;margin:0 0 20px 0;padding:0;box-shadow:none;box-sizing:content-box;transition:all 0.3s}input:not([type]):disabled,input:not([type])[readonly=\"readonly\"],input[type=text]:not(.browser-default):disabled,input[type=text]:not(.browser-default)[readonly=\"readonly\"],input[type=password]:not(.browser-default):disabled,input[type=password]:not(.browser-default)[readonly=\"readonly\"],input[type=email]:not(.browser-default):disabled,input[type=email]:not(.browser-default)[readonly=\"readonly\"],input[type=url]:not(.browser-default):disabled,input[type=url]:not(.browser-default)[readonly=\"readonly\"],input[type=time]:not(.browser-default):disabled,input[type=time]:not(.browser-default)[readonly=\"readonly\"],input[type=date]:not(.browser-default):disabled,input[type=date]:not(.browser-default)[readonly=\"readonly\"],input[type=datetime]:not(.browser-default):disabled,input[type=datetime]:not(.browser-default)[readonly=\"readonly\"],input[type=datetime-local]:not(.browser-default):disabled,input[type=datetime-local]:not(.browser-default)[readonly=\"readonly\"],input[type=tel]:not(.browser-default):disabled,input[type=tel]:not(.browser-default)[readonly=\"readonly\"],input[type=number]:not(.browser-default):disabled,input[type=number]:not(.browser-default)[readonly=\"readonly\"],input[type=search]:not(.browser-default):disabled,input[type=search]:not(.browser-default)[readonly=\"readonly\"],textarea.materialize-textarea:disabled,textarea.materialize-textarea[readonly=\"readonly\"]{color:rgba(0,0,0,0.26);border-bottom:1px dotted rgba(0,0,0,0.26)}input:not([type]):disabled+label,input:not([type])[readonly=\"readonly\"]+label,input[type=text]:not(.browser-default):disabled+label,input[type=text]:not(.browser-default)[readonly=\"readonly\"]+label,input[type=password]:not(.browser-default):disabled+label,input[type=password]:not(.browser-default)[readonly=\"readonly\"]+label,input[type=email]:not(.browser-default):disabled+label,input[type=email]:not(.browser-default)[readonly=\"readonly\"]+label,input[type=url]:not(.browser-default):disabled+label,input[type=url]:not(.browser-default)[readonly=\"readonly\"]+label,input[type=time]:not(.browser-default):disabled+label,input[type=time]:not(.browser-default)[readonly=\"readonly\"]+label,input[type=date]:not(.browser-default):disabled+label,input[type=date]:not(.browser-default)[readonly=\"readonly\"]+label,input[type=datetime]:not(.browser-default):disabled+label,input[type=datetime]:not(.browser-default)[readonly=\"readonly\"]+label,input[type=datetime-local]:not(.browser-default):disabled+label,input[type=datetime-local]:not(.browser-default)[readonly=\"readonly\"]+label,input[type=tel]:not(.browser-default):disabled+label,input[type=tel]:not(.browser-default)[readonly=\"readonly\"]+label,input[type=number]:not(.browser-default):disabled+label,input[type=number]:not(.browser-default)[readonly=\"readonly\"]+label,input[type=search]:not(.browser-default):disabled+label,input[type=search]:not(.browser-default)[readonly=\"readonly\"]+label,textarea.materialize-textarea:disabled+label,textarea.materialize-textarea[readonly=\"readonly\"]+label{color:rgba(0,0,0,0.26)}input:not([type]):focus:not([readonly]),input[type=text]:not(.browser-default):focus:not([readonly]),input[type=password]:not(.browser-default):focus:not([readonly]),input[type=email]:not(.browser-default):focus:not([readonly]),input[type=url]:not(.browser-default):focus:not([readonly]),input[type=time]:not(.browser-default):focus:not([readonly]),input[type=date]:not(.browser-default):focus:not([readonly]),input[type=datetime]:not(.browser-default):focus:not([readonly]),input[type=datetime-local]:not(.browser-default):focus:not([readonly]),input[type=tel]:not(.browser-default):focus:not([readonly]),input[type=number]:not(.browser-default):focus:not([readonly]),input[type=search]:not(.browser-default):focus:not([readonly]),textarea.materialize-textarea:focus:not([readonly]){border-bottom:1px solid #26a69a;box-shadow:0 1px 0 0 #26a69a}input:not([type]):focus:not([readonly])+label,input[type=text]:not(.browser-default):focus:not([readonly])+label,input[type=password]:not(.browser-default):focus:not([readonly])+label,input[type=email]:not(.browser-default):focus:not([readonly])+label,input[type=url]:not(.browser-default):focus:not([readonly])+label,input[type=time]:not(.browser-default):focus:not([readonly])+label,input[type=date]:not(.browser-default):focus:not([readonly])+label,input[type=datetime]:not(.browser-default):focus:not([readonly])+label,input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label,input[type=tel]:not(.browser-default):focus:not([readonly])+label,input[type=number]:not(.browser-default):focus:not([readonly])+label,input[type=search]:not(.browser-default):focus:not([readonly])+label,textarea.materialize-textarea:focus:not([readonly])+label{color:#26a69a}input:not([type]).valid,input:not([type]):focus.valid,input[type=text]:not(.browser-default).valid,input[type=text]:not(.browser-default):focus.valid,input[type=password]:not(.browser-default).valid,input[type=password]:not(.browser-default):focus.valid,input[type=email]:not(.browser-default).valid,input[type=email]:not(.browser-default):focus.valid,input[type=url]:not(.browser-default).valid,input[type=url]:not(.browser-default):focus.valid,input[type=time]:not(.browser-default).valid,input[type=time]:not(.browser-default):focus.valid,input[type=date]:not(.browser-default).valid,input[type=date]:not(.browser-default):focus.valid,input[type=datetime]:not(.browser-default).valid,input[type=datetime]:not(.browser-default):focus.valid,input[type=datetime-local]:not(.browser-default).valid,input[type=datetime-local]:not(.browser-default):focus.valid,input[type=tel]:not(.browser-default).valid,input[type=tel]:not(.browser-default):focus.valid,input[type=number]:not(.browser-default).valid,input[type=number]:not(.browser-default):focus.valid,input[type=search]:not(.browser-default).valid,input[type=search]:not(.browser-default):focus.valid,textarea.materialize-textarea.valid,textarea.materialize-textarea:focus.valid{border-bottom:1px solid #4CAF50;box-shadow:0 1px 0 0 #4CAF50}input:not([type]).valid+label:after,input:not([type]):focus.valid+label:after,input[type=text]:not(.browser-default).valid+label:after,input[type=text]:not(.browser-default):focus.valid+label:after,input[type=password]:not(.browser-default).valid+label:after,input[type=password]:not(.browser-default):focus.valid+label:after,input[type=email]:not(.browser-default).valid+label:after,input[type=email]:not(.browser-default):focus.valid+label:after,input[type=url]:not(.browser-default).valid+label:after,input[type=url]:not(.browser-default):focus.valid+label:after,input[type=time]:not(.browser-default).valid+label:after,input[type=time]:not(.browser-default):focus.valid+label:after,input[type=date]:not(.browser-default).valid+label:after,input[type=date]:not(.browser-default):focus.valid+label:after,input[type=datetime]:not(.browser-default).valid+label:after,input[type=datetime]:not(.browser-default):focus.valid+label:after,input[type=datetime-local]:not(.browser-default).valid+label:after,input[type=datetime-local]:not(.browser-default):focus.valid+label:after,input[type=tel]:not(.browser-default).valid+label:after,input[type=tel]:not(.browser-default):focus.valid+label:after,input[type=number]:not(.browser-default).valid+label:after,input[type=number]:not(.browser-default):focus.valid+label:after,input[type=search]:not(.browser-default).valid+label:after,input[type=search]:not(.browser-default):focus.valid+label:after,textarea.materialize-textarea.valid+label:after,textarea.materialize-textarea:focus.valid+label:after{content:attr(data-success);color:#4CAF50;opacity:1}input:not([type]).invalid,input:not([type]):focus.invalid,input[type=text]:not(.browser-default).invalid,input[type=text]:not(.browser-default):focus.invalid,input[type=password]:not(.browser-default).invalid,input[type=password]:not(.browser-default):focus.invalid,input[type=email]:not(.browser-default).invalid,input[type=email]:not(.browser-default):focus.invalid,input[type=url]:not(.browser-default).invalid,input[type=url]:not(.browser-default):focus.invalid,input[type=time]:not(.browser-default).invalid,input[type=time]:not(.browser-default):focus.invalid,input[type=date]:not(.browser-default).invalid,input[type=date]:not(.browser-default):focus.invalid,input[type=datetime]:not(.browser-default).invalid,input[type=datetime]:not(.browser-default):focus.invalid,input[type=datetime-local]:not(.browser-default).invalid,input[type=datetime-local]:not(.browser-default):focus.invalid,input[type=tel]:not(.browser-default).invalid,input[type=tel]:not(.browser-default):focus.invalid,input[type=number]:not(.browser-default).invalid,input[type=number]:not(.browser-default):focus.invalid,input[type=search]:not(.browser-default).invalid,input[type=search]:not(.browser-default):focus.invalid,textarea.materialize-textarea.invalid,textarea.materialize-textarea:focus.invalid{border-bottom:1px solid #F44336;box-shadow:0 1px 0 0 #F44336}input:not([type]).invalid+label:after,input:not([type]):focus.invalid+label:after,input[type=text]:not(.browser-default).invalid+label:after,input[type=text]:not(.browser-default):focus.invalid+label:after,input[type=password]:not(.browser-default).invalid+label:after,input[type=password]:not(.browser-default):focus.invalid+label:after,input[type=email]:not(.browser-default).invalid+label:after,input[type=email]:not(.browser-default):focus.invalid+label:after,input[type=url]:not(.browser-default).invalid+label:after,input[type=url]:not(.browser-default):focus.invalid+label:after,input[type=time]:not(.browser-default).invalid+label:after,input[type=time]:not(.browser-default):focus.invalid+label:after,input[type=date]:not(.browser-default).invalid+label:after,input[type=date]:not(.browser-default):focus.invalid+label:after,input[type=datetime]:not(.browser-default).invalid+label:after,input[type=datetime]:not(.browser-default):focus.invalid+label:after,input[type=datetime-local]:not(.browser-default).invalid+label:after,input[type=datetime-local]:not(.browser-default):focus.invalid+label:after,input[type=tel]:not(.browser-default).invalid+label:after,input[type=tel]:not(.browser-default):focus.invalid+label:after,input[type=number]:not(.browser-default).invalid+label:after,input[type=number]:not(.browser-default):focus.invalid+label:after,input[type=search]:not(.browser-default).invalid+label:after,input[type=search]:not(.browser-default):focus.invalid+label:after,textarea.materialize-textarea.invalid+label:after,textarea.materialize-textarea:focus.invalid+label:after{content:attr(data-error);color:#F44336;opacity:1}input:not([type]).validate+label,input[type=text]:not(.browser-default).validate+label,input[type=password]:not(.browser-default).validate+label,input[type=email]:not(.browser-default).validate+label,input[type=url]:not(.browser-default).validate+label,input[type=time]:not(.browser-default).validate+label,input[type=date]:not(.browser-default).validate+label,input[type=datetime]:not(.browser-default).validate+label,input[type=datetime-local]:not(.browser-default).validate+label,input[type=tel]:not(.browser-default).validate+label,input[type=number]:not(.browser-default).validate+label,input[type=search]:not(.browser-default).validate+label,textarea.materialize-textarea.validate+label{width:100%;pointer-events:none}input:not([type])+label:after,input[type=text]:not(.browser-default)+label:after,input[type=password]:not(.browser-default)+label:after,input[type=email]:not(.browser-default)+label:after,input[type=url]:not(.browser-default)+label:after,input[type=time]:not(.browser-default)+label:after,input[type=date]:not(.browser-default)+label:after,input[type=datetime]:not(.browser-default)+label:after,input[type=datetime-local]:not(.browser-default)+label:after,input[type=tel]:not(.browser-default)+label:after,input[type=number]:not(.browser-default)+label:after,input[type=search]:not(.browser-default)+label:after,textarea.materialize-textarea+label:after{display:block;content:\"\";position:absolute;top:60px;left:0;opacity:0;transition:.2s opacity ease-out, .2s color ease-out}.input-field{position:relative;margin-top:1rem}.input-field.inline{display:inline-block;vertical-align:middle;margin-left:5px}.input-field.inline input,.input-field.inline .select-dropdown{margin-bottom:1rem}.input-field.col label{left:.75rem}.input-field.col .prefix ~ label,.input-field.col .prefix ~ .validate ~ label{width:calc(100% - 3rem - 1.5rem)}.input-field label{color:#9e9e9e;position:absolute;top:0.8rem;left:0;font-size:1rem;cursor:text;transition:.2s ease-out;text-align:initial}.input-field label:not(.label-icon).active{font-size:.8rem;-webkit-transform:translateY(-140%);transform:translateY(-140%)}.input-field .prefix{position:absolute;width:3rem;font-size:2rem;transition:color .2s}.input-field .prefix.active{color:#26a69a}.input-field .prefix ~ input,.input-field .prefix ~ textarea,.input-field .prefix ~ label,.input-field .prefix ~ .validate ~ label,.input-field .prefix ~ .autocomplete-content{margin-left:3rem;width:92%;width:calc(100% - 3rem)}.input-field .prefix ~ label{margin-left:3rem}@media only screen and (max-width: 992px){.input-field .prefix ~ input{width:86%;width:calc(100% - 3rem)}}@media only screen and (max-width: 600px){.input-field .prefix ~ input{width:80%;width:calc(100% - 3rem)}}.input-field input[type=search]{display:block;line-height:inherit;padding-left:4rem;width:calc(100% - 4rem)}.input-field input[type=search]:focus{background-color:#fff;border:0;box-shadow:none;color:#444}.input-field input[type=search]:focus+label i,.input-field input[type=search]:focus ~ .mdi-navigation-close,.input-field input[type=search]:focus ~ .material-icons{color:#444}.input-field input[type=search]+label{left:1rem}.input-field input[type=search] ~ .mdi-navigation-close,.input-field input[type=search] ~ .material-icons{position:absolute;top:0;right:1rem;color:transparent;cursor:pointer;font-size:2rem;transition:.3s color}textarea{width:100%;height:3rem;background-color:transparent}textarea.materialize-textarea{overflow-y:hidden;padding:.8rem 0 1.6rem 0;resize:none;min-height:3rem}.hiddendiv{display:none;white-space:pre-wrap;word-wrap:break-word;overflow-wrap:break-word;padding-top:1.2rem;position:absolute;top:0}.autocomplete-content{margin-top:-20px;display:block;opacity:1;position:static}.autocomplete-content li .highlight{color:#444}.autocomplete-content li img{height:40px;width:40px;margin:5px 15px}[type=\"radio\"]:not(:checked),[type=\"radio\"]:checked{position:absolute;left:-9999px;opacity:0}[type=\"radio\"]:not(:checked)+label,[type=\"radio\"]:checked+label{position:relative;padding-left:35px;cursor:pointer;display:inline-block;height:25px;line-height:25px;font-size:1rem;transition:.28s ease;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}[type=\"radio\"]+label:before,[type=\"radio\"]+label:after{content:'';position:absolute;left:0;top:0;margin:4px;width:16px;height:16px;z-index:0;transition:.28s ease}[type=\"radio\"]:not(:checked)+label:before,[type=\"radio\"]:not(:checked)+label:after,[type=\"radio\"]:checked+label:before,[type=\"radio\"]:checked+label:after,[type=\"radio\"].with-gap:checked+label:before,[type=\"radio\"].with-gap:checked+label:after{border-radius:50%}[type=\"radio\"]:not(:checked)+label:before,[type=\"radio\"]:not(:checked)+label:after{border:2px solid #5a5a5a}[type=\"radio\"]:not(:checked)+label:after{-webkit-transform:scale(0);transform:scale(0)}[type=\"radio\"]:checked+label:before{border:2px solid transparent}[type=\"radio\"]:checked+label:after,[type=\"radio\"].with-gap:checked+label:before,[type=\"radio\"].with-gap:checked+label:after{border:2px solid #26a69a}[type=\"radio\"]:checked+label:after,[type=\"radio\"].with-gap:checked+label:after{background-color:#26a69a}[type=\"radio\"]:checked+label:after{-webkit-transform:scale(1.02);transform:scale(1.02)}[type=\"radio\"].with-gap:checked+label:after{-webkit-transform:scale(0.5);transform:scale(0.5)}[type=\"radio\"].tabbed:focus+label:before{box-shadow:0 0 0 10px rgba(0,0,0,0.1)}[type=\"radio\"].with-gap:disabled:checked+label:before{border:2px solid rgba(0,0,0,0.26)}[type=\"radio\"].with-gap:disabled:checked+label:after{border:none;background-color:rgba(0,0,0,0.26)}[type=\"radio\"]:disabled:not(:checked)+label:before,[type=\"radio\"]:disabled:checked+label:before{background-color:transparent;border-color:rgba(0,0,0,0.26)}[type=\"radio\"]:disabled+label{color:rgba(0,0,0,0.26)}[type=\"radio\"]:disabled:not(:checked)+label:before{border-color:rgba(0,0,0,0.26)}[type=\"radio\"]:disabled:checked+label:after{background-color:rgba(0,0,0,0.26);border-color:#BDBDBD}form p{margin-bottom:10px;text-align:left}form p:last-child{margin-bottom:0}[type=\"checkbox\"]:not(:checked),[type=\"checkbox\"]:checked{position:absolute;left:-9999px;opacity:0}[type=\"checkbox\"]+label{position:relative;padding-left:35px;cursor:pointer;display:inline-block;height:25px;line-height:25px;font-size:1rem;-webkit-user-select:none;-moz-user-select:none;-khtml-user-select:none;-ms-user-select:none}[type=\"checkbox\"]+label:before,[type=\"checkbox\"]:not(.filled-in)+label:after{content:'';position:absolute;top:0;left:0;width:18px;height:18px;z-index:0;border:2px solid #5a5a5a;border-radius:1px;margin-top:2px;transition:.2s}[type=\"checkbox\"]:not(.filled-in)+label:after{border:0;-webkit-transform:scale(0);transform:scale(0)}[type=\"checkbox\"]:not(:checked):disabled+label:before{border:none;background-color:rgba(0,0,0,0.26)}[type=\"checkbox\"].tabbed:focus+label:after{-webkit-transform:scale(1);transform:scale(1);border:0;border-radius:50%;box-shadow:0 0 0 10px rgba(0,0,0,0.1);background-color:rgba(0,0,0,0.1)}[type=\"checkbox\"]:checked+label:before{top:-4px;left:-5px;width:12px;height:22px;border-top:2px solid transparent;border-left:2px solid transparent;border-right:2px solid #26a69a;border-bottom:2px solid #26a69a;-webkit-transform:rotate(40deg);transform:rotate(40deg);-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-transform-origin:100% 100%;transform-origin:100% 100%}[type=\"checkbox\"]:checked:disabled+label:before{border-right:2px solid rgba(0,0,0,0.26);border-bottom:2px solid rgba(0,0,0,0.26)}[type=\"checkbox\"]:indeterminate+label:before{top:-11px;left:-12px;width:10px;height:22px;border-top:none;border-left:none;border-right:2px solid #26a69a;border-bottom:none;-webkit-transform:rotate(90deg);transform:rotate(90deg);-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-transform-origin:100% 100%;transform-origin:100% 100%}[type=\"checkbox\"]:indeterminate:disabled+label:before{border-right:2px solid rgba(0,0,0,0.26);background-color:transparent}[type=\"checkbox\"].filled-in+label:after{border-radius:2px}[type=\"checkbox\"].filled-in+label:before,[type=\"checkbox\"].filled-in+label:after{content:'';left:0;position:absolute;transition:border .25s, background-color .25s, width .20s .1s, height .20s .1s, top .20s .1s, left .20s .1s;z-index:1}[type=\"checkbox\"].filled-in:not(:checked)+label:before{width:0;height:0;border:3px solid transparent;left:6px;top:10px;-webkit-transform:rotateZ(37deg);transform:rotateZ(37deg);-webkit-transform-origin:20% 40%;transform-origin:100% 100%}[type=\"checkbox\"].filled-in:not(:checked)+label:after{height:20px;width:20px;background-color:transparent;border:2px solid #5a5a5a;top:0px;z-index:0}[type=\"checkbox\"].filled-in:checked+label:before{top:0;left:1px;width:8px;height:13px;border-top:2px solid transparent;border-left:2px solid transparent;border-right:2px solid #fff;border-bottom:2px solid #fff;-webkit-transform:rotateZ(37deg);transform:rotateZ(37deg);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}[type=\"checkbox\"].filled-in:checked+label:after{top:0;width:20px;height:20px;border:2px solid #26a69a;background-color:#26a69a;z-index:0}[type=\"checkbox\"].filled-in.tabbed:focus+label:after{border-radius:2px;border-color:#5a5a5a;background-color:rgba(0,0,0,0.1)}[type=\"checkbox\"].filled-in.tabbed:checked:focus+label:after{border-radius:2px;background-color:#26a69a;border-color:#26a69a}[type=\"checkbox\"].filled-in:disabled:not(:checked)+label:before{background-color:transparent;border:2px solid transparent}[type=\"checkbox\"].filled-in:disabled:not(:checked)+label:after{border-color:transparent;background-color:#BDBDBD}[type=\"checkbox\"].filled-in:disabled:checked+label:before{background-color:transparent}[type=\"checkbox\"].filled-in:disabled:checked+label:after{background-color:#BDBDBD;border-color:#BDBDBD}.switch,.switch *{-webkit-user-select:none;-moz-user-select:none;-khtml-user-select:none;-ms-user-select:none}.switch label{cursor:pointer}.switch label input[type=checkbox]{opacity:0;width:0;height:0}.switch label input[type=checkbox]:checked+.lever{background-color:#84c7c1}.switch label input[type=checkbox]:checked+.lever:before,.switch label input[type=checkbox]:checked+.lever:after{left:18px}.switch label input[type=checkbox]:checked+.lever:after{background-color:#26a69a}.switch label .lever{content:\"\";display:inline-block;position:relative;width:36px;height:14px;background-color:rgba(0,0,0,0.38);border-radius:15px;margin-right:10px;transition:background 0.3s ease;vertical-align:middle;margin:0 16px}.switch label .lever:before,.switch label .lever:after{content:\"\";position:absolute;display:inline-block;width:20px;height:20px;border-radius:50%;left:0;top:-3px;transition:left 0.3s ease, background .3s ease, box-shadow 0.1s ease, -webkit-transform .1s ease;transition:left 0.3s ease, background .3s ease, box-shadow 0.1s ease, transform .1s ease;transition:left 0.3s ease, background .3s ease, box-shadow 0.1s ease, transform .1s ease, -webkit-transform .1s ease}.switch label .lever:before{background-color:rgba(38,166,154,0.15)}.switch label .lever:after{background-color:#F1F1F1;box-shadow:0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)}input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before{-webkit-transform:scale(2.4);transform:scale(2.4);background-color:rgba(38,166,154,0.15)}input[type=checkbox]:not(:disabled) ~ .lever:active:before,input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before{-webkit-transform:scale(2.4);transform:scale(2.4);background-color:rgba(0,0,0,0.08)}.switch input[type=checkbox][disabled]+.lever{cursor:default;background-color:rgba(0,0,0,0.12)}.switch label input[type=checkbox][disabled]+.lever:after,.switch label input[type=checkbox][disabled]:checked+.lever:after{background-color:#BDBDBD}select{display:none}select.browser-default{display:block}select{background-color:rgba(255,255,255,0.9);width:100%;padding:5px;border:1px solid #f2f2f2;border-radius:2px;height:3rem}.select-label{position:absolute}.select-wrapper{position:relative}.select-wrapper input.select-dropdown{position:relative;cursor:pointer;background-color:transparent;border:none;border-bottom:1px solid #9e9e9e;outline:none;height:3rem;line-height:3rem;width:100%;font-size:1rem;margin:0 0 20px 0;padding:0;display:block}.select-wrapper span.caret{color:initial;position:absolute;right:0;top:0;bottom:0;height:10px;margin:auto 0;font-size:10px;line-height:10px}.select-wrapper span.caret.disabled{color:rgba(0,0,0,0.26)}.select-wrapper+label{position:absolute;top:-14px;font-size:.8rem}select:disabled{color:rgba(0,0,0,0.3)}.select-wrapper input.select-dropdown:disabled{color:rgba(0,0,0,0.3);cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;border-bottom:1px solid rgba(0,0,0,0.3)}.select-wrapper i{color:rgba(0,0,0,0.3)}.select-dropdown li.disabled,.select-dropdown li.disabled>span,.select-dropdown li.optgroup{color:rgba(0,0,0,0.3);background-color:transparent}.prefix ~ .select-wrapper{margin-left:3rem;width:92%;width:calc(100% - 3rem)}.prefix ~ label{margin-left:3rem}.select-dropdown li img{height:40px;width:40px;margin:5px 15px;float:right}.select-dropdown li.optgroup{border-top:1px solid #eee}.select-dropdown li.optgroup.selected>span{color:rgba(0,0,0,0.7)}.select-dropdown li.optgroup>span{color:rgba(0,0,0,0.4)}.select-dropdown li.optgroup ~ li.optgroup-option{padding-left:1rem}.file-field{position:relative}.file-field .file-path-wrapper{overflow:hidden;padding-left:10px}.file-field input.file-path{width:100%}.file-field .btn,.file-field .btn-large{float:left;height:3rem;line-height:3rem}.file-field span{cursor:pointer}.file-field input[type=file]{position:absolute;top:0;right:0;left:0;bottom:0;width:100%;margin:0;padding:0;font-size:20px;cursor:pointer;opacity:0;filter:alpha(opacity=0)}.range-field{position:relative}input[type=range],input[type=range]+.thumb{cursor:pointer}input[type=range]{position:relative;background-color:transparent;border:none;outline:none;width:100%;margin:15px 0;padding:0}input[type=range]:focus{outline:none}input[type=range]+.thumb{position:absolute;top:10px;left:0;border:none;height:0;width:0;border-radius:50%;background-color:#26a69a;margin-left:7px;-webkit-transform-origin:50% 50%;transform-origin:50% 50%;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}input[type=range]+.thumb .value{display:block;width:30px;text-align:center;color:#26a69a;font-size:0;-webkit-transform:rotate(45deg);transform:rotate(45deg)}input[type=range]+.thumb.active{border-radius:50% 50% 50% 0}input[type=range]+.thumb.active .value{color:#fff;margin-left:-1px;margin-top:8px;font-size:10px}input[type=range]{-webkit-appearance:none}input[type=range]::-webkit-slider-runnable-track{height:3px;background:#c2c0c2;border:none}input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;border:none;height:14px;width:14px;border-radius:50%;background-color:#26a69a;-webkit-transform-origin:50% 50%;transform-origin:50% 50%;margin:-5px 0 0 0;transition:.3s}input[type=range]:focus::-webkit-slider-runnable-track{background:#ccc}input[type=range]{border:1px solid white}input[type=range]::-moz-range-track{height:3px;background:#ddd;border:none}input[type=range]::-moz-range-thumb{border:none;height:14px;width:14px;border-radius:50%;background:#26a69a;margin-top:-5px}input[type=range]:-moz-focusring{outline:1px solid #fff;outline-offset:-1px}input[type=range]:focus::-moz-range-track{background:#ccc}input[type=range]::-ms-track{height:3px;background:transparent;border-color:transparent;border-width:6px 0;color:transparent}input[type=range]::-ms-fill-lower{background:#777}input[type=range]::-ms-fill-upper{background:#ddd}input[type=range]::-ms-thumb{border:none;height:14px;width:14px;border-radius:50%;background:#26a69a}input[type=range]:focus::-ms-fill-lower{background:#888}input[type=range]:focus::-ms-fill-upper{background:#ccc}.table-of-contents.fixed{position:fixed}.table-of-contents li{padding:2px 0}.table-of-contents a{display:inline-block;font-weight:300;color:#757575;padding-left:20px;height:1.5rem;line-height:1.5rem;letter-spacing:.4;display:inline-block}.table-of-contents a:hover{color:#a8a8a8;padding-left:19px;border-left:1px solid #ee6e73}.table-of-contents a.active{font-weight:500;padding-left:18px;border-left:2px solid #ee6e73}.side-nav{position:fixed;width:300px;left:0;top:0;margin:0;-webkit-transform:translateX(-100%);transform:translateX(-100%);height:100%;height:calc(100% + 60px);height:-moz-calc(100%);padding-bottom:60px;background-color:#fff;z-index:999;overflow-y:auto;will-change:transform;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-transform:translateX(-105%);transform:translateX(-105%)}.side-nav.right-aligned{right:0;-webkit-transform:translateX(105%);transform:translateX(105%);left:auto;-webkit-transform:translateX(100%);transform:translateX(100%)}.side-nav .collapsible{margin:0}.side-nav li{float:none;line-height:48px}.side-nav li.active{background-color:rgba(0,0,0,0.05)}.side-nav li>a{color:rgba(0,0,0,0.87);display:block;font-size:14px;font-weight:500;height:48px;line-height:48px;padding:0 32px}.side-nav li>a:hover{background-color:rgba(0,0,0,0.05)}.side-nav li>a.btn,.side-nav li>a.btn-large,.side-nav li>a.btn-large,.side-nav li>a.btn-flat,.side-nav li>a.btn-floating{margin:10px 15px}.side-nav li>a.btn,.side-nav li>a.btn-large,.side-nav li>a.btn-large,.side-nav li>a.btn-floating{color:#fff}.side-nav li>a.btn-flat{color:#343434}.side-nav li>a.btn:hover,.side-nav li>a.btn-large:hover,.side-nav li>a.btn-large:hover{background-color:#2bbbad}.side-nav li>a.btn-floating:hover{background-color:#26a69a}.side-nav li>a>i,.side-nav li>a>[class^=\"mdi-\"],.side-nav li>a li>a>[class*=\"mdi-\"],.side-nav li>a>i.material-icons{float:left;height:48px;line-height:48px;margin:0 32px 0 0;width:24px;color:rgba(0,0,0,0.54)}.side-nav .divider{margin:8px 0 0 0}.side-nav .subheader{cursor:initial;pointer-events:none;color:rgba(0,0,0,0.54);font-size:14px;font-weight:500;line-height:48px}.side-nav .subheader:hover{background-color:transparent}.side-nav .user-view,.side-nav .userView{position:relative;padding:32px 32px 0;margin-bottom:8px}.side-nav .user-view>a,.side-nav .userView>a{height:auto;padding:0}.side-nav .user-view>a:hover,.side-nav .userView>a:hover{background-color:transparent}.side-nav .user-view .background,.side-nav .userView .background{overflow:hidden;position:absolute;top:0;right:0;bottom:0;left:0;z-index:-1}.side-nav .user-view .circle,.side-nav .user-view .name,.side-nav .user-view .email,.side-nav .userView .circle,.side-nav .userView .name,.side-nav .userView .email{display:block}.side-nav .user-view .circle,.side-nav .userView .circle{height:64px;width:64px}.side-nav .user-view .name,.side-nav .user-view .email,.side-nav .userView .name,.side-nav .userView .email{font-size:14px;line-height:24px}.side-nav .user-view .name,.side-nav .userView .name{margin-top:16px;font-weight:500}.side-nav .user-view .email,.side-nav .userView .email{padding-bottom:16px;font-weight:400}.drag-target{height:100%;width:10px;position:fixed;top:0;z-index:998}.side-nav.fixed{left:0;-webkit-transform:translateX(0);transform:translateX(0);position:fixed}.side-nav.fixed.right-aligned{right:0;left:auto}@media only screen and (max-width: 992px){.side-nav.fixed{-webkit-transform:translateX(-105%);transform:translateX(-105%)}.side-nav.fixed.right-aligned{-webkit-transform:translateX(105%);transform:translateX(105%)}.side-nav a{padding:0 16px}.side-nav .user-view,.side-nav .userView{padding:16px 16px 0}}.side-nav .collapsible-body>ul:not(.collapsible)>li.active,.side-nav.fixed .collapsible-body>ul:not(.collapsible)>li.active{background-color:#ee6e73}.side-nav .collapsible-body>ul:not(.collapsible)>li.active a,.side-nav.fixed .collapsible-body>ul:not(.collapsible)>li.active a{color:#fff}.side-nav .collapsible-body{padding:0}#sidenav-overlay{position:fixed;top:0;left:0;right:0;height:120vh;background-color:rgba(0,0,0,0.5);z-index:997;will-change:opacity}.preloader-wrapper{display:inline-block;position:relative;width:50px;height:50px}.preloader-wrapper.small{width:36px;height:36px}.preloader-wrapper.big{width:64px;height:64px}.preloader-wrapper.active{-webkit-animation:container-rotate 1568ms linear infinite;animation:container-rotate 1568ms linear infinite}@-webkit-keyframes container-rotate{to{-webkit-transform:rotate(360deg)}}@keyframes container-rotate{to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.spinner-layer{position:absolute;width:100%;height:100%;opacity:0;border-color:#26a69a}.spinner-blue,.spinner-blue-only{border-color:#4285f4}.spinner-red,.spinner-red-only{border-color:#db4437}.spinner-yellow,.spinner-yellow-only{border-color:#f4b400}.spinner-green,.spinner-green-only{border-color:#0f9d58}.active .spinner-layer.spinner-blue{-webkit-animation:fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both,blue-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;animation:fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both,blue-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both}.active .spinner-layer.spinner-red{-webkit-animation:fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both,red-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;animation:fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both,red-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both}.active .spinner-layer.spinner-yellow{-webkit-animation:fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both,yellow-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;animation:fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both,yellow-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both}.active .spinner-layer.spinner-green{-webkit-animation:fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both,green-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;animation:fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both,green-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both}.active .spinner-layer,.active .spinner-layer.spinner-blue-only,.active .spinner-layer.spinner-red-only,.active .spinner-layer.spinner-yellow-only,.active .spinner-layer.spinner-green-only{opacity:1;-webkit-animation:fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;animation:fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both}@-webkit-keyframes fill-unfill-rotate{12.5%{-webkit-transform:rotate(135deg)}25%{-webkit-transform:rotate(270deg)}37.5%{-webkit-transform:rotate(405deg)}50%{-webkit-transform:rotate(540deg)}62.5%{-webkit-transform:rotate(675deg)}75%{-webkit-transform:rotate(810deg)}87.5%{-webkit-transform:rotate(945deg)}to{-webkit-transform:rotate(1080deg)}}@keyframes fill-unfill-rotate{12.5%{-webkit-transform:rotate(135deg);transform:rotate(135deg)}25%{-webkit-transform:rotate(270deg);transform:rotate(270deg)}37.5%{-webkit-transform:rotate(405deg);transform:rotate(405deg)}50%{-webkit-transform:rotate(540deg);transform:rotate(540deg)}62.5%{-webkit-transform:rotate(675deg);transform:rotate(675deg)}75%{-webkit-transform:rotate(810deg);transform:rotate(810deg)}87.5%{-webkit-transform:rotate(945deg);transform:rotate(945deg)}to{-webkit-transform:rotate(1080deg);transform:rotate(1080deg)}}@-webkit-keyframes blue-fade-in-out{from{opacity:1}25%{opacity:1}26%{opacity:0}89%{opacity:0}90%{opacity:1}100%{opacity:1}}@keyframes blue-fade-in-out{from{opacity:1}25%{opacity:1}26%{opacity:0}89%{opacity:0}90%{opacity:1}100%{opacity:1}}@-webkit-keyframes red-fade-in-out{from{opacity:0}15%{opacity:0}25%{opacity:1}50%{opacity:1}51%{opacity:0}}@keyframes red-fade-in-out{from{opacity:0}15%{opacity:0}25%{opacity:1}50%{opacity:1}51%{opacity:0}}@-webkit-keyframes yellow-fade-in-out{from{opacity:0}40%{opacity:0}50%{opacity:1}75%{opacity:1}76%{opacity:0}}@keyframes yellow-fade-in-out{from{opacity:0}40%{opacity:0}50%{opacity:1}75%{opacity:1}76%{opacity:0}}@-webkit-keyframes green-fade-in-out{from{opacity:0}65%{opacity:0}75%{opacity:1}90%{opacity:1}100%{opacity:0}}@keyframes green-fade-in-out{from{opacity:0}65%{opacity:0}75%{opacity:1}90%{opacity:1}100%{opacity:0}}.gap-patch{position:absolute;top:0;left:45%;width:10%;height:100%;overflow:hidden;border-color:inherit}.gap-patch .circle{width:1000%;left:-450%}.circle-clipper{display:inline-block;position:relative;width:50%;height:100%;overflow:hidden;border-color:inherit}.circle-clipper .circle{width:200%;height:100%;border-width:3px;border-style:solid;border-color:inherit;border-bottom-color:transparent !important;border-radius:50%;-webkit-animation:none;animation:none;position:absolute;top:0;right:0;bottom:0}.circle-clipper.left .circle{left:0;border-right-color:transparent !important;-webkit-transform:rotate(129deg);transform:rotate(129deg)}.circle-clipper.right .circle{left:-100%;border-left-color:transparent !important;-webkit-transform:rotate(-129deg);transform:rotate(-129deg)}.active .circle-clipper.left .circle{-webkit-animation:left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;animation:left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both}.active .circle-clipper.right .circle{-webkit-animation:right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;animation:right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both}@-webkit-keyframes left-spin{from{-webkit-transform:rotate(130deg)}50%{-webkit-transform:rotate(-5deg)}to{-webkit-transform:rotate(130deg)}}@keyframes left-spin{from{-webkit-transform:rotate(130deg);transform:rotate(130deg)}50%{-webkit-transform:rotate(-5deg);transform:rotate(-5deg)}to{-webkit-transform:rotate(130deg);transform:rotate(130deg)}}@-webkit-keyframes right-spin{from{-webkit-transform:rotate(-130deg)}50%{-webkit-transform:rotate(5deg)}to{-webkit-transform:rotate(-130deg)}}@keyframes right-spin{from{-webkit-transform:rotate(-130deg);transform:rotate(-130deg)}50%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}to{-webkit-transform:rotate(-130deg);transform:rotate(-130deg)}}#spinnerContainer.cooldown{-webkit-animation:container-rotate 1568ms linear infinite,fade-out 400ms cubic-bezier(0.4, 0, 0.2, 1);animation:container-rotate 1568ms linear infinite,fade-out 400ms cubic-bezier(0.4, 0, 0.2, 1)}@-webkit-keyframes fade-out{from{opacity:1}to{opacity:0}}@keyframes fade-out{from{opacity:1}to{opacity:0}}.slider{position:relative;height:400px;width:100%}.slider.fullscreen{height:100%;width:100%;position:absolute;top:0;left:0;right:0;bottom:0}.slider.fullscreen ul.slides{height:100%}.slider.fullscreen ul.indicators{z-index:2;bottom:30px}.slider .slides{background-color:#9e9e9e;margin:0;height:400px}.slider .slides li{opacity:0;position:absolute;top:0;left:0;z-index:1;width:100%;height:inherit;overflow:hidden}.slider .slides li img{height:100%;width:100%;background-size:cover;background-position:center}.slider .slides li .caption{color:#fff;position:absolute;top:15%;left:15%;width:70%;opacity:0}.slider .slides li .caption p{color:#e0e0e0}.slider .slides li.active{z-index:2}.slider .indicators{position:absolute;text-align:center;left:0;right:0;bottom:0;margin:0}.slider .indicators .indicator-item{display:inline-block;position:relative;cursor:pointer;height:16px;width:16px;margin:0 12px;background-color:#e0e0e0;transition:background-color .3s;border-radius:50%}.slider .indicators .indicator-item.active{background-color:#4CAF50}.carousel{overflow:hidden;position:relative;width:100%;height:400px;-webkit-perspective:500px;perspective:500px;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;-webkit-transform-origin:0% 50%;transform-origin:0% 50%}.carousel.carousel-slider{top:0;left:0;height:0}.carousel.carousel-slider .carousel-fixed-item{position:absolute;left:0;right:0;bottom:20px;z-index:1}.carousel.carousel-slider .carousel-fixed-item.with-indicators{bottom:68px}.carousel.carousel-slider .carousel-item{width:100%;height:100%;min-height:400px;position:absolute;top:0;left:0}.carousel.carousel-slider .carousel-item h2{font-size:24px;font-weight:500;line-height:32px}.carousel.carousel-slider .carousel-item p{font-size:15px}.carousel .carousel-item{display:none;width:200px;height:200px;position:absolute;top:0;left:0}.carousel .carousel-item>img{width:100%}.carousel .indicators{position:absolute;text-align:center;left:0;right:0;bottom:0;margin:0}.carousel .indicators .indicator-item{display:inline-block;position:relative;cursor:pointer;height:8px;width:8px;margin:24px 4px;background-color:rgba(255,255,255,0.5);transition:background-color .3s;border-radius:50%}.carousel .indicators .indicator-item.active{background-color:#fff}.carousel.scrolling .carousel-item .materialboxed,.carousel .carousel-item:not(.active) .materialboxed{pointer-events:none}.tap-target-wrapper{width:800px;height:800px;position:fixed;z-index:1000;visibility:hidden;transition:visibility 0s .3s}.tap-target-wrapper.open{visibility:visible;transition:visibility 0s}.tap-target-wrapper.open .tap-target{-webkit-transform:scale(1);transform:scale(1);opacity:.95;transition:opacity 0.3s cubic-bezier(0.42, 0, 0.58, 1),-webkit-transform 0.3s cubic-bezier(0.42, 0, 0.58, 1);transition:transform 0.3s cubic-bezier(0.42, 0, 0.58, 1),opacity 0.3s cubic-bezier(0.42, 0, 0.58, 1);transition:transform 0.3s cubic-bezier(0.42, 0, 0.58, 1),opacity 0.3s cubic-bezier(0.42, 0, 0.58, 1),-webkit-transform 0.3s cubic-bezier(0.42, 0, 0.58, 1)}.tap-target-wrapper.open .tap-target-wave::before{-webkit-transform:scale(1);transform:scale(1)}.tap-target-wrapper.open .tap-target-wave::after{visibility:visible;-webkit-animation:pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;animation:pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;transition:opacity .3s, visibility 0s 1s, -webkit-transform .3s;transition:opacity .3s, transform .3s, visibility 0s 1s;transition:opacity .3s, transform .3s, visibility 0s 1s, -webkit-transform .3s}.tap-target{position:absolute;font-size:1rem;border-radius:50%;background-color:#ee6e73;box-shadow:0 20px 20px 0 rgba(0,0,0,0.14),0 10px 50px 0 rgba(0,0,0,0.12),0 30px 10px -20px rgba(0,0,0,0.2);width:100%;height:100%;opacity:0;-webkit-transform:scale(0);transform:scale(0);transition:opacity 0.3s cubic-bezier(0.42, 0, 0.58, 1),-webkit-transform 0.3s cubic-bezier(0.42, 0, 0.58, 1);transition:transform 0.3s cubic-bezier(0.42, 0, 0.58, 1),opacity 0.3s cubic-bezier(0.42, 0, 0.58, 1);transition:transform 0.3s cubic-bezier(0.42, 0, 0.58, 1),opacity 0.3s cubic-bezier(0.42, 0, 0.58, 1),-webkit-transform 0.3s cubic-bezier(0.42, 0, 0.58, 1)}.tap-target-content{position:relative;display:table-cell}.tap-target-wave{position:absolute;border-radius:50%;z-index:10001}.tap-target-wave::before,.tap-target-wave::after{content:'';display:block;position:absolute;width:100%;height:100%;border-radius:50%;background-color:#ffffff}.tap-target-wave::before{-webkit-transform:scale(0);transform:scale(0);transition:-webkit-transform .3s;transition:transform .3s;transition:transform .3s, -webkit-transform .3s}.tap-target-wave::after{visibility:hidden;transition:opacity .3s, visibility 0s, -webkit-transform .3s;transition:opacity .3s, transform .3s, visibility 0s;transition:opacity .3s, transform .3s, visibility 0s, -webkit-transform .3s;z-index:-1}.tap-target-origin{top:50%;left:50%;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);z-index:10002;position:absolute !important}.tap-target-origin:not(.btn):not(.btn-large),.tap-target-origin:not(.btn):not(.btn-large):hover{background:none}@media only screen and (max-width: 600px){.tap-target,.tap-target-wrapper{width:600px;height:600px}}.pulse{overflow:initial;position:relative}.pulse::before{content:'';display:block;position:absolute;width:100%;height:100%;top:0;left:0;background-color:inherit;border-radius:inherit;transition:opacity .3s, -webkit-transform .3s;transition:opacity .3s, transform .3s;transition:opacity .3s, transform .3s, -webkit-transform .3s;-webkit-animation:pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;animation:pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;z-index:-1}@-webkit-keyframes pulse-animation{0%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}50%{opacity:0;-webkit-transform:scale(1.5);transform:scale(1.5)}100%{opacity:0;-webkit-transform:scale(1.5);transform:scale(1.5)}}@keyframes pulse-animation{0%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}50%{opacity:0;-webkit-transform:scale(1.5);transform:scale(1.5)}100%{opacity:0;-webkit-transform:scale(1.5);transform:scale(1.5)}}.picker{font-size:16px;text-align:left;line-height:1.2;color:#000000;position:absolute;z-index:10000;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.picker__input{cursor:default}.picker__input.picker__input--active{border-color:#0089ec}.picker__holder{width:100%;overflow-y:auto;-webkit-overflow-scrolling:touch}/*!\n * Default mobile-first, responsive styling for pickadate.js\n * Demo: http://amsul.github.io/pickadate.js\n */.picker__holder,.picker__frame{bottom:0;left:0;right:0;top:100%}.picker__holder{position:fixed;transition:background 0.15s ease-out, top 0s 0.15s;-webkit-backface-visibility:hidden}.picker__frame{position:absolute;margin:0 auto;min-width:256px;width:300px;max-height:350px;-ms-filter:\"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)\";filter:alpha(opacity=0);-moz-opacity:0;opacity:0;transition:all 0.15s ease-out}@media (min-height: 28.875em){.picker__frame{overflow:visible;top:auto;bottom:-100%;max-height:80%}}@media (min-height: 40.125em){.picker__frame{margin-bottom:7.5%}}.picker__wrap{display:table;width:100%;height:100%}@media (min-height: 28.875em){.picker__wrap{display:block}}.picker__box{background:#ffffff;display:table-cell;vertical-align:middle}@media (min-height: 28.875em){.picker__box{display:block;border:1px solid #777777;border-top-color:#898989;border-bottom-width:0;border-radius:5px 5px 0 0;box-shadow:0 12px 36px 16px rgba(0,0,0,0.24)}}.picker--opened .picker__holder{top:0;background:transparent;-ms-filter:\"progid:DXImageTransform.Microsoft.gradient(startColorstr=#1E000000,endColorstr=#1E000000)\";zoom:1;background:rgba(0,0,0,0.32);transition:background 0.15s ease-out}.picker--opened .picker__frame{top:0;-ms-filter:\"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)\";filter:alpha(opacity=100);-moz-opacity:1;opacity:1}@media (min-height: 35.875em){.picker--opened .picker__frame{top:10%;bottom:auto}}.picker__input.picker__input--active{border-color:#E3F2FD}.picker__frame{margin:0 auto;max-width:325px}@media (min-height: 38.875em){.picker--opened .picker__frame{top:10%;bottom:auto}}@media only screen and (min-width: 601px){.picker__box{display:-webkit-flex;display:-ms-flexbox;display:flex}.picker__frame{width:80%;max-width:600px}}.picker__box{padding:0;border-radius:2px;overflow:hidden}.picker__header{text-align:center;position:relative;margin-top:.75em}.picker__month,.picker__year{display:inline-block;margin-left:.25em;margin-right:.25em}.picker__select--month,.picker__select--year{height:2em;padding:0;margin-left:.25em;margin-right:.25em}.picker__select--month.browser-default{display:inline;background-color:#FFFFFF;width:40%}.picker__select--year.browser-default{display:inline;background-color:#FFFFFF;width:26%}.picker__select--month:focus,.picker__select--year:focus{border-color:rgba(0,0,0,0.05)}.picker__nav--prev,.picker__nav--next{position:absolute;padding:.5em 1.25em;width:1em;height:1em;box-sizing:content-box;top:-0.25em}.picker__nav--prev{left:-1em;padding-right:1.25em}.picker__nav--next{right:-1em;padding-left:1.25em}.picker__nav--disabled,.picker__nav--disabled:hover,.picker__nav--disabled:before,.picker__nav--disabled:before:hover{cursor:default;background:none;border-right-color:#f5f5f5;border-left-color:#f5f5f5}.picker__table{text-align:center;border-collapse:collapse;border-spacing:0;table-layout:fixed;font-size:1rem;width:100%;margin-top:.75em;margin-bottom:.5em}.picker__table th,.picker__table td{text-align:center}.picker__table td{margin:0;padding:0}.picker__weekday{width:14.285714286%;font-size:.75em;padding-bottom:.25em;color:#999999;font-weight:500}@media (min-height: 33.875em){.picker__weekday{padding-bottom:.5em}}.picker__day--today{position:relative;color:#595959;letter-spacing:-.3;padding:.75rem 0;font-weight:400;border:1px solid transparent}.picker__day--disabled:before{border-top-color:#aaaaaa}.picker__day--infocus:hover{cursor:pointer;color:#000;font-weight:500}.picker__day--outfocus{display:none;padding:.75rem 0;color:#fff}.picker__day--outfocus:hover{cursor:pointer;color:#dddddd;font-weight:500}.picker__day--highlighted:hover,.picker--focused .picker__day--highlighted{cursor:pointer}.picker__day--selected,.picker__day--selected:hover,.picker--focused .picker__day--selected{border-radius:50%;-webkit-transform:scale(0.75);transform:scale(0.75);background:#0089ec;color:#ffffff}.picker__day--disabled,.picker__day--disabled:hover,.picker--focused .picker__day--disabled{background:#f5f5f5;border-color:#f5f5f5;color:#dddddd;cursor:default}.picker__day--highlighted.picker__day--disabled,.picker__day--highlighted.picker__day--disabled:hover{background:#bbbbbb}.picker__footer{text-align:right}.picker__button--today,.picker__button--clear,.picker__button--close{border:1px solid #ffffff;background:#ffffff;font-size:.8em;padding:.66em 0;font-weight:bold;width:33%;display:inline-block;vertical-align:bottom}.picker__button--today:hover,.picker__button--clear:hover,.picker__button--close:hover{cursor:pointer;color:#000000;background:#b1dcfb;border-bottom-color:#b1dcfb}.picker__button--today:focus,.picker__button--clear:focus,.picker__button--close:focus{background:#b1dcfb;border-color:rgba(0,0,0,0.05);outline:none}.picker__button--today:before,.picker__button--clear:before,.picker__button--close:before{position:relative;display:inline-block;height:0}.picker__button--today:before,.picker__button--clear:before{content:\" \";margin-right:.45em}.picker__button--today:before{top:-0.05em;width:0;border-top:0.66em solid #0059bc;border-left:.66em solid transparent}.picker__button--clear:before{top:-0.25em;width:.66em;border-top:3px solid #ee2200}.picker__button--close:before{content:\"\\D7\";top:-0.1em;vertical-align:top;font-size:1.1em;margin-right:.35em;color:#777777}.picker__button--today[disabled],.picker__button--today[disabled]:hover{background:#f5f5f5;border-color:#f5f5f5;color:#dddddd;cursor:default}.picker__button--today[disabled]:before{border-top-color:#aaaaaa}.picker__date-display{text-align:left;background-color:#26a69a;color:#fff;padding:18px;font-weight:300}@media only screen and (min-width: 601px){.picker__date-display{-webkit-flex:1;-ms-flex:1;flex:1}.picker__weekday-display{display:block}.picker__container__wrapper{-webkit-flex:2;-ms-flex:2;flex:2}}.picker__nav--prev:hover,.picker__nav--next:hover{cursor:pointer;color:#000000;background:#a1ded8}.picker__weekday-display{font-weight:500;font-size:2.8rem;margin-right:5px;margin-top:4px}.picker__month-display{font-size:2.8rem;font-weight:500}.picker__day-display{font-size:2.8rem;font-weight:500;margin-right:5px}.picker__year-display{font-size:1.5rem;font-weight:500;color:rgba(255,255,255,0.7)}.picker__calendar-container{padding:0 1rem}.picker__calendar-container thead{border:none}.picker__table{margin-top:0;margin-bottom:.5em}.picker__day--infocus{color:rgba(0,0,0,0.87);letter-spacing:-.3px;padding:0.75rem 0;font-weight:400;border:1px solid transparent}@media only screen and (min-width: 601px){.picker__day--infocus{padding:1.1rem 0}}.picker__day.picker__day--today{color:#26a69a}.picker__day.picker__day--today.picker__day--selected{color:#fff}.picker__weekday{font-size:.9rem}.picker__day--selected,.picker__day--selected:hover,.picker--focused .picker__day--selected{border-radius:50%;-webkit-transform:scale(0.9);transform:scale(0.9);background-color:#26a69a;color:#ffffff}.picker__day--selected.picker__day--outfocus,.picker__day--selected:hover.picker__day--outfocus,.picker--focused .picker__day--selected.picker__day--outfocus{background-color:#a1ded8}.picker__footer{text-align:right;padding:5px 10px}.picker__close,.picker__today,.picker__clear{font-size:1.1rem;padding:0 1rem;color:#26a69a}.picker__clear{color:#f44336;float:left}.picker__nav--prev:before,.picker__nav--next:before{content:\" \";border-top:.5em solid transparent;border-bottom:.5em solid transparent;border-right:0.75em solid #676767;width:0;height:0;display:block;margin:0 auto}.picker__nav--next:before{border-right:0;border-left:0.75em solid #676767}button.picker__today:focus,button.picker__clear:focus,button.picker__close:focus{background-color:#a1ded8}.picker__list{list-style:none;padding:0.75em 0 4.2em;margin:0}.picker__list-item{border-bottom:1px solid #ddd;border-top:1px solid #ddd;margin-bottom:-1px;position:relative;background:#fff;padding:.75em 1.25em}@media (min-height: 46.75em){.picker__list-item{padding:.5em 1em}}.picker__list-item:hover{cursor:pointer;color:#000;background:#b1dcfb;border-color:#0089ec;z-index:10}.picker__list-item--highlighted{border-color:#0089ec;z-index:10}.picker__list-item--highlighted:hover,.picker--focused .picker__list-item--highlighted{cursor:pointer;color:#000;background:#b1dcfb}.picker__list-item--selected,.picker__list-item--selected:hover,.picker--focused .picker__list-item--selected{background:#0089ec;color:#fff;z-index:10}.picker__list-item--disabled,.picker__list-item--disabled:hover,.picker--focused .picker__list-item--disabled{background:#f5f5f5;border-color:#f5f5f5;color:#ddd;cursor:default;border-color:#ddd;z-index:auto}.picker--time .picker__button--clear{display:block;width:80%;margin:1em auto 0;padding:1em 1.25em;background:none;border:0;font-weight:500;font-size:.67em;text-align:center;text-transform:uppercase;color:rgba(0,0,0,0.87)}.picker--time .picker__button--clear:hover,.picker--time .picker__button--clear:focus{color:#000;background:#b1dcfb;background:#ee2200;border-color:#ee2200;cursor:pointer;color:#fff;outline:none}.picker--time .picker__button--clear:before{top:-0.25em;color:rgba(0,0,0,0.87);font-size:1.25em;font-weight:bold}.picker--time .picker__button--clear:hover:before,.picker--time .picker__button--clear:focus:before{color:#fff}.picker--time .picker__frame{min-width:256px;max-width:320px}.picker--time .picker__box{font-size:1em;background:#f2f2f2;padding:0}@media (min-height: 40.125em){.picker--time .picker__box{margin-bottom:5em}}.clockpicker-display{font-size:4rem;font-weight:bold;text-align:center;color:rgba(255,255,255,0.6);font-weight:400;clear:both;position:relative}.clockpicker-span-am-pm{font-size:1.3rem;position:absolute;right:1rem;bottom:0.3rem;line-height:2rem;font-weight:500}@media only screen and (min-width: 601px){.clockpicker-display{top:32%}.clockpicker-span-am-pm{position:relative;right:auto;bottom:auto;text-align:center;margin-top:1.2rem}}.text-primary{color:#fff}.clockpicker-span-hours{margin-right:3px}.clockpicker-span-minutes{margin-left:3px}.clockpicker-span-hours,.clockpicker-span-minutes,.clockpicker-span-am-pm div{cursor:pointer}.clockpicker-moving{cursor:move}.clockpicker-plate{background-color:#eee;border-radius:50%;width:270px;height:270px;overflow:visible;position:relative;margin:auto;margin-top:25px;margin-bottom:5px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.clockpicker-canvas,.clockpicker-dial{width:270px;height:270px;position:absolute;left:-1px;top:-1px}.clockpicker-minutes{visibility:hidden}.clockpicker-tick{border-radius:50%;color:rgba(0,0,0,0.87);line-height:40px;text-align:center;width:40px;height:40px;position:absolute;cursor:pointer}.clockpicker-tick.active,.clockpicker-tick:hover{background-color:rgba(38,166,154,0.25)}.clockpicker-dial{transition:opacity 350ms, -webkit-transform 350ms;transition:transform 350ms, opacity 350ms;transition:transform 350ms, opacity 350ms, -webkit-transform 350ms}.clockpicker-dial-out{opacity:0}.clockpicker-hours.clockpicker-dial-out{-webkit-transform:scale(1.2, 1.2);transform:scale(1.2, 1.2)}.clockpicker-minutes.clockpicker-dial-out{-webkit-transform:scale(0.8, 0.8);transform:scale(0.8, 0.8)}.clockpicker-canvas{transition:opacity 175ms}.clockpicker-canvas-out{opacity:0.25}.clockpicker-canvas-bearing{stroke:none;fill:#26a69a}.clockpicker-canvas-bg{stroke:none;fill:#26a69a}.clockpicker-canvas-bg-trans{fill:#26a69a}.clockpicker-canvas line{stroke:#26a69a;stroke-width:4;stroke-linecap:round}\n", ""]);
+	exports.push([module.id, "/*!\n * Materialize v0.99.0 (http://materializecss.com)\n * Copyright 2014-2017 Materialize\n * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)\n */\n.materialize-red{background-color:#e51c23 !important}.materialize-red-text{color:#e51c23 !important}.materialize-red.lighten-5{background-color:#fdeaeb !important}.materialize-red-text.text-lighten-5{color:#fdeaeb !important}.materialize-red.lighten-4{background-color:#f8c1c3 !important}.materialize-red-text.text-lighten-4{color:#f8c1c3 !important}.materialize-red.lighten-3{background-color:#f3989b !important}.materialize-red-text.text-lighten-3{color:#f3989b !important}.materialize-red.lighten-2{background-color:#ee6e73 !important}.materialize-red-text.text-lighten-2{color:#ee6e73 !important}.materialize-red.lighten-1{background-color:#ea454b !important}.materialize-red-text.text-lighten-1{color:#ea454b !important}.materialize-red.darken-1{background-color:#d0181e !important}.materialize-red-text.text-darken-1{color:#d0181e !important}.materialize-red.darken-2{background-color:#b9151b !important}.materialize-red-text.text-darken-2{color:#b9151b !important}.materialize-red.darken-3{background-color:#a21318 !important}.materialize-red-text.text-darken-3{color:#a21318 !important}.materialize-red.darken-4{background-color:#8b1014 !important}.materialize-red-text.text-darken-4{color:#8b1014 !important}.red{background-color:#F44336 !important}.red-text{color:#F44336 !important}.red.lighten-5{background-color:#FFEBEE !important}.red-text.text-lighten-5{color:#FFEBEE !important}.red.lighten-4{background-color:#FFCDD2 !important}.red-text.text-lighten-4{color:#FFCDD2 !important}.red.lighten-3{background-color:#EF9A9A !important}.red-text.text-lighten-3{color:#EF9A9A !important}.red.lighten-2{background-color:#E57373 !important}.red-text.text-lighten-2{color:#E57373 !important}.red.lighten-1{background-color:#EF5350 !important}.red-text.text-lighten-1{color:#EF5350 !important}.red.darken-1{background-color:#E53935 !important}.red-text.text-darken-1{color:#E53935 !important}.red.darken-2{background-color:#D32F2F !important}.red-text.text-darken-2{color:#D32F2F !important}.red.darken-3{background-color:#C62828 !important}.red-text.text-darken-3{color:#C62828 !important}.red.darken-4{background-color:#B71C1C !important}.red-text.text-darken-4{color:#B71C1C !important}.red.accent-1{background-color:#FF8A80 !important}.red-text.text-accent-1{color:#FF8A80 !important}.red.accent-2{background-color:#FF5252 !important}.red-text.text-accent-2{color:#FF5252 !important}.red.accent-3{background-color:#FF1744 !important}.red-text.text-accent-3{color:#FF1744 !important}.red.accent-4{background-color:#D50000 !important}.red-text.text-accent-4{color:#D50000 !important}.pink{background-color:#e91e63 !important}.pink-text{color:#e91e63 !important}.pink.lighten-5{background-color:#fce4ec !important}.pink-text.text-lighten-5{color:#fce4ec !important}.pink.lighten-4{background-color:#f8bbd0 !important}.pink-text.text-lighten-4{color:#f8bbd0 !important}.pink.lighten-3{background-color:#f48fb1 !important}.pink-text.text-lighten-3{color:#f48fb1 !important}.pink.lighten-2{background-color:#f06292 !important}.pink-text.text-lighten-2{color:#f06292 !important}.pink.lighten-1{background-color:#ec407a !important}.pink-text.text-lighten-1{color:#ec407a !important}.pink.darken-1{background-color:#d81b60 !important}.pink-text.text-darken-1{color:#d81b60 !important}.pink.darken-2{background-color:#c2185b !important}.pink-text.text-darken-2{color:#c2185b !important}.pink.darken-3{background-color:#ad1457 !important}.pink-text.text-darken-3{color:#ad1457 !important}.pink.darken-4{background-color:#880e4f !important}.pink-text.text-darken-4{color:#880e4f !important}.pink.accent-1{background-color:#ff80ab !important}.pink-text.text-accent-1{color:#ff80ab !important}.pink.accent-2{background-color:#ff4081 !important}.pink-text.text-accent-2{color:#ff4081 !important}.pink.accent-3{background-color:#f50057 !important}.pink-text.text-accent-3{color:#f50057 !important}.pink.accent-4{background-color:#c51162 !important}.pink-text.text-accent-4{color:#c51162 !important}.purple{background-color:#9c27b0 !important}.purple-text{color:#9c27b0 !important}.purple.lighten-5{background-color:#f3e5f5 !important}.purple-text.text-lighten-5{color:#f3e5f5 !important}.purple.lighten-4{background-color:#e1bee7 !important}.purple-text.text-lighten-4{color:#e1bee7 !important}.purple.lighten-3{background-color:#ce93d8 !important}.purple-text.text-lighten-3{color:#ce93d8 !important}.purple.lighten-2{background-color:#ba68c8 !important}.purple-text.text-lighten-2{color:#ba68c8 !important}.purple.lighten-1{background-color:#ab47bc !important}.purple-text.text-lighten-1{color:#ab47bc !important}.purple.darken-1{background-color:#8e24aa !important}.purple-text.text-darken-1{color:#8e24aa !important}.purple.darken-2{background-color:#7b1fa2 !important}.purple-text.text-darken-2{color:#7b1fa2 !important}.purple.darken-3{background-color:#6a1b9a !important}.purple-text.text-darken-3{color:#6a1b9a !important}.purple.darken-4{background-color:#4a148c !important}.purple-text.text-darken-4{color:#4a148c !important}.purple.accent-1{background-color:#ea80fc !important}.purple-text.text-accent-1{color:#ea80fc !important}.purple.accent-2{background-color:#e040fb !important}.purple-text.text-accent-2{color:#e040fb !important}.purple.accent-3{background-color:#d500f9 !important}.purple-text.text-accent-3{color:#d500f9 !important}.purple.accent-4{background-color:#a0f !important}.purple-text.text-accent-4{color:#a0f !important}.deep-purple{background-color:#673ab7 !important}.deep-purple-text{color:#673ab7 !important}.deep-purple.lighten-5{background-color:#ede7f6 !important}.deep-purple-text.text-lighten-5{color:#ede7f6 !important}.deep-purple.lighten-4{background-color:#d1c4e9 !important}.deep-purple-text.text-lighten-4{color:#d1c4e9 !important}.deep-purple.lighten-3{background-color:#b39ddb !important}.deep-purple-text.text-lighten-3{color:#b39ddb !important}.deep-purple.lighten-2{background-color:#9575cd !important}.deep-purple-text.text-lighten-2{color:#9575cd !important}.deep-purple.lighten-1{background-color:#7e57c2 !important}.deep-purple-text.text-lighten-1{color:#7e57c2 !important}.deep-purple.darken-1{background-color:#5e35b1 !important}.deep-purple-text.text-darken-1{color:#5e35b1 !important}.deep-purple.darken-2{background-color:#512da8 !important}.deep-purple-text.text-darken-2{color:#512da8 !important}.deep-purple.darken-3{background-color:#4527a0 !important}.deep-purple-text.text-darken-3{color:#4527a0 !important}.deep-purple.darken-4{background-color:#311b92 !important}.deep-purple-text.text-darken-4{color:#311b92 !important}.deep-purple.accent-1{background-color:#b388ff !important}.deep-purple-text.text-accent-1{color:#b388ff !important}.deep-purple.accent-2{background-color:#7c4dff !important}.deep-purple-text.text-accent-2{color:#7c4dff !important}.deep-purple.accent-3{background-color:#651fff !important}.deep-purple-text.text-accent-3{color:#651fff !important}.deep-purple.accent-4{background-color:#6200ea !important}.deep-purple-text.text-accent-4{color:#6200ea !important}.indigo{background-color:#3f51b5 !important}.indigo-text{color:#3f51b5 !important}.indigo.lighten-5{background-color:#e8eaf6 !important}.indigo-text.text-lighten-5{color:#e8eaf6 !important}.indigo.lighten-4{background-color:#c5cae9 !important}.indigo-text.text-lighten-4{color:#c5cae9 !important}.indigo.lighten-3{background-color:#9fa8da !important}.indigo-text.text-lighten-3{color:#9fa8da !important}.indigo.lighten-2{background-color:#7986cb !important}.indigo-text.text-lighten-2{color:#7986cb !important}.indigo.lighten-1{background-color:#5c6bc0 !important}.indigo-text.text-lighten-1{color:#5c6bc0 !important}.indigo.darken-1{background-color:#3949ab !important}.indigo-text.text-darken-1{color:#3949ab !important}.indigo.darken-2{background-color:#303f9f !important}.indigo-text.text-darken-2{color:#303f9f !important}.indigo.darken-3{background-color:#283593 !important}.indigo-text.text-darken-3{color:#283593 !important}.indigo.darken-4{background-color:#1a237e !important}.indigo-text.text-darken-4{color:#1a237e !important}.indigo.accent-1{background-color:#8c9eff !important}.indigo-text.text-accent-1{color:#8c9eff !important}.indigo.accent-2{background-color:#536dfe !important}.indigo-text.text-accent-2{color:#536dfe !important}.indigo.accent-3{background-color:#3d5afe !important}.indigo-text.text-accent-3{color:#3d5afe !important}.indigo.accent-4{background-color:#304ffe !important}.indigo-text.text-accent-4{color:#304ffe !important}.blue{background-color:#2196F3 !important}.blue-text{color:#2196F3 !important}.blue.lighten-5{background-color:#E3F2FD !important}.blue-text.text-lighten-5{color:#E3F2FD !important}.blue.lighten-4{background-color:#BBDEFB !important}.blue-text.text-lighten-4{color:#BBDEFB !important}.blue.lighten-3{background-color:#90CAF9 !important}.blue-text.text-lighten-3{color:#90CAF9 !important}.blue.lighten-2{background-color:#64B5F6 !important}.blue-text.text-lighten-2{color:#64B5F6 !important}.blue.lighten-1{background-color:#42A5F5 !important}.blue-text.text-lighten-1{color:#42A5F5 !important}.blue.darken-1{background-color:#1E88E5 !important}.blue-text.text-darken-1{color:#1E88E5 !important}.blue.darken-2{background-color:#1976D2 !important}.blue-text.text-darken-2{color:#1976D2 !important}.blue.darken-3{background-color:#1565C0 !important}.blue-text.text-darken-3{color:#1565C0 !important}.blue.darken-4{background-color:#0D47A1 !important}.blue-text.text-darken-4{color:#0D47A1 !important}.blue.accent-1{background-color:#82B1FF !important}.blue-text.text-accent-1{color:#82B1FF !important}.blue.accent-2{background-color:#448AFF !important}.blue-text.text-accent-2{color:#448AFF !important}.blue.accent-3{background-color:#2979FF !important}.blue-text.text-accent-3{color:#2979FF !important}.blue.accent-4{background-color:#2962FF !important}.blue-text.text-accent-4{color:#2962FF !important}.light-blue{background-color:#03a9f4 !important}.light-blue-text{color:#03a9f4 !important}.light-blue.lighten-5{background-color:#e1f5fe !important}.light-blue-text.text-lighten-5{color:#e1f5fe !important}.light-blue.lighten-4{background-color:#b3e5fc !important}.light-blue-text.text-lighten-4{color:#b3e5fc !important}.light-blue.lighten-3{background-color:#81d4fa !important}.light-blue-text.text-lighten-3{color:#81d4fa !important}.light-blue.lighten-2{background-color:#4fc3f7 !important}.light-blue-text.text-lighten-2{color:#4fc3f7 !important}.light-blue.lighten-1{background-color:#29b6f6 !important}.light-blue-text.text-lighten-1{color:#29b6f6 !important}.light-blue.darken-1{background-color:#039be5 !important}.light-blue-text.text-darken-1{color:#039be5 !important}.light-blue.darken-2{background-color:#0288d1 !important}.light-blue-text.text-darken-2{color:#0288d1 !important}.light-blue.darken-3{background-color:#0277bd !important}.light-blue-text.text-darken-3{color:#0277bd !important}.light-blue.darken-4{background-color:#01579b !important}.light-blue-text.text-darken-4{color:#01579b !important}.light-blue.accent-1{background-color:#80d8ff !important}.light-blue-text.text-accent-1{color:#80d8ff !important}.light-blue.accent-2{background-color:#40c4ff !important}.light-blue-text.text-accent-2{color:#40c4ff !important}.light-blue.accent-3{background-color:#00b0ff !important}.light-blue-text.text-accent-3{color:#00b0ff !important}.light-blue.accent-4{background-color:#0091ea !important}.light-blue-text.text-accent-4{color:#0091ea !important}.cyan{background-color:#00bcd4 !important}.cyan-text{color:#00bcd4 !important}.cyan.lighten-5{background-color:#e0f7fa !important}.cyan-text.text-lighten-5{color:#e0f7fa !important}.cyan.lighten-4{background-color:#b2ebf2 !important}.cyan-text.text-lighten-4{color:#b2ebf2 !important}.cyan.lighten-3{background-color:#80deea !important}.cyan-text.text-lighten-3{color:#80deea !important}.cyan.lighten-2{background-color:#4dd0e1 !important}.cyan-text.text-lighten-2{color:#4dd0e1 !important}.cyan.lighten-1{background-color:#26c6da !important}.cyan-text.text-lighten-1{color:#26c6da !important}.cyan.darken-1{background-color:#00acc1 !important}.cyan-text.text-darken-1{color:#00acc1 !important}.cyan.darken-2{background-color:#0097a7 !important}.cyan-text.text-darken-2{color:#0097a7 !important}.cyan.darken-3{background-color:#00838f !important}.cyan-text.text-darken-3{color:#00838f !important}.cyan.darken-4{background-color:#006064 !important}.cyan-text.text-darken-4{color:#006064 !important}.cyan.accent-1{background-color:#84ffff !important}.cyan-text.text-accent-1{color:#84ffff !important}.cyan.accent-2{background-color:#18ffff !important}.cyan-text.text-accent-2{color:#18ffff !important}.cyan.accent-3{background-color:#00e5ff !important}.cyan-text.text-accent-3{color:#00e5ff !important}.cyan.accent-4{background-color:#00b8d4 !important}.cyan-text.text-accent-4{color:#00b8d4 !important}.teal{background-color:#009688 !important}.teal-text{color:#009688 !important}.teal.lighten-5{background-color:#e0f2f1 !important}.teal-text.text-lighten-5{color:#e0f2f1 !important}.teal.lighten-4{background-color:#b2dfdb !important}.teal-text.text-lighten-4{color:#b2dfdb !important}.teal.lighten-3{background-color:#80cbc4 !important}.teal-text.text-lighten-3{color:#80cbc4 !important}.teal.lighten-2{background-color:#4db6ac !important}.teal-text.text-lighten-2{color:#4db6ac !important}.teal.lighten-1{background-color:#26a69a !important}.teal-text.text-lighten-1{color:#26a69a !important}.teal.darken-1{background-color:#00897b !important}.teal-text.text-darken-1{color:#00897b !important}.teal.darken-2{background-color:#00796b !important}.teal-text.text-darken-2{color:#00796b !important}.teal.darken-3{background-color:#00695c !important}.teal-text.text-darken-3{color:#00695c !important}.teal.darken-4{background-color:#004d40 !important}.teal-text.text-darken-4{color:#004d40 !important}.teal.accent-1{background-color:#a7ffeb !important}.teal-text.text-accent-1{color:#a7ffeb !important}.teal.accent-2{background-color:#64ffda !important}.teal-text.text-accent-2{color:#64ffda !important}.teal.accent-3{background-color:#1de9b6 !important}.teal-text.text-accent-3{color:#1de9b6 !important}.teal.accent-4{background-color:#00bfa5 !important}.teal-text.text-accent-4{color:#00bfa5 !important}.green{background-color:#4CAF50 !important}.green-text{color:#4CAF50 !important}.green.lighten-5{background-color:#E8F5E9 !important}.green-text.text-lighten-5{color:#E8F5E9 !important}.green.lighten-4{background-color:#C8E6C9 !important}.green-text.text-lighten-4{color:#C8E6C9 !important}.green.lighten-3{background-color:#A5D6A7 !important}.green-text.text-lighten-3{color:#A5D6A7 !important}.green.lighten-2{background-color:#81C784 !important}.green-text.text-lighten-2{color:#81C784 !important}.green.lighten-1{background-color:#66BB6A !important}.green-text.text-lighten-1{color:#66BB6A !important}.green.darken-1{background-color:#43A047 !important}.green-text.text-darken-1{color:#43A047 !important}.green.darken-2{background-color:#388E3C !important}.green-text.text-darken-2{color:#388E3C !important}.green.darken-3{background-color:#2E7D32 !important}.green-text.text-darken-3{color:#2E7D32 !important}.green.darken-4{background-color:#1B5E20 !important}.green-text.text-darken-4{color:#1B5E20 !important}.green.accent-1{background-color:#B9F6CA !important}.green-text.text-accent-1{color:#B9F6CA !important}.green.accent-2{background-color:#69F0AE !important}.green-text.text-accent-2{color:#69F0AE !important}.green.accent-3{background-color:#00E676 !important}.green-text.text-accent-3{color:#00E676 !important}.green.accent-4{background-color:#00C853 !important}.green-text.text-accent-4{color:#00C853 !important}.light-green{background-color:#8bc34a !important}.light-green-text{color:#8bc34a !important}.light-green.lighten-5{background-color:#f1f8e9 !important}.light-green-text.text-lighten-5{color:#f1f8e9 !important}.light-green.lighten-4{background-color:#dcedc8 !important}.light-green-text.text-lighten-4{color:#dcedc8 !important}.light-green.lighten-3{background-color:#c5e1a5 !important}.light-green-text.text-lighten-3{color:#c5e1a5 !important}.light-green.lighten-2{background-color:#aed581 !important}.light-green-text.text-lighten-2{color:#aed581 !important}.light-green.lighten-1{background-color:#9ccc65 !important}.light-green-text.text-lighten-1{color:#9ccc65 !important}.light-green.darken-1{background-color:#7cb342 !important}.light-green-text.text-darken-1{color:#7cb342 !important}.light-green.darken-2{background-color:#689f38 !important}.light-green-text.text-darken-2{color:#689f38 !important}.light-green.darken-3{background-color:#558b2f !important}.light-green-text.text-darken-3{color:#558b2f !important}.light-green.darken-4{background-color:#33691e !important}.light-green-text.text-darken-4{color:#33691e !important}.light-green.accent-1{background-color:#ccff90 !important}.light-green-text.text-accent-1{color:#ccff90 !important}.light-green.accent-2{background-color:#b2ff59 !important}.light-green-text.text-accent-2{color:#b2ff59 !important}.light-green.accent-3{background-color:#76ff03 !important}.light-green-text.text-accent-3{color:#76ff03 !important}.light-green.accent-4{background-color:#64dd17 !important}.light-green-text.text-accent-4{color:#64dd17 !important}.lime{background-color:#cddc39 !important}.lime-text{color:#cddc39 !important}.lime.lighten-5{background-color:#f9fbe7 !important}.lime-text.text-lighten-5{color:#f9fbe7 !important}.lime.lighten-4{background-color:#f0f4c3 !important}.lime-text.text-lighten-4{color:#f0f4c3 !important}.lime.lighten-3{background-color:#e6ee9c !important}.lime-text.text-lighten-3{color:#e6ee9c !important}.lime.lighten-2{background-color:#dce775 !important}.lime-text.text-lighten-2{color:#dce775 !important}.lime.lighten-1{background-color:#d4e157 !important}.lime-text.text-lighten-1{color:#d4e157 !important}.lime.darken-1{background-color:#c0ca33 !important}.lime-text.text-darken-1{color:#c0ca33 !important}.lime.darken-2{background-color:#afb42b !important}.lime-text.text-darken-2{color:#afb42b !important}.lime.darken-3{background-color:#9e9d24 !important}.lime-text.text-darken-3{color:#9e9d24 !important}.lime.darken-4{background-color:#827717 !important}.lime-text.text-darken-4{color:#827717 !important}.lime.accent-1{background-color:#f4ff81 !important}.lime-text.text-accent-1{color:#f4ff81 !important}.lime.accent-2{background-color:#eeff41 !important}.lime-text.text-accent-2{color:#eeff41 !important}.lime.accent-3{background-color:#c6ff00 !important}.lime-text.text-accent-3{color:#c6ff00 !important}.lime.accent-4{background-color:#aeea00 !important}.lime-text.text-accent-4{color:#aeea00 !important}.yellow{background-color:#ffeb3b !important}.yellow-text{color:#ffeb3b !important}.yellow.lighten-5{background-color:#fffde7 !important}.yellow-text.text-lighten-5{color:#fffde7 !important}.yellow.lighten-4{background-color:#fff9c4 !important}.yellow-text.text-lighten-4{color:#fff9c4 !important}.yellow.lighten-3{background-color:#fff59d !important}.yellow-text.text-lighten-3{color:#fff59d !important}.yellow.lighten-2{background-color:#fff176 !important}.yellow-text.text-lighten-2{color:#fff176 !important}.yellow.lighten-1{background-color:#ffee58 !important}.yellow-text.text-lighten-1{color:#ffee58 !important}.yellow.darken-1{background-color:#fdd835 !important}.yellow-text.text-darken-1{color:#fdd835 !important}.yellow.darken-2{background-color:#fbc02d !important}.yellow-text.text-darken-2{color:#fbc02d !important}.yellow.darken-3{background-color:#f9a825 !important}.yellow-text.text-darken-3{color:#f9a825 !important}.yellow.darken-4{background-color:#f57f17 !important}.yellow-text.text-darken-4{color:#f57f17 !important}.yellow.accent-1{background-color:#ffff8d !important}.yellow-text.text-accent-1{color:#ffff8d !important}.yellow.accent-2{background-color:#ff0 !important}.yellow-text.text-accent-2{color:#ff0 !important}.yellow.accent-3{background-color:#ffea00 !important}.yellow-text.text-accent-3{color:#ffea00 !important}.yellow.accent-4{background-color:#ffd600 !important}.yellow-text.text-accent-4{color:#ffd600 !important}.amber{background-color:#ffc107 !important}.amber-text{color:#ffc107 !important}.amber.lighten-5{background-color:#fff8e1 !important}.amber-text.text-lighten-5{color:#fff8e1 !important}.amber.lighten-4{background-color:#ffecb3 !important}.amber-text.text-lighten-4{color:#ffecb3 !important}.amber.lighten-3{background-color:#ffe082 !important}.amber-text.text-lighten-3{color:#ffe082 !important}.amber.lighten-2{background-color:#ffd54f !important}.amber-text.text-lighten-2{color:#ffd54f !important}.amber.lighten-1{background-color:#ffca28 !important}.amber-text.text-lighten-1{color:#ffca28 !important}.amber.darken-1{background-color:#ffb300 !important}.amber-text.text-darken-1{color:#ffb300 !important}.amber.darken-2{background-color:#ffa000 !important}.amber-text.text-darken-2{color:#ffa000 !important}.amber.darken-3{background-color:#ff8f00 !important}.amber-text.text-darken-3{color:#ff8f00 !important}.amber.darken-4{background-color:#ff6f00 !important}.amber-text.text-darken-4{color:#ff6f00 !important}.amber.accent-1{background-color:#ffe57f !important}.amber-text.text-accent-1{color:#ffe57f !important}.amber.accent-2{background-color:#ffd740 !important}.amber-text.text-accent-2{color:#ffd740 !important}.amber.accent-3{background-color:#ffc400 !important}.amber-text.text-accent-3{color:#ffc400 !important}.amber.accent-4{background-color:#ffab00 !important}.amber-text.text-accent-4{color:#ffab00 !important}.orange{background-color:#ff9800 !important}.orange-text{color:#ff9800 !important}.orange.lighten-5{background-color:#fff3e0 !important}.orange-text.text-lighten-5{color:#fff3e0 !important}.orange.lighten-4{background-color:#ffe0b2 !important}.orange-text.text-lighten-4{color:#ffe0b2 !important}.orange.lighten-3{background-color:#ffcc80 !important}.orange-text.text-lighten-3{color:#ffcc80 !important}.orange.lighten-2{background-color:#ffb74d !important}.orange-text.text-lighten-2{color:#ffb74d !important}.orange.lighten-1{background-color:#ffa726 !important}.orange-text.text-lighten-1{color:#ffa726 !important}.orange.darken-1{background-color:#fb8c00 !important}.orange-text.text-darken-1{color:#fb8c00 !important}.orange.darken-2{background-color:#f57c00 !important}.orange-text.text-darken-2{color:#f57c00 !important}.orange.darken-3{background-color:#ef6c00 !important}.orange-text.text-darken-3{color:#ef6c00 !important}.orange.darken-4{background-color:#e65100 !important}.orange-text.text-darken-4{color:#e65100 !important}.orange.accent-1{background-color:#ffd180 !important}.orange-text.text-accent-1{color:#ffd180 !important}.orange.accent-2{background-color:#ffab40 !important}.orange-text.text-accent-2{color:#ffab40 !important}.orange.accent-3{background-color:#ff9100 !important}.orange-text.text-accent-3{color:#ff9100 !important}.orange.accent-4{background-color:#ff6d00 !important}.orange-text.text-accent-4{color:#ff6d00 !important}.deep-orange{background-color:#ff5722 !important}.deep-orange-text{color:#ff5722 !important}.deep-orange.lighten-5{background-color:#fbe9e7 !important}.deep-orange-text.text-lighten-5{color:#fbe9e7 !important}.deep-orange.lighten-4{background-color:#ffccbc !important}.deep-orange-text.text-lighten-4{color:#ffccbc !important}.deep-orange.lighten-3{background-color:#ffab91 !important}.deep-orange-text.text-lighten-3{color:#ffab91 !important}.deep-orange.lighten-2{background-color:#ff8a65 !important}.deep-orange-text.text-lighten-2{color:#ff8a65 !important}.deep-orange.lighten-1{background-color:#ff7043 !important}.deep-orange-text.text-lighten-1{color:#ff7043 !important}.deep-orange.darken-1{background-color:#f4511e !important}.deep-orange-text.text-darken-1{color:#f4511e !important}.deep-orange.darken-2{background-color:#e64a19 !important}.deep-orange-text.text-darken-2{color:#e64a19 !important}.deep-orange.darken-3{background-color:#d84315 !important}.deep-orange-text.text-darken-3{color:#d84315 !important}.deep-orange.darken-4{background-color:#bf360c !important}.deep-orange-text.text-darken-4{color:#bf360c !important}.deep-orange.accent-1{background-color:#ff9e80 !important}.deep-orange-text.text-accent-1{color:#ff9e80 !important}.deep-orange.accent-2{background-color:#ff6e40 !important}.deep-orange-text.text-accent-2{color:#ff6e40 !important}.deep-orange.accent-3{background-color:#ff3d00 !important}.deep-orange-text.text-accent-3{color:#ff3d00 !important}.deep-orange.accent-4{background-color:#dd2c00 !important}.deep-orange-text.text-accent-4{color:#dd2c00 !important}.brown{background-color:#795548 !important}.brown-text{color:#795548 !important}.brown.lighten-5{background-color:#efebe9 !important}.brown-text.text-lighten-5{color:#efebe9 !important}.brown.lighten-4{background-color:#d7ccc8 !important}.brown-text.text-lighten-4{color:#d7ccc8 !important}.brown.lighten-3{background-color:#bcaaa4 !important}.brown-text.text-lighten-3{color:#bcaaa4 !important}.brown.lighten-2{background-color:#a1887f !important}.brown-text.text-lighten-2{color:#a1887f !important}.brown.lighten-1{background-color:#8d6e63 !important}.brown-text.text-lighten-1{color:#8d6e63 !important}.brown.darken-1{background-color:#6d4c41 !important}.brown-text.text-darken-1{color:#6d4c41 !important}.brown.darken-2{background-color:#5d4037 !important}.brown-text.text-darken-2{color:#5d4037 !important}.brown.darken-3{background-color:#4e342e !important}.brown-text.text-darken-3{color:#4e342e !important}.brown.darken-4{background-color:#3e2723 !important}.brown-text.text-darken-4{color:#3e2723 !important}.blue-grey{background-color:#607d8b !important}.blue-grey-text{color:#607d8b !important}.blue-grey.lighten-5{background-color:#eceff1 !important}.blue-grey-text.text-lighten-5{color:#eceff1 !important}.blue-grey.lighten-4{background-color:#cfd8dc !important}.blue-grey-text.text-lighten-4{color:#cfd8dc !important}.blue-grey.lighten-3{background-color:#b0bec5 !important}.blue-grey-text.text-lighten-3{color:#b0bec5 !important}.blue-grey.lighten-2{background-color:#90a4ae !important}.blue-grey-text.text-lighten-2{color:#90a4ae !important}.blue-grey.lighten-1{background-color:#78909c !important}.blue-grey-text.text-lighten-1{color:#78909c !important}.blue-grey.darken-1{background-color:#546e7a !important}.blue-grey-text.text-darken-1{color:#546e7a !important}.blue-grey.darken-2{background-color:#455a64 !important}.blue-grey-text.text-darken-2{color:#455a64 !important}.blue-grey.darken-3{background-color:#37474f !important}.blue-grey-text.text-darken-3{color:#37474f !important}.blue-grey.darken-4{background-color:#263238 !important}.blue-grey-text.text-darken-4{color:#263238 !important}.grey{background-color:#9e9e9e !important}.grey-text{color:#9e9e9e !important}.grey.lighten-5{background-color:#fafafa !important}.grey-text.text-lighten-5{color:#fafafa !important}.grey.lighten-4{background-color:#f5f5f5 !important}.grey-text.text-lighten-4{color:#f5f5f5 !important}.grey.lighten-3{background-color:#eee !important}.grey-text.text-lighten-3{color:#eee !important}.grey.lighten-2{background-color:#e0e0e0 !important}.grey-text.text-lighten-2{color:#e0e0e0 !important}.grey.lighten-1{background-color:#bdbdbd !important}.grey-text.text-lighten-1{color:#bdbdbd !important}.grey.darken-1{background-color:#757575 !important}.grey-text.text-darken-1{color:#757575 !important}.grey.darken-2{background-color:#616161 !important}.grey-text.text-darken-2{color:#616161 !important}.grey.darken-3{background-color:#424242 !important}.grey-text.text-darken-3{color:#424242 !important}.grey.darken-4{background-color:#212121 !important}.grey-text.text-darken-4{color:#212121 !important}.black{background-color:#000 !important}.black-text{color:#000 !important}.white{background-color:#fff !important}.white-text{color:#fff !important}.transparent{background-color:transparent !important}.transparent-text{color:transparent !important}/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=\"button\"],input[type=\"reset\"],input[type=\"submit\"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=\"checkbox\"],input[type=\"radio\"]{box-sizing:border-box;padding:0}input[type=\"number\"]::-webkit-inner-spin-button,input[type=\"number\"]::-webkit-outer-spin-button{height:auto}input[type=\"search\"]{-webkit-appearance:textfield;box-sizing:content-box}input[type=\"search\"]::-webkit-search-cancel-button,input[type=\"search\"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}ul:not(.browser-default){padding-left:0;list-style-type:none}ul:not(.browser-default) li{list-style-type:none}a{color:#039be5;text-decoration:none;-webkit-tap-highlight-color:transparent}.valign-wrapper{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.clearfix{clear:both}.z-depth-0{box-shadow:none !important}.z-depth-1,nav,.card-panel,.card,.toast,.btn,.btn-large,.btn-floating,.dropdown-content,.collapsible,.side-nav{box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2)}.z-depth-1-half,.btn:hover,.btn-large:hover,.btn-floating:hover{box-shadow:0 3px 3px 0 rgba(0,0,0,0.14),0 1px 7px 0 rgba(0,0,0,0.12),0 3px 1px -1px rgba(0,0,0,0.2)}.z-depth-2{box-shadow:0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.3)}.z-depth-3{box-shadow:0 6px 10px 0 rgba(0,0,0,0.14),0 1px 18px 0 rgba(0,0,0,0.12),0 3px 5px -1px rgba(0,0,0,0.3)}.z-depth-4,.modal{box-shadow:0 8px 10px 1px rgba(0,0,0,0.14),0 3px 14px 2px rgba(0,0,0,0.12),0 5px 5px -3px rgba(0,0,0,0.3)}.z-depth-5{box-shadow:0 16px 24px 2px rgba(0,0,0,0.14),0 6px 30px 5px rgba(0,0,0,0.12),0 8px 10px -5px rgba(0,0,0,0.3)}.hoverable{transition:box-shadow .25s;box-shadow:0}.hoverable:hover{transition:box-shadow .25s;box-shadow:0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}.divider{height:1px;overflow:hidden;background-color:#e0e0e0}blockquote{margin:20px 0;padding-left:1.5rem;border-left:5px solid #ee6e73}i{line-height:inherit}i.left{float:left;margin-right:15px}i.right{float:right;margin-left:15px}i.tiny{font-size:1rem}i.small{font-size:2rem}i.medium{font-size:4rem}i.large{font-size:6rem}img.responsive-img,video.responsive-video{max-width:100%;height:auto}.pagination li{display:inline-block;border-radius:2px;text-align:center;vertical-align:top;height:30px}.pagination li a{color:#444;display:inline-block;font-size:1.2rem;padding:0 10px;line-height:30px}.pagination li.active a{color:#fff}.pagination li.active{background-color:#ee6e73}.pagination li.disabled a{cursor:default;color:#999}.pagination li i{font-size:2rem}.pagination li.pages ul li{display:inline-block;float:none}@media only screen and (max-width: 992px){.pagination{width:100%}.pagination li.prev,.pagination li.next{width:10%}.pagination li.pages{width:80%;overflow:hidden;white-space:nowrap}}.breadcrumb{font-size:18px;color:rgba(255,255,255,0.7)}.breadcrumb i,.breadcrumb [class^=\"mdi-\"],.breadcrumb [class*=\"mdi-\"],.breadcrumb i.material-icons{display:inline-block;float:left;font-size:24px}.breadcrumb:before{content:'\\E5CC';color:rgba(255,255,255,0.7);vertical-align:top;display:inline-block;font-family:'Material Icons';font-weight:normal;font-style:normal;font-size:25px;margin:0 10px 0 8px;-webkit-font-smoothing:antialiased}.breadcrumb:first-child:before{display:none}.breadcrumb:last-child{color:#fff}.parallax-container{position:relative;overflow:hidden;height:500px}.parallax-container .parallax{position:absolute;top:0;left:0;right:0;bottom:0;z-index:-1}.parallax-container .parallax img{display:none;position:absolute;left:50%;bottom:0;min-width:100%;min-height:100%;-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);-webkit-transform:translateX(-50%);transform:translateX(-50%)}.pin-top,.pin-bottom{position:relative}.pinned{position:fixed !important}ul.staggered-list li{opacity:0}.fade-in{opacity:0;-webkit-transform-origin:0 50%;transform-origin:0 50%}@media only screen and (max-width: 600px){.hide-on-small-only,.hide-on-small-and-down{display:none !important}}@media only screen and (max-width: 992px){.hide-on-med-and-down{display:none !important}}@media only screen and (min-width: 601px){.hide-on-med-and-up{display:none !important}}@media only screen and (min-width: 600px) and (max-width: 992px){.hide-on-med-only{display:none !important}}@media only screen and (min-width: 993px){.hide-on-large-only{display:none !important}}@media only screen and (min-width: 993px){.show-on-large{display:block !important}}@media only screen and (min-width: 600px) and (max-width: 992px){.show-on-medium{display:block !important}}@media only screen and (max-width: 600px){.show-on-small{display:block !important}}@media only screen and (min-width: 601px){.show-on-medium-and-up{display:block !important}}@media only screen and (max-width: 992px){.show-on-medium-and-down{display:block !important}}@media only screen and (max-width: 600px){.center-on-small-only{text-align:center}}.page-footer{padding-top:20px;background-color:#ee6e73}.page-footer .footer-copyright{overflow:hidden;min-height:50px;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-ms-flex-align:center;align-items:center;padding:10px 0px;color:rgba(255,255,255,0.8);background-color:rgba(51,51,51,0.08)}table,th,td{border:none}table{width:100%;display:table}table.bordered>thead>tr,table.bordered>tbody>tr{border-bottom:1px solid #d0d0d0}table.striped>tbody>tr:nth-child(odd){background-color:#f2f2f2}table.striped>tbody>tr>td{border-radius:0}table.highlight>tbody>tr{transition:background-color .25s ease}table.highlight>tbody>tr:hover{background-color:#f2f2f2}table.centered thead tr th,table.centered tbody tr td{text-align:center}thead{border-bottom:1px solid #d0d0d0}td,th{padding:15px 5px;display:table-cell;text-align:left;vertical-align:middle;border-radius:2px}@media only screen and (max-width: 992px){table.responsive-table{width:100%;border-collapse:collapse;border-spacing:0;display:block;position:relative}table.responsive-table td:empty:before{content:'\\A0'}table.responsive-table th,table.responsive-table td{margin:0;vertical-align:top}table.responsive-table th{text-align:left}table.responsive-table thead{display:block;float:left}table.responsive-table thead tr{display:block;padding:0 10px 0 0}table.responsive-table thead tr th::before{content:\"\\A0\"}table.responsive-table tbody{display:block;width:auto;position:relative;overflow-x:auto;white-space:nowrap}table.responsive-table tbody tr{display:inline-block;vertical-align:top}table.responsive-table th{display:block;text-align:right}table.responsive-table td{display:block;min-height:1.25em;text-align:left}table.responsive-table tr{padding:0 10px}table.responsive-table thead{border:0;border-right:1px solid #d0d0d0}table.responsive-table.bordered th{border-bottom:0;border-left:0}table.responsive-table.bordered td{border-left:0;border-right:0;border-bottom:0}table.responsive-table.bordered tr{border:0}table.responsive-table.bordered tbody tr{border-right:1px solid #d0d0d0}}.collection{margin:.5rem 0 1rem 0;border:1px solid #e0e0e0;border-radius:2px;overflow:hidden;position:relative}.collection .collection-item{background-color:#fff;line-height:1.5rem;padding:10px 20px;margin:0;border-bottom:1px solid #e0e0e0}.collection .collection-item.avatar{min-height:84px;padding-left:72px;position:relative}.collection .collection-item.avatar .circle{position:absolute;width:42px;height:42px;overflow:hidden;left:15px;display:inline-block;vertical-align:middle}.collection .collection-item.avatar i.circle{font-size:18px;line-height:42px;color:#fff;background-color:#999;text-align:center}.collection .collection-item.avatar .title{font-size:16px}.collection .collection-item.avatar p{margin:0}.collection .collection-item.avatar .secondary-content{position:absolute;top:16px;right:16px}.collection .collection-item:last-child{border-bottom:none}.collection .collection-item.active{background-color:#26a69a;color:#eafaf9}.collection .collection-item.active .secondary-content{color:#fff}.collection a.collection-item{display:block;transition:.25s;color:#26a69a}.collection a.collection-item:not(.active):hover{background-color:#ddd}.collection.with-header .collection-header{background-color:#fff;border-bottom:1px solid #e0e0e0;padding:10px 20px}.collection.with-header .collection-item{padding-left:30px}.collection.with-header .collection-item.avatar{padding-left:72px}.secondary-content{float:right;color:#26a69a}.collapsible .collection{margin:0;border:none}.video-container{position:relative;padding-bottom:56.25%;height:0;overflow:hidden}.video-container iframe,.video-container object,.video-container embed{position:absolute;top:0;left:0;width:100%;height:100%}.progress{position:relative;height:4px;display:block;width:100%;background-color:#acece6;border-radius:2px;margin:.5rem 0 1rem 0;overflow:hidden}.progress .determinate{position:absolute;top:0;left:0;bottom:0;background-color:#26a69a;transition:width .3s linear}.progress .indeterminate{background-color:#26a69a}.progress .indeterminate:before{content:'';position:absolute;background-color:inherit;top:0;left:0;bottom:0;will-change:left, right;-webkit-animation:indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;animation:indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite}.progress .indeterminate:after{content:'';position:absolute;background-color:inherit;top:0;left:0;bottom:0;will-change:left, right;-webkit-animation:indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;animation:indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;-webkit-animation-delay:1.15s;animation-delay:1.15s}@-webkit-keyframes indeterminate{0%{left:-35%;right:100%}60%{left:100%;right:-90%}100%{left:100%;right:-90%}}@keyframes indeterminate{0%{left:-35%;right:100%}60%{left:100%;right:-90%}100%{left:100%;right:-90%}}@-webkit-keyframes indeterminate-short{0%{left:-200%;right:100%}60%{left:107%;right:-8%}100%{left:107%;right:-8%}}@keyframes indeterminate-short{0%{left:-200%;right:100%}60%{left:107%;right:-8%}100%{left:107%;right:-8%}}.hide{display:none !important}.left-align{text-align:left}.right-align{text-align:right}.center,.center-align{text-align:center}.left{float:left !important}.right{float:right !important}.no-select,input[type=range],input[type=range]+.thumb{-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.circle{border-radius:50%}.center-block{display:block;margin-left:auto;margin-right:auto}.truncate{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.no-padding{padding:0 !important}span.badge{min-width:3rem;padding:0 6px;margin-left:14px;text-align:center;font-size:1rem;line-height:22px;height:22px;color:#757575;float:right;box-sizing:border-box}span.badge.new{font-weight:300;font-size:0.8rem;color:#fff;background-color:#26a69a;border-radius:2px}span.badge.new:after{content:\" new\"}span.badge[data-badge-caption]::after{content:\" \" attr(data-badge-caption)}nav ul a span.badge{display:inline-block;float:none;margin-left:4px;line-height:22px;height:22px}.collection-item span.badge{margin-top:calc(.75rem - 11px)}.collapsible span.badge{margin-top:calc(1.5rem - 11px)}.side-nav span.badge{margin-top:calc(24px - 11px)}.material-icons{text-rendering:optimizeLegibility;-webkit-font-feature-settings:'liga';-moz-font-feature-settings:'liga';font-feature-settings:'liga'}.container{margin:0 auto;max-width:1280px;width:90%}@media only screen and (min-width: 601px){.container{width:85%}}@media only screen and (min-width: 993px){.container{width:70%}}.container .row{margin-left:-.75rem;margin-right:-.75rem}.section{padding-top:1rem;padding-bottom:1rem}.section.no-pad{padding:0}.section.no-pad-bot{padding-bottom:0}.section.no-pad-top{padding-top:0}.row{margin-left:auto;margin-right:auto;margin-bottom:20px}.row:after{content:\"\";display:table;clear:both}.row .col{float:left;box-sizing:border-box;padding:0 .75rem;min-height:1px}.row .col[class*=\"push-\"],.row .col[class*=\"pull-\"]{position:relative}.row .col.s1{width:8.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.s2{width:16.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.s3{width:25%;margin-left:auto;left:auto;right:auto}.row .col.s4{width:33.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.s5{width:41.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.s6{width:50%;margin-left:auto;left:auto;right:auto}.row .col.s7{width:58.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.s8{width:66.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.s9{width:75%;margin-left:auto;left:auto;right:auto}.row .col.s10{width:83.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.s11{width:91.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.s12{width:100%;margin-left:auto;left:auto;right:auto}.row .col.offset-s1{margin-left:8.3333333333%}.row .col.pull-s1{right:8.3333333333%}.row .col.push-s1{left:8.3333333333%}.row .col.offset-s2{margin-left:16.6666666667%}.row .col.pull-s2{right:16.6666666667%}.row .col.push-s2{left:16.6666666667%}.row .col.offset-s3{margin-left:25%}.row .col.pull-s3{right:25%}.row .col.push-s3{left:25%}.row .col.offset-s4{margin-left:33.3333333333%}.row .col.pull-s4{right:33.3333333333%}.row .col.push-s4{left:33.3333333333%}.row .col.offset-s5{margin-left:41.6666666667%}.row .col.pull-s5{right:41.6666666667%}.row .col.push-s5{left:41.6666666667%}.row .col.offset-s6{margin-left:50%}.row .col.pull-s6{right:50%}.row .col.push-s6{left:50%}.row .col.offset-s7{margin-left:58.3333333333%}.row .col.pull-s7{right:58.3333333333%}.row .col.push-s7{left:58.3333333333%}.row .col.offset-s8{margin-left:66.6666666667%}.row .col.pull-s8{right:66.6666666667%}.row .col.push-s8{left:66.6666666667%}.row .col.offset-s9{margin-left:75%}.row .col.pull-s9{right:75%}.row .col.push-s9{left:75%}.row .col.offset-s10{margin-left:83.3333333333%}.row .col.pull-s10{right:83.3333333333%}.row .col.push-s10{left:83.3333333333%}.row .col.offset-s11{margin-left:91.6666666667%}.row .col.pull-s11{right:91.6666666667%}.row .col.push-s11{left:91.6666666667%}.row .col.offset-s12{margin-left:100%}.row .col.pull-s12{right:100%}.row .col.push-s12{left:100%}@media only screen and (min-width: 601px){.row .col.m1{width:8.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.m2{width:16.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.m3{width:25%;margin-left:auto;left:auto;right:auto}.row .col.m4{width:33.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.m5{width:41.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.m6{width:50%;margin-left:auto;left:auto;right:auto}.row .col.m7{width:58.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.m8{width:66.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.m9{width:75%;margin-left:auto;left:auto;right:auto}.row .col.m10{width:83.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.m11{width:91.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.m12{width:100%;margin-left:auto;left:auto;right:auto}.row .col.offset-m1{margin-left:8.3333333333%}.row .col.pull-m1{right:8.3333333333%}.row .col.push-m1{left:8.3333333333%}.row .col.offset-m2{margin-left:16.6666666667%}.row .col.pull-m2{right:16.6666666667%}.row .col.push-m2{left:16.6666666667%}.row .col.offset-m3{margin-left:25%}.row .col.pull-m3{right:25%}.row .col.push-m3{left:25%}.row .col.offset-m4{margin-left:33.3333333333%}.row .col.pull-m4{right:33.3333333333%}.row .col.push-m4{left:33.3333333333%}.row .col.offset-m5{margin-left:41.6666666667%}.row .col.pull-m5{right:41.6666666667%}.row .col.push-m5{left:41.6666666667%}.row .col.offset-m6{margin-left:50%}.row .col.pull-m6{right:50%}.row .col.push-m6{left:50%}.row .col.offset-m7{margin-left:58.3333333333%}.row .col.pull-m7{right:58.3333333333%}.row .col.push-m7{left:58.3333333333%}.row .col.offset-m8{margin-left:66.6666666667%}.row .col.pull-m8{right:66.6666666667%}.row .col.push-m8{left:66.6666666667%}.row .col.offset-m9{margin-left:75%}.row .col.pull-m9{right:75%}.row .col.push-m9{left:75%}.row .col.offset-m10{margin-left:83.3333333333%}.row .col.pull-m10{right:83.3333333333%}.row .col.push-m10{left:83.3333333333%}.row .col.offset-m11{margin-left:91.6666666667%}.row .col.pull-m11{right:91.6666666667%}.row .col.push-m11{left:91.6666666667%}.row .col.offset-m12{margin-left:100%}.row .col.pull-m12{right:100%}.row .col.push-m12{left:100%}}@media only screen and (min-width: 993px){.row .col.l1{width:8.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.l2{width:16.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.l3{width:25%;margin-left:auto;left:auto;right:auto}.row .col.l4{width:33.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.l5{width:41.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.l6{width:50%;margin-left:auto;left:auto;right:auto}.row .col.l7{width:58.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.l8{width:66.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.l9{width:75%;margin-left:auto;left:auto;right:auto}.row .col.l10{width:83.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.l11{width:91.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.l12{width:100%;margin-left:auto;left:auto;right:auto}.row .col.offset-l1{margin-left:8.3333333333%}.row .col.pull-l1{right:8.3333333333%}.row .col.push-l1{left:8.3333333333%}.row .col.offset-l2{margin-left:16.6666666667%}.row .col.pull-l2{right:16.6666666667%}.row .col.push-l2{left:16.6666666667%}.row .col.offset-l3{margin-left:25%}.row .col.pull-l3{right:25%}.row .col.push-l3{left:25%}.row .col.offset-l4{margin-left:33.3333333333%}.row .col.pull-l4{right:33.3333333333%}.row .col.push-l4{left:33.3333333333%}.row .col.offset-l5{margin-left:41.6666666667%}.row .col.pull-l5{right:41.6666666667%}.row .col.push-l5{left:41.6666666667%}.row .col.offset-l6{margin-left:50%}.row .col.pull-l6{right:50%}.row .col.push-l6{left:50%}.row .col.offset-l7{margin-left:58.3333333333%}.row .col.pull-l7{right:58.3333333333%}.row .col.push-l7{left:58.3333333333%}.row .col.offset-l8{margin-left:66.6666666667%}.row .col.pull-l8{right:66.6666666667%}.row .col.push-l8{left:66.6666666667%}.row .col.offset-l9{margin-left:75%}.row .col.pull-l9{right:75%}.row .col.push-l9{left:75%}.row .col.offset-l10{margin-left:83.3333333333%}.row .col.pull-l10{right:83.3333333333%}.row .col.push-l10{left:83.3333333333%}.row .col.offset-l11{margin-left:91.6666666667%}.row .col.pull-l11{right:91.6666666667%}.row .col.push-l11{left:91.6666666667%}.row .col.offset-l12{margin-left:100%}.row .col.pull-l12{right:100%}.row .col.push-l12{left:100%}}@media only screen and (min-width: 1201px){.row .col.xl1{width:8.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.xl2{width:16.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.xl3{width:25%;margin-left:auto;left:auto;right:auto}.row .col.xl4{width:33.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.xl5{width:41.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.xl6{width:50%;margin-left:auto;left:auto;right:auto}.row .col.xl7{width:58.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.xl8{width:66.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.xl9{width:75%;margin-left:auto;left:auto;right:auto}.row .col.xl10{width:83.3333333333%;margin-left:auto;left:auto;right:auto}.row .col.xl11{width:91.6666666667%;margin-left:auto;left:auto;right:auto}.row .col.xl12{width:100%;margin-left:auto;left:auto;right:auto}.row .col.offset-xl1{margin-left:8.3333333333%}.row .col.pull-xl1{right:8.3333333333%}.row .col.push-xl1{left:8.3333333333%}.row .col.offset-xl2{margin-left:16.6666666667%}.row .col.pull-xl2{right:16.6666666667%}.row .col.push-xl2{left:16.6666666667%}.row .col.offset-xl3{margin-left:25%}.row .col.pull-xl3{right:25%}.row .col.push-xl3{left:25%}.row .col.offset-xl4{margin-left:33.3333333333%}.row .col.pull-xl4{right:33.3333333333%}.row .col.push-xl4{left:33.3333333333%}.row .col.offset-xl5{margin-left:41.6666666667%}.row .col.pull-xl5{right:41.6666666667%}.row .col.push-xl5{left:41.6666666667%}.row .col.offset-xl6{margin-left:50%}.row .col.pull-xl6{right:50%}.row .col.push-xl6{left:50%}.row .col.offset-xl7{margin-left:58.3333333333%}.row .col.pull-xl7{right:58.3333333333%}.row .col.push-xl7{left:58.3333333333%}.row .col.offset-xl8{margin-left:66.6666666667%}.row .col.pull-xl8{right:66.6666666667%}.row .col.push-xl8{left:66.6666666667%}.row .col.offset-xl9{margin-left:75%}.row .col.pull-xl9{right:75%}.row .col.push-xl9{left:75%}.row .col.offset-xl10{margin-left:83.3333333333%}.row .col.pull-xl10{right:83.3333333333%}.row .col.push-xl10{left:83.3333333333%}.row .col.offset-xl11{margin-left:91.6666666667%}.row .col.pull-xl11{right:91.6666666667%}.row .col.push-xl11{left:91.6666666667%}.row .col.offset-xl12{margin-left:100%}.row .col.pull-xl12{right:100%}.row .col.push-xl12{left:100%}}nav{color:#fff;background-color:#ee6e73;width:100%;height:56px;line-height:56px}nav.nav-extended{height:auto}nav.nav-extended .nav-wrapper{min-height:56px;height:auto}nav.nav-extended .nav-content{position:relative;line-height:normal}nav a{color:#fff}nav i,nav [class^=\"mdi-\"],nav [class*=\"mdi-\"],nav i.material-icons{display:block;font-size:24px;height:56px;line-height:56px}nav .nav-wrapper{position:relative;height:100%}@media only screen and (min-width: 993px){nav a.button-collapse{display:none}}nav .button-collapse{float:left;position:relative;z-index:1;height:56px;margin:0 18px}nav .button-collapse i{height:56px;line-height:56px}nav .brand-logo{position:absolute;color:#fff;display:inline-block;font-size:2.1rem;padding:0;white-space:nowrap}nav .brand-logo.center{left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}@media only screen and (max-width: 992px){nav .brand-logo{left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}nav .brand-logo.left,nav .brand-logo.right{padding:0;-webkit-transform:none;transform:none}nav .brand-logo.left{left:0.5rem}nav .brand-logo.right{right:0.5rem;left:auto}}nav .brand-logo.right{right:0.5rem;padding:0}nav .brand-logo i,nav .brand-logo [class^=\"mdi-\"],nav .brand-logo [class*=\"mdi-\"],nav .brand-logo i.material-icons{float:left;margin-right:15px}nav .nav-title{display:inline-block;font-size:32px;padding:28px 0}nav ul{margin:0}nav ul li{transition:background-color .3s;float:left;padding:0}nav ul li.active{background-color:rgba(0,0,0,0.1)}nav ul a{transition:background-color .3s;font-size:1rem;color:#fff;display:block;padding:0 15px;cursor:pointer}nav ul a.btn,nav ul a.btn-large,nav ul a.btn-large,nav ul a.btn-flat,nav ul a.btn-floating{margin-top:-2px;margin-left:15px;margin-right:15px}nav ul a.btn>.material-icons,nav ul a.btn-large>.material-icons,nav ul a.btn-large>.material-icons,nav ul a.btn-flat>.material-icons,nav ul a.btn-floating>.material-icons{height:inherit;line-height:inherit}nav ul a:hover{background-color:rgba(0,0,0,0.1)}nav ul.left{float:left}nav form{height:100%}nav .input-field{margin:0;height:100%}nav .input-field input{height:100%;font-size:1.2rem;border:none;padding-left:2rem}nav .input-field input:focus,nav .input-field input[type=text]:valid,nav .input-field input[type=password]:valid,nav .input-field input[type=email]:valid,nav .input-field input[type=url]:valid,nav .input-field input[type=date]:valid{border:none;box-shadow:none}nav .input-field label{top:0;left:0}nav .input-field label i{color:rgba(255,255,255,0.7);transition:color .3s}nav .input-field label.active i{color:#fff}.navbar-fixed{position:relative;height:56px;z-index:997}.navbar-fixed nav{position:fixed}@media only screen and (min-width: 601px){nav.nav-extended .nav-wrapper{min-height:64px}nav,nav .nav-wrapper i,nav a.button-collapse,nav a.button-collapse i{height:64px;line-height:64px}.navbar-fixed{height:64px}}@font-face{font-family:\"Roboto\";src:local(Roboto Thin),url(" + __webpack_require__(45) + ") format(\"woff2\"),url(" + __webpack_require__(46) + ") format(\"woff\");font-weight:100}@font-face{font-family:\"Roboto\";src:local(Roboto Light),url(" + __webpack_require__(47) + ") format(\"woff2\"),url(" + __webpack_require__(48) + ") format(\"woff\");font-weight:300}@font-face{font-family:\"Roboto\";src:local(Roboto Regular),url(" + __webpack_require__(49) + ") format(\"woff2\"),url(" + __webpack_require__(50) + ") format(\"woff\");font-weight:400}@font-face{font-family:\"Roboto\";src:local(Roboto Medium),url(" + __webpack_require__(51) + ") format(\"woff2\"),url(" + __webpack_require__(52) + ") format(\"woff\");font-weight:500}@font-face{font-family:\"Roboto\";src:local(Roboto Bold),url(" + __webpack_require__(53) + ") format(\"woff2\"),url(" + __webpack_require__(54) + ") format(\"woff\");font-weight:700}a{text-decoration:none}html{line-height:1.5;font-family:\"Roboto\", sans-serif;font-weight:normal;color:rgba(0,0,0,0.87)}@media only screen and (min-width: 0){html{font-size:14px}}@media only screen and (min-width: 992px){html{font-size:14.5px}}@media only screen and (min-width: 1200px){html{font-size:15px}}h1,h2,h3,h4,h5,h6{font-weight:400;line-height:1.1}h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font-weight:inherit}h1{font-size:4.2rem;line-height:110%;margin:2.1rem 0 1.68rem 0}h2{font-size:3.56rem;line-height:110%;margin:1.78rem 0 1.424rem 0}h3{font-size:2.92rem;line-height:110%;margin:1.46rem 0 1.168rem 0}h4{font-size:2.28rem;line-height:110%;margin:1.14rem 0 .912rem 0}h5{font-size:1.64rem;line-height:110%;margin:.82rem 0 .656rem 0}h6{font-size:1rem;line-height:110%;margin:.5rem 0 .4rem 0}em{font-style:italic}strong{font-weight:500}small{font-size:75%}.light,.page-footer .footer-copyright{font-weight:300}.thin{font-weight:200}.flow-text{font-weight:300}@media only screen and (min-width: 360px){.flow-text{font-size:1.2rem}}@media only screen and (min-width: 390px){.flow-text{font-size:1.224rem}}@media only screen and (min-width: 420px){.flow-text{font-size:1.248rem}}@media only screen and (min-width: 450px){.flow-text{font-size:1.272rem}}@media only screen and (min-width: 480px){.flow-text{font-size:1.296rem}}@media only screen and (min-width: 510px){.flow-text{font-size:1.32rem}}@media only screen and (min-width: 540px){.flow-text{font-size:1.344rem}}@media only screen and (min-width: 570px){.flow-text{font-size:1.368rem}}@media only screen and (min-width: 600px){.flow-text{font-size:1.392rem}}@media only screen and (min-width: 630px){.flow-text{font-size:1.416rem}}@media only screen and (min-width: 660px){.flow-text{font-size:1.44rem}}@media only screen and (min-width: 690px){.flow-text{font-size:1.464rem}}@media only screen and (min-width: 720px){.flow-text{font-size:1.488rem}}@media only screen and (min-width: 750px){.flow-text{font-size:1.512rem}}@media only screen and (min-width: 780px){.flow-text{font-size:1.536rem}}@media only screen and (min-width: 810px){.flow-text{font-size:1.56rem}}@media only screen and (min-width: 840px){.flow-text{font-size:1.584rem}}@media only screen and (min-width: 870px){.flow-text{font-size:1.608rem}}@media only screen and (min-width: 900px){.flow-text{font-size:1.632rem}}@media only screen and (min-width: 930px){.flow-text{font-size:1.656rem}}@media only screen and (min-width: 960px){.flow-text{font-size:1.68rem}}@media only screen and (max-width: 360px){.flow-text{font-size:1.2rem}}.scale-transition{transition:-webkit-transform 0.3s cubic-bezier(0.53, 0.01, 0.36, 1.63) !important;transition:transform 0.3s cubic-bezier(0.53, 0.01, 0.36, 1.63) !important;transition:transform 0.3s cubic-bezier(0.53, 0.01, 0.36, 1.63), -webkit-transform 0.3s cubic-bezier(0.53, 0.01, 0.36, 1.63) !important}.scale-transition.scale-out{-webkit-transform:scale(0);transform:scale(0);transition:-webkit-transform .2s !important;transition:transform .2s !important;transition:transform .2s, -webkit-transform .2s !important}.scale-transition.scale-in{-webkit-transform:scale(1);transform:scale(1)}.card-panel{transition:box-shadow .25s;padding:24px;margin:.5rem 0 1rem 0;border-radius:2px;background-color:#fff}.card{position:relative;margin:.5rem 0 1rem 0;background-color:#fff;transition:box-shadow .25s;border-radius:2px}.card .card-title{font-size:24px;font-weight:300}.card .card-title.activator{cursor:pointer}.card.small,.card.medium,.card.large{position:relative}.card.small .card-image,.card.medium .card-image,.card.large .card-image{max-height:60%;overflow:hidden}.card.small .card-image+.card-content,.card.medium .card-image+.card-content,.card.large .card-image+.card-content{max-height:40%}.card.small .card-content,.card.medium .card-content,.card.large .card-content{max-height:100%;overflow:hidden}.card.small .card-action,.card.medium .card-action,.card.large .card-action{position:absolute;bottom:0;left:0;right:0}.card.small{height:300px}.card.medium{height:400px}.card.large{height:500px}.card.horizontal{display:-webkit-flex;display:-ms-flexbox;display:flex}.card.horizontal.small .card-image,.card.horizontal.medium .card-image,.card.horizontal.large .card-image{height:100%;max-height:none;overflow:visible}.card.horizontal.small .card-image img,.card.horizontal.medium .card-image img,.card.horizontal.large .card-image img{height:100%}.card.horizontal .card-image{max-width:50%}.card.horizontal .card-image img{border-radius:2px 0 0 2px;max-width:100%;width:auto}.card.horizontal .card-stacked{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-flex:1;-ms-flex:1;flex:1;position:relative}.card.horizontal .card-stacked .card-content{-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1}.card.sticky-action .card-action{z-index:2}.card.sticky-action .card-reveal{z-index:1;padding-bottom:64px}.card .card-image{position:relative}.card .card-image img{display:block;border-radius:2px 2px 0 0;position:relative;left:0;right:0;top:0;bottom:0;width:100%}.card .card-image .card-title{color:#fff;position:absolute;bottom:0;left:0;max-width:100%;padding:24px}.card .card-content{padding:24px;border-radius:0 0 2px 2px}.card .card-content p{margin:0;color:inherit}.card .card-content .card-title{display:block;line-height:32px;margin-bottom:8px}.card .card-content .card-title i{line-height:32px}.card .card-action{position:relative;background-color:inherit;border-top:1px solid rgba(160,160,160,0.2);padding:16px 24px}.card .card-action:last-child{border-radius:0 0 2px 2px}.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating){color:#ffab40;margin-right:24px;transition:color .3s ease;text-transform:uppercase}.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover{color:#ffd8a6}.card .card-reveal{padding:24px;position:absolute;background-color:#fff;width:100%;overflow-y:auto;left:0;top:100%;height:100%;z-index:3;display:none}.card .card-reveal .card-title{cursor:pointer;display:block}#toast-container{display:block;position:fixed;z-index:10000}@media only screen and (max-width: 600px){#toast-container{min-width:100%;bottom:0%}}@media only screen and (min-width: 601px) and (max-width: 992px){#toast-container{left:5%;bottom:7%;max-width:90%}}@media only screen and (min-width: 993px){#toast-container{top:10%;right:7%;max-width:86%}}.toast{border-radius:2px;top:35px;width:auto;clear:both;margin-top:10px;position:relative;max-width:100%;height:auto;min-height:48px;line-height:1.5em;word-break:break-all;background-color:#323232;padding:10px 25px;font-size:1.1rem;font-weight:300;color:#fff;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}.toast .btn,.toast .btn-large,.toast .btn-flat{margin:0;margin-left:3rem}.toast.rounded{border-radius:24px}@media only screen and (max-width: 600px){.toast{width:100%;border-radius:0}}@media only screen and (min-width: 601px) and (max-width: 992px){.toast{float:left}}@media only screen and (min-width: 993px){.toast{float:right}}.tabs{position:relative;overflow-x:auto;overflow-y:hidden;height:48px;width:100%;background-color:#fff;margin:0 auto;white-space:nowrap}.tabs.tabs-transparent{background-color:transparent}.tabs.tabs-transparent .tab a,.tabs.tabs-transparent .tab.disabled a,.tabs.tabs-transparent .tab.disabled a:hover{color:rgba(255,255,255,0.7)}.tabs.tabs-transparent .tab a:hover,.tabs.tabs-transparent .tab a.active{color:#fff}.tabs.tabs-transparent .indicator{background-color:#fff}.tabs.tabs-fixed-width{display:-webkit-flex;display:-ms-flexbox;display:flex}.tabs.tabs-fixed-width .tab{-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1}.tabs .tab{display:inline-block;text-align:center;line-height:48px;height:48px;padding:0;margin:0;text-transform:uppercase}.tabs .tab a{color:rgba(238,110,115,0.7);display:block;width:100%;height:100%;padding:0 24px;font-size:14px;text-overflow:ellipsis;overflow:hidden;transition:color .28s ease}.tabs .tab a:hover,.tabs .tab a.active{background-color:transparent;color:#ee6e73}.tabs .tab.disabled a,.tabs .tab.disabled a:hover{color:rgba(238,110,115,0.7);cursor:default}.tabs .indicator{position:absolute;bottom:0;height:2px;background-color:#f6b2b5;will-change:left, right}@media only screen and (max-width: 992px){.tabs{display:-webkit-flex;display:-ms-flexbox;display:flex}.tabs .tab{-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1}.tabs .tab a{padding:0 12px}}.material-tooltip{padding:10px 8px;font-size:1rem;z-index:2000;background-color:transparent;border-radius:2px;color:#fff;min-height:36px;line-height:120%;opacity:0;position:absolute;text-align:center;max-width:calc(100% - 4px);overflow:hidden;left:0;top:0;pointer-events:none;visibility:hidden}.backdrop{position:absolute;opacity:0;height:7px;width:14px;border-radius:0 0 50% 50%;background-color:#323232;z-index:-1;-webkit-transform-origin:50% 0%;transform-origin:50% 0%;visibility:hidden}.btn,.btn-large,.btn-flat{border:none;border-radius:2px;display:inline-block;height:36px;line-height:36px;padding:0 2rem;text-transform:uppercase;vertical-align:middle;-webkit-tap-highlight-color:transparent}.btn.disabled,.disabled.btn-large,.btn-floating.disabled,.btn-large.disabled,.btn-flat.disabled,.btn:disabled,.btn-large:disabled,.btn-floating:disabled,.btn-large:disabled,.btn-flat:disabled,.btn[disabled],[disabled].btn-large,.btn-floating[disabled],.btn-large[disabled],.btn-flat[disabled]{pointer-events:none;background-color:#DFDFDF !important;box-shadow:none;color:#9F9F9F !important;cursor:default}.btn.disabled:hover,.disabled.btn-large:hover,.btn-floating.disabled:hover,.btn-large.disabled:hover,.btn-flat.disabled:hover,.btn:disabled:hover,.btn-large:disabled:hover,.btn-floating:disabled:hover,.btn-large:disabled:hover,.btn-flat:disabled:hover,.btn[disabled]:hover,[disabled].btn-large:hover,.btn-floating[disabled]:hover,.btn-large[disabled]:hover,.btn-flat[disabled]:hover{background-color:#DFDFDF !important;color:#9F9F9F !important}.btn,.btn-large,.btn-floating,.btn-large,.btn-flat{font-size:1rem;outline:0}.btn i,.btn-large i,.btn-floating i,.btn-large i,.btn-flat i{font-size:1.3rem;line-height:inherit}.btn:focus,.btn-large:focus,.btn-floating:focus{background-color:#1d7d74}.btn,.btn-large{text-decoration:none;color:#fff;background-color:#26a69a;text-align:center;letter-spacing:.5px;transition:.2s ease-out;cursor:pointer}.btn:hover,.btn-large:hover{background-color:#2bbbad}.btn-floating{display:inline-block;color:#fff;position:relative;overflow:hidden;z-index:1;width:40px;height:40px;line-height:40px;padding:0;background-color:#26a69a;border-radius:50%;transition:.3s;cursor:pointer;vertical-align:middle}.btn-floating:hover{background-color:#26a69a}.btn-floating:before{border-radius:0}.btn-floating.btn-large{width:56px;height:56px}.btn-floating.btn-large.halfway-fab{bottom:-28px}.btn-floating.btn-large i{line-height:56px}.btn-floating.halfway-fab{position:absolute;right:24px;bottom:-20px}.btn-floating.halfway-fab.left{right:auto;left:24px}.btn-floating i{width:inherit;display:inline-block;text-align:center;color:#fff;font-size:1.6rem;line-height:40px}button.btn-floating{border:none}.fixed-action-btn{position:fixed;right:23px;bottom:23px;padding-top:15px;margin-bottom:0;z-index:998}.fixed-action-btn.active ul{visibility:visible}.fixed-action-btn.horizontal{padding:0 0 0 15px}.fixed-action-btn.horizontal ul{text-align:right;right:64px;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);height:100%;left:auto;width:500px}.fixed-action-btn.horizontal ul li{display:inline-block;margin:15px 15px 0 0}.fixed-action-btn.toolbar{padding:0;height:56px}.fixed-action-btn.toolbar.active>a i{opacity:0}.fixed-action-btn.toolbar ul{display:-webkit-flex;display:-ms-flexbox;display:flex;top:0;bottom:0;z-index:1}.fixed-action-btn.toolbar ul li{-webkit-flex:1;-ms-flex:1;flex:1;display:inline-block;margin:0;height:100%;transition:none}.fixed-action-btn.toolbar ul li a{display:block;overflow:hidden;position:relative;width:100%;height:100%;background-color:transparent;box-shadow:none;color:#fff;line-height:56px;z-index:1}.fixed-action-btn.toolbar ul li a i{line-height:inherit}.fixed-action-btn ul{left:0;right:0;text-align:center;position:absolute;bottom:64px;margin:0;visibility:hidden}.fixed-action-btn ul li{margin-bottom:15px}.fixed-action-btn ul a.btn-floating{opacity:0}.fixed-action-btn .fab-backdrop{position:absolute;top:0;left:0;z-index:-1;width:40px;height:40px;background-color:#26a69a;border-radius:50%;-webkit-transform:scale(0);transform:scale(0)}.btn-flat{box-shadow:none;background-color:transparent;color:#343434;cursor:pointer;transition:background-color .2s}.btn-flat:focus,.btn-flat:hover{box-shadow:none}.btn-flat:focus{background-color:rgba(0,0,0,0.1)}.btn-flat.disabled{background-color:transparent !important;color:#b3b2b2 !important;cursor:default}.btn-large{height:54px;line-height:54px}.btn-large i{font-size:1.6rem}.btn-block{display:block}.dropdown-content{background-color:#fff;margin:0;display:none;min-width:100px;max-height:650px;overflow-y:auto;opacity:0;position:absolute;z-index:999;will-change:width, height}.dropdown-content li{clear:both;color:rgba(0,0,0,0.87);cursor:pointer;min-height:50px;line-height:1.5rem;width:100%;text-align:left;text-transform:none}.dropdown-content li:hover,.dropdown-content li.active,.dropdown-content li.selected{background-color:#eee}.dropdown-content li.active.selected{background-color:#e1e1e1}.dropdown-content li.divider{min-height:0;height:1px}.dropdown-content li>a,.dropdown-content li>span{font-size:16px;color:#26a69a;display:block;line-height:22px;padding:14px 16px}.dropdown-content li>span>label{top:1px;left:0;height:18px}.dropdown-content li>a>i{height:inherit;line-height:inherit;float:left;margin:0 24px 0 0;width:24px}.input-field.col .dropdown-content [type=\"checkbox\"]+label{top:1px;left:0;height:18px}/*!\n * Waves v0.6.0\n * http://fian.my.id/Waves\n *\n * Copyright 2014 Alfiana E. Sibuea and other contributors\n * Released under the MIT license\n * https://github.com/fians/Waves/blob/master/LICENSE\n */.waves-effect{position:relative;cursor:pointer;display:inline-block;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent;vertical-align:middle;z-index:1;transition:.3s ease-out}.waves-effect .waves-ripple{position:absolute;border-radius:50%;width:20px;height:20px;margin-top:-10px;margin-left:-10px;opacity:0;background:rgba(0,0,0,0.2);transition:all 0.7s ease-out;transition-property:opacity, -webkit-transform;transition-property:transform, opacity;transition-property:transform, opacity, -webkit-transform;-webkit-transform:scale(0);transform:scale(0);pointer-events:none}.waves-effect.waves-light .waves-ripple{background-color:rgba(255,255,255,0.45)}.waves-effect.waves-red .waves-ripple{background-color:rgba(244,67,54,0.7)}.waves-effect.waves-yellow .waves-ripple{background-color:rgba(255,235,59,0.7)}.waves-effect.waves-orange .waves-ripple{background-color:rgba(255,152,0,0.7)}.waves-effect.waves-purple .waves-ripple{background-color:rgba(156,39,176,0.7)}.waves-effect.waves-green .waves-ripple{background-color:rgba(76,175,80,0.7)}.waves-effect.waves-teal .waves-ripple{background-color:rgba(0,150,136,0.7)}.waves-effect input[type=\"button\"],.waves-effect input[type=\"reset\"],.waves-effect input[type=\"submit\"]{border:0;font-style:normal;font-size:inherit;text-transform:inherit;background:none}.waves-effect img{position:relative;z-index:-1}.waves-notransition{transition:none !important}.waves-circle{-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-mask-image:-webkit-radial-gradient(circle, white 100%, black 100%)}.waves-input-wrapper{border-radius:0.2em;vertical-align:bottom}.waves-input-wrapper .waves-button-input{position:relative;top:0;left:0;z-index:1}.waves-circle{text-align:center;width:2.5em;height:2.5em;line-height:2.5em;border-radius:50%;-webkit-mask-image:none}.waves-block{display:block}.waves-effect .waves-ripple{z-index:-1}.modal{display:none;position:fixed;left:0;right:0;background-color:#fafafa;padding:0;max-height:70%;width:55%;margin:auto;overflow-y:auto;border-radius:2px;will-change:top, opacity}@media only screen and (max-width: 992px){.modal{width:80%}}.modal h1,.modal h2,.modal h3,.modal h4{margin-top:0}.modal .modal-content{padding:24px}.modal .modal-close{cursor:pointer}.modal .modal-footer{border-radius:0 0 2px 2px;background-color:#fafafa;padding:4px 6px;height:56px;width:100%;text-align:right}.modal .modal-footer .btn,.modal .modal-footer .btn-large,.modal .modal-footer .btn-flat{margin:6px 0}.modal-overlay{position:fixed;z-index:999;top:-25%;left:0;bottom:0;right:0;height:125%;width:100%;background:#000;display:none;will-change:opacity}.modal.modal-fixed-footer{padding:0;height:70%}.modal.modal-fixed-footer .modal-content{position:absolute;height:calc(100% - 56px);max-height:100%;width:100%;overflow-y:auto}.modal.modal-fixed-footer .modal-footer{border-top:1px solid rgba(0,0,0,0.1);position:absolute;bottom:0}.modal.bottom-sheet{top:auto;bottom:-100%;margin:0;width:100%;max-height:45%;border-radius:0;will-change:bottom, opacity}.collapsible{border-top:1px solid #ddd;border-right:1px solid #ddd;border-left:1px solid #ddd;margin:.5rem 0 1rem 0}.collapsible-header{display:block;cursor:pointer;-webkit-tap-highlight-color:transparent;min-height:3rem;line-height:3rem;padding:0 1rem;background-color:#fff;border-bottom:1px solid #ddd}.collapsible-header i{width:2rem;font-size:1.6rem;line-height:3rem;display:block;float:left;text-align:center;margin-right:1rem}.collapsible-body{display:none;border-bottom:1px solid #ddd;box-sizing:border-box;padding:2rem}.side-nav .collapsible,.side-nav.fixed .collapsible{border:none;box-shadow:none}.side-nav .collapsible li,.side-nav.fixed .collapsible li{padding:0}.side-nav .collapsible-header,.side-nav.fixed .collapsible-header{background-color:transparent;border:none;line-height:inherit;height:inherit;padding:0 16px}.side-nav .collapsible-header:hover,.side-nav.fixed .collapsible-header:hover{background-color:rgba(0,0,0,0.05)}.side-nav .collapsible-header i,.side-nav.fixed .collapsible-header i{line-height:inherit}.side-nav .collapsible-body,.side-nav.fixed .collapsible-body{border:0;background-color:#fff}.side-nav .collapsible-body li a,.side-nav.fixed .collapsible-body li a{padding:0 23.5px 0 31px}.collapsible.popout{border:none;box-shadow:none}.collapsible.popout>li{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);margin:0 24px;transition:margin 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94)}.collapsible.popout>li.active{box-shadow:0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);margin:16px 0}.chip{display:inline-block;height:32px;font-size:13px;font-weight:500;color:rgba(0,0,0,0.6);line-height:32px;padding:0 12px;border-radius:16px;background-color:#e4e4e4;margin-bottom:5px;margin-right:5px}.chip>img{float:left;margin:0 8px 0 -12px;height:32px;width:32px;border-radius:50%}.chip .close{cursor:pointer;float:right;font-size:16px;line-height:32px;padding-left:8px}.chips{border:none;border-bottom:1px solid #9e9e9e;box-shadow:none;margin:0 0 20px 0;min-height:45px;outline:none;transition:all .3s}.chips.focus{border-bottom:1px solid #26a69a;box-shadow:0 1px 0 0 #26a69a}.chips:hover{cursor:text}.chips .chip.selected{background-color:#26a69a;color:#fff}.chips .input{background:none;border:0;color:rgba(0,0,0,0.6);display:inline-block;font-size:1rem;height:3rem;line-height:32px;outline:0;margin:0;padding:0 !important;width:120px !important}.chips .input:focus{border:0 !important;box-shadow:none !important}.chips .autocomplete-content{margin-top:0}.prefix ~ .chips{margin-left:3rem;width:92%;width:calc(100% - 3rem)}.chips:empty ~ label{font-size:0.8rem;-webkit-transform:translateY(-140%);transform:translateY(-140%)}.materialboxed{display:block;cursor:-webkit-zoom-in;cursor:zoom-in;position:relative;transition:opacity .4s;-webkit-backface-visibility:hidden}.materialboxed:hover:not(.active){opacity:.8}.materialboxed.active{cursor:-webkit-zoom-out;cursor:zoom-out}#materialbox-overlay{position:fixed;top:0;right:0;bottom:0;left:0;background-color:#292929;z-index:1000;will-change:opacity}.materialbox-caption{position:fixed;display:none;color:#fff;line-height:50px;bottom:0;left:0;width:100%;text-align:center;padding:0% 15%;height:50px;z-index:1000;-webkit-font-smoothing:antialiased}select:focus{outline:1px solid #c9f3ef}button:focus{outline:none;background-color:#2ab7a9}label{font-size:.8rem;color:#9e9e9e}::-webkit-input-placeholder{color:#d1d1d1}:-moz-placeholder{color:#d1d1d1}::-moz-placeholder{color:#d1d1d1}:-ms-input-placeholder{color:#d1d1d1}input:not([type]),input[type=text]:not(.browser-default),input[type=password]:not(.browser-default),input[type=email]:not(.browser-default),input[type=url]:not(.browser-default),input[type=time]:not(.browser-default),input[type=date]:not(.browser-default),input[type=datetime]:not(.browser-default),input[type=datetime-local]:not(.browser-default),input[type=tel]:not(.browser-default),input[type=number]:not(.browser-default),input[type=search]:not(.browser-default),textarea.materialize-textarea{background-color:transparent;border:none;border-bottom:1px solid #9e9e9e;border-radius:0;outline:none;height:3rem;width:100%;font-size:1rem;margin:0 0 20px 0;padding:0;box-shadow:none;box-sizing:content-box;transition:all 0.3s}input:not([type]):disabled,input:not([type])[readonly=\"readonly\"],input[type=text]:not(.browser-default):disabled,input[type=text]:not(.browser-default)[readonly=\"readonly\"],input[type=password]:not(.browser-default):disabled,input[type=password]:not(.browser-default)[readonly=\"readonly\"],input[type=email]:not(.browser-default):disabled,input[type=email]:not(.browser-default)[readonly=\"readonly\"],input[type=url]:not(.browser-default):disabled,input[type=url]:not(.browser-default)[readonly=\"readonly\"],input[type=time]:not(.browser-default):disabled,input[type=time]:not(.browser-default)[readonly=\"readonly\"],input[type=date]:not(.browser-default):disabled,input[type=date]:not(.browser-default)[readonly=\"readonly\"],input[type=datetime]:not(.browser-default):disabled,input[type=datetime]:not(.browser-default)[readonly=\"readonly\"],input[type=datetime-local]:not(.browser-default):disabled,input[type=datetime-local]:not(.browser-default)[readonly=\"readonly\"],input[type=tel]:not(.browser-default):disabled,input[type=tel]:not(.browser-default)[readonly=\"readonly\"],input[type=number]:not(.browser-default):disabled,input[type=number]:not(.browser-default)[readonly=\"readonly\"],input[type=search]:not(.browser-default):disabled,input[type=search]:not(.browser-default)[readonly=\"readonly\"],textarea.materialize-textarea:disabled,textarea.materialize-textarea[readonly=\"readonly\"]{color:rgba(0,0,0,0.26);border-bottom:1px dotted rgba(0,0,0,0.26)}input:not([type]):disabled+label,input:not([type])[readonly=\"readonly\"]+label,input[type=text]:not(.browser-default):disabled+label,input[type=text]:not(.browser-default)[readonly=\"readonly\"]+label,input[type=password]:not(.browser-default):disabled+label,input[type=password]:not(.browser-default)[readonly=\"readonly\"]+label,input[type=email]:not(.browser-default):disabled+label,input[type=email]:not(.browser-default)[readonly=\"readonly\"]+label,input[type=url]:not(.browser-default):disabled+label,input[type=url]:not(.browser-default)[readonly=\"readonly\"]+label,input[type=time]:not(.browser-default):disabled+label,input[type=time]:not(.browser-default)[readonly=\"readonly\"]+label,input[type=date]:not(.browser-default):disabled+label,input[type=date]:not(.browser-default)[readonly=\"readonly\"]+label,input[type=datetime]:not(.browser-default):disabled+label,input[type=datetime]:not(.browser-default)[readonly=\"readonly\"]+label,input[type=datetime-local]:not(.browser-default):disabled+label,input[type=datetime-local]:not(.browser-default)[readonly=\"readonly\"]+label,input[type=tel]:not(.browser-default):disabled+label,input[type=tel]:not(.browser-default)[readonly=\"readonly\"]+label,input[type=number]:not(.browser-default):disabled+label,input[type=number]:not(.browser-default)[readonly=\"readonly\"]+label,input[type=search]:not(.browser-default):disabled+label,input[type=search]:not(.browser-default)[readonly=\"readonly\"]+label,textarea.materialize-textarea:disabled+label,textarea.materialize-textarea[readonly=\"readonly\"]+label{color:rgba(0,0,0,0.26)}input:not([type]):focus:not([readonly]),input[type=text]:not(.browser-default):focus:not([readonly]),input[type=password]:not(.browser-default):focus:not([readonly]),input[type=email]:not(.browser-default):focus:not([readonly]),input[type=url]:not(.browser-default):focus:not([readonly]),input[type=time]:not(.browser-default):focus:not([readonly]),input[type=date]:not(.browser-default):focus:not([readonly]),input[type=datetime]:not(.browser-default):focus:not([readonly]),input[type=datetime-local]:not(.browser-default):focus:not([readonly]),input[type=tel]:not(.browser-default):focus:not([readonly]),input[type=number]:not(.browser-default):focus:not([readonly]),input[type=search]:not(.browser-default):focus:not([readonly]),textarea.materialize-textarea:focus:not([readonly]){border-bottom:1px solid #26a69a;box-shadow:0 1px 0 0 #26a69a}input:not([type]):focus:not([readonly])+label,input[type=text]:not(.browser-default):focus:not([readonly])+label,input[type=password]:not(.browser-default):focus:not([readonly])+label,input[type=email]:not(.browser-default):focus:not([readonly])+label,input[type=url]:not(.browser-default):focus:not([readonly])+label,input[type=time]:not(.browser-default):focus:not([readonly])+label,input[type=date]:not(.browser-default):focus:not([readonly])+label,input[type=datetime]:not(.browser-default):focus:not([readonly])+label,input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label,input[type=tel]:not(.browser-default):focus:not([readonly])+label,input[type=number]:not(.browser-default):focus:not([readonly])+label,input[type=search]:not(.browser-default):focus:not([readonly])+label,textarea.materialize-textarea:focus:not([readonly])+label{color:#26a69a}input:not([type]).valid,input:not([type]):focus.valid,input[type=text]:not(.browser-default).valid,input[type=text]:not(.browser-default):focus.valid,input[type=password]:not(.browser-default).valid,input[type=password]:not(.browser-default):focus.valid,input[type=email]:not(.browser-default).valid,input[type=email]:not(.browser-default):focus.valid,input[type=url]:not(.browser-default).valid,input[type=url]:not(.browser-default):focus.valid,input[type=time]:not(.browser-default).valid,input[type=time]:not(.browser-default):focus.valid,input[type=date]:not(.browser-default).valid,input[type=date]:not(.browser-default):focus.valid,input[type=datetime]:not(.browser-default).valid,input[type=datetime]:not(.browser-default):focus.valid,input[type=datetime-local]:not(.browser-default).valid,input[type=datetime-local]:not(.browser-default):focus.valid,input[type=tel]:not(.browser-default).valid,input[type=tel]:not(.browser-default):focus.valid,input[type=number]:not(.browser-default).valid,input[type=number]:not(.browser-default):focus.valid,input[type=search]:not(.browser-default).valid,input[type=search]:not(.browser-default):focus.valid,textarea.materialize-textarea.valid,textarea.materialize-textarea:focus.valid{border-bottom:1px solid #4CAF50;box-shadow:0 1px 0 0 #4CAF50}input:not([type]).valid+label:after,input:not([type]):focus.valid+label:after,input[type=text]:not(.browser-default).valid+label:after,input[type=text]:not(.browser-default):focus.valid+label:after,input[type=password]:not(.browser-default).valid+label:after,input[type=password]:not(.browser-default):focus.valid+label:after,input[type=email]:not(.browser-default).valid+label:after,input[type=email]:not(.browser-default):focus.valid+label:after,input[type=url]:not(.browser-default).valid+label:after,input[type=url]:not(.browser-default):focus.valid+label:after,input[type=time]:not(.browser-default).valid+label:after,input[type=time]:not(.browser-default):focus.valid+label:after,input[type=date]:not(.browser-default).valid+label:after,input[type=date]:not(.browser-default):focus.valid+label:after,input[type=datetime]:not(.browser-default).valid+label:after,input[type=datetime]:not(.browser-default):focus.valid+label:after,input[type=datetime-local]:not(.browser-default).valid+label:after,input[type=datetime-local]:not(.browser-default):focus.valid+label:after,input[type=tel]:not(.browser-default).valid+label:after,input[type=tel]:not(.browser-default):focus.valid+label:after,input[type=number]:not(.browser-default).valid+label:after,input[type=number]:not(.browser-default):focus.valid+label:after,input[type=search]:not(.browser-default).valid+label:after,input[type=search]:not(.browser-default):focus.valid+label:after,textarea.materialize-textarea.valid+label:after,textarea.materialize-textarea:focus.valid+label:after{content:attr(data-success);color:#4CAF50;opacity:1}input:not([type]).invalid,input:not([type]):focus.invalid,input[type=text]:not(.browser-default).invalid,input[type=text]:not(.browser-default):focus.invalid,input[type=password]:not(.browser-default).invalid,input[type=password]:not(.browser-default):focus.invalid,input[type=email]:not(.browser-default).invalid,input[type=email]:not(.browser-default):focus.invalid,input[type=url]:not(.browser-default).invalid,input[type=url]:not(.browser-default):focus.invalid,input[type=time]:not(.browser-default).invalid,input[type=time]:not(.browser-default):focus.invalid,input[type=date]:not(.browser-default).invalid,input[type=date]:not(.browser-default):focus.invalid,input[type=datetime]:not(.browser-default).invalid,input[type=datetime]:not(.browser-default):focus.invalid,input[type=datetime-local]:not(.browser-default).invalid,input[type=datetime-local]:not(.browser-default):focus.invalid,input[type=tel]:not(.browser-default).invalid,input[type=tel]:not(.browser-default):focus.invalid,input[type=number]:not(.browser-default).invalid,input[type=number]:not(.browser-default):focus.invalid,input[type=search]:not(.browser-default).invalid,input[type=search]:not(.browser-default):focus.invalid,textarea.materialize-textarea.invalid,textarea.materialize-textarea:focus.invalid{border-bottom:1px solid #F44336;box-shadow:0 1px 0 0 #F44336}input:not([type]).invalid+label:after,input:not([type]):focus.invalid+label:after,input[type=text]:not(.browser-default).invalid+label:after,input[type=text]:not(.browser-default):focus.invalid+label:after,input[type=password]:not(.browser-default).invalid+label:after,input[type=password]:not(.browser-default):focus.invalid+label:after,input[type=email]:not(.browser-default).invalid+label:after,input[type=email]:not(.browser-default):focus.invalid+label:after,input[type=url]:not(.browser-default).invalid+label:after,input[type=url]:not(.browser-default):focus.invalid+label:after,input[type=time]:not(.browser-default).invalid+label:after,input[type=time]:not(.browser-default):focus.invalid+label:after,input[type=date]:not(.browser-default).invalid+label:after,input[type=date]:not(.browser-default):focus.invalid+label:after,input[type=datetime]:not(.browser-default).invalid+label:after,input[type=datetime]:not(.browser-default):focus.invalid+label:after,input[type=datetime-local]:not(.browser-default).invalid+label:after,input[type=datetime-local]:not(.browser-default):focus.invalid+label:after,input[type=tel]:not(.browser-default).invalid+label:after,input[type=tel]:not(.browser-default):focus.invalid+label:after,input[type=number]:not(.browser-default).invalid+label:after,input[type=number]:not(.browser-default):focus.invalid+label:after,input[type=search]:not(.browser-default).invalid+label:after,input[type=search]:not(.browser-default):focus.invalid+label:after,textarea.materialize-textarea.invalid+label:after,textarea.materialize-textarea:focus.invalid+label:after{content:attr(data-error);color:#F44336;opacity:1}input:not([type]).validate+label,input[type=text]:not(.browser-default).validate+label,input[type=password]:not(.browser-default).validate+label,input[type=email]:not(.browser-default).validate+label,input[type=url]:not(.browser-default).validate+label,input[type=time]:not(.browser-default).validate+label,input[type=date]:not(.browser-default).validate+label,input[type=datetime]:not(.browser-default).validate+label,input[type=datetime-local]:not(.browser-default).validate+label,input[type=tel]:not(.browser-default).validate+label,input[type=number]:not(.browser-default).validate+label,input[type=search]:not(.browser-default).validate+label,textarea.materialize-textarea.validate+label{width:100%;pointer-events:none}input:not([type])+label:after,input[type=text]:not(.browser-default)+label:after,input[type=password]:not(.browser-default)+label:after,input[type=email]:not(.browser-default)+label:after,input[type=url]:not(.browser-default)+label:after,input[type=time]:not(.browser-default)+label:after,input[type=date]:not(.browser-default)+label:after,input[type=datetime]:not(.browser-default)+label:after,input[type=datetime-local]:not(.browser-default)+label:after,input[type=tel]:not(.browser-default)+label:after,input[type=number]:not(.browser-default)+label:after,input[type=search]:not(.browser-default)+label:after,textarea.materialize-textarea+label:after{display:block;content:\"\";position:absolute;top:60px;left:0;opacity:0;transition:.2s opacity ease-out, .2s color ease-out}.input-field{position:relative;margin-top:1rem}.input-field.inline{display:inline-block;vertical-align:middle;margin-left:5px}.input-field.inline input,.input-field.inline .select-dropdown{margin-bottom:1rem}.input-field.col label{left:.75rem}.input-field.col .prefix ~ label,.input-field.col .prefix ~ .validate ~ label{width:calc(100% - 3rem - 1.5rem)}.input-field label{color:#9e9e9e;position:absolute;top:0.8rem;left:0;font-size:1rem;cursor:text;transition:.2s ease-out;text-align:initial}.input-field label:not(.label-icon).active{font-size:.8rem;-webkit-transform:translateY(-140%);transform:translateY(-140%)}.input-field .prefix{position:absolute;width:3rem;font-size:2rem;transition:color .2s}.input-field .prefix.active{color:#26a69a}.input-field .prefix ~ input,.input-field .prefix ~ textarea,.input-field .prefix ~ label,.input-field .prefix ~ .validate ~ label,.input-field .prefix ~ .autocomplete-content{margin-left:3rem;width:92%;width:calc(100% - 3rem)}.input-field .prefix ~ label{margin-left:3rem}@media only screen and (max-width: 992px){.input-field .prefix ~ input{width:86%;width:calc(100% - 3rem)}}@media only screen and (max-width: 600px){.input-field .prefix ~ input{width:80%;width:calc(100% - 3rem)}}.input-field input[type=search]{display:block;line-height:inherit;padding-left:4rem;width:calc(100% - 4rem)}.input-field input[type=search]:focus{background-color:#fff;border:0;box-shadow:none;color:#444}.input-field input[type=search]:focus+label i,.input-field input[type=search]:focus ~ .mdi-navigation-close,.input-field input[type=search]:focus ~ .material-icons{color:#444}.input-field input[type=search]+label{left:1rem}.input-field input[type=search] ~ .mdi-navigation-close,.input-field input[type=search] ~ .material-icons{position:absolute;top:0;right:1rem;color:transparent;cursor:pointer;font-size:2rem;transition:.3s color}textarea{width:100%;height:3rem;background-color:transparent}textarea.materialize-textarea{overflow-y:hidden;padding:.8rem 0 1.6rem 0;resize:none;min-height:3rem}.hiddendiv{display:none;white-space:pre-wrap;word-wrap:break-word;overflow-wrap:break-word;padding-top:1.2rem;position:absolute;top:0}.autocomplete-content{margin-top:-20px;display:block;opacity:1;position:static}.autocomplete-content li .highlight{color:#444}.autocomplete-content li img{height:40px;width:40px;margin:5px 15px}[type=\"radio\"]:not(:checked),[type=\"radio\"]:checked{position:absolute;left:-9999px;opacity:0}[type=\"radio\"]:not(:checked)+label,[type=\"radio\"]:checked+label{position:relative;padding-left:35px;cursor:pointer;display:inline-block;height:25px;line-height:25px;font-size:1rem;transition:.28s ease;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}[type=\"radio\"]+label:before,[type=\"radio\"]+label:after{content:'';position:absolute;left:0;top:0;margin:4px;width:16px;height:16px;z-index:0;transition:.28s ease}[type=\"radio\"]:not(:checked)+label:before,[type=\"radio\"]:not(:checked)+label:after,[type=\"radio\"]:checked+label:before,[type=\"radio\"]:checked+label:after,[type=\"radio\"].with-gap:checked+label:before,[type=\"radio\"].with-gap:checked+label:after{border-radius:50%}[type=\"radio\"]:not(:checked)+label:before,[type=\"radio\"]:not(:checked)+label:after{border:2px solid #5a5a5a}[type=\"radio\"]:not(:checked)+label:after{-webkit-transform:scale(0);transform:scale(0)}[type=\"radio\"]:checked+label:before{border:2px solid transparent}[type=\"radio\"]:checked+label:after,[type=\"radio\"].with-gap:checked+label:before,[type=\"radio\"].with-gap:checked+label:after{border:2px solid #26a69a}[type=\"radio\"]:checked+label:after,[type=\"radio\"].with-gap:checked+label:after{background-color:#26a69a}[type=\"radio\"]:checked+label:after{-webkit-transform:scale(1.02);transform:scale(1.02)}[type=\"radio\"].with-gap:checked+label:after{-webkit-transform:scale(0.5);transform:scale(0.5)}[type=\"radio\"].tabbed:focus+label:before{box-shadow:0 0 0 10px rgba(0,0,0,0.1)}[type=\"radio\"].with-gap:disabled:checked+label:before{border:2px solid rgba(0,0,0,0.26)}[type=\"radio\"].with-gap:disabled:checked+label:after{border:none;background-color:rgba(0,0,0,0.26)}[type=\"radio\"]:disabled:not(:checked)+label:before,[type=\"radio\"]:disabled:checked+label:before{background-color:transparent;border-color:rgba(0,0,0,0.26)}[type=\"radio\"]:disabled+label{color:rgba(0,0,0,0.26)}[type=\"radio\"]:disabled:not(:checked)+label:before{border-color:rgba(0,0,0,0.26)}[type=\"radio\"]:disabled:checked+label:after{background-color:rgba(0,0,0,0.26);border-color:#BDBDBD}form p{margin-bottom:10px;text-align:left}form p:last-child{margin-bottom:0}[type=\"checkbox\"]:not(:checked),[type=\"checkbox\"]:checked{position:absolute;left:-9999px;opacity:0}[type=\"checkbox\"]+label{position:relative;padding-left:35px;cursor:pointer;display:inline-block;height:25px;line-height:25px;font-size:1rem;-webkit-user-select:none;-moz-user-select:none;-khtml-user-select:none;-ms-user-select:none}[type=\"checkbox\"]+label:before,[type=\"checkbox\"]:not(.filled-in)+label:after{content:'';position:absolute;top:0;left:0;width:18px;height:18px;z-index:0;border:2px solid #5a5a5a;border-radius:1px;margin-top:2px;transition:.2s}[type=\"checkbox\"]:not(.filled-in)+label:after{border:0;-webkit-transform:scale(0);transform:scale(0)}[type=\"checkbox\"]:not(:checked):disabled+label:before{border:none;background-color:rgba(0,0,0,0.26)}[type=\"checkbox\"].tabbed:focus+label:after{-webkit-transform:scale(1);transform:scale(1);border:0;border-radius:50%;box-shadow:0 0 0 10px rgba(0,0,0,0.1);background-color:rgba(0,0,0,0.1)}[type=\"checkbox\"]:checked+label:before{top:-4px;left:-5px;width:12px;height:22px;border-top:2px solid transparent;border-left:2px solid transparent;border-right:2px solid #26a69a;border-bottom:2px solid #26a69a;-webkit-transform:rotate(40deg);transform:rotate(40deg);-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-transform-origin:100% 100%;transform-origin:100% 100%}[type=\"checkbox\"]:checked:disabled+label:before{border-right:2px solid rgba(0,0,0,0.26);border-bottom:2px solid rgba(0,0,0,0.26)}[type=\"checkbox\"]:indeterminate+label:before{top:-11px;left:-12px;width:10px;height:22px;border-top:none;border-left:none;border-right:2px solid #26a69a;border-bottom:none;-webkit-transform:rotate(90deg);transform:rotate(90deg);-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-transform-origin:100% 100%;transform-origin:100% 100%}[type=\"checkbox\"]:indeterminate:disabled+label:before{border-right:2px solid rgba(0,0,0,0.26);background-color:transparent}[type=\"checkbox\"].filled-in+label:after{border-radius:2px}[type=\"checkbox\"].filled-in+label:before,[type=\"checkbox\"].filled-in+label:after{content:'';left:0;position:absolute;transition:border .25s, background-color .25s, width .20s .1s, height .20s .1s, top .20s .1s, left .20s .1s;z-index:1}[type=\"checkbox\"].filled-in:not(:checked)+label:before{width:0;height:0;border:3px solid transparent;left:6px;top:10px;-webkit-transform:rotateZ(37deg);transform:rotateZ(37deg);-webkit-transform-origin:20% 40%;transform-origin:100% 100%}[type=\"checkbox\"].filled-in:not(:checked)+label:after{height:20px;width:20px;background-color:transparent;border:2px solid #5a5a5a;top:0px;z-index:0}[type=\"checkbox\"].filled-in:checked+label:before{top:0;left:1px;width:8px;height:13px;border-top:2px solid transparent;border-left:2px solid transparent;border-right:2px solid #fff;border-bottom:2px solid #fff;-webkit-transform:rotateZ(37deg);transform:rotateZ(37deg);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}[type=\"checkbox\"].filled-in:checked+label:after{top:0;width:20px;height:20px;border:2px solid #26a69a;background-color:#26a69a;z-index:0}[type=\"checkbox\"].filled-in.tabbed:focus+label:after{border-radius:2px;border-color:#5a5a5a;background-color:rgba(0,0,0,0.1)}[type=\"checkbox\"].filled-in.tabbed:checked:focus+label:after{border-radius:2px;background-color:#26a69a;border-color:#26a69a}[type=\"checkbox\"].filled-in:disabled:not(:checked)+label:before{background-color:transparent;border:2px solid transparent}[type=\"checkbox\"].filled-in:disabled:not(:checked)+label:after{border-color:transparent;background-color:#BDBDBD}[type=\"checkbox\"].filled-in:disabled:checked+label:before{background-color:transparent}[type=\"checkbox\"].filled-in:disabled:checked+label:after{background-color:#BDBDBD;border-color:#BDBDBD}.switch,.switch *{-webkit-user-select:none;-moz-user-select:none;-khtml-user-select:none;-ms-user-select:none}.switch label{cursor:pointer}.switch label input[type=checkbox]{opacity:0;width:0;height:0}.switch label input[type=checkbox]:checked+.lever{background-color:#84c7c1}.switch label input[type=checkbox]:checked+.lever:before,.switch label input[type=checkbox]:checked+.lever:after{left:18px}.switch label input[type=checkbox]:checked+.lever:after{background-color:#26a69a}.switch label .lever{content:\"\";display:inline-block;position:relative;width:36px;height:14px;background-color:rgba(0,0,0,0.38);border-radius:15px;margin-right:10px;transition:background 0.3s ease;vertical-align:middle;margin:0 16px}.switch label .lever:before,.switch label .lever:after{content:\"\";position:absolute;display:inline-block;width:20px;height:20px;border-radius:50%;left:0;top:-3px;transition:left 0.3s ease, background .3s ease, box-shadow 0.1s ease, -webkit-transform .1s ease;transition:left 0.3s ease, background .3s ease, box-shadow 0.1s ease, transform .1s ease;transition:left 0.3s ease, background .3s ease, box-shadow 0.1s ease, transform .1s ease, -webkit-transform .1s ease}.switch label .lever:before{background-color:rgba(38,166,154,0.15)}.switch label .lever:after{background-color:#F1F1F1;box-shadow:0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)}input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before{-webkit-transform:scale(2.4);transform:scale(2.4);background-color:rgba(38,166,154,0.15)}input[type=checkbox]:not(:disabled) ~ .lever:active:before,input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before{-webkit-transform:scale(2.4);transform:scale(2.4);background-color:rgba(0,0,0,0.08)}.switch input[type=checkbox][disabled]+.lever{cursor:default;background-color:rgba(0,0,0,0.12)}.switch label input[type=checkbox][disabled]+.lever:after,.switch label input[type=checkbox][disabled]:checked+.lever:after{background-color:#BDBDBD}select{display:none}select.browser-default{display:block}select{background-color:rgba(255,255,255,0.9);width:100%;padding:5px;border:1px solid #f2f2f2;border-radius:2px;height:3rem}.select-label{position:absolute}.select-wrapper{position:relative}.select-wrapper input.select-dropdown{position:relative;cursor:pointer;background-color:transparent;border:none;border-bottom:1px solid #9e9e9e;outline:none;height:3rem;line-height:3rem;width:100%;font-size:1rem;margin:0 0 20px 0;padding:0;display:block}.select-wrapper span.caret{color:initial;position:absolute;right:0;top:0;bottom:0;height:10px;margin:auto 0;font-size:10px;line-height:10px}.select-wrapper span.caret.disabled{color:rgba(0,0,0,0.26)}.select-wrapper+label{position:absolute;top:-14px;font-size:.8rem}select:disabled{color:rgba(0,0,0,0.3)}.select-wrapper input.select-dropdown:disabled{color:rgba(0,0,0,0.3);cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;border-bottom:1px solid rgba(0,0,0,0.3)}.select-wrapper i{color:rgba(0,0,0,0.3)}.select-dropdown li.disabled,.select-dropdown li.disabled>span,.select-dropdown li.optgroup{color:rgba(0,0,0,0.3);background-color:transparent}.prefix ~ .select-wrapper{margin-left:3rem;width:92%;width:calc(100% - 3rem)}.prefix ~ label{margin-left:3rem}.select-dropdown li img{height:40px;width:40px;margin:5px 15px;float:right}.select-dropdown li.optgroup{border-top:1px solid #eee}.select-dropdown li.optgroup.selected>span{color:rgba(0,0,0,0.7)}.select-dropdown li.optgroup>span{color:rgba(0,0,0,0.4)}.select-dropdown li.optgroup ~ li.optgroup-option{padding-left:1rem}.file-field{position:relative}.file-field .file-path-wrapper{overflow:hidden;padding-left:10px}.file-field input.file-path{width:100%}.file-field .btn,.file-field .btn-large{float:left;height:3rem;line-height:3rem}.file-field span{cursor:pointer}.file-field input[type=file]{position:absolute;top:0;right:0;left:0;bottom:0;width:100%;margin:0;padding:0;font-size:20px;cursor:pointer;opacity:0;filter:alpha(opacity=0)}.range-field{position:relative}input[type=range],input[type=range]+.thumb{cursor:pointer}input[type=range]{position:relative;background-color:transparent;border:none;outline:none;width:100%;margin:15px 0;padding:0}input[type=range]:focus{outline:none}input[type=range]+.thumb{position:absolute;top:10px;left:0;border:none;height:0;width:0;border-radius:50%;background-color:#26a69a;margin-left:7px;-webkit-transform-origin:50% 50%;transform-origin:50% 50%;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}input[type=range]+.thumb .value{display:block;width:30px;text-align:center;color:#26a69a;font-size:0;-webkit-transform:rotate(45deg);transform:rotate(45deg)}input[type=range]+.thumb.active{border-radius:50% 50% 50% 0}input[type=range]+.thumb.active .value{color:#fff;margin-left:-1px;margin-top:8px;font-size:10px}input[type=range]{-webkit-appearance:none}input[type=range]::-webkit-slider-runnable-track{height:3px;background:#c2c0c2;border:none}input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;border:none;height:14px;width:14px;border-radius:50%;background-color:#26a69a;-webkit-transform-origin:50% 50%;transform-origin:50% 50%;margin:-5px 0 0 0;transition:.3s}input[type=range]:focus::-webkit-slider-runnable-track{background:#ccc}input[type=range]{border:1px solid white}input[type=range]::-moz-range-track{height:3px;background:#ddd;border:none}input[type=range]::-moz-range-thumb{border:none;height:14px;width:14px;border-radius:50%;background:#26a69a;margin-top:-5px}input[type=range]:-moz-focusring{outline:1px solid #fff;outline-offset:-1px}input[type=range]:focus::-moz-range-track{background:#ccc}input[type=range]::-ms-track{height:3px;background:transparent;border-color:transparent;border-width:6px 0;color:transparent}input[type=range]::-ms-fill-lower{background:#777}input[type=range]::-ms-fill-upper{background:#ddd}input[type=range]::-ms-thumb{border:none;height:14px;width:14px;border-radius:50%;background:#26a69a}input[type=range]:focus::-ms-fill-lower{background:#888}input[type=range]:focus::-ms-fill-upper{background:#ccc}.table-of-contents.fixed{position:fixed}.table-of-contents li{padding:2px 0}.table-of-contents a{display:inline-block;font-weight:300;color:#757575;padding-left:20px;height:1.5rem;line-height:1.5rem;letter-spacing:.4;display:inline-block}.table-of-contents a:hover{color:#a8a8a8;padding-left:19px;border-left:1px solid #ee6e73}.table-of-contents a.active{font-weight:500;padding-left:18px;border-left:2px solid #ee6e73}.side-nav{position:fixed;width:300px;left:0;top:0;margin:0;-webkit-transform:translateX(-100%);transform:translateX(-100%);height:100%;height:calc(100% + 60px);height:-moz-calc(100%);padding-bottom:60px;background-color:#fff;z-index:999;overflow-y:auto;will-change:transform;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-transform:translateX(-105%);transform:translateX(-105%)}.side-nav.right-aligned{right:0;-webkit-transform:translateX(105%);transform:translateX(105%);left:auto;-webkit-transform:translateX(100%);transform:translateX(100%)}.side-nav .collapsible{margin:0}.side-nav li{float:none;line-height:48px}.side-nav li.active{background-color:rgba(0,0,0,0.05)}.side-nav li>a{color:rgba(0,0,0,0.87);display:block;font-size:14px;font-weight:500;height:48px;line-height:48px;padding:0 32px}.side-nav li>a:hover{background-color:rgba(0,0,0,0.05)}.side-nav li>a.btn,.side-nav li>a.btn-large,.side-nav li>a.btn-large,.side-nav li>a.btn-flat,.side-nav li>a.btn-floating{margin:10px 15px}.side-nav li>a.btn,.side-nav li>a.btn-large,.side-nav li>a.btn-large,.side-nav li>a.btn-floating{color:#fff}.side-nav li>a.btn-flat{color:#343434}.side-nav li>a.btn:hover,.side-nav li>a.btn-large:hover,.side-nav li>a.btn-large:hover{background-color:#2bbbad}.side-nav li>a.btn-floating:hover{background-color:#26a69a}.side-nav li>a>i,.side-nav li>a>[class^=\"mdi-\"],.side-nav li>a li>a>[class*=\"mdi-\"],.side-nav li>a>i.material-icons{float:left;height:48px;line-height:48px;margin:0 32px 0 0;width:24px;color:rgba(0,0,0,0.54)}.side-nav .divider{margin:8px 0 0 0}.side-nav .subheader{cursor:initial;pointer-events:none;color:rgba(0,0,0,0.54);font-size:14px;font-weight:500;line-height:48px}.side-nav .subheader:hover{background-color:transparent}.side-nav .user-view,.side-nav .userView{position:relative;padding:32px 32px 0;margin-bottom:8px}.side-nav .user-view>a,.side-nav .userView>a{height:auto;padding:0}.side-nav .user-view>a:hover,.side-nav .userView>a:hover{background-color:transparent}.side-nav .user-view .background,.side-nav .userView .background{overflow:hidden;position:absolute;top:0;right:0;bottom:0;left:0;z-index:-1}.side-nav .user-view .circle,.side-nav .user-view .name,.side-nav .user-view .email,.side-nav .userView .circle,.side-nav .userView .name,.side-nav .userView .email{display:block}.side-nav .user-view .circle,.side-nav .userView .circle{height:64px;width:64px}.side-nav .user-view .name,.side-nav .user-view .email,.side-nav .userView .name,.side-nav .userView .email{font-size:14px;line-height:24px}.side-nav .user-view .name,.side-nav .userView .name{margin-top:16px;font-weight:500}.side-nav .user-view .email,.side-nav .userView .email{padding-bottom:16px;font-weight:400}.drag-target{height:100%;width:10px;position:fixed;top:0;z-index:998}.side-nav.fixed{left:0;-webkit-transform:translateX(0);transform:translateX(0);position:fixed}.side-nav.fixed.right-aligned{right:0;left:auto}@media only screen and (max-width: 992px){.side-nav.fixed{-webkit-transform:translateX(-105%);transform:translateX(-105%)}.side-nav.fixed.right-aligned{-webkit-transform:translateX(105%);transform:translateX(105%)}.side-nav a{padding:0 16px}.side-nav .user-view,.side-nav .userView{padding:16px 16px 0}}.side-nav .collapsible-body>ul:not(.collapsible)>li.active,.side-nav.fixed .collapsible-body>ul:not(.collapsible)>li.active{background-color:#ee6e73}.side-nav .collapsible-body>ul:not(.collapsible)>li.active a,.side-nav.fixed .collapsible-body>ul:not(.collapsible)>li.active a{color:#fff}.side-nav .collapsible-body{padding:0}#sidenav-overlay{position:fixed;top:0;left:0;right:0;height:120vh;background-color:rgba(0,0,0,0.5);z-index:997;will-change:opacity}.preloader-wrapper{display:inline-block;position:relative;width:50px;height:50px}.preloader-wrapper.small{width:36px;height:36px}.preloader-wrapper.big{width:64px;height:64px}.preloader-wrapper.active{-webkit-animation:container-rotate 1568ms linear infinite;animation:container-rotate 1568ms linear infinite}@-webkit-keyframes container-rotate{to{-webkit-transform:rotate(360deg)}}@keyframes container-rotate{to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.spinner-layer{position:absolute;width:100%;height:100%;opacity:0;border-color:#26a69a}.spinner-blue,.spinner-blue-only{border-color:#4285f4}.spinner-red,.spinner-red-only{border-color:#db4437}.spinner-yellow,.spinner-yellow-only{border-color:#f4b400}.spinner-green,.spinner-green-only{border-color:#0f9d58}.active .spinner-layer.spinner-blue{-webkit-animation:fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both,blue-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;animation:fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both,blue-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both}.active .spinner-layer.spinner-red{-webkit-animation:fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both,red-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;animation:fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both,red-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both}.active .spinner-layer.spinner-yellow{-webkit-animation:fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both,yellow-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;animation:fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both,yellow-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both}.active .spinner-layer.spinner-green{-webkit-animation:fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both,green-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;animation:fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both,green-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both}.active .spinner-layer,.active .spinner-layer.spinner-blue-only,.active .spinner-layer.spinner-red-only,.active .spinner-layer.spinner-yellow-only,.active .spinner-layer.spinner-green-only{opacity:1;-webkit-animation:fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;animation:fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both}@-webkit-keyframes fill-unfill-rotate{12.5%{-webkit-transform:rotate(135deg)}25%{-webkit-transform:rotate(270deg)}37.5%{-webkit-transform:rotate(405deg)}50%{-webkit-transform:rotate(540deg)}62.5%{-webkit-transform:rotate(675deg)}75%{-webkit-transform:rotate(810deg)}87.5%{-webkit-transform:rotate(945deg)}to{-webkit-transform:rotate(1080deg)}}@keyframes fill-unfill-rotate{12.5%{-webkit-transform:rotate(135deg);transform:rotate(135deg)}25%{-webkit-transform:rotate(270deg);transform:rotate(270deg)}37.5%{-webkit-transform:rotate(405deg);transform:rotate(405deg)}50%{-webkit-transform:rotate(540deg);transform:rotate(540deg)}62.5%{-webkit-transform:rotate(675deg);transform:rotate(675deg)}75%{-webkit-transform:rotate(810deg);transform:rotate(810deg)}87.5%{-webkit-transform:rotate(945deg);transform:rotate(945deg)}to{-webkit-transform:rotate(1080deg);transform:rotate(1080deg)}}@-webkit-keyframes blue-fade-in-out{from{opacity:1}25%{opacity:1}26%{opacity:0}89%{opacity:0}90%{opacity:1}100%{opacity:1}}@keyframes blue-fade-in-out{from{opacity:1}25%{opacity:1}26%{opacity:0}89%{opacity:0}90%{opacity:1}100%{opacity:1}}@-webkit-keyframes red-fade-in-out{from{opacity:0}15%{opacity:0}25%{opacity:1}50%{opacity:1}51%{opacity:0}}@keyframes red-fade-in-out{from{opacity:0}15%{opacity:0}25%{opacity:1}50%{opacity:1}51%{opacity:0}}@-webkit-keyframes yellow-fade-in-out{from{opacity:0}40%{opacity:0}50%{opacity:1}75%{opacity:1}76%{opacity:0}}@keyframes yellow-fade-in-out{from{opacity:0}40%{opacity:0}50%{opacity:1}75%{opacity:1}76%{opacity:0}}@-webkit-keyframes green-fade-in-out{from{opacity:0}65%{opacity:0}75%{opacity:1}90%{opacity:1}100%{opacity:0}}@keyframes green-fade-in-out{from{opacity:0}65%{opacity:0}75%{opacity:1}90%{opacity:1}100%{opacity:0}}.gap-patch{position:absolute;top:0;left:45%;width:10%;height:100%;overflow:hidden;border-color:inherit}.gap-patch .circle{width:1000%;left:-450%}.circle-clipper{display:inline-block;position:relative;width:50%;height:100%;overflow:hidden;border-color:inherit}.circle-clipper .circle{width:200%;height:100%;border-width:3px;border-style:solid;border-color:inherit;border-bottom-color:transparent !important;border-radius:50%;-webkit-animation:none;animation:none;position:absolute;top:0;right:0;bottom:0}.circle-clipper.left .circle{left:0;border-right-color:transparent !important;-webkit-transform:rotate(129deg);transform:rotate(129deg)}.circle-clipper.right .circle{left:-100%;border-left-color:transparent !important;-webkit-transform:rotate(-129deg);transform:rotate(-129deg)}.active .circle-clipper.left .circle{-webkit-animation:left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;animation:left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both}.active .circle-clipper.right .circle{-webkit-animation:right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;animation:right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both}@-webkit-keyframes left-spin{from{-webkit-transform:rotate(130deg)}50%{-webkit-transform:rotate(-5deg)}to{-webkit-transform:rotate(130deg)}}@keyframes left-spin{from{-webkit-transform:rotate(130deg);transform:rotate(130deg)}50%{-webkit-transform:rotate(-5deg);transform:rotate(-5deg)}to{-webkit-transform:rotate(130deg);transform:rotate(130deg)}}@-webkit-keyframes right-spin{from{-webkit-transform:rotate(-130deg)}50%{-webkit-transform:rotate(5deg)}to{-webkit-transform:rotate(-130deg)}}@keyframes right-spin{from{-webkit-transform:rotate(-130deg);transform:rotate(-130deg)}50%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}to{-webkit-transform:rotate(-130deg);transform:rotate(-130deg)}}#spinnerContainer.cooldown{-webkit-animation:container-rotate 1568ms linear infinite,fade-out 400ms cubic-bezier(0.4, 0, 0.2, 1);animation:container-rotate 1568ms linear infinite,fade-out 400ms cubic-bezier(0.4, 0, 0.2, 1)}@-webkit-keyframes fade-out{from{opacity:1}to{opacity:0}}@keyframes fade-out{from{opacity:1}to{opacity:0}}.slider{position:relative;height:400px;width:100%}.slider.fullscreen{height:100%;width:100%;position:absolute;top:0;left:0;right:0;bottom:0}.slider.fullscreen ul.slides{height:100%}.slider.fullscreen ul.indicators{z-index:2;bottom:30px}.slider .slides{background-color:#9e9e9e;margin:0;height:400px}.slider .slides li{opacity:0;position:absolute;top:0;left:0;z-index:1;width:100%;height:inherit;overflow:hidden}.slider .slides li img{height:100%;width:100%;background-size:cover;background-position:center}.slider .slides li .caption{color:#fff;position:absolute;top:15%;left:15%;width:70%;opacity:0}.slider .slides li .caption p{color:#e0e0e0}.slider .slides li.active{z-index:2}.slider .indicators{position:absolute;text-align:center;left:0;right:0;bottom:0;margin:0}.slider .indicators .indicator-item{display:inline-block;position:relative;cursor:pointer;height:16px;width:16px;margin:0 12px;background-color:#e0e0e0;transition:background-color .3s;border-radius:50%}.slider .indicators .indicator-item.active{background-color:#4CAF50}.carousel{overflow:hidden;position:relative;width:100%;height:400px;-webkit-perspective:500px;perspective:500px;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;-webkit-transform-origin:0% 50%;transform-origin:0% 50%}.carousel.carousel-slider{top:0;left:0;height:0}.carousel.carousel-slider .carousel-fixed-item{position:absolute;left:0;right:0;bottom:20px;z-index:1}.carousel.carousel-slider .carousel-fixed-item.with-indicators{bottom:68px}.carousel.carousel-slider .carousel-item{width:100%;height:100%;min-height:400px;position:absolute;top:0;left:0}.carousel.carousel-slider .carousel-item h2{font-size:24px;font-weight:500;line-height:32px}.carousel.carousel-slider .carousel-item p{font-size:15px}.carousel .carousel-item{display:none;width:200px;height:200px;position:absolute;top:0;left:0}.carousel .carousel-item>img{width:100%}.carousel .indicators{position:absolute;text-align:center;left:0;right:0;bottom:0;margin:0}.carousel .indicators .indicator-item{display:inline-block;position:relative;cursor:pointer;height:8px;width:8px;margin:24px 4px;background-color:rgba(255,255,255,0.5);transition:background-color .3s;border-radius:50%}.carousel .indicators .indicator-item.active{background-color:#fff}.carousel.scrolling .carousel-item .materialboxed,.carousel .carousel-item:not(.active) .materialboxed{pointer-events:none}.tap-target-wrapper{width:800px;height:800px;position:fixed;z-index:1000;visibility:hidden;transition:visibility 0s .3s}.tap-target-wrapper.open{visibility:visible;transition:visibility 0s}.tap-target-wrapper.open .tap-target{-webkit-transform:scale(1);transform:scale(1);opacity:.95;transition:opacity 0.3s cubic-bezier(0.42, 0, 0.58, 1),-webkit-transform 0.3s cubic-bezier(0.42, 0, 0.58, 1);transition:transform 0.3s cubic-bezier(0.42, 0, 0.58, 1),opacity 0.3s cubic-bezier(0.42, 0, 0.58, 1);transition:transform 0.3s cubic-bezier(0.42, 0, 0.58, 1),opacity 0.3s cubic-bezier(0.42, 0, 0.58, 1),-webkit-transform 0.3s cubic-bezier(0.42, 0, 0.58, 1)}.tap-target-wrapper.open .tap-target-wave::before{-webkit-transform:scale(1);transform:scale(1)}.tap-target-wrapper.open .tap-target-wave::after{visibility:visible;-webkit-animation:pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;animation:pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;transition:opacity .3s, visibility 0s 1s, -webkit-transform .3s;transition:opacity .3s, transform .3s, visibility 0s 1s;transition:opacity .3s, transform .3s, visibility 0s 1s, -webkit-transform .3s}.tap-target{position:absolute;font-size:1rem;border-radius:50%;background-color:#ee6e73;box-shadow:0 20px 20px 0 rgba(0,0,0,0.14),0 10px 50px 0 rgba(0,0,0,0.12),0 30px 10px -20px rgba(0,0,0,0.2);width:100%;height:100%;opacity:0;-webkit-transform:scale(0);transform:scale(0);transition:opacity 0.3s cubic-bezier(0.42, 0, 0.58, 1),-webkit-transform 0.3s cubic-bezier(0.42, 0, 0.58, 1);transition:transform 0.3s cubic-bezier(0.42, 0, 0.58, 1),opacity 0.3s cubic-bezier(0.42, 0, 0.58, 1);transition:transform 0.3s cubic-bezier(0.42, 0, 0.58, 1),opacity 0.3s cubic-bezier(0.42, 0, 0.58, 1),-webkit-transform 0.3s cubic-bezier(0.42, 0, 0.58, 1)}.tap-target-content{position:relative;display:table-cell}.tap-target-wave{position:absolute;border-radius:50%;z-index:10001}.tap-target-wave::before,.tap-target-wave::after{content:'';display:block;position:absolute;width:100%;height:100%;border-radius:50%;background-color:#ffffff}.tap-target-wave::before{-webkit-transform:scale(0);transform:scale(0);transition:-webkit-transform .3s;transition:transform .3s;transition:transform .3s, -webkit-transform .3s}.tap-target-wave::after{visibility:hidden;transition:opacity .3s, visibility 0s, -webkit-transform .3s;transition:opacity .3s, transform .3s, visibility 0s;transition:opacity .3s, transform .3s, visibility 0s, -webkit-transform .3s;z-index:-1}.tap-target-origin{top:50%;left:50%;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);z-index:10002;position:absolute !important}.tap-target-origin:not(.btn):not(.btn-large),.tap-target-origin:not(.btn):not(.btn-large):hover{background:none}@media only screen and (max-width: 600px){.tap-target,.tap-target-wrapper{width:600px;height:600px}}.pulse{overflow:initial;position:relative}.pulse::before{content:'';display:block;position:absolute;width:100%;height:100%;top:0;left:0;background-color:inherit;border-radius:inherit;transition:opacity .3s, -webkit-transform .3s;transition:opacity .3s, transform .3s;transition:opacity .3s, transform .3s, -webkit-transform .3s;-webkit-animation:pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;animation:pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;z-index:-1}@-webkit-keyframes pulse-animation{0%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}50%{opacity:0;-webkit-transform:scale(1.5);transform:scale(1.5)}100%{opacity:0;-webkit-transform:scale(1.5);transform:scale(1.5)}}@keyframes pulse-animation{0%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}50%{opacity:0;-webkit-transform:scale(1.5);transform:scale(1.5)}100%{opacity:0;-webkit-transform:scale(1.5);transform:scale(1.5)}}.picker{font-size:16px;text-align:left;line-height:1.2;color:#000000;position:absolute;z-index:10000;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.picker__input{cursor:default}.picker__input.picker__input--active{border-color:#0089ec}.picker__holder{width:100%;overflow-y:auto;-webkit-overflow-scrolling:touch}/*!\n * Default mobile-first, responsive styling for pickadate.js\n * Demo: http://amsul.github.io/pickadate.js\n */.picker__holder,.picker__frame{bottom:0;left:0;right:0;top:100%}.picker__holder{position:fixed;transition:background 0.15s ease-out, top 0s 0.15s;-webkit-backface-visibility:hidden}.picker__frame{position:absolute;margin:0 auto;min-width:256px;width:300px;max-height:350px;-ms-filter:\"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)\";filter:alpha(opacity=0);-moz-opacity:0;opacity:0;transition:all 0.15s ease-out}@media (min-height: 28.875em){.picker__frame{overflow:visible;top:auto;bottom:-100%;max-height:80%}}@media (min-height: 40.125em){.picker__frame{margin-bottom:7.5%}}.picker__wrap{display:table;width:100%;height:100%}@media (min-height: 28.875em){.picker__wrap{display:block}}.picker__box{background:#ffffff;display:table-cell;vertical-align:middle}@media (min-height: 28.875em){.picker__box{display:block;border:1px solid #777777;border-top-color:#898989;border-bottom-width:0;border-radius:5px 5px 0 0;box-shadow:0 12px 36px 16px rgba(0,0,0,0.24)}}.picker--opened .picker__holder{top:0;background:transparent;-ms-filter:\"progid:DXImageTransform.Microsoft.gradient(startColorstr=#1E000000,endColorstr=#1E000000)\";zoom:1;background:rgba(0,0,0,0.32);transition:background 0.15s ease-out}.picker--opened .picker__frame{top:0;-ms-filter:\"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)\";filter:alpha(opacity=100);-moz-opacity:1;opacity:1}@media (min-height: 35.875em){.picker--opened .picker__frame{top:10%;bottom:auto}}.picker__input.picker__input--active{border-color:#E3F2FD}.picker__frame{margin:0 auto;max-width:325px}@media (min-height: 38.875em){.picker--opened .picker__frame{top:10%;bottom:auto}}@media only screen and (min-width: 601px){.picker__box{display:-webkit-flex;display:-ms-flexbox;display:flex}.picker__frame{width:80%;max-width:600px}}.picker__box{padding:0;border-radius:2px;overflow:hidden}.picker__header{text-align:center;position:relative;margin-top:.75em}.picker__month,.picker__year{display:inline-block;margin-left:.25em;margin-right:.25em}.picker__select--month,.picker__select--year{height:2em;padding:0;margin-left:.25em;margin-right:.25em}.picker__select--month.browser-default{display:inline;background-color:#FFFFFF;width:40%}.picker__select--year.browser-default{display:inline;background-color:#FFFFFF;width:26%}.picker__select--month:focus,.picker__select--year:focus{border-color:rgba(0,0,0,0.05)}.picker__nav--prev,.picker__nav--next{position:absolute;padding:.5em 1.25em;width:1em;height:1em;box-sizing:content-box;top:-0.25em}.picker__nav--prev{left:-1em;padding-right:1.25em}.picker__nav--next{right:-1em;padding-left:1.25em}.picker__nav--disabled,.picker__nav--disabled:hover,.picker__nav--disabled:before,.picker__nav--disabled:before:hover{cursor:default;background:none;border-right-color:#f5f5f5;border-left-color:#f5f5f5}.picker__table{text-align:center;border-collapse:collapse;border-spacing:0;table-layout:fixed;font-size:1rem;width:100%;margin-top:.75em;margin-bottom:.5em}.picker__table th,.picker__table td{text-align:center}.picker__table td{margin:0;padding:0}.picker__weekday{width:14.285714286%;font-size:.75em;padding-bottom:.25em;color:#999999;font-weight:500}@media (min-height: 33.875em){.picker__weekday{padding-bottom:.5em}}.picker__day--today{position:relative;color:#595959;letter-spacing:-.3;padding:.75rem 0;font-weight:400;border:1px solid transparent}.picker__day--disabled:before{border-top-color:#aaaaaa}.picker__day--infocus:hover{cursor:pointer;color:#000;font-weight:500}.picker__day--outfocus{display:none;padding:.75rem 0;color:#fff}.picker__day--outfocus:hover{cursor:pointer;color:#dddddd;font-weight:500}.picker__day--highlighted:hover,.picker--focused .picker__day--highlighted{cursor:pointer}.picker__day--selected,.picker__day--selected:hover,.picker--focused .picker__day--selected{border-radius:50%;-webkit-transform:scale(0.75);transform:scale(0.75);background:#0089ec;color:#ffffff}.picker__day--disabled,.picker__day--disabled:hover,.picker--focused .picker__day--disabled{background:#f5f5f5;border-color:#f5f5f5;color:#dddddd;cursor:default}.picker__day--highlighted.picker__day--disabled,.picker__day--highlighted.picker__day--disabled:hover{background:#bbbbbb}.picker__footer{text-align:right}.picker__button--today,.picker__button--clear,.picker__button--close{border:1px solid #ffffff;background:#ffffff;font-size:.8em;padding:.66em 0;font-weight:bold;width:33%;display:inline-block;vertical-align:bottom}.picker__button--today:hover,.picker__button--clear:hover,.picker__button--close:hover{cursor:pointer;color:#000000;background:#b1dcfb;border-bottom-color:#b1dcfb}.picker__button--today:focus,.picker__button--clear:focus,.picker__button--close:focus{background:#b1dcfb;border-color:rgba(0,0,0,0.05);outline:none}.picker__button--today:before,.picker__button--clear:before,.picker__button--close:before{position:relative;display:inline-block;height:0}.picker__button--today:before,.picker__button--clear:before{content:\" \";margin-right:.45em}.picker__button--today:before{top:-0.05em;width:0;border-top:0.66em solid #0059bc;border-left:.66em solid transparent}.picker__button--clear:before{top:-0.25em;width:.66em;border-top:3px solid #ee2200}.picker__button--close:before{content:\"\\D7\";top:-0.1em;vertical-align:top;font-size:1.1em;margin-right:.35em;color:#777777}.picker__button--today[disabled],.picker__button--today[disabled]:hover{background:#f5f5f5;border-color:#f5f5f5;color:#dddddd;cursor:default}.picker__button--today[disabled]:before{border-top-color:#aaaaaa}.picker__date-display{text-align:left;background-color:#26a69a;color:#fff;padding:18px;font-weight:300}@media only screen and (min-width: 601px){.picker__date-display{-webkit-flex:1;-ms-flex:1;flex:1}.picker__weekday-display{display:block}.picker__container__wrapper{-webkit-flex:2;-ms-flex:2;flex:2}}.picker__nav--prev:hover,.picker__nav--next:hover{cursor:pointer;color:#000000;background:#a1ded8}.picker__weekday-display{font-weight:500;font-size:2.8rem;margin-right:5px;margin-top:4px}.picker__month-display{font-size:2.8rem;font-weight:500}.picker__day-display{font-size:2.8rem;font-weight:500;margin-right:5px}.picker__year-display{font-size:1.5rem;font-weight:500;color:rgba(255,255,255,0.7)}.picker__calendar-container{padding:0 1rem}.picker__calendar-container thead{border:none}.picker__table{margin-top:0;margin-bottom:.5em}.picker__day--infocus{color:rgba(0,0,0,0.87);letter-spacing:-.3px;padding:0.75rem 0;font-weight:400;border:1px solid transparent}@media only screen and (min-width: 601px){.picker__day--infocus{padding:1.1rem 0}}.picker__day.picker__day--today{color:#26a69a}.picker__day.picker__day--today.picker__day--selected{color:#fff}.picker__weekday{font-size:.9rem}.picker__day--selected,.picker__day--selected:hover,.picker--focused .picker__day--selected{border-radius:50%;-webkit-transform:scale(0.9);transform:scale(0.9);background-color:#26a69a;color:#ffffff}.picker__day--selected.picker__day--outfocus,.picker__day--selected:hover.picker__day--outfocus,.picker--focused .picker__day--selected.picker__day--outfocus{background-color:#a1ded8}.picker__footer{text-align:right;padding:5px 10px}.picker__close,.picker__today,.picker__clear{font-size:1.1rem;padding:0 1rem;color:#26a69a}.picker__clear{color:#f44336;float:left}.picker__nav--prev:before,.picker__nav--next:before{content:\" \";border-top:.5em solid transparent;border-bottom:.5em solid transparent;border-right:0.75em solid #676767;width:0;height:0;display:block;margin:0 auto}.picker__nav--next:before{border-right:0;border-left:0.75em solid #676767}button.picker__today:focus,button.picker__clear:focus,button.picker__close:focus{background-color:#a1ded8}.picker__list{list-style:none;padding:0.75em 0 4.2em;margin:0}.picker__list-item{border-bottom:1px solid #ddd;border-top:1px solid #ddd;margin-bottom:-1px;position:relative;background:#fff;padding:.75em 1.25em}@media (min-height: 46.75em){.picker__list-item{padding:.5em 1em}}.picker__list-item:hover{cursor:pointer;color:#000;background:#b1dcfb;border-color:#0089ec;z-index:10}.picker__list-item--highlighted{border-color:#0089ec;z-index:10}.picker__list-item--highlighted:hover,.picker--focused .picker__list-item--highlighted{cursor:pointer;color:#000;background:#b1dcfb}.picker__list-item--selected,.picker__list-item--selected:hover,.picker--focused .picker__list-item--selected{background:#0089ec;color:#fff;z-index:10}.picker__list-item--disabled,.picker__list-item--disabled:hover,.picker--focused .picker__list-item--disabled{background:#f5f5f5;border-color:#f5f5f5;color:#ddd;cursor:default;border-color:#ddd;z-index:auto}.picker--time .picker__button--clear{display:block;width:80%;margin:1em auto 0;padding:1em 1.25em;background:none;border:0;font-weight:500;font-size:.67em;text-align:center;text-transform:uppercase;color:rgba(0,0,0,0.87)}.picker--time .picker__button--clear:hover,.picker--time .picker__button--clear:focus{color:#000;background:#b1dcfb;background:#ee2200;border-color:#ee2200;cursor:pointer;color:#fff;outline:none}.picker--time .picker__button--clear:before{top:-0.25em;color:rgba(0,0,0,0.87);font-size:1.25em;font-weight:bold}.picker--time .picker__button--clear:hover:before,.picker--time .picker__button--clear:focus:before{color:#fff}.picker--time .picker__frame{min-width:256px;max-width:320px}.picker--time .picker__box{font-size:1em;background:#f2f2f2;padding:0}@media (min-height: 40.125em){.picker--time .picker__box{margin-bottom:5em}}.clockpicker-display{font-size:4rem;font-weight:bold;text-align:center;color:rgba(255,255,255,0.6);font-weight:400;clear:both;position:relative}.clockpicker-span-am-pm{font-size:1.3rem;position:absolute;right:1rem;bottom:0.3rem;line-height:2rem;font-weight:500}@media only screen and (min-width: 601px){.clockpicker-display{top:32%}.clockpicker-span-am-pm{position:relative;right:auto;bottom:auto;text-align:center;margin-top:1.2rem}}.text-primary{color:#fff}.clockpicker-span-hours{margin-right:3px}.clockpicker-span-minutes{margin-left:3px}.clockpicker-span-hours,.clockpicker-span-minutes,.clockpicker-span-am-pm div{cursor:pointer}.clockpicker-moving{cursor:move}.clockpicker-plate{background-color:#eee;border-radius:50%;width:270px;height:270px;overflow:visible;position:relative;margin:auto;margin-top:25px;margin-bottom:5px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.clockpicker-canvas,.clockpicker-dial{width:270px;height:270px;position:absolute;left:-1px;top:-1px}.clockpicker-minutes{visibility:hidden}.clockpicker-tick{border-radius:50%;color:rgba(0,0,0,0.87);line-height:40px;text-align:center;width:40px;height:40px;position:absolute;cursor:pointer}.clockpicker-tick.active,.clockpicker-tick:hover{background-color:rgba(38,166,154,0.25)}.clockpicker-dial{transition:opacity 350ms, -webkit-transform 350ms;transition:transform 350ms, opacity 350ms;transition:transform 350ms, opacity 350ms, -webkit-transform 350ms}.clockpicker-dial-out{opacity:0}.clockpicker-hours.clockpicker-dial-out{-webkit-transform:scale(1.2, 1.2);transform:scale(1.2, 1.2)}.clockpicker-minutes.clockpicker-dial-out{-webkit-transform:scale(0.8, 0.8);transform:scale(0.8, 0.8)}.clockpicker-canvas{transition:opacity 175ms}.clockpicker-canvas-out{opacity:0.25}.clockpicker-canvas-bearing{stroke:none;fill:#26a69a}.clockpicker-canvas-bg{stroke:none;fill:#26a69a}.clockpicker-canvas-bg-trans{fill:#26a69a}.clockpicker-canvas line{stroke:#26a69a;stroke-width:4;stroke-linecap:round}\n", ""]);
 
 	// exports
 
 
 /***/ }),
-/* 46 */
+/* 44 */
 /***/ (function(module, exports) {
 
 	"use strict";
@@ -35191,67 +33928,67 @@
 	};
 
 /***/ }),
-/* 47 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "fonts/Roboto-Thin.woff2";
 
 /***/ }),
-/* 48 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "fonts/Roboto-Thin.woff";
 
 /***/ }),
-/* 49 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "fonts/Roboto-Light.woff2";
 
 /***/ }),
-/* 50 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "fonts/Roboto-Light.woff";
 
 /***/ }),
-/* 51 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "fonts/Roboto-Regular.woff2";
 
 /***/ }),
-/* 52 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "fonts/Roboto-Regular.woff";
 
 /***/ }),
-/* 53 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "fonts/Roboto-Medium.woff2";
 
 /***/ }),
-/* 54 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "fonts/Roboto-Medium.woff";
 
 /***/ }),
-/* 55 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "fonts/Roboto-Bold.woff2";
 
 /***/ }),
-/* 56 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "fonts/Roboto-Bold.woff";
 
 /***/ }),
-/* 57 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/*
@@ -35503,23 +34240,23 @@
 
 
 /***/ }),
-/* 58 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(59);
+	var content = __webpack_require__(57);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(57)(content, {});
+	var update = __webpack_require__(55)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(true) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept(59, function() {
-				var newContent = __webpack_require__(59);
+			module.hot.accept(57, function() {
+				var newContent = __webpack_require__(57);
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -35529,15 +34266,15 @@
 	}
 
 /***/ }),
-/* 59 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(46)();
+	exports = module.exports = __webpack_require__(44)();
 	// imports
 	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=News+Cycle|Oleo+Script);", ""]);
 
 	// module
-	exports.push([module.id, "* {\n  box-sizing: border-box;\n  margin: 0; }\n\nh6 {\n  font-size: 1.25em;\n  font-weight: 400; }\n\n.home-header {\n  height: 450px;\n  background: url(\"https://hd.unsplash.com/photo-1467307983825-619715426c70\") no-repeat center center;\n  background-size: cover; }\n  .home-header .intro {\n    padding: 75px 0 0 30px;\n    color: #fff; }\n    .home-header .intro .tagline {\n      margin: 0;\n      line-height: 98%;\n      font-family: \"Oleo Script\";\n      font-size: 7vw;\n      letter-spacing: 1.2%;\n      font-weight: 200; }\n    .home-header .intro .start-button {\n      margin-top: 5%; }\n\n.page-title {\n  margin-top: 40px;\n  font-family: \"News Cycle\"; }\n\n.more-info {\n  margin-top: 75px;\n  font-family: \"News Cycle\"; }\n  .more-info .info-icon {\n    height: 10vh;\n    width: auto; }\n  .more-info .subcaption {\n    font-size: 1.5em; }\n\n.begin-section {\n  margin-top: 40px; }\n\n.navigation {\n  background-color: #CA1E5A; }\n  .navigation .brand-logo {\n    padding: 5px 30px; }\n  .navigation li a {\n    position: relative;\n    font-family: \"News Cycle\";\n    text-transform: uppercase;\n    font-weight: 600;\n    letter-spacing: 0.1em; }\n  .navigation .main-nav li a:hover, .navigation .main-nav li a:active {\n    background-color: transparent; }\n  .navigation .main-nav li a:before {\n    content: \"\";\n    position: absolute;\n    width: 100%;\n    height: 2px;\n    left: 0;\n    bottom: 18px;\n    background-color: #fff;\n    visibility: hidden;\n    -webkit-transform: scaleX(0);\n    transform: scaleX(0);\n    -webkit-transition: all 0.3s ease-in-out 0s;\n    transition: all 0.3s ease-in-out 0s; }\n  .navigation .main-nav li a:hover:before {\n    visibility: visible;\n    -webkit-transform: scaleX(1);\n    transform: scaleX(1); }\n\n.user-home-container {\n  min-height: 100vh;\n  background: #CA1E5A url(\"https://hd.unsplash.com/photo-1470075446540-4391a96ec621\") no-repeat center center;\n  background-size: cover; }\n  .user-home-container .dashboard {\n    min-height: 60vh;\n    background-color: #fff;\n    box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.5); }\n  .user-home-container .search {\n    border: 1px solid #CA1E5A;\n    border-radius: 20px;\n    padding-left: 10px; }\n    .user-home-container .search:active {\n      border: 2px solid #CA1E5A; }\n\n.user-summary {\n  margin-bottom: 25px; }\n  .user-summary .profile-img {\n    width: 6vh;\n    height: auto; }\n  .user-summary .name, .user-summary .figure {\n    font-family: \"Oleo Script\"; }\n\n.modal {\n  font-family: \"News Cycle\";\n  font-size: 1.5em; }\n  .modal .title {\n    font-family: \"Oleo Script\";\n    font-size: 2em; }\n  .modal .explanation {\n    margin-bottom: 20px; }\n  .modal .spinner-layer, .modal .preloader-wrapper {\n    background: transparent; }\n  .modal .continue-button {\n    margin: 10px auto;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-family: \"Roboto\";\n    text-transform: none;\n    font-size: 22px;\n    font-weight: 500;\n    width: 290px;\n    height: 60px; }\n\n.entry-modal {\n  margin-top: -50px;\n  width: 100vw;\n  min-height: 95vh; }\n  @media (min-width: 390px) {\n    .entry-modal {\n      width: 60vh; } }\n  @media (min-width: 992px) {\n    .entry-modal {\n      width: 60vh; } }\n\n.progress-circle-container {\n  width: 80%;\n  margin: 0 auto;\n  -ms-transform: rotate(-90deg);\n  /* IE 9 */\n  -ms-transform-origin: 50% 50%;\n  /* IE 9 */\n  -webkit-transform: rotate(-90deg);\n  /* Chrome, Safari, Opera */\n  -webkit-transform-origin: 50% 50%;\n  /* Chrome, Safari, Opera */\n  transform: rotate(-90deg);\n  transform-origin: 50% 50%; }\n\n.path {\n  stroke-dasharray: 594 594;\n  /*Stroke length is 594, gap is also 594; radius is 95.54*/\n  stroke-dashoffset: 594;\n  /*The offset has to be the length of the stroke */\n  animation: dash 1s linear forwards; }\n\n@keyframes dash {\n  to {\n    stroke-dashoffset: 0;\n    /*But we want the offset to go to zero (full length) or some value between.*/ } }\n\n@media (min-width: 900px) {\n  .lesson-display {\n    width: 80%;\n    margin: 0 auto; } }\n\n.lesson-display .title {\n  font-family: \"Oleo Script\"; }\n\n.lesson-display .cover-image {\n  width: 80%;\n  margin: 0 auto; }\n\n.lesson-display .description {\n  padding: 20px; }\n\n.lesson-display .source {\n  padding: 20px;\n  font-style: italic;\n  font-size: .9em; }\n\n.lesson-display .sample {\n  padding: 20px; }\n\n.lesson-display .sample-term {\n  display: inline-block;\n  width: 30%;\n  margin: 5%; }\n\n.lesson-display .sample-image {\n  width: 100%;\n  height: auto; }\n\n.credit {\n  width: 90%;\n  font-style: italic;\n  font-size: 90%; }\n\n.lesson-list-display .title {\n  font-family: \"Oleo Script\"; }\n\n.lesson-list-display .lesson-summary {\n  margin-bottom: 50px; }\n\n.search-result {\n  cursor: pointer;\n  border-bottom: 1px solid #CA1E5A; }\n\n.active {\n  background: #eaeaea; }\n\n#termDisplayModal {\n  margin-top: -50px;\n  width: 100vw;\n  min-height: 95vh; }\n  @media (min-width: 390px) {\n    #termDisplayModal {\n      width: 60vh; } }\n  @media (min-width: 992px) {\n    #termDisplayModal {\n      width: 60vh; } }\n  #termDisplayModal img {\n    max-height: 30vh;\n    width: auto;\n    margin: 0 auto; }\n  #termDisplayModal .title {\n    font-size: .90em; }\n  #termDisplayModal .progress {\n    width: 80%;\n    margin: 0 auto; }\n  #termDisplayModal .modal-content {\n    padding-bottom: 0px; }\n    #termDisplayModal .modal-content .answers {\n      text-transform: lowercase; }\n    #termDisplayModal .modal-content .finish-message {\n      font-family: \"Oleo Script\"; }\n    #termDisplayModal .modal-content .card-title {\n      font-size: 1.25em; }\n    #termDisplayModal .modal-content .term-credit {\n      width: 90%;\n      font-style: italic;\n      font-size: 90%;\n      font-size: 0.5em; }\n    #termDisplayModal .modal-content audio {\n      width: 30px;\n      float: right; }\n  #termDisplayModal #button-wrapper {\n    display: flex;\n    justify-content: center; }\n\n.term-card .img-container {\n  width: 40vh;\n  margin: 0 auto; }\n  .term-card .img-container img {\n    height: 40vh;\n    width: auto; }\n\n.check-container {\n  width: 80%;\n  margin: 0 auto; }\n\n.path {\n  stroke-dasharray: 100 100;\n  /*Stroke length is 594, gap is also 594; radius is 95.54*/\n  stroke-dashoffset: 100;\n  /*The offset has to be the length of the stroke */\n  animation: dash 1s linear forwards; }\n\n@keyframes dash {\n  to {\n    stroke-dashoffset: 0;\n    /*But we want the offset to go to zero (full length) or some value between.*/ } }\n", ""]);
+	exports.push([module.id, "* {\n  box-sizing: border-box;\n  margin: 0; }\n\nh6 {\n  font-size: 1.25em;\n  font-weight: 400; }\n\nselect {\n  display: block; }\n\n.term-entry-arrow {\n  font-size: 0.75em; }\n\n.home-header {\n  height: 450px;\n  background: url(\"/images/holi.jpg\") no-repeat center center;\n  background-size: cover; }\n  .home-header .intro {\n    padding: 75px 0 0 30px;\n    color: #fff; }\n    .home-header .intro .tagline {\n      margin: 0;\n      line-height: 98%;\n      font-family: \"Oleo Script\";\n      font-size: 7vw;\n      letter-spacing: 1.2%;\n      font-weight: 200; }\n    .home-header .intro .start-button {\n      margin-top: 5%; }\n\n.page-title {\n  margin-top: 40px;\n  font-family: \"News Cycle\"; }\n\n.more-info {\n  margin-top: 75px;\n  font-family: \"News Cycle\"; }\n  .more-info .info-icon {\n    height: 10vh;\n    width: auto; }\n  .more-info .subcaption {\n    font-size: 1.5em; }\n\n.begin-section {\n  margin: 40px;\n  text-align: center; }\n\n.navigation {\n  background-color: #CA1E5A; }\n  .navigation .brand-logo {\n    padding: 5px 30px; }\n  .navigation li a {\n    position: relative;\n    font-family: \"News Cycle\";\n    text-transform: uppercase;\n    font-weight: 600;\n    letter-spacing: 0.1em; }\n  .navigation .main-nav li a:hover, .navigation .main-nav li a:active {\n    background-color: transparent; }\n  .navigation .main-nav li a:before {\n    content: \"\";\n    position: absolute;\n    width: 100%;\n    height: 2px;\n    left: 0;\n    bottom: 18px;\n    background-color: #fff;\n    visibility: hidden;\n    -webkit-transform: scaleX(0);\n    transform: scaleX(0);\n    -webkit-transition: all 0.3s ease-in-out 0s;\n    transition: all 0.3s ease-in-out 0s; }\n  .navigation .main-nav li a:hover:before {\n    visibility: visible;\n    -webkit-transform: scaleX(1);\n    transform: scaleX(1); }\n\n.nav-mobile {\n  position: fixed;\n  width: 300px;\n  height: 100vh;\n  background: #fff;\n  z-index: 10;\n  left: -300px; }\n\n.nav-mobile li {\n  float: none;\n  line-height: 48px; }\n\n.nav-mobile li.active {\n  background-color: rgba(0, 0, 0, 0.05); }\n\n.nav-mobile a, .nav-mobile li > a {\n  color: rgba(0, 0, 0, 0.87);\n  display: block;\n  font-size: 14px;\n  font-weight: 500;\n  height: 48px;\n  line-height: 48px;\n  padding: 0 32px; }\n\n.nav-mobile li > a:hover {\n  background-color: rgba(0, 0, 0, 0.05); }\n\n.user-home-container {\n  min-height: 100vh;\n  background: #CA1E5A url(\"https://hd.unsplash.com/photo-1470075446540-4391a96ec621\") no-repeat center center;\n  background-size: cover; }\n  .user-home-container .dashboard {\n    min-height: 60vh;\n    background-color: #fff;\n    box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.5); }\n  .user-home-container .search {\n    border: 1px solid #CA1E5A;\n    border-radius: 20px;\n    padding-left: 10px; }\n    .user-home-container .search:active {\n      border: 2px solid #CA1E5A; }\n\n.user-summary {\n  margin-bottom: 25px; }\n  .user-summary .profile-img {\n    width: 6vh;\n    height: auto; }\n  .user-summary .name, .user-summary .figure {\n    font-family: \"Oleo Script\"; }\n\n.modal {\n  font-family: \"News Cycle\";\n  font-size: 1.5em; }\n  .modal .title {\n    font-family: \"Oleo Script\";\n    font-size: 2em; }\n  .modal .explanation {\n    margin-bottom: 20px; }\n  .modal .spinner-layer, .modal .preloader-wrapper {\n    background: transparent; }\n  .modal .facebook-button, .modal .continue-button {\n    width: 312px;\n    height: 50px; }\n    @media screen and (max-width: 350px) {\n      .modal .facebook-button, .modal .continue-button {\n        width: 100vw;\n        height: auto; } }\n  .modal .continue-button {\n    margin: 10px auto;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-family: \"Roboto\";\n    text-transform: none;\n    font-size: 22px;\n    font-weight: 500; }\n  @media screen and (max-width: 400px) {\n    .modal {\n      width: 100vw; } }\n\n.entry-modal {\n  margin-top: 5vh;\n  width: 100vw;\n  max-height: 90vh;\n  overflow: scroll; }\n  @media (min-width: 390px) {\n    .entry-modal {\n      width: 60vh; } }\n  @media (min-width: 992px) {\n    .entry-modal {\n      width: 60vh; } }\n\n.modal-overlay {\n  position: fixed;\n  z-index: 10;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  height: 125%;\n  width: 100%;\n  background: rgba(0, 0, 0, 0.5);\n  display: none; }\n\n.progress-circle-container {\n  width: 80%;\n  margin: 0 auto;\n  -ms-transform: rotate(-90deg);\n  /* IE 9 */\n  -ms-transform-origin: 50% 50%;\n  /* IE 9 */\n  -webkit-transform: rotate(-90deg);\n  /* Chrome, Safari, Opera */\n  -webkit-transform-origin: 50% 50%;\n  /* Chrome, Safari, Opera */\n  transform: rotate(-90deg);\n  transform-origin: 50% 50%; }\n\n.path {\n  stroke-dasharray: 594 594;\n  /*Stroke length is 594, gap is also 594; radius is 95.54*/\n  stroke-dashoffset: 594;\n  /*The offset has to be the length of the stroke */\n  animation: dash 1s linear forwards; }\n\n@keyframes dash {\n  to {\n    stroke-dashoffset: 0;\n    /*But we want the offset to go to zero (full length) or some value between.*/ } }\n\n@media (min-width: 900px) {\n  .lesson-display {\n    width: 80%;\n    margin: 0 auto; } }\n\n.lesson-display .title {\n  font-family: \"Oleo Script\"; }\n\n.lesson-display .cover-image {\n  width: 80%;\n  margin: 0 auto; }\n\n.lesson-display .description {\n  padding: 20px; }\n\n.lesson-display .source {\n  padding: 20px;\n  font-style: italic;\n  font-size: .9em; }\n\n.lesson-display .sample {\n  padding: 20px; }\n\n.lesson-display .sample-term {\n  display: inline-block;\n  width: 30%;\n  margin: 5%; }\n\n.lesson-display .sample-image {\n  width: 100%;\n  height: auto; }\n\n.credit {\n  width: 90%;\n  font-style: italic;\n  font-size: 90%; }\n\n.lesson-list-display .title {\n  font-family: \"Oleo Script\"; }\n\n.lesson-list-display .lesson-summary {\n  margin-bottom: 50px; }\n\n.search-result {\n  cursor: pointer;\n  border-bottom: 1px solid #CA1E5A; }\n\n.active {\n  background: #eaeaea; }\n\n#term-display-modal {\n  margin-top: 5vh;\n  width: 100vw;\n  max-height: 90vh;\n  overflow: scroll;\n  height: 80vh; }\n  @media (min-width: 390px) {\n    #term-display-modal {\n      width: 60vh; } }\n  @media (min-width: 992px) {\n    #term-display-modal {\n      width: 60vh; } }\n  #term-display-modal .card-image img {\n    max-height: 30vh;\n    width: auto;\n    margin: 0 auto; }\n  #term-display-modal .title {\n    font-size: .9em; }\n  #term-display-modal .progress {\n    width: 80%;\n    margin: 0 auto; }\n  #term-display-modal .modal-content {\n    padding-bottom: 0px; }\n    #term-display-modal .modal-content .answers {\n      text-transform: lowercase; }\n    #term-display-modal .modal-content .finish-message {\n      font-family: \"Oleo Script\"; }\n    #term-display-modal .modal-content .card-title {\n      font-size: 1.25em; }\n    #term-display-modal .modal-content .term-credit {\n      width: 90%;\n      font-style: italic;\n      font-size: 90%;\n      font-size: 0.5em; }\n    #term-display-modal .modal-content audio {\n      width: 30px;\n      float: right; }\n  #term-display-modal #button-wrapper {\n    display: flex;\n    justify-content: center; }\n\n.term-card .img-container {\n  width: 40vh;\n  margin: 0 auto; }\n  .term-card .img-container img {\n    height: 40vh;\n    width: auto; }\n\n.term-card .card-reveal {\n  display: block;\n  min-height: 58vh; }\n\n.check-container {\n  width: 80%;\n  margin: 0 auto; }\n\n.path {\n  stroke-dasharray: 100 100;\n  /*Stroke length is 594, gap is also 594; radius is 95.54*/\n  stroke-dashoffset: 100;\n  /*The offset has to be the length of the stroke */\n  animation: dash 1s linear forwards; }\n\n@keyframes dash {\n  to {\n    stroke-dashoffset: 0;\n    /*But we want the offset to go to zero (full length) or some value between.*/ } }\n", ""]);
 
 	// exports
 
