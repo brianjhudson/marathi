@@ -9,7 +9,16 @@ function modalTrigger() {
       text: "@"
       , target: "@"
     }
+   , controller: modalTriggerController
   }
 }
+function modalTriggerController($scope) {
+   $scope.showModal = () => {
+      $("#" + $scope.target + "-overlay").fadeIn()
+      $("#" + $scope.target).fadeIn()
+   }
+}
+
+modalTriggerController.$inject = ["$scope"]
 
 export default modalTrigger;

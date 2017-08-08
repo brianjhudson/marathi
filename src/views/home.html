@@ -1,10 +1,11 @@
+<nav-directive show-modal="showModal(target)"></nav-directive>
 <div>
   <!--Page Header -->
   <header class="row home-header">
     <div class="intro">
       <p class="tagline">Learn Marathi</p>
       <p class="tagline">with us!</p>
-      <a modal href="#loginModal" class="btn start-button">Get Started</a>
+      <a ng-click="showModal('login-modal')" class="btn start-button">Get Started</a>
     </div>
   </header>
 
@@ -32,9 +33,9 @@
 
   <!-- Login Modal Trigger -->
   <div class="begin-section">
-    <modal-trigger text="Let's Begin" target="loginModal"></modal-trigger>
+      <a ng-click="showModal('login-modal')" class="btn">Let's Begin</a> 
   </div>
 
   <!-- Login Modal -->
-  <login-modal></login-modal>
+  <login-modal hide-modal="hideModal(target)"></login-modal>
 </div>

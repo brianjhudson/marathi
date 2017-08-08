@@ -6,20 +6,21 @@ function lessonListDisplay() {
     , replace: true
     , template: lessonListDisplayTemp
     , scope: {}
-    , controller: function($scope, $rootScope, userService, lessonService) {
-        $scope.currentUser = userService.currentUser;
-        $rootScope.$on("userUpdate", function(event, user) {
-          $scope.currentUser = user;          
-        });
-
-        $scope.selectLesson = (lesson) => {
-          userService.selectLesson(lesson).then(result => {
-          });
-        }
-
-    }
+    , controller: lessonListDisplayController
 
   }
 }
+function lessonListDisplayController($scope, $rootScope, userService, lessonService) {
+   $scope.currentUser = userService.currentUser;
+   $rootScope.$on("userUpdate", function(event, user) {
+      $scope.currentUser = user;          
+   });
+
+   $scope.selectLesson = (lesson) => {
+      userService.selectLesson(lesson).then(result => {
+      });
+   }
+}
+lessonListDisplayController.$inject = ["$scope", "$rootScope", "userService", "lessonService"]
 
 export default lessonListDisplay;

@@ -27,27 +27,8 @@ module.exports = new Strategy({
 
 
           Lesson.find({}, "_id", (err, lessons) => {
-            //Find and sort lessons by order number
-
-            // for (let i = 0; i < lessons.length - 1; i++) {
-            //   let smallest = i
-            //     , temp;
-            //   for (let j = i + 1; j < lessons.length; j++) {
-            //     if (parseInt(lessons[j].order) < parseInt(lessons[smallest].order)) {
-            //       smallest = j;
-            //     }
-            //   }
-            //   if (smallest !== i) {
-            //     temp = lessons[j];
-            //     lessons[j] = lessons[smallest]
-            //   }
-            //   newUser.push(lessons[i]._id);
-            // }
-            // newUser.push(lessons[lessons.length - 1]._id);
-
-            // Algorithm before sorting
             for (let i = 0; i < lessons.length; i++) {
-              newUser.lessons.push(lessons[i]);
+              newUser.lessons.push({lessonDetails: lessons[i]._id, completed: false, score: 0, currentTerm: 0});
             }
             newUser.save((err, user) => {
               if (err) throw err;

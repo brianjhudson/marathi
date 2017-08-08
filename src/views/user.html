@@ -1,8 +1,9 @@
+<nav-directive show-modal="showModal(target)"></nav-directive>
 <section class="user-home-container">
   <login-modal></login-modal>
-  <term-display></term-display>
-  <lesson-entry-modal></lesson-entry-modal>
-  <term-entry-modal></term-entry-modal>
+  <term-display hide-modal="hideModal(target)"></term-display>
+  <lesson-entry-modal hide-modal="hideModal(target)"></lesson-entry-modal>
+  <term-entry-modal hide-modal="hideModal(target)"></term-entry-modal>
 
   <div class="row">
     <div class="dashboard col s12 m10 offset-m1">
@@ -25,14 +26,14 @@
           <!--Search Terms, Add Terms, Add Lessons -->
           <!-- Move to directives -->
           <div class="section">
-            <search-bar></search-bar>
+            <search-bar show-modal="showModal(target)"></search-bar>
           </div>
           <div class="divider"></div>
           <div class="section">
             <h5>Contribute</h5>
             <div class="center-align">
-              <modal-trigger text="Add Lesson" target="lessonEntryModal"></modal-trigger>
-              <modal-trigger text="Add Term" target="termEntryModal"></modal-trigger>
+              <modal-trigger text="Add Lesson" target="lesson-entry-modal"></modal-trigger>
+              <modal-trigger text="Add Term" target="term-entry-modal"></modal-trigger>
             </div>
           </div>
         </div>

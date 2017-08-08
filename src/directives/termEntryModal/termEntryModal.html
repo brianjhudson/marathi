@@ -1,106 +1,108 @@
-<div id="termEntryModal" class="modal s4 offset-s4 entry-modal">
-  <div class="modal-header">
-    <a href="#/{{stateName}}" class="modal-action modal-close waves-effect waves-green btn-flat center-align">&times;</a>
-  </div>
-  <div class="modal-content">
-      <h4 class="title">Add A Term</h4>
-      <form>
-        <fieldset>
-          <legend>Term Entry</legend>
-          <div input-field>
-              <input type="text" ng-model="newTerm.term" length="150">
-              <label>New Term</label>
-          </div>
-          <div input-field>
-              <input type="text" ng-model="newTerm.transliteration"></input>
-              <label>Transliteration</label>
-          </div>
-          <div input-field>
-            <input type="text" ng-model="newTerm.explanation" length="150">
-            <label>Explanation</label>
-          </div>
-           <div input-field>
-              <select material-select ng-model="newTerm.lesson">
-                <option ng-repeat="lesson in lessons" value="{{lesson._id}}">{{lesson.title}}</option>
-              </select>
-              <label>Select a Lesson</label>
-            </div>
+<div id="term-entry-modal-overlay" class="modal-overlay">
+   <div id="term-entry-modal" class="modal s4 offset-s4 entry-modal">
+      <div class="modal-header">
+         <a ng-click="hideModal({target: 'term-entry-modal'})" class="modal-action modal-close waves-effect waves-green btn-flat center-align">&times;</a>
+      </div>
+      <div class="modal-content">
+            <h4 class="title">Add A Term</h4>
+            <form>
+            <fieldset>
+               <legend>Term Entry</legend>
+               <div input-field>
+                  <input type="text" ng-model="newTerm.term" length="150">
+                  <label>New Term</label>
+               </div>
+               <div input-field>
+                  <input type="text" ng-model="newTerm.transliteration"></input>
+                  <label>Transliteration</label>
+               </div>
+               <div input-field>
+                  <input type="text" ng-model="newTerm.explanation" length="150">
+                  <label>Explanation</label>
+               </div>
+               <div input-field>
+                  <select ng-model="newTerm.lesson">
+                     <option ng-repeat="lesson in lessons" value="{{lesson._id}}">{{lesson.title}}</option>
+                  </select>
+                  <label>Select a Lesson</label>
+                  </div>
 
-        </fieldset>
-        <fieldset>
-          <legend ng-click="showOptions = !showOptions">Additional Information <span ng-show="!showOptions">&#x25BC;</span><span ng-show="showOptions">&#x25B2;</legend>
-          <div ng-show="showOptions">
-            <div input-field>
-              <select material-select ng-model="newTerm.category">
-                <option value="alphabet">Alphabet</option>
-                <option value="grammar">Grammar</option>
-                <option value="vocabulary">Vocabulary</option>
-                <option value="culture">Culture</option>
-              </select>
-              <label>Category</label>
-            </div>
-            <div input-field>
-              <input type="text" ng-model="newTerm.topic" length="150">
-              <label>Topic</label>
-            </div>
-            <div input-field>
-              <input type="text" ng-model="newTerm.theme" length="150">
-              <label>Theme</label>
-            </div>
-            <div input-field>
-              <input type="text" ng-model="newTerm.image" length="150">
-              <label>Image</label>
-            </div>
-            <div input-field>
-              <input type="text" ng-model="newTerm.imageCredit" length="150">
-              <label>Image Credit (if needed)</label>
-            </div>
-            <div input-field>
-              <input type="text" ng-model="newTerm.sound" length="150">
-              <label>Sound File Url</label>
-            </div>
-            <div input-field>
-              <input type="text" ng-model="newTerm.example" length="150">
-              <label>Example</label>
-            </div>
-            <div input-field>
-              <input type="text" ng-model="newTerm.exampleTransliteration" length="150">
-              <label>Transliteration of Example</label>
-            </div>
-            <div input-field>
-              <input type="text" ng-model="newTerm.exampleTranslation" length="150">
-              <label>Translation of Example</label>
-            </div>
-            <div input-field>
-              <input type="text" ng-model="newTerm.reviewQuestion" length="150">
-              <label>Review Question</label>
-            </div>
-            <div input-field>
-              <input type="text" ng-model="newTerm.reviewAnswer" length="150">
-              <label>Review Answer</label>
-            </div>
-            <div input-field>
-              <select material-select ng-model="newTerm.reviewAnswerType">
-                <option value="term">Term</option>
-                <option value="transliteration">Transliteration</option>
-                <option value="definition">Definition</option>
-                <option value="translation">Translation</option>
-              </select>
-              <label>Review Answer Type</label>
-            </div>
-            <div input-field>
-              <input type="text" ng-model="newTerm.reviewImage" length="150">
-              <label>Review Image</label>
-            </div>
-            <div input-field>
-              <input type="text" ng-model="newTerm.reviewImageCredit" length="150">
-              <label>Review Image Credit</label>
-            </div>           
-          </div>
-        </fieldset>
-      </form>
-  </div>
-  <div class="modal-foooter">
-    <button ng-click="postTerm(newTerm)" class="modal-action modal-close waves-effect waves-light btn continue-button">Submit</button><br>
-  </div>
+            </fieldset>
+            <fieldset>
+               <legend ng-click="showOptions = !showOptions">Additional Information <span class="term-entry-arrow" ng-show="!showOptions">&#x25BC;</span><span class="term-entry-arrow" ng-show="showOptions">&#x25B2;</legend>
+               <div ng-show="showOptions">
+                  <div input-field>
+                  <select material-select ng-model="newTerm.category">
+                     <option value="alphabet">Alphabet</option>
+                     <option value="grammar">Grammar</option>
+                     <option value="vocabulary">Vocabulary</option>
+                     <option value="culture">Culture</option>
+                  </select>
+                  <label>Category</label>
+                  </div>
+                  <div input-field>
+                  <input type="text" ng-model="newTerm.topic" length="150">
+                  <label>Topic</label>
+                  </div>
+                  <div input-field>
+                  <input type="text" ng-model="newTerm.theme" length="150">
+                  <label>Theme</label>
+                  </div>
+                  <div input-field>
+                  <input type="text" ng-model="newTerm.image" length="150">
+                  <label>Image</label>
+                  </div>
+                  <div input-field>
+                  <input type="text" ng-model="newTerm.imageCredit" length="150">
+                  <label>Image Credit (if needed)</label>
+                  </div>
+                  <div input-field>
+                  <input type="text" ng-model="newTerm.sound" length="150">
+                  <label>Sound File Url</label>
+                  </div>
+                  <div input-field>
+                  <input type="text" ng-model="newTerm.example" length="150">
+                  <label>Example</label>
+                  </div>
+                  <div input-field>
+                  <input type="text" ng-model="newTerm.exampleTransliteration" length="150">
+                  <label>Transliteration of Example</label>
+                  </div>
+                  <div input-field>
+                  <input type="text" ng-model="newTerm.exampleTranslation" length="150">
+                  <label>Translation of Example</label>
+                  </div>
+                  <div input-field>
+                  <input type="text" ng-model="newTerm.reviewQuestion" length="150">
+                  <label>Review Question</label>
+                  </div>
+                  <div input-field>
+                  <input type="text" ng-model="newTerm.reviewAnswer" length="150">
+                  <label>Review Answer</label>
+                  </div>
+                  <div input-field>
+                  <select material-select ng-model="newTerm.reviewAnswerType">
+                     <option value="term">Term</option>
+                     <option value="transliteration">Transliteration</option>
+                     <option value="definition">Definition</option>
+                     <option value="translation">Translation</option>
+                  </select>
+                  <label>Review Answer Type</label>
+                  </div>
+                  <div input-field>
+                  <input type="text" ng-model="newTerm.reviewImage" length="150">
+                  <label>Review Image</label>
+                  </div>
+                  <div input-field>
+                  <input type="text" ng-model="newTerm.reviewImageCredit" length="150">
+                  <label>Review Image Credit</label>
+                  </div>           
+               </div>
+            </fieldset>
+            </form>
+      </div>
+      <div class="modal-foooter">
+         <button ng-click="postTerm(newTerm)" class="modal-action modal-close waves-effect waves-light btn continue-button">Submit</button><br>
+      </div>
+   </div>
 </div>

@@ -5,11 +5,16 @@ function loginModal() {
     restrict: "E"
     , replace: true
     , template: loginTemp
-    , scope: {}
-    , controller: function($state, $scope) {
-        $scope.stateName = $state.current.name;
+    , scope: {
+       hideModal: "&"
     }
+    , controller: loginModalController
   }
 }
 
+function loginModalController($state, $scope) {
+   $scope.stateName = $state.current.name;
+}
+
+loginModalController.$inject = ["$state", "$scope"]
 export default loginModal;

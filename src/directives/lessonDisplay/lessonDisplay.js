@@ -6,14 +6,16 @@ function lessonDisplay() {
     , replace: true
     , template: lessonDisplayTemp
     , scope: {}
-    , controller: function($scope, $rootScope, userService, lessonService) {
-        $scope.mode = "lesson"
-        $scope.currentUser = userService.currentUser;
-        $rootScope.$on("userUpdate", function(event, user) {
-          $scope.currentUser = user;
-        })
-    }
+    , controller: lessonDisplayController
   }
 }
 
+function lessonDisplayController($scope, $rootScope, userService, lessonService) {
+   $scope.mode = "lesson"
+   $scope.currentUser = userService.currentUser;
+   $rootScope.$on("userUpdate", function(event, user) {
+      $scope.currentUser = user;
+   })
+}
+lessonDisplayController.$inject = ["$scope", "$rootScope", "userService", "lessonService"]
 export default lessonDisplay;
