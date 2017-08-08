@@ -6,7 +6,7 @@ module.exports = app => {
   // Passport authentication routes
   app.get("/auth/facebook", passport.authenticate("facebook"));
   app.get("/auth/facebook/callback", passport.authenticate("facebook",
-    {successReturnToOrRedirect: "https://bolu-app.herokuapp.com/#/user", failureRedirect: "/"})
+    {successReturnToOrRedirect: "http://bolu.brianjhudson.com/#/user", failureRedirect: "/"})
   );
 
   app.get("/guest", userCtrl.createGuest);
